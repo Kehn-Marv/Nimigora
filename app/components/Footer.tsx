@@ -20,40 +20,8 @@ export default function Footer() {
             Powered by Nimiq
           </div>
         </div>
-
-        <div>
-          <h4 className="footer-col-title">Sections</h4>
-          <ul className="footer-col-links">
-            <li><a href="/latest">Latest Stories</a></li>
-            <li><a href="/exclusive">Exclusive</a></li>
-            <li><a href="/#featured">Featured</a></li>
-            <li><a href="/bookmarks">Bookmarks</a></li>
-            <li><a href="/pipeline">The Pipeline</a></li>
-          </ul>
-        </div>
-
-        <div>
-          <h4 className="footer-col-title">Topics</h4>
-          <ul className="footer-col-links">
-            <li><a href="/#categories">Technology</a></li>
-            <li><a href="/#categories">Geopolitics</a></li>
-            <li><a href="/#categories">Climate</a></li>
-            <li><a href="/#categories">Finance</a></li>
-            <li><a href="/#categories">Health</a></li>
-            <li><a href="/#categories">Culture</a></li>
-          </ul>
-        </div>
-
-        <div>
-          <h4 className="footer-col-title">About</h4>
-          <ul className="footer-col-links">
-            <li><a href="/about">Our Mission</a></li>
-            <li><a href="/pipeline">How It Works</a></li>
-            <li><a href="/pipeline#ethics">AI Ethics</a></li>
-            <li><a href="/pipeline#ethics">Transparency</a></li>
-          </ul>
-        </div>
       </div>
+
 
       <div className="footer-bottom">
         <span>© {year} Nimigora. An AI-native newsroom experiment.</span>
