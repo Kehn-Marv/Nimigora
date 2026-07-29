@@ -62,6 +62,9 @@ export default function PaywallModal({ isOpen, onClose, onSuccess }: PaywallModa
   return (
     <div className="paywall-backdrop" onClick={handleBackdropClick}>
       <div className="paywall-modal">
+        {/* Sheet drag handle indicator (visible on mobile) */}
+        <div className="paywall-sheet-handle" aria-hidden="true" />
+
         {/* Close button */}
         <button 
           className="paywall-close" 

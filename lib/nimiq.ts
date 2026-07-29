@@ -31,8 +31,8 @@ export const PAYOUT_ADDRESS = process.env.NEXT_PUBLIC_NIMIQ_PAYOUT_ADDRESS || ''
 
 /** NIM amounts (in NIM, not luna) */
 export const SUBSCRIPTION_PRICES = {
-  monthly: 10,   // 10 NIM for 1 month
-  yearly: 100,   // 100 NIM for 1 year (~17% savings)
+  monthly: 1,   // 1 NIM for 1 month
+  yearly: 5,    // 5 NIM for 1 year (Unlock Forever)
 } as const;
 
 /** Convert NIM to Luna (smallest unit) */
