@@ -27,7 +27,7 @@ export interface TransactionResult {
 // ============================================
 
 /** The wallet address where subscription payments are sent */
-export const PAYOUT_ADDRESS = process.env.NEXT_PUBLIC_NIMIQ_PAYOUT_ADDRESS || '';
+export const PAYOUT_ADDRESS = process.env.NEXT_PUBLIC_NIMIQ_PAYOUT_ADDRESS || 'NQ46 SQFB R1JC 0KKA X18U L6PJ L1CR 5QL3 R3V2';
 
 /** NIM amounts (in NIM, not luna) */
 export const SUBSCRIPTION_PRICES = {
