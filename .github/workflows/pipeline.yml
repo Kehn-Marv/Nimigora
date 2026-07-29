@@ -1,0 +1,58 @@
+name: Editorial Pipeline
+
+on:
+  schedule:
+    # Run once daily at 2:00 AM UTC (~every 23 hours with variance)
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+    # Manual trigger for testing
+    inputs:
+      articles_per_category:
+        description: 'Number of articles to generate per category'
+        required: false
+        default: '1'
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run editorial pipeline
+        run: npx tsx pipeline/index.ts
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
+          GEMINI_API_KEY_3: ${{ secrets.GEMINI_API_KEY_3 }}
+          GEMINI_API_KEY_4: ${{ secrets.GEMINI_API_KEY_4 }}
+          GEMINI_API_KEY_5: ${{ secrets.GEMINI_API_KEY_5 }}
+          GEMINI_API_KEY_6: ${{ secrets.GEMINI_API_KEY_6 }}
+          GEMINI_API_KEY_7: ${{ secrets.GEMINI_API_KEY_7 }}
+          GEMINI_API_KEY_8: ${{ secrets.GEMINI_API_KEY_8 }}
+          GEMINI_API_KEY_9: ${{ secrets.GEMINI_API_KEY_9 }}
+          GEMINI_API_KEY_10: ${{ secrets.GEMINI_API_KEY_10 }}
+
+      - name: Commit new articles
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: '📰 Pipeline: New articles generated [automated]'
+          file_pattern: 'content/**'
+          commit_user_name: 'The Dispatch Pipeline'
+          commit_user_email: 'pipeline@thedispatch.ai'
+          commit_author: 'The Dispatch Pipeline <pipeline@thedispatch.ai>'

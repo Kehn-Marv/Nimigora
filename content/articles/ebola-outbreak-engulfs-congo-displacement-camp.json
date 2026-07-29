@@ -1,0 +1,53 @@
+{
+  "slug": "ebola-outbreak-engulfs-congo-displacement-camp",
+  "headline": "Ebola Outbreak Engulfs Congo Displacement Camp",
+  "deck": "The Democratic Republic of Congo faces a deepening public health crisis as the Ebola virus infiltrates a crowded displacement camp, pushing confirmed cases to 710.",
+  "category": "HEALTH",
+  "body": [
+    "The Democratic Republic of Congo is grappling with a severe escalation of its ongoing Ebola outbreak, as the deadly virus has now infiltrated a crowded displacement camp. This concerning development significantly complicates containment efforts, casting a harsh spotlight on the vulnerabilities of an already fragile population. The confirmed case count has climbed to 710, marking a critical stage in the public health crisis gripping the region.",
+    "The spread into such a densely populated setting immediately heightens the risk of rapid and widespread transmission. Poor living conditions within these camps, coupled with the close proximity of residents, create an environment ripe for the virus to take hold and spread aggressively. This particular development has sparked considerable alarm among health officials and humanitarian organizations alike.",
+    "The total number of confirmed Ebola cases in Congo now stands at 710, a stark indicator of the outbreak's persistent momentum. This rising tally underscores the severe challenges faced by health workers on the ground, who are working tirelessly to track and manage the disease amidst complex logistical hurdles. Each new case represents a profound individual tragedy and a setback in the broader containment effort.",
+    "Further compounding the crisis is the alarm as Ebola continues to spread into new geographic areas of the Democratic Republic of Congo. This expansion presents significant hurdles for surveillance and response teams, demanding increased resources and coordinated efforts to prevent further uncontrolled transmission. The movement of the virus into previously unaffected zones highlights the difficulty of containing such a virulent pathogen within a dynamic environment.",
+    "The World Health Organization has identified the Bundibugyo virus as the specific causative agent behind this particular Ebola outbreak. This variant of the Ebola disease is known to be present in both the Democratic Republic of the Congo and neighboring Uganda, highlighting the regional complexities of disease surveillance and control. Understanding the specific strain is crucial for developing targeted responses.",
+    "The alarm over Ebola's expansion into new areas of DR Congo reflects the broader public health crisis unfolding. Each new case and every new location where the virus appears pushes an already vulnerable population closer to the brink. Containing this outbreak demands swift, coordinated international and local action to protect communities and prevent further tragedy.",
+    "The immediate priority remains the urgent implementation of robust containment strategies within the affected displacement camp and surrounding communities. As the confirmed case count continues to rise and the virus expands its reach, the coming weeks will be critical in determining the trajectory of this deeply concerning public health emergency. The international community watches closely, aware of the profound human cost at stake."
+  ],
+  "publishedAt": "2026-06-14T06:35:00.988Z",
+  "readTime": 2,
+  "sources": [
+    "Google News — Health",
+    "Reuters",
+    "CIDRAP",
+    "World Health Organization (WHO)",
+    "Al Jazeera"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTmFjZjl4WVIzdXh1dHBuVkoyLVp5ZVR6d0VXRnZMc0pmWFVLOXRsdUFRbEszN2k3dVpGZzEyZ3ZZcU1DUVYwRkxxaVQzclZkdEd5clAwaFpyQ1F2dFdZcElPams5Z3ZnWkFBOEQwTVBKVXlmNTVtbmFhNzdKYUxHNjhZSmszbnExUWxlMFJrdWZrVTBSdDltU2t2Q2pXRmFXNXdPTDlBd0pFdjRlUkhfazc4SkZJZlZxT3ExbnNEcVJCeHRC?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-06-14T06:27:39.275Z",
+      "detail": "Aggregated health reports, outbreak analyses, and humanitarian updates."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-06-14T06:31:44.485Z",
+      "detail": "Compiled confirmed case counts, outbreak locations, and viral identification from 5 sources."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-06-14T06:35:00.988Z",
+      "detail": "Wove outbreak data with contextual information to detail the escalating public health crisis in DR Congo."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "Confirmed case count, geographical spread, and causative virus details were precisely cross-referenced with the provided fact sheet.",
+      "timestamp": "2026-06-14T06:38:36.479Z"
+    }
+  ]
+}

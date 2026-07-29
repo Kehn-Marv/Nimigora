@@ -1,0 +1,52 @@
+{
+  "slug": "genomic-test-offers-chemotherapy-alternative-for-breast-cancer-patients",
+  "headline": "Genomic Test Offers Chemotherapy Alternative for Breast Cancer Patients",
+  "deck": "A new gene expression test is poised to transform breast cancer treatment by identifying millions of patients who may safely forgo grueling chemotherapy regimens.",
+  "category": "HEALTH",
+  "body": [
+    "A significant advancement in breast cancer care is emerging with the development of a groundbreaking genomic test. This innovative tool holds the promise of dramatically altering treatment paths, potentially sparing millions of women from the often-debilitating side effects associated with chemotherapy.",
+    "Referred to as a gene expression test, this diagnostic breakthrough is designed to precisely identify breast cancer patients who can safely bypass chemotherapy without compromising their recovery. Its core function is to analyze the biological characteristics of a patient's tumor, offering a clearer picture of their individual risk and treatment needs.",
+    "The test is closely associated with the company Veracyte and was a central component of the rigorous OPTIMA Phase III study. This extensive research effort aimed to validate the test's efficacy in stratifying patient risk and guiding treatment decisions, bringing it closer to widespread clinical application.",
+    "For many battling breast cancer, chemotherapy has long been a standard, albeit harsh, component of their treatment journey. The prospect of avoiding this intensive therapy, known for its profound physical and emotional toll, represents a monumental shift in patient care and quality of life.",
+    "The implications of this gene expression test are far-reaching, promising a future where breast cancer treatment is even more personalized and less invasive. By empowering clinicians with more precise data, this technology stands to usher in an era where effective care can be delivered with a significantly reduced burden on patients."
+  ],
+  "publishedAt": "2026-05-30T05:50:23.786Z",
+  "readTime": 1,
+  "sources": [
+    "Google News — Health",
+    "The Guardian",
+    "Reuters",
+    "The Times",
+    "Docwire News",
+    "News-Medical"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMizgFBVV95cUxQdjBybmxMaThPNlEwaG9rNnhaNE5ISk9ZWW5LdEx2U3NXM19yLXpZVXhTRXdkcXpGbEhWTm1ReVdOUVhlMUszU1QwT0NWVkJaOG5JOXA1Q2hfYldIOUFxMTVjNlBQU0dQME9kNDBQS3Q1YmgxSGh4WXZ1UmJ4bFZ5Vzl4bXJYX3Y4ME1fWTMxZ1hlMS1FODZaZm15UEpOQWNzcG80bHB3cmk0R3JtOEFsc0dPVmZsSmNzX0xYMThYZU1YQ24yRGlOLVpUcW1aQQ?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-05-30T05:42:59.075Z",
+      "detail": "Aggregated reports from leading news outlets, medical publications, and health information sites regarding a new breast cancer genomic test."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-05-30T05:46:45.430Z",
+      "detail": "Compiled facts about the test's development, purpose, associated entity, study involvement, and potential impact on patient care from 5 distinct sources."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-05-30T05:50:23.786Z",
+      "detail": "Wove details about the genomic test's capabilities and its potential to reduce chemotherapy use into a cohesive narrative highlighting its significance for breast cancer patients."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All specific factual claims regarding the genomic test, its association with Veracyte, and its role in the OPTIMA Phase III study were directly verified against the provided fact sheet.",
+      "timestamp": "2026-05-30T05:54:10.912Z"
+    }
+  ]
+}

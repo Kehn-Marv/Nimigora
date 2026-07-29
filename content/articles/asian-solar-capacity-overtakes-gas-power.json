@@ -1,0 +1,49 @@
+{
+  "slug": "asian-solar-capacity-overtakes-gas-power",
+  "headline": "Asian Solar Capacity Overtakes Gas Power",
+  "deck": "Solar energy has become the third-largest electricity source across Asia, signaling a monumental shift in the global energy landscape.",
+  "category": "CLIMATE",
+  "body": [
+    "A significant milestone has been reached in Asia's energy transition, with solar power now surpassing gas to become the continent's third-largest source of electricity. This development, confirmed by analyses from Carbon Brief, underscores the rapid growth and increasing dominance of renewable energy sources on a scale previously unseen.",
+    "This continental shift is echoed by profound global trends, where clean energy sources are, for the first time ever, pushing fossil-fuel power into reverse. The momentum behind renewables is not merely an environmental imperative but increasingly an economic one, reshaping how nations approach energy security and generation.",
+    "The United Kingdom offers a compelling illustration of these tangible economic benefits. Record contributions from wind and solar power have shielded the nation from gas imports valued at £1.7 billion since the onset of the Iran war, demonstrating a critical resilience against geopolitical volatility.",
+    "Specifically, March 2026 saw an impressive £1 billion in gas import savings for the UK, directly attributable to its robust wind and solar infrastructure. These figures paint a clear picture of how diversified energy portfolios can insulate economies from the fluctuating costs and supply chain disruptions inherent to fossil fuels.",
+    "Reflecting on these substantial savings, the UK government has articulated a clear policy objective: to 'break the link between gas and electricity prices.' This ambition highlights a growing recognition among policymakers that decoupling energy costs from volatile gas markets is essential for long-term economic stability and consumer protection.",
+    "The ascendancy of solar in Asia, coupled with the economic insulation provided by renewables in the UK, signifies a major pivot in global energy dynamics. It showcases an accelerating transition away from traditional fossil fuels towards cleaner, more sustainable alternatives.",
+    "This trajectory holds profound implications for climate change mitigation, offering a viable path to reduce carbon emissions on a grand scale. Moreover, it strengthens energy security by diversifying supply chains and promises significant economic development opportunities in regions embracing these new technologies."
+  ],
+  "publishedAt": "2026-06-14T06:33:32.919Z",
+  "readTime": 1,
+  "sources": [
+    "Carbon Brief"
+  ],
+  "sourceUrls": [
+    "https://www.carbonbrief.org/analysis-solar-overtakes-gas-power-in-asia-for-first-time-ever/"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-06-14T06:27:39.275Z",
+      "detail": "Aggregated energy reports and market analyses from Carbon Brief."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-06-14T06:31:44.485Z",
+      "detail": "Compiled statistics on solar's market position in Asia, UK gas import savings, and global clean energy trends from Carbon Brief."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-06-14T06:33:32.919Z",
+      "detail": "Wove continental energy shifts with specific national economic impacts to illustrate the broader global energy transition."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All specific financial figures, energy source rankings, and government policy objectives were precisely verified against the provided fact sheet.",
+      "timestamp": "2026-06-14T06:37:12.580Z"
+    }
+  ]
+}

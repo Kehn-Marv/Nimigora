@@ -1,0 +1,55 @@
+{
+  "slug": "child-star-daveigh-chase-dies-at-35-mother-cites-addiction",
+  "headline": "Child Star Daveigh Chase Dies at 35, Mother Cites Addiction",
+  "deck": "The voice of Lilo and star of 'The Ring' struggled with substance abuse after a back injury, her mother disclosed, marking a tragic end to a life that had seen her disappear from public view for a decade.",
+  "category": "CULTURE",
+  "body": [
+    "The entertainment world is mourning the loss of Daveigh Chase, the beloved voice behind Disney's 'Lilo & Stitch' and the chilling villain from 'The Ring,' who has passed away at the age of 35. Her mother has now come forward to reveal the devastating struggle with addiction that ultimately led to the former child star's untimely death. This disclosure casts a harsh spotlight on the unseen battles faced by those who rise to fame at a young age.",
+    "According to her mother, Chase's battle with addiction began following a debilitating back injury. This physical setback appears to have been the catalyst, pushing an already vulnerable individual onto a path that would eventually consume her. It paints a grim picture of how quickly life can unravel when physical pain intersects with the complexities of substance abuse.",
+    "Her mother, speaking with Entertainment Weekly, offered a stark, heartbreaking assessment of her daughter's final years:",
+    "\"She was completely gone\"",
+    "Adding another layer of tragedy to Chase's story, her manager disclosed that the actress had been missing for a decade before her death. This prolonged disappearance speaks volumes about the isolation and profound struggles she endured away from the public eye. Such a lengthy absence from loved ones underscores the deep chasm addiction can create.",
+    "Chase first captured hearts as the spirited voice of Lilo Pelekai in Disney's animated classic 'Lilo & Stitch,' a role that brought her widespread recognition. Shortly thereafter, she chilled audiences as the iconic, malevolent Samara Morgan in the horror hit 'The Ring,' showcasing her range from innocent wonder to profound terror. These memorable performances cemented her place in early 2000s pop culture.",
+    "In the wake of her passing, the directors of 'Lilo & Stitch' shared a poignant tribute, reflecting on the young talent they had the privilege to work with. Their words serve as a testament to the impact Chase had on the project and the enduring affection for her portrayal of Lilo. Such gestures highlight the lasting connections forged within the creative process.",
+    "As the industry reflects on Daveigh Chase's brief but impactful career, her story prompts a renewed look at the support systems available to child actors navigating the intense pressures of fame. Her mother's candid revelation about addiction and the decade she spent missing offer a somber reminder of the hidden battles many face, urging a deeper conversation about mental health and recovery resources within the entertainment sphere."
+  ],
+  "publishedAt": "2026-06-21T06:54:20.941Z",
+  "readTime": 2,
+  "sources": [
+    "Google News — Entertainment",
+    "USA Today",
+    "Yahoo",
+    "The New York Times",
+    "Entertainment Weekly",
+    "The Daily Beast"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYUFNU1I0MlVDZjNERGpXSExaZnQyNk56TVlZR21mZXZLMmlqcFgwaVBvSGVGREZOTjdlSVZEakowOGZ3eTlrWE9NODl2dkJrM2luYVJuOVpHVkFmbWdMYTAzRU1paUlhV3AxN1NSaml2S2psSlRXeE5PcEdkU2VXWXplNDJST004Q0FvdEdBcXV1b0ExWmwza1pvZ01ZaFNPVE8taklnWnlGVVJJWXh4Z0t2RWNwSW8?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-06-21T06:45:53.428Z",
+      "detail": "Aggregated news reports and statements from USA Today, Yahoo, The New York Times, Entertainment Weekly, and The Daily Beast."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-06-21T06:49:44.904Z",
+      "detail": "Compiled details about Daveigh Chase's death, age, mother's revelation, addiction cause, missing status, and career roles from 5 sources."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-06-21T06:54:20.941Z",
+      "detail": "Wove personal revelations with career highlights to frame the tragic passing of a former child star."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All specific factual claims regarding age, cause of death, and timeline of disappearance were cross-referenced and verified against the provided fact sheet.",
+      "timestamp": "2026-06-21T06:57:36.181Z"
+    }
+  ]
+}

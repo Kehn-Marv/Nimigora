@@ -1,0 +1,51 @@
+{
+  "slug": "brandi-glanville-expresses-concern-over-rare-ailment",
+  "headline": "Brandi Glanville Expresses Concern Over Rare Ailment",
+  "deck": "Reality television personality Brandi Glanville has publicly shared her worries about an uncommon and potentially sensitive health condition, drawing significant media attention.",
+  "category": "CULTURE",
+  "body": [
+    "Brandi Glanville, a prominent figure in reality television, is currently navigating a period of ongoing health challenges, a situation she has openly discussed. Her candid disclosures have cast a spotlight on personal struggles that often remain private, drawing considerable public interest and media scrutiny.",
+    "Among her health concerns, Glanville has voiced apprehension over what she suspects might be 'sexually transmitted ringworm.' This specific and unusual self-diagnosis, particularly her belief that the condition has manifested in her throat, has added a distinct dimension to her public health narrative.",
+    "The decision to share such a deeply personal and potentially stigmatizing health worry marks a significant moment for the television personality. By opening up about these concerns, Glanville has invited a broader conversation around the often-hidden aspects of celebrity health and well-being.",
+    "This candidness has not gone unnoticed by the entertainment press. Multiple news outlets, including Yahoo, E! News, Page Six, and Us Weekly, have extensively reported on Glanville's health concerns, detailing her specific worries and the nature of her public statements.",
+    "Such widespread reporting underscores the enduring public fascination with the personal lives of celebrities, particularly when they involve intimate health revelations. Glanville's disclosure will likely fuel further discussion about the boundaries of public and private life, and the impact of sharing unusual health challenges on a global stage."
+  ],
+  "publishedAt": "2026-05-24T06:04:39.165Z",
+  "readTime": 1,
+  "sources": [
+    "Google News — Entertainment",
+    "Yahoo",
+    "E! News",
+    "Page Six",
+    "Us Weekly"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMirgFBVV95cUxPd1hjMjN4VjdTUXFSd3VzVWNadzRxUHFLZ0c3cFhDaUJJbGpwUDhieEd5MDFHdkp1T1FRMTVIb2p4MDYyX2pwVmhUTm1HWlpjM2hCdGR2MEVLNUNrUU5PTXpIM0hFSnJ3R18yT3g3d3JuV3h5OFYySkU2WXJrdVdsN1llTGF0bUlmaVdHSGF6NXlIdDFoTEdhY3RoalNybWwwdWhYN0RhR1hMRGlaWmc?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-05-24T05:55:47.998Z",
+      "detail": "Monitored major entertainment news aggregators and celebrity news outlets for trending stories."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-05-24T05:59:39.205Z",
+      "detail": "Identified Brandi Glanville's public statements regarding her health concerns and the specific ailment she suspects, as reported by four distinct entertainment news sources."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-05-24T06:04:39.165Z",
+      "detail": "Framed Glanville's personal health revelation within the broader context of celebrity disclosures and their media impact."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All factual claims regarding Brandi Glanville's health concerns and media reporting were directly cross-referenced and confirmed against the provided fact sheet, with no discrepancies found.",
+      "timestamp": "2026-05-24T06:08:25.361Z"
+    }
+  ]
+}

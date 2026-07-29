@@ -1,0 +1,53 @@
+{
+  "slug": "justice-department-approves-paramount-warner-bros-deal",
+  "headline": "Justice Department Approves Paramount-Warner Bros. Deal",
+  "deck": "A pivotal decision by the Justice Department clears the way for a major consolidation between Paramount and Warner Bros. Discovery, following an extensive antitrust review.",
+  "category": "FINANCE",
+  "body": [
+    "The Justice Department has formally approved Paramount’s acquisition of Warner Bros. Discovery, a pivotal decision that clears the path for a significant consolidation within the competitive media landscape. This move marks a crucial moment for both companies as they seek to navigate an evolving industry defined by intense competition and rapidly shifting consumer habits. The approval follows an extensive review by federal regulators.",
+    "Known interchangeably as the DOJ, the department’s green light comes after an exhaustive eight-month antitrust probe into the proposed merger. This period of intense scrutiny was designed to assess the potential impact of such a large-scale union on market dynamics and consumer choice. The thorough investigation underscores the gravity with which authorities view major industry consolidations.",
+    "Notably, the Justice Department articulated its belief that the deal could, in fact, boost competition across the sector. This reasoning provides a compelling glimpse into current antitrust enforcement priorities, suggesting a focus on fostering dynamic market environments rather than solely preventing market dominance. It implies a strategic view on how larger entities might spur innovation.",
+    "This regulatory clearance now enables a profound consolidation in the media industry, bringing together two venerable content powerhouses. The combined strength of Paramount and Warner Bros. Discovery is poised to reshape the competitive landscape for everything from film and television production to streaming service offerings. Industry analysts will be closely watching the strategic implications.",
+    "The decision is a critical step for the companies involved, allowing them to move forward with integrating their vast portfolios of intellectual property and distribution channels. It sets the stage for a new chapter in media, where scale and diversified content libraries are increasingly seen as essential for sustained growth. The market will soon see the practical effects of this monumental union.",
+    "As Paramount and Warner Bros. Discovery now embark on the complex process of integration, the broader media industry will keenly observe the real-world impact of this regulatory judgment. The coming months will reveal how this newly sanctioned entity will leverage its expanded footprint to innovate, compete, and ultimately influence the future of entertainment for audiences worldwide."
+  ],
+  "publishedAt": "2026-06-14T06:34:38.271Z",
+  "readTime": 2,
+  "sources": [
+    "Google News — Business",
+    "The Washington Post",
+    "The New York Times",
+    "Fox Business",
+    "WSJ",
+    "CNBC"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMisAFBVV95cUxPeXdKSUxVT3Q1bFdCOEt2LTFQcDZQVlZvRVcwVXBVT0R1UjJOYlp2VmRyb3pBNFN5dEpydE5ENi1mWEhUUFlsR01WWUt5VDhKa2lrRHZnbUVyTmt1Tk4wdVNjcG5JMjNrcVpVNklWa3h5cW91QVhxTmhqeUg0MlplaG1YNi1ocW5FSGtjV1JQOEd0REt2NEg0WVNhcjZHVWlONldWTU1Zd2dnQ19MdFNjSA?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-06-14T06:27:39.275Z",
+      "detail": "Aggregated reports on a major media merger from leading financial and news outlets."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-06-14T06:31:44.485Z",
+      "detail": "Compiled facts regarding the Justice Department's approval of the Paramount-Warner Bros. Discovery merger and its associated antitrust probe from 6 distinct sources."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-06-14T06:34:38.271Z",
+      "detail": "Wove regulatory details and industry context to explain the significance of the Justice Department's decision on the proposed media consolidation."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "Passed — Bias: 4/10, Accuracy: 10/10, Readability: FK 14.7",
+      "timestamp": "2026-06-14T06:38:09.876Z"
+    }
+  ]
+}

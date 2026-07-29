@@ -1,0 +1,52 @@
+{
+  "slug": "remains-of-virgin-river-actor-stewart-mclean-prompt-homicide-probe",
+  "headline": "Remains of 'Virgin River' Actor Stewart McLean Prompt Homicide Probe",
+  "deck": "The tragic discovery of the Canadian TV actor's body has shifted a missing person case into a full-scale murder inquiry, sending ripples through the entertainment world.",
+  "category": "CULTURE",
+  "body": [
+    "The quiet concern surrounding Canadian television actor Stewart McLean has escalated dramatically, with authorities now confirming the discovery of his remains. What began as a missing person report has tragically transformed into a homicide investigation, casting a harsh spotlight on the circumstances of his death. This somber development has sent a palpable shockwave through the entertainment community, where McLean was known for his role in the popular series 'Virgin River'.",
+    "McLean, a familiar face to many viewers as an actor in the popular 'Virgin River' series, was initially reported missing. The subsequent identification of his body brought a grim resolution to that initial search, yet opened a far more troubling chapter in the inquiry. Investigators have since confirmed that they are treating the actor's death as a suspected homicide.",
+    "The shift in focus from a missing person case to a murder probe underscores the gravity of the evidence uncovered by law enforcement. While specific details remain under wraps, authorities have indicated that findings led them to believe McLean may have been murdered. This revelation paints a grim picture for those who knew him and his growing number of fans.",
+    "For the cast and crew of 'Virgin River', a series that has garnered a significant following, the news of a colleague's violent death will undoubtedly be profoundly unsettling. Such tragic events push an already vulnerable population closer to the brink, reminding the industry of the fragility of life even for those in the public eye. The impact extends beyond the immediate circle, touching the broader landscape of Canadian television.",
+    "As the homicide investigation continues, law enforcement faces the challenging task of piecing together the final moments of McLean's life and identifying those responsible. The ongoing nature of the probe means answers are still sought, leaving friends, family, and the public to grapple with the profound questions surrounding this unexpected and violent end. The pursuit of justice now stands as the central focus for authorities."
+  ],
+  "publishedAt": "2026-05-23T05:43:03.822Z",
+  "readTime": 1,
+  "sources": [
+    "Google News — Entertainment",
+    "Deadline",
+    "People.com",
+    "KGW",
+    "Variety",
+    "CBC"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMifEFVX3lxTE9naW9QemV2Um54emwxRXZLSEZWMi1RT0NtU3hWN1kwSW51MGMxeFR6eXliSVR2ckpxVzAzdktUaWxPTTlDTVItRlhaRVRfSmVIX2I4N0F4bXMta1d0Ynd0dWhhR3d1MjN0a1Z0Zzk3c1dtSVRXdC03ak5ZOWk?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-05-23T05:35:10.152Z",
+      "detail": "Aggregated news reports and official statements from major media outlets including Deadline, People.com, KGW, Variety, and CBC."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-05-23T05:39:14.559Z",
+      "detail": "Compiled facts regarding the actor's identity, his role in 'Virgin River', the progression from a missing person report to a homicide investigation, and the ongoing nature of the probe from 6 distinct sources."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-05-23T05:43:03.822Z",
+      "detail": "Wove verified facts into a narrative detailing the tragic discovery and subsequent homicide investigation, emphasizing the human impact and the unfolding nature of the case within the entertainment community."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All specific factual claims regarding the actor's identity, the missing person report, the discovery of remains, and the subsequent homicide investigation were directly verified against the provided fact sheet.",
+      "timestamp": "2026-05-23T05:46:32.149Z"
+    }
+  ]
+}

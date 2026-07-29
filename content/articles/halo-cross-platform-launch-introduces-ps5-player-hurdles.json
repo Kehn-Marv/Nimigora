@@ -1,0 +1,54 @@
+{
+  "slug": "halo-cross-platform-launch-introduces-ps5-player-hurdles",
+  "headline": "Halo Cross-Platform Launch Introduces PS5 Player Hurdles",
+  "deck": "The highly anticipated arrival of 'Halo: Campaign Evolved' on PlayStation 5 comes with a unique set of requirements that could shape player adoption and spark debate among gamers.",
+  "category": "TECHNOLOGY",
+  "body": [
+    "The expansion of the long-standing Xbox-exclusive 'Halo' franchise to the PlayStation 5 marks a significant moment in cross-platform gaming, yet this accessibility arrives with specific stipulations for PS5 players. Those eager to experience 'Halo: Campaign Evolved' on Sony's console will find themselves navigating a new set of digital prerequisites before they can jump into the action.",
+    "Central to these requirements is the need for an Xbox account and an associated gamertag. This means PlayStation players, accustomed to their own ecosystem, must register with Microsoft's gaming service simply to access a title historically synonymous with Xbox, a move that introduces an unexpected layer of account management.",
+    "Beyond the Xbox account, playing split-screen co-op in 'Halo: Campaign Evolved' on PS5 will also necessitate an active PlayStation Plus subscription. This additional cost and requirement for a core multiplayer feature stands out, particularly for a game making its debut on a rival platform.",
+    "The complexity deepens for those looking to share the experience locally, as reports indicate that both accounts involved in split-screen co-operative play on the PS5 will require their own PlayStation Plus subscription. This could present an unforeseen barrier for households with multiple players on a single console.",
+    "\"Both accounts need PlayStation Plus,\" Windows Central highlighted, underscoring the layered subscription model for local co-op on the PlayStation platform.",
+    "Analysts have described the PlayStation Plus requirement for split-screen co-op as 'baffling,' with Forbes suggesting that Xbox is effectively forcing PS5 players to 'jump through hoops' to engage with the title. This sentiment captures a growing concern regarding user experience friction in an increasingly interconnected gaming landscape.",
+    "These details regarding 'Halo: Campaign Evolved' were first brought to light during a June Community Q&A session published on the official Halo Waypoint site, providing clarity on the intricate setup players will need to manage.",
+    "The integration challenges faced by 'Halo: Campaign Evolved' on PS5 illuminate the evolving complexities of cross-platform releases. As major franchises continue to transcend console boundaries, the balance between platform-specific monetization and seamless player experience will remain a critical point of discussion for the industry and its consumers alike."
+  ],
+  "publishedAt": "2026-06-21T06:50:03.757Z",
+  "readTime": 2,
+  "sources": [
+    "Google News — Technology",
+    "Eurogamer",
+    "Halo Waypoint",
+    "Forbes",
+    "Windows Central"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMihwFBVV95cUxQcmc1U2VfbTNTcGxycnJFbmYzWXBDV2xBQ0dyWGw4OE4tVlFmeEpTVnNpMGxUdHh5bFJ5MWZ0dWFmOE1jYUNxeFBjWmJ6Mlk2aElBV3JJUDhJNUQwV2JRTnVKWVNKczU2OEZyZGxORWhncmFYUGdvR1B2TDFZVi0wLWFOZ3VFMHc?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-06-21T06:45:53.428Z",
+      "detail": "Information regarding 'Halo: Campaign Evolved' requirements was sourced from a June Community Q&A on the official Halo Waypoint site."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-06-21T06:49:44.904Z",
+      "detail": "Key facts regarding Xbox account, PlayStation Plus subscription for co-op, and analytical perspectives were compiled from Eurogamer, Forbes, Windows Central, and Halo Waypoint."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-06-21T06:50:03.757Z",
+      "detail": "The article wove together technical requirements and industry analysis to detail user experience friction points for 'Halo: Campaign Evolved' on PS5."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "Passed with notes (Bias: 6/10, Accuracy: 10/10)",
+      "timestamp": "2026-06-21T06:54:40.881Z"
+    }
+  ]
+}

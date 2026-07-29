@@ -1,0 +1,54 @@
+{
+  "slug": "modern-warfare-4-envisions-present-day-korean-war",
+  "headline": "Modern Warfare 4 Envisions Present-Day Korean War",
+  "deck": "The latest Call of Duty title promises to address player feedback while venturing into a sensitive geopolitical narrative and expanding its console reach.",
+  "category": "TECHNOLOGY",
+  "body": [
+    "The highly anticipated Call of Duty: Modern Warfare 4 has officially been announced, marking a significant moment for one of gaming’s most enduring franchises. This new installment arrives with an ambitious dual mandate: to rectify past player grievances and to explore a deeply provocative contemporary narrative. The gaming world is now bracing for a title that seeks to redefine its legacy while navigating sensitive geopolitical terrain.",
+    "Central to the new game’s development is a concerted effort to address issues that have drawn criticism from Call of Duty players in previous years. Developers appear keen to respond directly to community feedback, aiming to deliver an experience that resonates more closely with the expectations of its dedicated fanbase. This focus on player satisfaction suggests a strategic pivot for the franchise.",
+    "Perhaps the most striking element of Modern Warfare 4's announcement is its audacious premise: the game imagines a present-day Korean war. This narrative choice immediately casts a harsh spotlight on the enduring tensions in the region, bringing a historically charged conflict into a modern gaming context. The decision positions the game at the intersection of entertainment and geopolitical commentary.",
+    "Predictably, this imaginative scenario of a revived Korean war is already generating considerable controversy across various platforms. The Guardian highlights the immediate debate surrounding the game's premise, suggesting that such a sensitive topic in a global entertainment product will inevitably spark widespread discussion. This premise pushes the boundaries of what a mainstream title typically explores.",
+    "Meanwhile, the Call of Duty series is also poised for a significant expansion in its market reach, with an announcement confirming its arrival on the Nintendo Switch 2. This move signals a strategic broadening of the franchise’s audience beyond its traditional strongholds on PlayStation and Xbox. Bringing such a high-profile title to Nintendo's new console could reshape the portable gaming landscape.",
+    "The expansion to the Nintendo Switch 2 could significantly broaden the game’s player base, impacting the console's market position and the game's overall reach. This strategic decision by Nintendo and Call of Duty developers could introduce the fast-paced military shooter to a new generation of players. It also reflects a broader industry trend of major titles seeking wider platform availability.",
+    "As Modern Warfare 4 moves through its development, the industry will closely watch how it balances player expectations with its ambitious narrative choices. The game faces the challenge of delivering a compelling experience while handling a controversial premise with the necessary depth and nuance. Its reception will undoubtedly shape future directions for the franchise and for the broader gaming landscape."
+  ],
+  "publishedAt": "2026-05-31T06:15:33.945Z",
+  "readTime": 2,
+  "sources": [
+    "Google News — Technology",
+    "Polygon.com",
+    "Call of Duty",
+    "The Washington Post",
+    "Nintendo",
+    "The Guardian"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMicEFVX3lxTE00b0Nod01Zck9PUUNUaHdoSVFHTW9XdXktVkxlM19vQUtYRUxSRjJ5bkUxdzBCT0hyLVREVUwzektGR2J5c2NWRHptTlNxVzVMZWR2b2VTMEdRcUF2d2RMR2ZVMEtBT2ZtMDQ2LW5EVmc?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-05-31T06:10:48.328Z",
+      "detail": "Aggregated announcements from Call of Duty and Nintendo, alongside gaming industry analysis and international news reports."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-05-31T06:14:43.714Z",
+      "detail": "Compiled details regarding the game's announcement, intended fixes, controversial premise, and platform expansion from 6 distinct sources."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-05-31T06:15:33.945Z",
+      "detail": "Wove together franchise announcements with analytical commentary on player feedback, geopolitical themes, and market expansion to illustrate the game's direction and potential impact."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All factual claims regarding the game's announcement, narrative premise, player feedback, and platform expansion were directly verified against the provided fact sheet.",
+      "timestamp": "2026-05-31T06:19:35.249Z"
+    }
+  ]
+}

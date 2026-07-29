@@ -1,0 +1,55 @@
+{
+  "slug": "ebola-outbreak-escalates-becoming-third-largest-amid-funding-concerns",
+  "headline": "Ebola Outbreak Escalates Becoming Third Largest Amid Funding Concerns",
+  "deck": "The Democratic Republic of Congo faces a rapidly worsening public health crisis as the current Ebola outbreak reaches historic proportions, straining local resources and international aid efforts.",
+  "category": "HEALTH",
+  "body": [
+    "The ongoing Ebola outbreak in the Democratic Republic of Congo has now escalated to become the third largest recorded in history. This grim milestone underscores the profound challenges facing the region as health officials and aid workers battle a disease described as spreading rapidly across communities.",
+    "There is a palpable fear that the spread of Ebola in the DRC is gathering pace, pushing an already vulnerable population closer to the brink. This accelerating momentum puts immense pressure on a healthcare system already struggling to cope with the sheer volume of cases.",
+    "Critical reports from the affected region paint a stark picture of overwhelmed facilities. Health centers have reportedly reached their capacity, signaling a dire situation on the ground where medical resources are stretched thin.",
+    "\"Every health facility said they were full.\"",
+    "These dire circumstances are further compounded by significant challenges in the international response. Aid workers claim that recent US funding cuts have actively hampered efforts to contain the deadly Ebola crisis, impeding the swift delivery of essential resources and personnel.",
+    "Locally, authorities have been compelled to take drastic measures in an attempt to slow the transmission. Congo has curtailed traditional funeral wakes, a cultural practice that unfortunately can facilitate the virus's spread, in response to the escalating outbreak.",
+    "Reflecting the gravity of the situation, the World Health Organization has upgraded its risk assessment for the Ebola outbreak. This revised assessment serves as a critical indicator of the heightened concern from global health bodies regarding the trajectory of the disease.",
+    "The convergence of rapid viral spread, overwhelmed local infrastructure, and reported shortfalls in international funding creates a critical situation. Without sustained and robust intervention, the humanitarian consequences could become widespread and devastating."
+  ],
+  "publishedAt": "2026-05-23T05:42:43.884Z",
+  "readTime": 1,
+  "sources": [
+    "Google News — Health",
+    "Ars Technica",
+    "WSJ",
+    "The Guardian",
+    "CNN",
+    "AP News"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMipgFBVV95cUxOU2IwMkpTclVuQmI2cXhwQUtHU1RDOFBLU0w3d1QtejhjTE40QzE1VTI3LWx6RHVSNkZiRC1BN2JWeEg2S09PWkdpZDNMNDZfMENRMHVCcFRzVkVRV24wMFRWbzNFT204SGx1aUs3dlJFU3BncGtFMktxYXVYSVVfbHRYN2RaRElaRGQyZ1RzVlloTThCa3ZGLTRHZ2N3bWlHd0tPYVdR?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-05-23T05:35:10.152Z",
+      "detail": "Aggregated reports from Ars Technica, WSJ, The Guardian, CNN, and AP News regarding the Ebola outbreak."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-05-23T05:39:14.559Z",
+      "detail": "Compiled statistics on outbreak size, quotes on rapid spread and facility capacity, and claims regarding funding cuts and local responses from 5 sources."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-05-23T05:42:43.884Z",
+      "detail": "Wove outbreak statistics, expert assessments, and aid worker claims into a narrative highlighting the humanitarian stakes of the escalating Ebola crisis."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All specific factual claims, including statistics and direct quotes, were meticulously cross-referenced and found to align perfectly with the provided fact sheet, demonstrating high accuracy, while the language used, though strong, appropriately reflects the gravity of the public health crisis without exhibiting undue bias.",
+      "timestamp": "2026-05-23T05:46:16.102Z"
+    }
+  ]
+}

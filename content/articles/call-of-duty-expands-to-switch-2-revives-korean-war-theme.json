@@ -1,0 +1,53 @@
+{
+  "slug": "call-of-duty-expands-to-switch-2-revives-korean-war-theme",
+  "headline": "Call of Duty Expands to Switch 2, Revives Korean War Theme",
+  "deck": "The globally popular first-person shooter franchise is set to broaden its reach to Nintendo's next console while introducing a potentially contentious contemporary Korean war narrative.",
+  "category": "TECHNOLOGY",
+  "body": [
+    "Activision has announced the next installment in its blockbuster series, Call of Duty: Modern Warfare 4, confirming an October 23 launch date. This highly anticipated title is set to feature the franchise's signature Campaign, Multiplayer, and DMZ modes, promising a comprehensive experience for players. The announcement marks a significant moment for the gaming world, setting the stage for one of the year's major releases.",
+    "Adding another layer of anticipation, the Call of Duty series is also confirmed to arrive on the upcoming Nintendo Switch 2 console. This expansion signifies a major strategic move, bringing the traditionally PlayStation and Xbox-centric franchise to a new platform and potentially a broader audience. The move suggests a concerted effort to leverage Nintendo's next-generation hardware capabilities.",
+    "At the heart of Modern Warfare 4's narrative is an imaginative present-day Korean war scenario. This thematic choice immediately grounds the game in a complex geopolitical landscape, reflecting the series' long-standing engagement with real-world conflicts. The setting aims to immerse players in a high-stakes, contemporary military environment.",
+    "However, the decision to envision a revived Korean war in a modern context carries with it a potential for controversy. Such a sensitive geopolitical premise could ignite public discussion and scrutiny regarding the portrayal of real-world tensions within entertainment. Analysts suggest this choice will undoubtedly be a focal point of debate leading up to the game's release.",
+    "The franchise's consistent ability to draw millions of players underscores the significance of these developments. Its expansion onto the Nintendo Switch 2 could introduce Call of Duty to a demographic less familiar with its traditional home consoles, further cementing its global reach. This broadens the conversation around the game's themes to an even wider public.",
+    "As the October 23 launch approaches, all eyes will be on how Modern Warfare 4 navigates its ambitious premise and performs on a new console ecosystem. The game’s release will undoubtedly spark conversations not only about its technical merits but also about the implications of its chosen narrative, inviting players and critics alike to engage with its contemporary themes."
+  ],
+  "publishedAt": "2026-05-30T05:47:06.942Z",
+  "readTime": 1,
+  "sources": [
+    "Google News — Technology",
+    "Nintendo",
+    "Call of Duty",
+    "PlayStation.Blog",
+    "The Washington Post",
+    "The Guardian"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNk5vVURhalk2a3ZzWDdnX3lnWDZ2V3Jrak16MjF1aXBFaGhVMlU0YTRHZnQxN1hrUmU0SU5pSlQxalp3b0JscUd1cVN0UUU1Ni00OV9qWl9Id1lOaWJsOUtnYkFuS3Z6Q0xscXRSVVJzTi1kYUlZclIzNHdvc3g0UUl4ZWJBRlpodkthZDhPWGQ1SlNpVHZoY3FyUXNWc0lPRnRxeThLRi05ZWJS?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-05-30T05:42:59.075Z",
+      "detail": "Aggregated announcements from Nintendo and Call of Duty, alongside game details from PlayStation.Blog and thematic analyses from The Washington Post and The Guardian."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-05-30T05:46:45.430Z",
+      "detail": "Compiled launch dates, platform availability, game modes, and thematic choices, noting potential controversies from 5 distinct sources."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-05-30T05:47:06.942Z",
+      "detail": "Wove together platform expansion details with the game's narrative premise to explore its market significance and potential geopolitical implications."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All specific factual claims regarding game announcement, launch date, modes, platform expansion, and thematic elements were directly verified against the provided fact sheet, showing no discrepancies or fabrications.",
+      "timestamp": "2026-05-30T05:51:21.752Z"
+    }
+  ]
+}

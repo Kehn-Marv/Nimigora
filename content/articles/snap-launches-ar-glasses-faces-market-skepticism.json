@@ -1,0 +1,54 @@
+{
+  "slug": "snap-launches-ar-glasses-faces-market-skepticism",
+  "headline": "Snap Launches AR Glasses, Faces Market Skepticism",
+  "deck": "Snap's ambitious new AR glasses come with a high price tag and immediate market doubts, testing CEO Evan Spiegel's vision for a post-smartphone era.",
+  "category": "TECHNOLOGY",
+  "body": [
+    "Snap has introduced its latest foray into augmented reality, unveiling a new pair of AR glasses priced at a substantial $2,195. This ambitious move, which CEO Evan Spiegel frames as a significant step toward a \"post-smartphone future,\" has immediately ignited a complex mix of anticipation and apprehension across the technology sector. The high-stakes launch aims to redefine daily interaction with digital content, but its reception has been anything but smooth.",
+    "Preorders for these \"Specs, True AR Glasses\" have already commenced, with the company anticipating shipments to begin this Fall. However, the market's initial verdict appears to be one of caution, as Snap's stock experienced a noticeable dip shortly after the unveiling. This immediate downturn reflects investor uncertainty regarding the product's market viability and consumer appeal.",
+    "The hefty price point of $2,195 has quickly drawn criticism, with analysts labeling the device \"ridiculously expensive.\" Beyond the cost, the product's design has also come under fire, described by one analyst in stark terms. These early critiques suggest a significant hurdle for Snap in convincing both consumers and industry observers of the glasses' intrinsic value.",
+    "\"Horrendous,\" one analyst remarked, specifically referring to the product design of Snap’s new AR glasses.",
+    "Another analyst offered a more pointed critique, expressing a sense of disillusionment: \"'Sad' That No One Will Tell Snap CEO The Truth.\"",
+    "These strong reactions underscore a broader industry question: whether Snap's smart glasses can truly become the \"next big thing in tech.\" CEO Evan Spiegel's vision of a world beyond smartphones relies heavily on the widespread adoption and seamless integration of such augmented reality devices into daily life. This launch represents a significant wager on that future, pushing the boundaries of current consumer expectations and technological readiness.",
+    "As the preorders continue and the Fall shipping date approaches, the coming months will be critical in determining whether Snap's bold gamble will pay off. The company faces the dual challenge of justifying a premium price tag while overcoming initial design criticisms, all while attempting to carve out a new technological frontier in a highly competitive landscape."
+  ],
+  "publishedAt": "2026-06-21T06:50:23.057Z",
+  "readTime": 1,
+  "sources": [
+    "Google News — Technology",
+    "NPR",
+    "Yahoo Finance",
+    "CNBC",
+    "TechCrunch",
+    "UploadVR"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbzFxQVR0al9JZjVGZU93XzEzRm5zWUVDdUt5eTFUZ3pyWmtIVEhuamtwbVp3Rk1LbUdfckxDbXJzUndfZUhpcUhfbVpwcEJqb3hEdDNfQlJrdlc5dE42V0pZVzZQTC1BZ0hINndQbnVDWFlxcmJxRHJ3cGh3RXN5X2hvenhYd1J2UVdB?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-06-21T06:45:53.428Z",
+      "detail": "Aggregated reports from technology news outlets, financial publications, and industry-specific VR/AR sources."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-06-21T06:49:44.904Z",
+      "detail": "Compiled facts on product unveiling, pricing, CEO's vision, analyst reactions, stock performance, and preorder details from 5 distinct sources."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-06-21T06:50:23.057Z",
+      "detail": "Wove together product launch details with market and expert reactions to examine Snap's ambitious AR strategy and its immediate challenges."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All specific factual claims, including product pricing, shipping timelines, stock performance, and direct analyst quotes, were meticulously cross-referenced and confirmed against the provided fact sheet.",
+      "timestamp": "2026-06-21T06:54:57.439Z"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "sec-moves-to-scrap-climate-disclosure-rule",
+  "headline": "SEC Moves to Scrap Climate Disclosure Rule",
+  "deck": "The Securities and Exchange Commission has put forth a proposal aiming to dismantle a key climate change disclosure rule, signaling a potential shift in corporate environmental reporting.",
+  "category": "CLIMATE",
+  "body": [
+    "The Securities and Exchange Commission (S.E.C.) has put forth a proposal that aims to eliminate a significant climate change disclosure rule, a development reported by The New York Times. This move signals a potential re-evaluation of how corporations are required to report their environmental impact and risks.",
+    "This proposal specifically targets a climate change disclosure rule, with the S.E.C.'s stated intention being its complete removal. The New York Times highlighted this development, underscoring the gravity of a federal financial regulator moving to alter such a critical reporting requirement.",
+    "Such a broad proposal from the S.E.C. suggests a potential shift in the regulatory approach towards climate-related financial disclosures. For years, there has been a growing emphasis on transparency regarding environmental, social, and governance (ESG) factors in corporate reporting.",
+    "The implications of this proposed elimination could be far-reaching, fundamentally altering how companies report their climate risks to the public and to investors. It could also influence the level of access investors have to crucial information regarding a company's environmental footprint and its preparedness for climate-related challenges.",
+    "The S.E.C.'s proposal now sets the stage for a period of public comment and robust discussion among stakeholders, including corporations, investors, and environmental advocates. The ultimate decision will undoubtedly shape the landscape of corporate environmental accountability and financial transparency for the foreseeable future."
+  ],
+  "publishedAt": "2026-05-31T06:16:59.570Z",
+  "readTime": 1,
+  "sources": [
+    "Google News — Environment",
+    "The New York Times (via Google News)",
+    "The New York Times (via Google News — Environment)"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMigAFBVV95cUxQWTgxcjg2Q3JxbFVhODJKSks1cWZRYnR0Sk50bEw1c19sWUdIQmlTVDJNN2VrQ3RwcktIR054QmE2MkVhc3lvdXhvQWhUY2syVGQ0aFVTWUVob3VpN2JJVXVzeUhXaHFMQkdUSW16bGZNYUNUOV9yRXM0LV82eF82RQ?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-05-31T06:10:48.328Z",
+      "detail": "The New York Times reported on the S.E.C.'s proposal regarding the climate change disclosure rule, which was identified via Google News and Google News — Environment."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-05-31T06:14:43.714Z",
+      "detail": "Key facts about the S.E.C.'s proposal to eliminate a climate change disclosure rule were extracted from The New York Times' reporting."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-05-31T06:16:59.570Z",
+      "detail": "The article synthesizes the S.E.C.'s proposal to eliminate a climate change disclosure rule, focusing on its potential implications for corporate reporting and investor information access, while adhering strictly to the limited available facts."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All specific factual claims regarding the SEC's proposal and its reporting by The New York Times were directly verified against the provided fact sheet.",
+      "timestamp": "2026-05-31T06:20:47.566Z"
+    }
+  ]
+}

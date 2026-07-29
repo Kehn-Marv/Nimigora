@@ -1,0 +1,55 @@
+{
+  "slug": "youtuber-films-dominate-box-office-challenge-hollywood-norms",
+  "headline": "YouTuber Films Dominate Box Office, Challenge Hollywood Norms",
+  "deck": "A surprising weekend at the box office saw films from online creators achieve massive success, prompting industry introspection.",
+  "category": "CULTURE",
+  "body": [
+    "This past weekend marked a significant moment for the film industry, as two productions helmed by YouTubers, 'Backrooms' and 'Obsession,' emerged as the leading titles at the box office. Their unexpected triumph has cast a harsh spotlight on the traditional studio model, signaling a potential shift in how cinematic success is cultivated and distributed.",
+    "The success of these films, particularly 'Obsession,' has been nothing short of remarkable. It managed to dethrone 'The Mandalorian And Grogu,' a major franchise entry, from its top spot, underscoring the formidable appeal these new voices command with audiences.",
+    "One of these features, a breakout horror hit, has particularly captured the public imagination. It quickly became a word-of-mouth sensation, drawing viewers in with its fresh take on the genre and demonstrating the power of organic audience engagement.",
+    "The rapid ascent of these projects has ignited conversations across the industry, with many suggesting that Hollywood must now seriously consider what lies beyond its conventional creative pipelines.",
+    "“The Shocking Success of ‘Backrooms’ and ‘Obsession’ Should Be a Memo to Hollywood: You Need What’s Outside the Box,” Yahoo News Malaysia proclaimed, echoing sentiments that a fresh perspective is urgently needed.",
+    "This surge of non-traditional creators into mainstream entertainment underscores a growing influence from online platforms. The industry is now grappling with the implications of this shift, as creators from digital spaces prove they can translate their substantial online followings into tangible box office returns.",
+    "Even seasoned executives like Michael De Luca have weighed in on why 'Backrooms' and 'Obsession' are performing so well, indicating that the industry is closely watching this developing trend. Their success encourages a re-evaluation of established strategies and a more open embrace of new talent and unconventional approaches to filmmaking.",
+    "The path ahead for Hollywood appears to involve a deeper engagement with the creative dynamism found outside its traditional walls. The strong showing of these YouTuber-directed films suggests a future where diverse voices, regardless of their origin, hold the power to shape cinematic landscapes and capture the public's imagination."
+  ],
+  "publishedAt": "2026-05-31T06:19:00.230Z",
+  "readTime": 1,
+  "sources": [
+    "Google News — Entertainment",
+    "TechCrunch",
+    "Yahoo News Malaysia",
+    "Forbes",
+    "Slate Magazine",
+    "Deadline"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMjFYMll0SS1CajNjWS11TTlBZ3haVk1Mc3J2Z2cwMEprUXl2SWtSYmdtOFI3YlEzYU1xSDcwS0doemFtWjRETW41Z3V2QzRDZjNUTWhsdXh6UDVSd244elk2QkJicnN4cnYybTI2dVFoX2JGcEVfaVRDZGZkdTBrelNjTm9yYnpDeXJLdnF6NlV1WlRTdUN6YU5XVHJ1Nk5G?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-05-31T06:10:48.328Z",
+      "detail": "Aggregated entertainment news reports, box office analyses, and industry commentary from leading media outlets."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-05-31T06:14:43.714Z",
+      "detail": "Compiled facts on box office performance, director origins, and industry reactions to the success of 'Backrooms' and 'Obsession' from 5 sources."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-05-31T06:19:00.230Z",
+      "detail": "Wove box office data with industry commentary to illustrate the growing influence of non-traditional creators and the implications for Hollywood."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "Industry trends and specific box office achievements, including a direct quote from Yahoo News Malaysia and a comment from Michael De Luca, were meticulously verified against the provided fact sheet.",
+      "timestamp": "2026-05-31T06:22:02.748Z"
+    }
+  ]
+}

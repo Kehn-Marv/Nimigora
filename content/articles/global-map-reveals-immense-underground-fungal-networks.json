@@ -1,0 +1,53 @@
+{
+  "slug": "global-map-reveals-immense-underground-fungal-networks",
+  "headline": "Global Map Reveals Immense Underground Fungal Networks",
+  "deck": "A groundbreaking study has for the first time mapped the vast, hidden fungal networks beneath our feet, uncovering their critical role in supporting plant life and sequestering carbon on a planetary scale.",
+  "category": "TECHNOLOGY",
+  "body": [
+    "An unprecedented global mapping effort has unveiled the immense scale and critical climate impact of arbuscular mycorrhizal fungal networks, a vast subterranean web previously understood only in fragments. Led by the Society for the Protection of Underground Networks (SPUN), this new research casts a harsh spotlight on an invisible ecosystem that quietly underpins much of terrestrial life and actively combats climate change.",
+    "The sheer scale of these hidden networks is difficult to grasp, spanning an astonishing 110 quadrillion kilometers beneath the Earth's surface. To put this into perspective, if connected in a single line, these ultra-thin threads would stretch almost a billion times the distance between the Earth and the sun, reaching far beyond the confines of our solar system.",
+    "These intricate networks, composed of hyphae smaller than a human hair, form symbiotic relationships with roughly 80 percent of the globe’s plant species. In this vital exchange, the fungi provide plants with essential nutrients like phosphorus and nitrogen, which their roots often cannot reach, particularly deeper in the soil.",
+    "In return for these life-sustaining nutrients, the plants supply the fungi with carbon, which is then sequestered underground. This natural process is a powerful force against atmospheric warming, as these fungal networks annually lock away an astounding 1 billion tons of carbon, preventing its release into the atmosphere.",
+    "“This is the moment where we went from knowing that this system exists to really knowing where it is, how dense it is and where it’s been,” said Toby Kiers, executive director and co-founder of SPUN and a co-author of the groundbreaking study.",
+    "Until now, scientists understood the existence of these vital underground systems, but lacked a comprehensive global picture of their distribution and mass. Previous studies on fungal biodiversity were akin to knowing trees exist without understanding the forest's structure.",
+    "“You don’t actually know how big the forest is, how far apart the trees are. You don’t have information on its structure,” explained Justin Stewart, an evolutionary ecologist at SPUN and lead author of the study, describing the limitations of earlier research. This new mapping provides that crucial structural information.",
+    "The comprehensive data gathered paints a clear picture of a profound natural synergy. As Stewart succinctly put it, the relationship between plants and these fungal networks creates a significant “win-win” scenario for the entire ecosystem, benefiting both partners and, by extension, the planet.",
+    "“It helps us come to grips with how important these below ground organisms can be to everything that we see above ground,” added James Bever, a professor of ecology and evolutionary biology at the University of Kansas, highlighting the foundational role these networks play for all visible life.",
+    "Understanding the global distribution and carbon sequestration capabilities of these networks is now vital for future climate change mitigation efforts and for developing more sustainable agricultural practices. The new mapping provides crucial data that will inform conservation strategies, underscoring the necessity of protecting these immense, unseen architects of our planet's health."
+  ],
+  "publishedAt": "2026-06-14T06:32:32.375Z",
+  "readTime": 2,
+  "sources": [
+    "Ars Technica",
+    "Threads of underground fungal networks are long enough to reach beyond the Solar System"
+  ],
+  "sourceUrls": [
+    "https://arstechnica.com/science/2026/06/threads-of-underground-fungal-networks-are-long-enough-to-reach-beyond-the-solar-system/"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-06-14T06:27:39.275Z",
+      "detail": "SPUN-led research globally mapped arbuscular mycorrhizal fungal networks for the first time, revealing their immense scale and climate impact."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-06-14T06:31:44.485Z",
+      "detail": "Compiled statistics on network length, carbon sequestration, and plant symbiosis, along with expert quotes, from 2 sources."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-06-14T06:32:32.375Z",
+      "detail": "Wove scientific measurements and expert commentary into a narrative highlighting the ecological significance and climate role of newly mapped fungal networks."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All specific statistics, direct quotes, and factual claims were meticulously cross-referenced and found to be in perfect alignment with the provided fact sheet, demonstrating high accuracy.",
+      "timestamp": "2026-06-14T06:36:35.164Z"
+    }
+  ]
+}

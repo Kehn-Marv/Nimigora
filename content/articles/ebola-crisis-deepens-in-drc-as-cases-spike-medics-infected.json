@@ -1,0 +1,53 @@
+{
+  "slug": "ebola-crisis-deepens-in-drc-as-cases-spike-medics-infected",
+  "headline": "Ebola Crisis Deepens in DRC as Cases Spike, Medics Infected",
+  "deck": "A rapidly spreading Ebola outbreak in the Democratic Republic of the Congo is straining healthcare systems, with a significant increase in cases and a rising death toll.",
+  "category": "HEALTH",
+  "body": [
+    "The Democratic Republic of the Congo is grappling with an Ebola outbreak described as spreading 'fast,' casting a harsh spotlight on the escalating public health crisis. The disease has seen a nearly 40% increase in reported cases within just one week, pushing an already vulnerable population closer to the brink. This rapid acceleration of the virus underscores the formidable challenges faced by health authorities on the ground.",
+    "A deeply concerning aspect of this surge is the mounting toll on frontline healthcare workers, with more than 70 medics now reportedly infected. These dedicated individuals, essential to containing the disease, are themselves becoming victims, severely straining the capacity of the medical response. Their infection paints a grim picture of the conditions under which the fight against Ebola is being waged.",
+    "The human cost of the outbreak continues to climb, as the death toll has tragically surpassed 200 lives. Among the most alarming developments, at least 30 deaths were recorded at a single camp in Congo, serving as a stark indicator of the virus's potential for rapid transmission within concentrated populations. Such clusters of fatalities underscore the urgency of robust containment measures.",
+    "These grim statistics arrive amidst ongoing efforts to monitor and control the spread, as detailed in an Ebola Outbreak Situation Report (#7) for the DRC and region, issued on June 18, 2026. This regular reporting from health organizations reflects the sustained vigilance required to track the virus's movements and inform strategic interventions. The report provides a critical snapshot of the evolving crisis.",
+    "The current outbreak, impacting both the Democratic Republic of the Congo and neighboring Uganda, highlights the regional nature of this public health threat. Such cross-border implications necessitate coordinated international responses and robust surveillance systems to prevent wider dissemination. The virus, which can be caused by various strains including the Bundibugyo virus, poses a persistent challenge to global health security.",
+    "The relentless advance of Ebola, particularly its assault on healthcare infrastructure and personnel, threatens to undermine containment efforts in the region. Sustained international support, alongside rigorous public health interventions and community engagement, remains paramount to breaking the chains of transmission and protecting those most at risk. The coming weeks will be critical in determining the trajectory of this intensifying crisis."
+  ],
+  "publishedAt": "2026-06-20T06:20:24.362Z",
+  "readTime": 2,
+  "sources": [
+    "Google News — Health",
+    "Al Jazeera",
+    "AP News",
+    "Reuters",
+    "ReliefWeb",
+    "World Health Organization (WHO)"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQUpGcUE0UXYwRGJOU3gyR3QxeEdIcER1eHhQZ05QRmFUZ0Vra3FSQjE4Z0JUS29pUWRqT2toYzA2cWdyWHh1UERIU1h4N0RwRE1GaHZET0tZWjZBWGdwcXpqRWQyVnp6S2Z0NnhDUFRPMUxzcFNlel9oRmR4YnFpdGRXejJPMzlBeTRCV0pKQ1FHMlR4TnBFbnF3TGloeUgtQjJKX3d1bFNTaWtacEHSAbMBQVVfeXFMTzhMc2ltSFZ0OUROdk9FOEdLa09YYTJpa2hDbmpzdlUzcGlKSlZYTnN2YXZkMGF6eXN4d1AyWjV4cjBxSnRrZ2VUWkZHeVEwNWMyUzU4dGZUZHBtdklNTW9OVjZvRGZFZk9vZ3BFSHJtTWU2cWtDZEY4c28wNWtiLVNEUUhkeE9JX1VOcGdpVG5fbnRLS0hSMTA1eFJ4ZEVzeXlGcWZmTUN2VjhTT2tUWTlORUE?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-06-20T06:13:20.262Z",
+      "detail": "Aggregated reports from international news agencies and health organizations detailing the Ebola outbreak."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-06-20T06:17:13.632Z",
+      "detail": "Compiled statistics on infected medics, case increases, death toll, and outbreak locations from Al Jazeera, AP News, Reuters, ReliefWeb, and WHO."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-06-20T06:20:24.362Z",
+      "detail": "Wove rapid spread data with humanitarian impact and official reports to illustrate the escalating public health crisis in the DRC and Uganda."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All specific statistics, dates, events, and claims were meticulously cross-referenced and found to be in exact alignment with the provided fact sheet, with no factual discrepancies or fabrications.",
+      "timestamp": "2026-06-20T06:23:54.686Z"
+    }
+  ]
+}

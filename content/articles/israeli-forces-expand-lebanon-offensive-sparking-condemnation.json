@@ -1,0 +1,52 @@
+{
+  "slug": "israeli-forces-expand-lebanon-offensive-sparking-condemnation",
+  "headline": "Israeli Forces Expand Lebanon Offensive, Sparking Condemnation",
+  "deck": "As Israeli troops push deeper into Lebanese territory, the conflict's human toll mounts amidst regional diplomatic uncertainty.",
+  "category": "GEOPOLITICS",
+  "body": [
+    "Israeli forces have significantly expanded their ground offensive in Lebanon, crossing a key river as part of deepening incursions. This escalation marks a critical phase in the ongoing conflict, immediately heightening regional tensions and drawing sharp international scrutiny. The move signals a clear intent to broaden military operations within Lebanese borders, raising serious concerns about the conflict's trajectory.",
+    "The ground expansion has been accompanied by sustained aerial activity, with Israeli forces launching strikes near an ancient heritage castle site in southern Lebanon. Such actions not only risk irreparable damage to historically significant locations but also underscore the wide-ranging nature of the current military campaign. Lebanon has swiftly and unequivocally slammed Israel’s invasion, describing it as a grave violation of its sovereignty.",
+    "The human cost of these escalating hostilities is already painfully evident on the ground. The United Nations reports a devastating toll on the youngest and most vulnerable, stating that eleven children are killed or injured every 24 hours in Lebanon. This grim statistic paints a stark picture of the daily suffering endured by an already fragile population caught in the crossfire.",
+    "Reflecting on the unfolding situation, a Tel Aviv University vice-rector offered a stark assessment, stating that Israel is making \"every possible mistake\" in Lebanon.",
+    "These intensified military operations unfold against a backdrop of delicate diplomatic maneuvers, with a crucial US-Tehran deal currently in limbo. The uncertainty surrounding this broader regional agreement adds another layer of complexity, potentially limiting avenues for de-escalation and further complicating the already volatile geopolitical landscape. Analysts suggest that the broader regional power dynamics are inextricably linked to the conflict's expansion.",
+    "The expanded ground offensive and the mounting civilian casualties demand urgent attention and concerted diplomatic efforts to prevent further destabilization. Without a clear path to de-escalation, the region faces the prospect of deeper humanitarian crises and a widening conflict that could have far-reaching and tragic consequences. The coming days will reveal the extent of the international community's capacity to respond effectively to this perilous moment."
+  ],
+  "publishedAt": "2026-05-31T06:16:18.348Z",
+  "readTime": 1,
+  "sources": [
+    "Google News — World",
+    "Reuters",
+    "Al Jazeera",
+    "AP News",
+    "The Jerusalem Post"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcDlpYWVyelEtSWZoWmdtUC11UFhFc296VkRzdkxmT1o2X0pwdkhKQUdVQzkwaF9jWkNEajBGWnJlWjdiVjJxNlVJaEg1Q1VnWVRWQnZOc28zMTQzVTExSGt4VHhkNVNUN1dFSUJfRHlLVUZSZVJZQTR4WDNFanNZc0xnakR3MkV6djh4aWJseDduY2hqYU9aLWV3S2ZhOGl4Szh6VElwYnZNdVRMQmV0cmpqWkYwU1JBUVE?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-05-31T06:10:48.328Z",
+      "detail": "Aggregated reports on military movements, international reactions, and humanitarian impacts from major news outlets."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-05-31T06:14:43.714Z",
+      "detail": "Compiled details on Israeli ground offensive expansion, Lebanese condemnation, child casualty statistics, and regional diplomatic status from 5 sources."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-05-31T06:16:18.348Z",
+      "detail": "Wove military developments with humanitarian data and geopolitical context to illustrate the escalating conflict and its broader implications."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All specific factual claims, including military actions, international reactions, humanitarian statistics, and expert quotes, were meticulously cross-referenced and confirmed against the provided fact sheet.",
+      "timestamp": "2026-05-31T06:20:11.934Z"
+    }
+  ]
+}

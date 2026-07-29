@@ -1,0 +1,54 @@
+{
+  "slug": "breakthrough-genomic-test-reshapes-breast-cancer-treatment",
+  "headline": "Breakthrough Genomic Test Reshapes Breast Cancer Treatment",
+  "deck": "A new genomic test offers the promise of safely sparing millions of breast cancer patients from chemotherapy, marking a significant evolution in personalized medicine.",
+  "category": "HEALTH",
+  "body": [
+    "A groundbreaking genomic test is poised to fundamentally alter treatment pathways for breast cancer patients, potentially allowing millions to safely forgo chemotherapy. This development represents a crucial step forward in tailoring medical interventions, moving away from broad-stroke treatments towards more precise, patient-specific care.",
+    "This innovative diagnostic tool is known specifically as the 'Veracyte genomic test.' Its emergence signals a new era where detailed genetic profiling can guide oncological decisions, ensuring that only those patients who truly benefit from aggressive therapies receive them.",
+    "The test is intrinsically linked with 'Prosigna-Guided Adjuvant Therapy,' a treatment approach that leverages molecular insights to optimize outcomes. This integration underscores a growing trend in oncology to combine advanced diagnostics with targeted therapeutic strategies.",
+    "Clinical evidence underpins the significance of this test, with a study indicating that IBCFS (invasive breast cancer-free survival) achieved with Prosigna-Guided Adjuvant Therapy is noninferior to traditional chemoendocrine therapy. This finding applies specifically to patients with ER+/HER2– Early Breast Cancer, providing robust validation for its efficacy.",
+    "The immediate implication of this finding is profound: the test precisely identifies breast cancer patients who can confidently skip chemotherapy. This capability stands to dramatically improve the quality of life for millions, sparing them from the often debilitating side effects associated with conventional chemotherapy regimens.",
+    "Beyond the direct medical benefits, such advancements hold the potential to alleviate considerable healthcare burdens. By reducing unnecessary treatments, resources can be reallocated, and patients can avoid prolonged hospital stays and recovery periods, fostering a more efficient and humane healthcare system.",
+    "This evolution in breast cancer treatment points towards a future where diagnostic precision dictates therapeutic intensity. The focus will increasingly be on molecular markers to delineate the most effective and least invasive path for each individual, promising a new standard of care for countless patients worldwide."
+  ],
+  "publishedAt": "2026-05-31T06:18:20.509Z",
+  "readTime": 1,
+  "sources": [
+    "Google News — Health",
+    "BBC",
+    "The Guardian",
+    "Reuters",
+    "The Independent",
+    "OncLive"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5qdkNjZzlrODhsRGNjWGxCRmNuNExHanJUT0RoRVhGOHFmSGlzZDM4eEZlNkNMallYTWJydUQ5WkdBNkJKbW1jeWgwMHQ1UG11cXF0QjZWempwdw?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-05-31T06:10:48.328Z",
+      "detail": "Aggregated news reports and scientific study analyses related to a new genomic test for breast cancer."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-05-31T06:14:43.714Z",
+      "detail": "Compiled claims regarding the test's efficacy, its specific name, associated therapy, and study findings from 6 sources."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-05-31T06:18:20.509Z",
+      "detail": "Wove clinical data with patient impact to illustrate the significance of a new breast cancer genomic test."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All specific factual claims, including the test name, associated therapy, study findings, and patient identification criteria, were directly verified against the provided fact sheet without any discrepancies or fabrications.",
+      "timestamp": "2026-05-31T06:21:24.764Z"
+    }
+  ]
+}

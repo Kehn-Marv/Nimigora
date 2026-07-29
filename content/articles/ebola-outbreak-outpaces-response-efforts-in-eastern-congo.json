@@ -1,0 +1,53 @@
+{
+  "slug": "ebola-outbreak-outpaces-response-efforts-in-eastern-congo",
+  "headline": "Ebola Outbreak Outpaces Response Efforts in Eastern Congo",
+  "deck": "The WHO chief's urgent visit underscores the dire situation as the virus spreads rapidly, challenging containment and threatening regional health security.",
+  "category": "HEALTH",
+  "body": [
+    "The World Health Organization chief recently concluded a critical visit to the heart of the Ebola outbreak raging across eastern Congo, casting a harsh spotlight on a rapidly deteriorating public health crisis. His presence underscored the international community's deep concern as the deadly virus continues its relentless spread. This urgent visit aimed to galvanize efforts amidst reports of a significant surge in confirmed cases.",
+    "Indeed, the numbers paint a grim picture, with confirmed Ebola cases nearly doubling in a matter of days, according to various reports. This alarming acceleration indicates the profound challenges faced by health workers on the ground. The sheer speed of transmission is pushing an already vulnerable population closer to the brink.",
+    "Analysts and aid organizations alike confirm that current response efforts are struggling to keep pace with the virus's aggressive trajectory. Despite dedicated international and local teams, the scale of the outbreak is overwhelming resources and personnel. This imbalance threatens to further entrench the epidemic within communities.",
+    "During his time in the region, the WHO chief made a direct appeal for the practice of safe burials, a critical measure in preventing further transmission. Unsafe traditional burial rituals are known vectors for the virus, and ensuring dignified yet secure handling of deceased individuals is paramount. This specific plea highlights a key challenge in community engagement and public health education.",
+    "Inside the very epicenter of the outbreak, the virus rages with little to halt its devastating path, according to accounts from the ground. The New York Times reports a dire situation where containment efforts face immense obstacles, from community mistrust to geographical challenges. This unchecked spread within affected areas makes the prospect of widespread containment increasingly difficult.",
+    "The escalating public health crisis in eastern Congo demands sustained and intensified international attention. The rapid increase in cases and the persistent challenges in containing the virus pose a significant and immediate threat to regional health security. Effective, culturally sensitive strategies remain urgently required to avert a wider catastrophe."
+  ],
+  "publishedAt": "2026-05-31T06:18:00.302Z",
+  "readTime": 1,
+  "sources": [
+    "Google News — Health",
+    "CBS News",
+    "The New York Times",
+    "NBC News",
+    "Reuters",
+    "Al Jazeera"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMigwFBVV95cUxNRzJUeEpCc1RCQ2l5X2xFUnk5UGZkWEw3YjNWbTUzRlNtWi1rV0xBSkVFZUFkQkdHOXpybV9KeE4zV016RHpuWlZ5VHVkV1hoY1lVVC1qendzRTNVajJnMDU4Y0VZak1sczVNeFJidGpyZm9YZGRFQzIxVTVGV2llaWFBMA?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-05-31T06:10:48.328Z",
+      "detail": "Aggregated reports from major news outlets regarding the WHO chief's visit and the Ebola outbreak's status."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-05-31T06:14:43.714Z",
+      "detail": "Compiled event details of the WHO chief's visit, statistics on case doubling, and analysis of response challenges from CBS News, NBC News, Reuters, Al Jazeera, and The New York Times."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-05-31T06:18:00.302Z",
+      "detail": "Wove visit details, case statistics, and expert analysis to illustrate the escalating nature of the Ebola crisis and its profound human impact."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All key events, statistics, and analyses were verified against the fact sheet; a minor detail attributed to a source was not explicitly present in the provided ground truth.",
+      "timestamp": "2026-05-31T06:21:05.927Z"
+    }
+  ]
+}

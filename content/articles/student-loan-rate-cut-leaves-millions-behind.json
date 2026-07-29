@@ -1,0 +1,53 @@
+{
+  "slug": "student-loan-rate-cut-leaves-millions-behind",
+  "headline": "Student Loan Rate Cut Leaves Millions Behind",
+  "deck": "A new student loan interest rate reduction program introduced by the Trump administration provides relief for some, but notably bypasses a vast segment of struggling borrowers.",
+  "category": "FINANCE",
+  "body": [
+    "The Trump administration has unveiled a new student loan policy offering an interest rate cut for eligible borrowers, a move that could ease the financial burden for many. This benefit, however, comes with a specific requirement: borrowers must enroll in an automatic payment plan to qualify. The opportunity for this new repayment benefit is available now, prompting borrowers to review their options promptly.",
+    "Crucially, this interest rate reduction program excludes most of the 9 million borrowers currently in default on their student loans. This significant omission casts a harsh spotlight on the policy's reach, leaving a large, vulnerable population without access to the new relief. The sheer scale of defaulted borrowers highlights a persistent challenge within the nation's student debt landscape.",
+    "For these 9 million individuals, the path to financial stability remains fraught, as the new policy does not address their immediate need for assistance. Their exclusion means a significant portion of those most struggling with their student debt will not benefit from the administration's latest initiative. This selective approach underscores the complex and often fragmented nature of student loan relief efforts.",
+    "Meanwhile, another segment of the borrower population, Parent PLUS loan recipients, faces its own set of anxieties. These borrowers confront potential risks concerning their forgiveness and repayment options, with significant changes anticipated after July 1. The looming deadline adds another layer of urgency and uncertainty for families navigating these complex financial instruments.",
+    "The confluence of these factors paints a grim picture for millions of Americans managing student debt, influencing their financial stability and access to relief programs. While some borrowers gain a reprieve, the policy's selective nature and the upcoming changes for Parent PLUS borrowers push an already vulnerable population closer to the brink. This policy highlights a growing disparity in how student loan challenges are addressed across different borrower groups.",
+    "Reflecting on the long-term impact, the new policy leaves a substantial portion of the student loan population grappling with unresolved financial challenges. The stark contrast between those who qualify for relief and those left out will continue to shape debates around equitable access to support programs. Addressing the needs of defaulted and Parent PLUS borrowers remains a critical, unanswered question for policymakers."
+  ],
+  "publishedAt": "2026-06-21T06:53:02.432Z",
+  "readTime": 2,
+  "sources": [
+    "Google News — Business",
+    "Fortune",
+    "NPR",
+    "Business Insider",
+    "USA Today",
+    "ABC13 Houston"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMijwFBVV95cUxOa0hxQjJOSGFLZE1jRVZwS3UyeXZIMjRFOHp3U0RUNEYtZURNOThlNFVsQWpjbEk2OGdYU2N3WkM5ZGc3SE16Z1dGcUVzU3FzSmQ5d1JBdnY1Tkp4X2pPbllxMHJzMWJSS3hCQUtCSDh3Z3BUYmhyaTRqM09wQ05BbFR4WnVnSXpmYTF0RVBfaw?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-06-21T06:45:53.428Z",
+      "detail": "Aggregated reports and policy analyses from major news outlets regarding student loan policy changes."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-06-21T06:49:44.904Z",
+      "detail": "Compiled details on interest rate cuts, eligibility requirements, and excluded borrower demographics from 6 sources."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-06-21T06:53:02.432Z",
+      "detail": "Wove together policy specifics with borrower impact analysis to illustrate the selective nature of new student loan benefits."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "Policy details, specific borrower exclusions, and all numerical figures, including the 9 million defaulted borrowers and Parent PLUS loan risks, were precisely verified against the provided fact sheet.",
+      "timestamp": "2026-06-21T06:56:41.572Z"
+    }
+  ]
+}
