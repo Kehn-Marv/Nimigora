@@ -77,17 +77,18 @@ export default function BookmarksClient({ articleCategories }: BookmarksClientPr
             {bookmarkedSlugs.map((slug) => (
               <div key={slug} className="bookmark-item">
                 <Link href={`/article/${slug}`} className="bookmark-item-link">
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', alignItems: 'flex-start' }}>
-                    <span className={`badge badge-${(articleCategories[slug] || 'technology').toLowerCase()}`} style={{ padding: '2px 8px', fontSize: '9px' }}>
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', alignItems: 'flex-start', flex: 1 }}>
+                    <span className={`badge badge-${(articleCategories[slug] || 'technology').toLowerCase()}`} style={{ padding: '4px 10px', fontSize: '10px' }}>
                       {articleCategories[slug] || 'STORY'}
                     </span>
                     <h3 className="bookmark-item-title">
                       {slug.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase())}
                     </h3>
                   </div>
-                  <span className="bookmark-item-action">READ</span>
                 </Link>
-                <BookmarkButton slug={slug} size={16} />
+                <div className="bookmark-item-btn-wrapper">
+                  <BookmarkButton slug={slug} size={20} />
+                </div>
               </div>
             ))}
           </div>
