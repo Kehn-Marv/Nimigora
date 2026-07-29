@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState, useEffect } from 'react';
 import { usePathname } from 'next/navigation';
 import { useNimiq } from './NimiqProvider';
@@ -48,7 +49,8 @@ export default function Navbar() {
     <>
       <nav className="navbar" id="navbar">
         <div className="navbar-inner">
-          <Link href="/" className="navbar-logo">
+          <Link href="/" className="navbar-logo" style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+            <Image src="/logo-v2.png" alt="Nimigora Logo" width={32} height={32} style={{ objectFit: 'contain' }} />
             <span className="navbar-logo-text">NIMIGORA</span>
           </Link>
 

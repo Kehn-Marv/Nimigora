@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function Footer() {
   const year = new Date().getFullYear();
 
@@ -6,7 +8,7 @@ export default function Footer() {
       <div className="footer-inner">
         <div className="footer-brand">
           <div className="footer-logo">
-            <div className="footer-logo-icon">NM</div>
+            <Image src="/logo-v2.png" alt="Nimigora Logo" width={36} height={36} style={{ objectFit: 'contain' }} />
             NIMIGORA
           </div>
           <p className="footer-desc">
