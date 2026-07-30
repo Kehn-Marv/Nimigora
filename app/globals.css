@@ -3444,7 +3444,6 @@ body.modal-open > *:not(script):not(style):not(noscript):not(.paywall-backdrop) 
   color: var(--color-dark-gray);
   margin: var(--space-md) auto 0;
   width: fit-content;
-  white-space: nowrap;
 }
 
 
@@ -3534,10 +3533,10 @@ body.modal-open > *:not(script):not(style):not(noscript):not(.paywall-backdrop) 
   background: var(--color-white);
   border-left: var(--border);
   height: 100%;
-  padding: var(--space-xl);
+  padding: var(--space-lg);
   display: flex;
   flex-direction: column;
-  gap: var(--space-lg);
+  gap: var(--space-md);
   overflow-y: auto;
   animation: slideInRight 0.25s ease;
 }
@@ -3622,7 +3621,7 @@ body.modal-open > *:not(script):not(style):not(noscript):not(.paywall-backdrop) 
 .wallet-section {
   display: flex;
   flex-direction: column;
-  gap: var(--space-sm);
+  gap: 4px;
 }
 
 .wallet-label {
@@ -3726,6 +3725,14 @@ body.modal-open > *:not(script):not(style):not(noscript):not(.paywall-backdrop) 
   color: var(--color-dark-gray);
 }
 
+.wallet-browse-btn {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  margin-top: var(--space-sm);
+  width: 100%;
+}
+
 .wallet-sub-cta {
   font-size: 13px;
   font-weight: 700;
@@ -3744,7 +3751,7 @@ body.modal-open > *:not(script):not(style):not(noscript):not(.paywall-backdrop) 
   align-items: center;
   justify-content: center;
   gap: var(--space-sm);
-  padding: var(--space-md);
+  padding: 12px;
   background: none;
   border: 1px solid var(--color-mid-gray);
   cursor: pointer;

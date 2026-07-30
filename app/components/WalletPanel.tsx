@@ -1,6 +1,7 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import Link from 'next/link';
 import { useNimiq } from './NimiqProvider';
 import { formatExpiryDate, getPlanLabel } from '@/lib/subscription';
 import { Wallet, Copy, Check, X, Crown, Logout, Refresh } from 'reicon-react';
@@ -24,6 +25,17 @@ export default function WalletPanel({ isOpen, onClose }: WalletPanelProps) {
 
   const [copied, setCopied] = useState(false);
   const [refreshing, setRefreshing] = useState(false);
+
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [isOpen]);
 
   if (!isOpen) return null;
 
@@ -139,7 +151,9 @@ export default function WalletPanel({ isOpen, onClose }: WalletPanelProps) {
               ) : (
                 <div className="wallet-sub-inactive">
                   <p>No active subscription</p>
-                  <a href="/exclusive" className="wallet-sub-cta">Browse Exclusive Stories →</a>
+                  <Link href="/exclusive" className="wallet-connect-btn wallet-browse-btn">
+                    Browse Exclusive Stories
+                  </Link>
                 </div>
               )}
             </div>

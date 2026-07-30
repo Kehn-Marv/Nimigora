@@ -129,7 +129,7 @@ export default function PaywallModal({ isOpen, onClose, onSuccess }: PaywallModa
                 </div>
                 <div className="paywall-plan-info">
                   <h4>Unlock Monthly</h4>
-                  <p>Full access for 30 days</p>
+                  <p>30-Day Access</p>
                 </div>
                 <div className="paywall-plan-price">
                   <span className="paywall-price-amount">{SUBSCRIPTION_PRICES.monthly}</span>
@@ -148,7 +148,7 @@ export default function PaywallModal({ isOpen, onClose, onSuccess }: PaywallModa
                 </div>
                 <div className="paywall-plan-info">
                   <h4>Unlock Forever</h4>
-                  <p>Full access for 1 year</p>
+                  <p>1-Year Access</p>
                 </div>
                 <div className="paywall-plan-price">
                   <span className="paywall-price-amount">{SUBSCRIPTION_PRICES.yearly}</span>
@@ -161,7 +161,7 @@ export default function PaywallModal({ isOpen, onClose, onSuccess }: PaywallModa
             {!wallet.connected && (
               <div className="paywall-wallet-notice">
                 <Wallet size={18} />
-                <span>Connect Nimiq Wallet for instant activation</span>
+                <span>Connect Nimiq Wallet</span>
               </div>
             )}
 
