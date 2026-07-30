@@ -1,9 +1,10 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useNimiq } from '@/app/components/NimiqProvider';
 import BookmarkButton from '@/app/components/BookmarkButton';
 import PaywallModal from '@/app/components/PaywallModal';
+import { isBookmarked } from '@/lib/bookmarks';
 import { LockKeyhole } from 'reicon-react';
 
 interface ArticleContentProps {
@@ -15,6 +16,14 @@ interface ArticleContentProps {
 export default function ArticleContent({ body, slug, isExclusive }: ArticleContentProps) {
   const { isSubscribed } = useNimiq();
   const [showPaywall, setShowPaywall] = useState(false);
+  const [saved, setSaved] = useState(false);
+
+  useEffect(() => {
+    setSaved(isBookmarked(slug));
+    const handleUpdate = () => setSaved(isBookmarked(slug));
+    window.addEventListener('bookmarksUpdated', handleUpdate);
+    return () => window.removeEventListener('bookmarksUpdated', handleUpdate);
+  }, [slug]);
   
   const isLocked = isExclusive && !isSubscribed;
   // Show first 2 paragraphs as preview for locked content
@@ -24,8 +33,8 @@ export default function ArticleContent({ body, slug, isExclusive }: ArticleConte
     <>
       {/* Bookmark bar */}
       <div className="article-bookmark-bar">
-        <BookmarkButton slug={slug} size={20} />
-        <span className="article-bookmark-label">Save for later</span>
+        <BookmarkButton slug={slug} size={20} isExclusive={isExclusive} />
+        <span className="article-bookmark-label">{saved ? 'Saved' : 'Save for later'}</span>
       </div>
 
       {/* Article Body */}

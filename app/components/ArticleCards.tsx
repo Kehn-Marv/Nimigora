@@ -42,7 +42,7 @@ export function ArticleCard({ article }: { article: Article }) {
           <div className="article-card-footer">
             <span>{formatDate(article.publishedAt)}</span>
             <div className="article-card-actions">
-              <BookmarkButton slug={article.slug} size={16} />
+              <BookmarkButton slug={article.slug} size={16} isExclusive={!!article.exclusive} />
               <span className="article-card-read">Read</span>
             </div>
           </div>
@@ -98,7 +98,7 @@ export function FeaturedArticle({ article }: { article: Article }) {
               <span className="featured-exclusive-tag">
                 <LockKeyhole size={12} /> Exclusive
               </span>
-              <BookmarkButton slug={article.slug} size={18} />
+              <BookmarkButton slug={article.slug} size={18} isExclusive={!!article.exclusive} />
             </div>
           </div>
         </div>
@@ -129,7 +129,7 @@ export function ArticleListItem({ article }: { article: Article }) {
           </div>
         </div>
       </Link>
-      <BookmarkButton slug={article.slug} size={16} className="article-list-bookmark" />
+      <BookmarkButton slug={article.slug} size={16} className="article-list-bookmark" isExclusive={!!article.exclusive} />
     </div>
   );
 }

@@ -2,15 +2,18 @@
 
 import { useState, useEffect } from 'react';
 import { toggleBookmark, isBookmarked } from '@/lib/bookmarks';
-import { Bookmark } from 'reicon-react';
+import { Bookmark } from 'lucide-react';
+import { useNimiq } from './NimiqProvider';
 
 interface BookmarkButtonProps {
   slug: string;
   size?: number;
   className?: string;
+  isExclusive?: boolean;
 }
 
-export default function BookmarkButton({ slug, size = 18, className = '' }: BookmarkButtonProps) {
+export default function BookmarkButton({ slug, size = 18, className = '', isExclusive = false }: BookmarkButtonProps) {
+  const { isSubscribed } = useNimiq();
   const [bookmarked, setBookmarked] = useState(false);
   const [animating, setAnimating] = useState(false);
   const [mounted, setMounted] = useState(false);
@@ -35,6 +38,10 @@ export default function BookmarkButton({ slug, size = 18, className = '' }: Book
       setTimeout(() => setAnimating(false), 600);
     }
   };
+
+  if (isExclusive && !isSubscribed) {
+    return null;
+  }
 
   return (
     <button

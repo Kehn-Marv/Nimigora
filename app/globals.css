@@ -608,7 +608,7 @@ body {
   grid-template-columns: 1fr 1fr;
   gap: 0;
   border: var(--border);
-  background: var(--color-white);
+  background: var(--color-cream);
   transition: transform var(--transition-medium);
   text-decoration: none;
   color: inherit;
@@ -725,7 +725,7 @@ body {
 
 .article-card {
   border: var(--border);
-  background: var(--color-white);
+  background: var(--color-cream);
   text-decoration: none;
   color: inherit;
   display: flex;
@@ -3242,7 +3242,7 @@ body.modal-open > *:not(script):not(style):not(noscript):not(.paywall-backdrop) 
 }
 
 .paywall-modal {
-  background: var(--color-white);
+  background: var(--color-cream);
   border: var(--border);
   max-width: 480px;
   width: 100%;
@@ -3404,7 +3404,8 @@ body.modal-open > *:not(script):not(style):not(noscript):not(.paywall-backdrop) 
   font-family: var(--font-display);
   font-size: 22px;
   font-weight: 900;
-  display: block;
+  display: inline-block;
+  margin-right: 4px;
   line-height: 1;
 }
 
@@ -3443,6 +3444,7 @@ body.modal-open > *:not(script):not(style):not(noscript):not(.paywall-backdrop) 
   color: var(--color-dark-gray);
   margin: var(--space-md) auto 0;
   width: fit-content;
+  white-space: nowrap;
 }
 
 
@@ -3781,7 +3783,11 @@ body.modal-open > *:not(script):not(style):not(noscript):not(.paywall-backdrop) 
 }
 
 .bookmark-btn.bookmarked {
-  color: var(--color-accent-dark);
+  color: var(--color-black);
+}
+
+.bookmark-btn.bookmarked svg * {
+  fill: currentColor;
 }
 
 .bookmark-btn.animating {

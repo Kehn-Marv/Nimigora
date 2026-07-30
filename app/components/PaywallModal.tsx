@@ -154,9 +154,6 @@ export default function PaywallModal({ isOpen, onClose, onSuccess }: PaywallModa
                   <span className="paywall-price-amount">{SUBSCRIPTION_PRICES.yearly}</span>
                   <span className="paywall-price-currency">NIM</span>
                 </div>
-                <div className="paywall-plan-savings">
-                  Save {Math.round((1 - (SUBSCRIPTION_PRICES.yearly / (SUBSCRIPTION_PRICES.monthly * 12))) * 100)}%
-                </div>
               </button>
             </div>
 
