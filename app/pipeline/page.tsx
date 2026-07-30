@@ -69,7 +69,7 @@ export default function PipelinePage() {
               <h3 className="category-name">Stage 2: Fact Extraction</h3>
             </div>
             <p className="category-desc" style={{ maxWidth: '800px', fontSize: '16px', lineHeight: '1.7' }}>
-              Gemini AI extracts structured fact sheets from the source material. Every claim, quote, and statistic is tagged with a confidence level and source attribution. Fact sheets typically contain 5–15 verified claims.
+              Grok AI extracts structured fact sheets from the source material. Every claim, quote, and statistic is tagged with a confidence level and source attribution. Fact sheets typically contain 5–15 verified claims.
             </p>
             <div className="category-tags" style={{ marginTop: '16px' }}>
               <span className="category-tag">Structured fact sheets</span>
@@ -138,35 +138,43 @@ export default function PipelinePage() {
           <div className="features-grid">
             <div className="feature-card">
               <div className="feature-icon feature-icon-blue"><Target size={24} /></div>
-              <h3 className="feature-title">No Hallucination</h3>
-              <p className="feature-desc">
-                Every factual claim traces to a verifiable source. If a fact can&apos;t be
-                verified, it doesn&apos;t appear.
-              </p>
+              <div className="feature-text">
+                <h3 className="feature-title">No Hallucination</h3>
+                <p className="feature-desc">
+                  Every factual claim traces to a verifiable source. If a fact can&apos;t be
+                  verified, it doesn&apos;t appear.
+                </p>
+              </div>
             </div>
             <div className="feature-card">
               <div className="feature-icon feature-icon-green"><Scale size={24} /></div>
-              <h3 className="feature-title">Bias-Aware</h3>
-              <p className="feature-desc">
-                Automated bias detection catches political lean, framing bias, and
-                source imbalance before publication.
-              </p>
+              <div className="feature-text">
+                <h3 className="feature-title">Bias-Aware</h3>
+                <p className="feature-desc">
+                  Automated bias detection catches political lean, framing bias, and
+                  source imbalance before publication.
+                </p>
+              </div>
             </div>
             <div className="feature-card">
               <div className="feature-icon feature-icon-purple"><Unlock size={24} /></div>
-              <h3 className="feature-title">Full Transparency</h3>
-              <p className="feature-desc">
-                Every article shows its complete pipeline record sources, steps,
-                timestamps, and verification results.
-              </p>
+              <div className="feature-text">
+                <h3 className="feature-title">Full Transparency</h3>
+                <p className="feature-desc">
+                  Every article shows its complete pipeline record sources, steps,
+                  timestamps, and verification results.
+                </p>
+              </div>
             </div>
             <div className="feature-card">
               <div className="feature-icon feature-icon-yellow"><DocumentText size={24} /></div>
-              <h3 className="feature-title">Source Attribution</h3>
-              <p className="feature-desc">
-                All sources are listed openly. Readers can trace any claim back to
-                its origin independently.
-              </p>
+              <div className="feature-text">
+                <h3 className="feature-title">Source Attribution</h3>
+                <p className="feature-desc">
+                  All sources are listed openly. Readers can trace any claim back to
+                  its origin independently.
+                </p>
+              </div>
             </div>
           </div>
         </div>

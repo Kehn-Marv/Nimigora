@@ -106,7 +106,7 @@ export default function BookmarksClient({ articleCategories, articleExclusivity 
                       </div>
                     )}
                     <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', alignItems: 'flex-start', flex: 1 }}>
-                      <span className={`badge badge-${(articleCategories[slug] || 'technology').toLowerCase()}`} style={{ padding: '4px 10px', fontSize: '10px', ...(isExclusive ? { background: 'var(--color-black)', color: 'var(--color-accent)', borderColor: 'var(--color-accent)' } : {}) }}>
+                      <span className={`badge badge-${(articleCategories[slug] || 'technology').toLowerCase()}`} style={{ padding: '4px 10px', fontSize: '10px' }}>
                         {articleCategories[slug] || 'STORY'}
                       </span>
                       <h3 className="bookmark-item-title" style={isExclusive ? { color: 'var(--color-white)' } : {}}>

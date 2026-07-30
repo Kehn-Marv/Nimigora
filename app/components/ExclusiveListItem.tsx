@@ -72,7 +72,7 @@ export default function ExclusiveListItem({ article }: ExclusiveListItemProps) {
           
           <div className="article-list-content">
             <div className="article-list-badges">
-              <span className={getCategoryBadgeClass(article.category)} style={{ padding: '1px 6px', fontSize: '9px', background: 'var(--color-black)', color: 'var(--color-accent)', borderColor: 'var(--color-accent)' }}>
+              <span className={getCategoryBadgeClass(article.category)} style={{ padding: '1px 6px', fontSize: '9px' }}>
                 {article.category}
               </span>
             </div>

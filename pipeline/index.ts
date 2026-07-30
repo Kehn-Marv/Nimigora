@@ -6,7 +6,7 @@
  * prunes old content, and logs results.
  *
  * Usage:
- *   GEMINI_API_KEY=xxx npx tsx pipeline/index.ts
+ *   XAI_API_KEY=xxx npx tsx pipeline/index.ts
  *   or triggered via GitHub Actions cron
  */
 

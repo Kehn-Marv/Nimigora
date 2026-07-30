@@ -64,8 +64,7 @@ export default function ExclusiveCard({ article }: ExclusiveCardProps) {
         <div className="exclusive-card-body">
           <div className="exclusive-card-meta">
             <span className={getCategoryBadgeClass(article.category)} style={{ padding: '2px 8px', fontSize: '10px' }}>
-              {CATEGORY_ICONS[article.category]}
-              {' '}{article.category}
+              {article.category}
             </span>
             <span>{article.readTime} min read</span>
           </div>

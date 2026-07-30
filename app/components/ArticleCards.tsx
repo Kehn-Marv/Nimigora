@@ -90,9 +90,9 @@ export function FeaturedArticle({ article }: { article: Article }) {
               {article.category}
             </span>
             <span>FEATURED</span>
-            <span style={{ color: 'var(--color-dark-gray)', margin: '0 -4px' }}>&bull;</span>
+            <span style={{ color: 'var(--color-dark-gray)' }}>&bull;</span>
             <span>{formatDate(article.publishedAt)}</span>
-            <span style={{ color: 'var(--color-dark-gray)', margin: '0 -4px' }}>&bull;</span>
+            <span style={{ color: 'var(--color-dark-gray)' }}>&bull;</span>
             <span>{article.readTime} min read</span>
           </div>
           <h2 className="featured-headline">{article.headline}</h2>
@@ -102,9 +102,6 @@ export function FeaturedArticle({ article }: { article: Article }) {
               Read Full Story
             </div>
             <div className="featured-footer-actions">
-              <span className="featured-exclusive-tag">
-                <LockKeyhole size={12} /> Exclusive
-              </span>
               <BookmarkButton slug={article.slug} size={18} isExclusive={!!article.exclusive} />
             </div>
           </div>

@@ -19,7 +19,7 @@ export interface LLMMessage {
 }
 
 export interface LLMConfig {
-  provider: 'gemini' | 'groq' | 'ollama';
+  provider: 'gemini' | 'groq' | 'ollama' | 'xai';
   model: string;
   apiKey?: string;
   baseUrl?: string;
@@ -59,10 +59,10 @@ const journalSafetySettings = [
 function loadApiKeys(): string[] {
   const keys: string[] = [];
   // Primary key
-  if (process.env.GEMINI_API_KEY) keys.push(process.env.GEMINI_API_KEY);
-  // Additional keys: GEMINI_API_KEY_2, GEMINI_API_KEY_3, ...
+  if (process.env.XAI_API_KEY) keys.push(process.env.XAI_API_KEY);
+  // Additional keys: XAI_API_KEY_2, XAI_API_KEY_3, ...
   for (let i = 2; i <= 10; i++) {
-    const key = process.env[`GEMINI_API_KEY_${i}`];
+    const key = process.env[`XAI_API_KEY_${i}`];
     if (key) keys.push(key);
   }
   return keys;
@@ -285,18 +285,83 @@ class GroqProvider implements LLMProvider {
 }
 
 // ============================================
+// xAI (Grok) Provider
+// ============================================
+
+class XAIProvider implements LLMProvider {
+  async generate(systemPrompt: string, userPrompt: string, config: LLMConfig): Promise<LLMResponse> {
+    return withRetry(async (apiKey: string) => {
+      const response = await fetch(`${config.baseUrl || 'https://api.x.ai/v1'}/chat/completions`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${apiKey}`,
+        },
+        body: JSON.stringify({
+          model: config.model || 'grok-4.1',
+          messages: [
+            { role: 'system', content: systemPrompt },
+            { role: 'user', content: userPrompt },
+          ],
+          temperature: config.temperature ?? 0.7,
+          max_tokens: config.maxTokens ?? 8192,
+        }),
+      });
+
+      if (!response.ok) {
+        const errorText = await response.text();
+        throw new Error(`xAI API Error ${response.status}: ${errorText}`);
+      }
+
+      const data = await response.json() as {
+        choices: { message: { content: string } }[];
+        usage?: { total_tokens: number };
+      };
+
+      return {
+        text: data.choices[0].message.content,
+        tokensUsed: data.usage?.total_tokens,
+        provider: 'xai',
+        model: config.model || 'grok-4.1',
+      };
+    });
+  }
+
+  async generateJSON<T>(systemPrompt: string, userPrompt: string, config: LLMConfig): Promise<T> {
+    const enrichedPrompt = `${userPrompt}\n\nIMPORTANT: Respond with valid JSON only. No markdown formatting, no explanation.`;
+    const response = await this.generate(systemPrompt, enrichedPrompt, config);
+    try {
+      return JSON.parse(response.text) as T;
+    } catch {
+      let jsonStr = response.text;
+      const jsonMatch = response.text.match(/```(?:json)?\s*([\s\S]*?)```/);
+      if (jsonMatch) {
+        jsonStr = jsonMatch[1].trim();
+      }
+      try {
+        const repaired = jsonrepair(jsonStr);
+        return JSON.parse(repaired) as T;
+      } catch (repairError) {
+        throw new Error(`Failed to parse Grok JSON response: ${response.text.substring(0, 200)}`);
+      }
+    }
+  }
+}
+
+// ============================================
 // LLM Factory
 // ============================================
 
 const providers: Record<string, LLMProvider> = {
   gemini: new GeminiProvider(),
   groq: new GroqProvider(),
+  xai: new XAIProvider(),
 };
 
 export function getDefaultConfig(): LLMConfig {
   return {
-    provider: 'gemini',
-    model: 'gemini-2.5-flash',
+    provider: 'xai',
+    model: 'grok-4.1',
     temperature: 0.7,
     maxTokens: 8192,
   };

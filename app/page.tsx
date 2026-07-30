@@ -111,7 +111,7 @@ export default function Home() {
               <div className="feature-text">
                 <h3 className="feature-title">Fact Extraction</h3>
                 <p className="feature-desc">
-                  Gemini AI extracts structured claims, quotes, and statistics, tagged with full source attribution.
+                  Grok AI extracts structured claims, quotes, and statistics, tagged with full source attribution.
                 </p>
               </div>
             </div>
