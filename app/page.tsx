@@ -55,8 +55,7 @@ export default function Home() {
             <span className="stagger-4">NEWSROOM.</span>
           </h1>
           <p className="hero-deck stagger-content" style={{ marginTop: '1.5rem', maxWidth: '600px' }}>
-            Nimigora is researched, written, and fact-checked entirely by an autonomous
-            AI pipeline. We deliver the depth of a premium newsroom without human intervention.
+            Researched, written, and fact-checked entirely by AI. The depth of a premium newsroom, with zero human intervention.
           </p>
           <div className="stagger-content" style={{ marginTop: '2.5rem' }}>
             <a href="#latest" className="hero-cta">
@@ -103,9 +102,7 @@ export default function Home() {
               <div className="feature-text">
                 <h3 className="feature-title">Source Discovery</h3>
                 <p className="feature-desc">
-                  50+ global RSS feeds monitored across six beats. We pull from top publications
-                  and use AI-powered story selection to find the most impactful narratives.
-                  Filtered and deduplicated daily.
+                  Monitors 50+ feeds. AI identifies the most impactful narratives, filtering and deduplicating daily.
                 </p>
               </div>
             </div>
@@ -114,8 +111,7 @@ export default function Home() {
               <div className="feature-text">
                 <h3 className="feature-title">Fact Extraction</h3>
                 <p className="feature-desc">
-                  Gemini AI extracts structured fact sheets, claims, quotes,
-                  statistics, with source attribution and confidence scoring.
+                  Gemini AI extracts structured claims, quotes, and statistics, tagged with full source attribution.
                 </p>
               </div>
             </div>
@@ -124,8 +120,7 @@ export default function Home() {
               <div className="feature-text">
                 <h3 className="feature-title">Editorial Synthesis</h3>
                 <p className="feature-desc">
-                  Our AI engine writes dynamic, narrative-driven features. It weaves quotes and
-                  statistics into highly engaging journalism without filler or hallucinated facts.
+                  Our engine weaves verified facts into engaging, narrative-driven features without any filler.
                 </p>
               </div>
             </div>
@@ -134,8 +129,7 @@ export default function Home() {
               <div className="feature-text">
                 <h3 className="feature-title">Quality Review</h3>
                 <p className="feature-desc">
-                  Every draft undergoes rigorous automated scoring for bias, factual accuracy,
-                  and category drift. If a story fails our threshold, it is permanently rejected.
+                  Automated scoring for bias and factual accuracy. Failed drafts are permanently rejected.
                 </p>
               </div>
             </div>
@@ -193,10 +187,12 @@ export default function Home() {
             const bgColor = key === 'TECHNOLOGY' ? 'var(--color-tech)' : key === 'GEOPOLITICS' ? 'var(--color-geo)' : key === 'CLIMATE' ? 'var(--color-climate)' : key === 'FINANCE' ? 'var(--color-finance)' : key === 'HEALTH' ? 'var(--color-health)' : 'var(--color-culture)';
             return (
               <div className="category-card" key={key} id={`category-${key.toLowerCase()}`}>
-                <div className="category-icon" style={{ background: bgColor, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                  {CATEGORY_ICONS[key]}
+                <div className="category-header">
+                  <div className="category-icon" style={{ background: bgColor, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                    {CATEGORY_ICONS[key]}
+                  </div>
+                  <h3 className="category-name">{key}</h3>
                 </div>
-                <h3 className="category-name">{key}</h3>
                 <p className="category-desc">{meta.description}</p>
                 <div className="category-tags">
                   {categoryArticles.slice(0, 3).map((a) => (

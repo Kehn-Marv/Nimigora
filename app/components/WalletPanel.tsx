@@ -151,7 +151,7 @@ export default function WalletPanel({ isOpen, onClose }: WalletPanelProps) {
               ) : (
                 <div className="wallet-sub-inactive">
                   <p>No active subscription</p>
-                  <Link href="/exclusive" className="wallet-connect-btn wallet-browse-btn">
+                  <Link href="/exclusive" className="wallet-connect-btn wallet-browse-btn" onClick={onClose}>
                     Browse Exclusive Stories
                   </Link>
                 </div>

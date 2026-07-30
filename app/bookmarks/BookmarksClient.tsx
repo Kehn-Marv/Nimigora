@@ -68,8 +68,8 @@ export default function BookmarksClient({ articleCategories }: BookmarksClientPr
         </h1>
         <p className="hero-deck">
           {bookmarkedSlugs.length > 0
-            ? `You have ${bookmarkedSlugs.length} saved ${bookmarkedSlugs.length === 1 ? 'story' : 'stories'}. Come back anytime to pick up where you left off.`
-            : 'Stories you bookmark will appear here. Start exploring and save the ones you love.'}
+            ? `You have ${bookmarkedSlugs.length} saved ${bookmarkedSlugs.length === 1 ? 'story' : 'stories'}. Your personal reading list, ready when you are.`
+            : 'Your reading list is empty. Start exploring and save the stories you love.'}
         </p>
       </section>
 

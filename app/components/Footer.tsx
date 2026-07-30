@@ -22,11 +22,6 @@ export default function Footer() {
         </div>
       </div>
 
-
-      <div className="footer-bottom">
-        <span>© {year} Nimigora. An AI-native newsroom experiment.</span>
-        <span>Built with editorial rigor. Powered by Nimiq.</span>
-      </div>
     </footer>
   );
 }

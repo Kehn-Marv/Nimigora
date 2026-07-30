@@ -23,13 +23,12 @@ export default function ExclusivePage() {
             Members Only
           </span>
         </div>
-        <h1 className="hero-headline" style={{ display: 'flex', flexDirection: 'column', gap: '0.1em', alignItems: 'center' }}>
-          <span>Exclusive</span>
+        <h1 className="hero-headline">
+          Exclusive{' '}
           <span className="hero-headline-highlight-gold">Stories</span>
         </h1>
         <p className="hero-deck">
-          The best of the best from each of our six beats handpicked by our 
-          editorial-weight algorithm. Only the highest-scoring stories make it here.
+          The absolute best from our six beats. Handpicked by algorithm, only the highest-scoring stories make the cut.
         </p>
       </section>
 
