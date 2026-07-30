@@ -1534,6 +1534,20 @@ body {
   padding-right: var(--space-md);
 }
 
+.exclusive-list-item {
+  background: var(--color-black);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-left: var(--space-md);
+  padding-right: var(--space-md);
+  border-radius: var(--border-radius);
+  margin-bottom: var(--space-md);
+}
+
+.exclusive-list-item:hover {
+  background: #111111;
+  border-color: var(--color-accent);
+}
+
 .article-list-item:last-child {
   border-bottom: none;
 }
@@ -4097,11 +4111,21 @@ body.modal-open > *:not(script):not(style):not(noscript):not(.paywall-backdrop) 
   border: var(--border);
   background: var(--color-cream);
   transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+  position: relative;
+}
+
+.bookmark-item.exclusive-bookmark-item {
+  background: var(--color-black);
+  border-color: var(--color-accent);
 }
 
 .bookmark-item:hover {
   transform: translateY(-2px);
   box-shadow: 4px 4px 0 var(--color-black);
+}
+
+.bookmark-item.exclusive-bookmark-item:hover {
+  box-shadow: 4px 4px 0 var(--color-accent);
 }
 
 .bookmark-item-link {

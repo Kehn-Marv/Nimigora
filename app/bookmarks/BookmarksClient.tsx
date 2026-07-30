@@ -2,9 +2,11 @@
 
 import { useState, useEffect } from 'react';
 import { getBookmarks } from '@/lib/bookmarks';
-import { Bookmark } from 'reicon-react';
+import { Bookmark, LockKeyhole } from 'reicon-react';
 import BookmarkButton from '../components/BookmarkButton';
 import Link from 'next/link';
+import { useNimiq } from '../components/NimiqProvider';
+import PaywallModal from '../components/PaywallModal';
 
 interface BookmarkArticle {
   slug: string;
@@ -17,9 +19,13 @@ interface BookmarkArticle {
 
 interface BookmarksClientProps {
   articleCategories: Record<string, string>;
+  articleExclusivity: Record<string, boolean>;
 }
 
-export default function BookmarksClient({ articleCategories }: BookmarksClientProps) {
+export default function BookmarksClient({ articleCategories, articleExclusivity }: BookmarksClientProps) {
+  const { isSubscribed } = useNimiq();
+  const [showPaywall, setShowPaywall] = useState(false);
+  
   const [bookmarkedSlugs, setBookmarkedSlugs] = useState<string[]>([]);
   const [articles, setArticles] = useState<BookmarkArticle[]>([]);
   const [loading, setLoading] = useState(true);
@@ -78,23 +84,42 @@ export default function BookmarksClient({ articleCategories }: BookmarksClientPr
       <section className="section" id="bookmarks-list">
         {bookmarkedSlugs.length > 0 ? (
           <div className="bookmarks-grid">
-            {bookmarkedSlugs.map((slug) => (
-              <div key={slug} className="bookmark-item">
-                <Link href={`/article/${slug}`} className="bookmark-item-link">
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', alignItems: 'flex-start', flex: 1 }}>
-                    <span className={`badge badge-${(articleCategories[slug] || 'technology').toLowerCase()}`} style={{ padding: '4px 10px', fontSize: '10px' }}>
-                      {articleCategories[slug] || 'STORY'}
-                    </span>
-                    <h3 className="bookmark-item-title">
-                      {slug.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase())}
-                    </h3>
+            {bookmarkedSlugs.map((slug) => {
+              const isExclusive = articleExclusivity[slug];
+              const isLocked = isExclusive && !isSubscribed;
+              
+              const handleClick = (e: React.MouseEvent) => {
+                if (isLocked) {
+                  e.preventDefault();
+                  setShowPaywall(true);
+                }
+              };
+
+              return (
+                <div key={slug} className={`bookmark-item ${isExclusive ? 'exclusive-bookmark-item' : ''}`}>
+                  <Link href={`/article/${slug}`} className="bookmark-item-link" onClick={handleClick}>
+                    {isLocked && (
+                      <div className="exclusive-lock-overlay">
+                        <div className="exclusive-lock-icon">
+                          <LockKeyhole size={24} strokeWidth={3} />
+                        </div>
+                      </div>
+                    )}
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', alignItems: 'flex-start', flex: 1 }}>
+                      <span className={`badge badge-${(articleCategories[slug] || 'technology').toLowerCase()}`} style={{ padding: '4px 10px', fontSize: '10px', ...(isExclusive ? { background: 'var(--color-black)', color: 'var(--color-accent)', borderColor: 'var(--color-accent)' } : {}) }}>
+                        {articleCategories[slug] || 'STORY'}
+                      </span>
+                      <h3 className="bookmark-item-title" style={isExclusive ? { color: 'var(--color-white)' } : {}}>
+                        {slug.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase())}
+                      </h3>
+                    </div>
+                  </Link>
+                  <div className="bookmark-item-btn-wrapper">
+                    <BookmarkButton slug={slug} size={20} isExclusive={isExclusive} />
                   </div>
-                </Link>
-                <div className="bookmark-item-btn-wrapper">
-                  <BookmarkButton slug={slug} size={20} />
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         ) : (
           <div className="bookmarks-empty">
@@ -110,6 +135,12 @@ export default function BookmarksClient({ articleCategories }: BookmarksClientPr
           </div>
         )}
       </section>
+
+      <PaywallModal
+        isOpen={showPaywall}
+        onClose={() => setShowPaywall(false)}
+        onSuccess={() => setShowPaywall(false)}
+      />
     </>
   );
 }

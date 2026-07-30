@@ -4,6 +4,8 @@ import Link from 'next/link';
 import { Article } from '@/lib/types';
 import { Flash, Globe, Leaf, ChartLine, Activity, Sparkles, Clock, LockKeyhole } from 'reicon-react';
 import BookmarkButton from './BookmarkButton';
+import ExclusiveCard from './ExclusiveCard';
+import ExclusiveListItem from './ExclusiveListItem';
 
 const CATEGORY_ICONS: Record<string, React.ReactNode> = {
   TECHNOLOGY: <Flash size={14} />,
@@ -27,6 +29,9 @@ function formatDate(dateStr: string): string {
 }
 
 export function ArticleCard({ article }: { article: Article }) {
+  if (article.exclusive) {
+    return <div className="article-card-wrapper"><ExclusiveCard article={article} /></div>;
+  }
   return (
     <div className="article-card-wrapper">
       <Link href={`/article/${article.slug}`} className="article-card" id={`article-${article.slug}`}>
@@ -110,6 +115,9 @@ export function FeaturedArticle({ article }: { article: Article }) {
 }
 
 export function ArticleListItem({ article }: { article: Article }) {
+  if (article.exclusive) {
+    return <ExclusiveListItem article={article} />;
+  }
   return (
     <div className="article-list-item-wrapper">
       <Link href={`/article/${article.slug}`} className="article-list-item" id={`list-${article.slug}`}>

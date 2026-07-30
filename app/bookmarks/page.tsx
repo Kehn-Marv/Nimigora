@@ -7,5 +7,10 @@ export default function BookmarksPage() {
     return acc;
   }, {} as Record<string, string>);
 
-  return <BookmarksClient articleCategories={articleCategories} />;
+  const articleExclusivity = articles.reduce((acc, a) => {
+    acc[a.slug] = !!a.exclusive;
+    return acc;
+  }, {} as Record<string, boolean>);
+
+  return <BookmarksClient articleCategories={articleCategories} articleExclusivity={articleExclusivity} />;
 }
