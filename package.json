@@ -12,14 +12,19 @@
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
     "@nimiq/mini-app-sdk": "^0.1.0",
+    "@types/d3-geo": "^3.1.0",
+    "@types/three": "^0.185.1",
     "cheerio": "^1.2.0",
+    "d3-geo": "^3.1.1",
     "jsonrepair": "^3.13.3",
     "lucide-react": "^1.7.0",
     "next": "16.2.2",
+    "ogl": "^1.0.11",
     "react": "19.2.4",
     "react-dom": "19.2.4",
     "reicon-react": "^1.1.302",
-    "rss-parser": "^3.13.0"
+    "rss-parser": "^3.13.0",
+    "three": "^0.185.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

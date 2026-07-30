@@ -2,11 +2,12 @@ import { getLatestArticles, getFeaturedArticle, getExclusiveArticles } from '@/l
 import { CATEGORY_META, Category } from '@/lib/types';
 import { FeaturedArticle, ArticleCard } from './components/ArticleCards';
 import ExclusiveCard from './components/ExclusiveCard';
-import { DocumentText, Search, ClipboardList, PenTool, CheckCircle, Flash, Globe, Leaf, ChartLine, Activity, Sparkles, Crown, LockKeyhole } from 'reicon-react';
+import { DocumentText, Search, ClipboardList, PenTool, CheckCircle, Flash, Globe as GlobeIcon, Leaf, ChartLine, Activity, Sparkles, Crown, LockKeyhole } from 'reicon-react';
+import DynamicDotMatrix from './components/DynamicDotMatrix';
 
 const CATEGORY_ICONS: Record<Category, React.ReactNode> = {
   TECHNOLOGY: <Flash size={24} />,
-  GEOPOLITICS: <Globe size={24} />,
+  GEOPOLITICS: <GlobeIcon size={24} />,
   CLIMATE: <Leaf size={24} />,
   FINANCE: <ChartLine size={24} />,
   HEALTH: <Activity size={24} />,
@@ -26,23 +27,52 @@ export default function Home() {
   return (
     <>
       {/* ====== HERO ====== */}
-      <section className="hero" id="hero">
-        <div className="hero-badge">
-          <span className="badge badge-accent"><DocumentText size={16} /> AI-Native Newsroom • Updated Daily</span>
+      <div className="hero-wrapper" style={{ position: 'relative', overflow: 'hidden', backgroundColor: '#000000' }}>
+        <div className="hero-background" style={{ position: 'absolute', inset: 0, zIndex: 0 }}>
+          <DynamicDotMatrix 
+            bgColor="#000000"
+            colors={["#FFFFFF", "#E07000", "#000000"]}
+            speed={6}
+            frequency={1}
+            cellSize={20}
+            gamma={4}
+            paletteBias={10}
+            useGlyphAtlas={false}
+          />
         </div>
-        <h1 className="hero-headline">
-          Real Journalism,{' '}
-          <span className="hero-headline-highlight">Zero Humans</span>{' '}
-          in the Newsroom
-        </h1>
-        <p className="hero-deck">
-          Nimigora is researched, written, and fact-checked entirely by an autonomous
-          AI pipeline. We deliver the depth of a premium newsroom without human intervention.
-        </p>
-        <a href="#latest" className="hero-cta">
-          Read Latest Stories
-        </a>
+        {/* Dark overlay for text readability */}
+        <div style={{
+          position: 'absolute',
+          inset: 0,
+          zIndex: 0,
+          background: 'linear-gradient(135deg, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.55) 100%)',
+          pointerEvents: 'none',
+        }} />
+        <section className="hero" id="hero" style={{ position: 'relative', zIndex: 1 }}>
+          <div className="hero-content">
+          <div className="hero-badge">
+            <span className="badge badge-accent"><DocumentText size={16} /> AI-Native Newsroom</span>
+          </div>
+          <h1 className="hero-headline">
+            Real <span className="serif-italic">Journalism</span>,<br />
+            <span className="hero-headline-highlight">Zero Humans</span><br />
+            in the Newsroom.
+          </h1>
+          <p className="hero-deck">
+            Nimigora is researched, written, and fact-checked entirely by an autonomous
+            AI pipeline. We deliver the depth of a premium newsroom without human intervention.
+          </p>
+          <a href="#latest" className="hero-cta">
+            Read Latest Stories
+          </a>
+        </div>
+        <div className="hero-visual" style={{ position: 'relative', zIndex: 1 }}>
+          <div className="hero-visual-badge">ISSUE<br />#01</div>
+          <div className="hero-visual-text">NM<br />GA</div>
+          <div className="hero-visual-sub">The AI-Native Newsroom</div>
+        </div>
       </section>
+      </div>
 
       <hr className="divider" />
 
