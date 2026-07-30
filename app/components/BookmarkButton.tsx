@@ -27,6 +27,9 @@ export default function BookmarkButton({ slug, size = 18, className = '' }: Book
     const newState = toggleBookmark(slug);
     setBookmarked(newState);
     
+    // Dispatch a custom event so the Bookmarks page instantly updates
+    window.dispatchEvent(new Event('bookmarksUpdated'));
+    
     if (newState) {
       setAnimating(true);
       setTimeout(() => setAnimating(false), 600);

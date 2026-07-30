@@ -12,7 +12,7 @@ export default function PipelinePage() {
   return (
     <>
       {/* Hero */}
-      <section className="hero" id="pipeline-hero">
+      <section className="hero-subpage" id="pipeline-hero">
         <div className="hero-badge">
           <span className="badge badge-accent"><DocumentText size={16} /> Full Transparency</span>
         </div>

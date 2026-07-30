@@ -50,7 +50,6 @@ export default function Navbar() {
       <nav className="navbar" id="navbar">
         <div className="navbar-inner">
           <Link href="/" className="navbar-logo" style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-            <Image src="/logo-v2.png" alt="Nimigora Logo" width={32} height={32} style={{ objectFit: 'contain' }} />
             <span className="navbar-logo-text">NIMIGORA</span>
           </Link>
 
@@ -66,12 +65,27 @@ export default function Navbar() {
                 </Link>
               </li>
             ))}
+            {/* Mobile Wallet Button */}
+            <li className="mobile-only" style={{ width: '100%', marginTop: '16px', padding: '0 24px' }}>
+              <button 
+                className={`navbar-wallet-btn ${wallet.connected ? 'connected' : ''}`}
+                style={{ width: '100%', gap: '12px' }}
+                onClick={() => { setIsMenuOpen(false); setIsWalletOpen(true); }}
+                aria-label="Open wallet"
+              >
+                <Wallet size={18} />
+                <span style={{ fontSize: '16px', fontWeight: 800 }}>
+                  WALLET
+                </span>
+                {wallet.connected && <span className="navbar-wallet-dot" style={{ position: 'static', transform: 'none' }} />}
+              </button>
+            </li>
           </ul>
 
           <div className="navbar-actions">
-            {/* Wallet Button */}
+            {/* Desktop Wallet Button */}
             <button 
-              className={`navbar-wallet-btn ${wallet.connected ? 'connected' : ''}`}
+              className={`navbar-wallet-btn desktop-only ${wallet.connected ? 'connected' : ''}`}
               onClick={() => setIsWalletOpen(true)}
               aria-label="Open wallet"
             >

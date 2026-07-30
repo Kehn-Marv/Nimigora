@@ -1,8 +1,7 @@
-import { getLatestArticles, getFeaturedArticle, getExclusiveArticles } from '@/lib/articles';
+import { getLatestArticles, getFeaturedArticle } from '@/lib/articles';
 import { CATEGORY_META, Category } from '@/lib/types';
 import { FeaturedArticle, ArticleCard } from './components/ArticleCards';
-import ExclusiveCard from './components/ExclusiveCard';
-import { DocumentText, Search, ClipboardList, PenTool, CheckCircle, Flash, Globe as GlobeIcon, Leaf, ChartLine, Activity, Sparkles, Crown, LockKeyhole } from 'reicon-react';
+import { DocumentText, Search, ClipboardList, PenTool, CheckCircle, Flash, Globe as GlobeIcon, Leaf, ChartLine, Activity, Sparkles } from 'reicon-react';
 import DynamicDotMatrix from './components/DynamicDotMatrix';
 
 const CATEGORY_ICONS: Record<Category, React.ReactNode> = {
@@ -19,7 +18,6 @@ export const revalidate = 3600; // Force Next.js to drop the cache and re-render
 export default function Home() {
   const featured = getFeaturedArticle();
   const latest = getLatestArticles();
-  const exclusive = getExclusiveArticles();
   const nonFeatured = latest.filter((a) => a.slug !== featured?.slug);
 
   const categories = Object.entries(CATEGORY_META) as [Category, typeof CATEGORY_META[Category]][];
@@ -48,23 +46,23 @@ export default function Home() {
           background: 'linear-gradient(135deg, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.55) 100%)',
           pointerEvents: 'none',
         }} />
-        <section className="hero" id="hero" style={{ position: 'relative', zIndex: 1 }}>
+        <section className="hero hero-dark" id="hero" style={{ position: 'relative', zIndex: 1, maxWidth: '1600px', paddingLeft: '4vw', paddingRight: '4vw' }}>
           <div className="hero-content">
-          <div className="hero-badge">
-            <span className="badge badge-accent"><DocumentText size={16} /> AI-Native Newsroom</span>
-          </div>
-          <h1 className="hero-headline">
-            Real <span className="serif-italic">Journalism</span>,<br />
-            <span className="hero-headline-highlight">Zero Humans</span><br />
-            in the Newsroom.
+          <h1 className="hero-headline" style={{ display: 'flex', flexDirection: 'column', gap: '0.1em' }}>
+            <span className="stagger-1">REAL <span className="serif-italic">Journalism,</span></span>
+            <span className="stagger-2"><span className="hero-headline-highlight">ZERO HUMANS</span></span>
+            <span className="stagger-3">IN THE</span>
+            <span className="stagger-4">NEWSROOM.</span>
           </h1>
-          <p className="hero-deck">
+          <p className="hero-deck stagger-content" style={{ marginTop: '1.5rem', maxWidth: '600px' }}>
             Nimigora is researched, written, and fact-checked entirely by an autonomous
             AI pipeline. We deliver the depth of a premium newsroom without human intervention.
           </p>
-          <a href="#latest" className="hero-cta">
-            Read Latest Stories
-          </a>
+          <div className="stagger-content" style={{ marginTop: '2.5rem' }}>
+            <a href="#latest" className="hero-cta">
+              Read Latest Stories
+            </a>
+          </div>
         </div>
         <div className="hero-visual" style={{ position: 'relative', zIndex: 1 }}>
           <div className="hero-visual-badge">ISSUE<br />#01</div>
@@ -87,41 +85,6 @@ export default function Home() {
         {featured && <FeaturedArticle article={featured} />}
       </section>
 
-      {/* ====== EXCLUSIVE STORIES ====== */}
-      <section className="section section-full section-exclusive" id="exclusive">
-        <div style={{ maxWidth: '1280px', margin: '0 auto' }}>
-          <div className="section-header">
-            <div className="exclusive-section-badge">
-              <Crown size={16} />
-              <span>Members Only</span>
-            </div>
-            <h2 className="section-title section-title-exclusive">Exclusive Stories</h2>
-            <p className="section-subtitle section-subtitle-exclusive">
-              The best of the best from each of our six beats. Only the highest-scoring 
-              stories from our editorial algorithm make it here.
-            </p>
-          </div>
-
-          {exclusive.length > 0 ? (
-            <div className="exclusive-grid">
-              {exclusive.map((article) => (
-                <ExclusiveCard key={article.slug} article={article} />
-              ))}
-            </div>
-          ) : (
-            <div style={{ textAlign: 'center', padding: '48px 24px', color: 'rgba(255,255,255,0.5)' }}>
-              <LockKeyhole size={32} style={{ opacity: 0.3, marginBottom: '12px' }} />
-              <p>Exclusive stories appear once articles are published across all six beats.</p>
-            </div>
-          )}
-
-          <div className="view-all-cta" style={{ marginTop: '2rem' }}>
-            <a href="/exclusive" className="view-all-btn view-all-btn-exclusive">
-              View All Exclusive Stories
-            </a>
-          </div>
-        </div>
-      </section>
 
       {/* ====== HOW IT WORKS ====== */}
       <section className="section section-full section-gray" id="how-it-works">
@@ -137,36 +100,44 @@ export default function Home() {
           <div className="features-grid">
             <div className="feature-card animate-in animate-delay-1">
               <div className="feature-icon feature-icon-blue"><Search size={24} /></div>
-              <h3 className="feature-title">Source Discovery</h3>
-              <p className="feature-desc">
-                50+ global RSS feeds monitored across six beats. We pull from top publications
-                and use AI-powered story selection to find the most impactful narratives.
-                Filtered and deduplicated daily.
-              </p>
+              <div className="feature-text">
+                <h3 className="feature-title">Source Discovery</h3>
+                <p className="feature-desc">
+                  50+ global RSS feeds monitored across six beats. We pull from top publications
+                  and use AI-powered story selection to find the most impactful narratives.
+                  Filtered and deduplicated daily.
+                </p>
+              </div>
             </div>
             <div className="feature-card animate-in animate-delay-2">
               <div className="feature-icon feature-icon-green"><ClipboardList size={24} /></div>
-              <h3 className="feature-title">Fact Extraction</h3>
-              <p className="feature-desc">
-                Gemini AI extracts structured fact sheets, claims, quotes,
-                statistics, with source attribution and confidence scoring.
-              </p>
+              <div className="feature-text">
+                <h3 className="feature-title">Fact Extraction</h3>
+                <p className="feature-desc">
+                  Gemini AI extracts structured fact sheets, claims, quotes,
+                  statistics, with source attribution and confidence scoring.
+                </p>
+              </div>
             </div>
             <div className="feature-card animate-in animate-delay-3">
               <div className="feature-icon feature-icon-purple"><PenTool size={24} /></div>
-              <h3 className="feature-title">Editorial Synthesis</h3>
-              <p className="feature-desc">
-                Our AI engine writes dynamic, narrative-driven features. It weaves quotes and
-                statistics into highly engaging journalism without filler or hallucinated facts.
-              </p>
+              <div className="feature-text">
+                <h3 className="feature-title">Editorial Synthesis</h3>
+                <p className="feature-desc">
+                  Our AI engine writes dynamic, narrative-driven features. It weaves quotes and
+                  statistics into highly engaging journalism without filler or hallucinated facts.
+                </p>
+              </div>
             </div>
             <div className="feature-card animate-in animate-delay-4">
               <div className="feature-icon feature-icon-pink"><CheckCircle size={24} /></div>
-              <h3 className="feature-title">Quality Review</h3>
-              <p className="feature-desc">
-                Every draft undergoes rigorous automated scoring for bias, factual accuracy,
-                and category drift. If a story fails our threshold, it is permanently rejected.
-              </p>
+              <div className="feature-text">
+                <h3 className="feature-title">Quality Review</h3>
+                <p className="feature-desc">
+                  Every draft undergoes rigorous automated scoring for bias, factual accuracy,
+                  and category drift. If a story fails our threshold, it is permanently rejected.
+                </p>
+              </div>
             </div>
           </div>
 

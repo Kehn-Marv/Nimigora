@@ -67,16 +67,13 @@ export default function ExclusiveCard({ article }: ExclusiveCardProps) {
               {CATEGORY_ICONS[article.category]}
               {' '}{article.category}
             </span>
-            <span className="exclusive-badge">
-              <LockKeyhole size={10} /> EXCLUSIVE
-            </span>
+            <span>{article.readTime} min read</span>
           </div>
           <h3 className="exclusive-card-headline">{article.headline}</h3>
           <p className="exclusive-card-deck">{article.deck}</p>
           <div className="exclusive-card-footer">
             <span>{formatDate(article.publishedAt)}</span>
-            <span>{article.readTime} min read</span>
-            <BookmarkButton slug={article.slug} size={16} />
+            {isSubscribed && <BookmarkButton slug={article.slug} size={16} />}
           </div>
         </div>
       </Link>

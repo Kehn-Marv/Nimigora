@@ -11,7 +11,7 @@ import { DocumentText, Target, Search, Scale, Setting2 } from 'reicon-react';
 export default function AboutPage() {
   return (
     <>
-      <section className="hero" id="about-hero">
+      <section className="hero-subpage" id="about-hero">
         <div className="hero-badge">
           <span className="badge badge-accent"><DocumentText size={16} /> Our Mission</span>
         </div>
@@ -78,36 +78,44 @@ export default function AboutPage() {
           <div className="features-grid">
             <div className="feature-card">
               <div className="feature-icon feature-icon-blue"><Target size={24} /></div>
-              <h3 className="feature-title">Accuracy First</h3>
-              <p className="feature-desc">
-                Every factual claim is extracted from source material and scored
-                for confidence. Articles are reviewed for accuracy before
-                publication.
-              </p>
+              <div className="feature-text">
+                <h3 className="feature-title">Accuracy First</h3>
+                <p className="feature-desc">
+                  Every factual claim is extracted from source material and scored
+                  for confidence. Articles are reviewed for accuracy before
+                  publication.
+                </p>
+              </div>
             </div>
             <div className="feature-card">
               <div className="feature-icon feature-icon-green"><Search size={24} /></div>
-              <h3 className="feature-title">Radical Transparency</h3>
-              <p className="feature-desc">
-                Every article includes its full editorial pipeline record. Readers
-                can see exactly how each story was produced and verify every claim.
-              </p>
+              <div className="feature-text">
+                <h3 className="feature-title">Radical Transparency</h3>
+                <p className="feature-desc">
+                  Every article includes its full editorial pipeline record. Readers
+                  can see exactly how each story was produced and verify every claim.
+                </p>
+              </div>
             </div>
             <div className="feature-card">
               <div className="feature-icon feature-icon-purple"><Scale size={24} /></div>
-              <h3 className="feature-title">Zero Bias Tolerance</h3>
-              <p className="feature-desc">
-                Automated bias detection catches political lean, framing issues,
-                and source imbalance before publication.
-              </p>
+              <div className="feature-text">
+                <h3 className="feature-title">Zero Bias Tolerance</h3>
+                <p className="feature-desc">
+                  Automated bias detection catches political lean, framing issues,
+                  and source imbalance before publication.
+                </p>
+              </div>
             </div>
             <div className="feature-card">
               <div className="feature-icon feature-icon-yellow"><Setting2 size={24} /></div>
-              <h3 className="feature-title">Depth Over Speed</h3>
-              <p className="feature-desc">
-                We prioritize thorough reporting over being first. Context and
-                analysis matter more than headlines.
-              </p>
+              <div className="feature-text">
+                <h3 className="feature-title">Depth Over Speed</h3>
+                <p className="feature-desc">
+                  We prioritize thorough reporting over being first. Context and
+                  analysis matter more than headlines.
+                </p>
+              </div>
             </div>
           </div>
         </div>

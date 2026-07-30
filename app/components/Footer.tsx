@@ -13,7 +13,7 @@ export default function Footer() {
           </div>
           <p className="footer-desc">
             AI-native journalism that meets the editorial standards of premium newsrooms.
-            Every article is researched, written, and fact-checked entirely by an autonomous
+            Every article is researched, written, and fact-checked <br /> entirely by an autonomous
             pipeline. Powered by Nimiq Pay.
           </p>
           <div className="footer-nimiq-badge">

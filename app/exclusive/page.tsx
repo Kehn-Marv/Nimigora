@@ -16,15 +16,15 @@ export default function ExclusivePage() {
 
   return (
     <>
-      <section className="hero hero-exclusive" id="exclusive-hero">
+      <section className="hero-subpage hero-exclusive" id="exclusive-hero">
         <div className="hero-badge">
           <span className="badge badge-premium">
             <Crown size={16} />
             Members Only
           </span>
         </div>
-        <h1 className="hero-headline">
-          Exclusive{' '}
+        <h1 className="hero-headline" style={{ display: 'flex', flexDirection: 'column', gap: '0.1em', alignItems: 'center' }}>
+          <span>Exclusive</span>
           <span className="hero-headline-highlight-gold">Stories</span>
         </h1>
         <p className="hero-deck">

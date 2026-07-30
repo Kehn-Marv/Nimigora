@@ -15,7 +15,7 @@ export default async function LatestPage() {
   return (
     <>
       {/* ====== HERO ====== */}
-      <section className="hero" id="latest-hero">
+      <section className="hero-subpage" id="latest-hero">
         <div className="hero-badge">
           <span className="badge badge-accent">
             <DocumentText size={16} />

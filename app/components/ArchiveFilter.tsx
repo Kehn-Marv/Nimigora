@@ -19,7 +19,7 @@ const CATEGORIES = [
   'CULTURE',
 ];
 
-const ITEMS_PER_PAGE = 12;
+const ITEMS_PER_PAGE = 6;
 
 export default function ArchiveFilter({ articles }: ArchiveFilterProps) {
   const [selectedCategory, setSelectedCategory] = useState('ALL');

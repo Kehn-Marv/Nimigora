@@ -85,8 +85,12 @@ function countSyllables(word: string): number {
  * Average reading speed: ~230 words per minute.
  */
 export function calculateReadTime(bodyParagraphs: string[]): number {
-  const totalWords = bodyParagraphs.join(' ').split(/\s+/).length;
-  return Math.max(1, Math.round(totalWords / 230));
+  const text = bodyParagraphs.join(' ');
+  const totalWords = text.split(/\s+/).length;
+  // Complex journalism is read slightly slower (around 200 wpm)
+  // Plus we add a baseline 1 minute for headline, deck, and cognitive load
+  const rawMinutes = (totalWords / 200) + 1;
+  return Math.max(1, Math.ceil(rawMinutes));
 }
 
 // ============================================

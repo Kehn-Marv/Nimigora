@@ -38,7 +38,11 @@ export default function BookmarksClient({ articleCategories }: BookmarksClientPr
     };
 
     window.addEventListener('storage', handleStorage);
-    return () => window.removeEventListener('storage', handleStorage);
+    window.addEventListener('bookmarksUpdated', handleStorage);
+    return () => {
+      window.removeEventListener('storage', handleStorage);
+      window.removeEventListener('bookmarksUpdated', handleStorage);
+    };
   }, []);
 
   if (loading) {
@@ -51,7 +55,7 @@ export default function BookmarksClient({ articleCategories }: BookmarksClientPr
 
   return (
     <>
-      <section className="hero" id="bookmarks-hero">
+      <section className="hero-subpage" id="bookmarks-hero">
         <div className="hero-badge">
           <span className="badge badge-accent">
             <Bookmark size={16} />

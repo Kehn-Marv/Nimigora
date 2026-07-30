@@ -1,9 +1,10 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { createPortal } from 'react-dom';
 import { useNimiq } from './NimiqProvider';
 import { SUBSCRIPTION_PRICES } from '@/lib/nimiq';
-import { LockKeyhole, X, Crown, Flash, Wallet, CheckCircle, AlertCircle, Loader } from 'reicon-react';
+import { Crown, Flash, Wallet, CheckCircle, AlertCircle, Loader, Minus } from 'reicon-react';
 import type { SubscriptionPlan } from '@/lib/subscription';
 
 interface PaywallModalProps {
@@ -18,6 +19,26 @@ export default function PaywallModal({ isOpen, onClose, onSuccess }: PaywallModa
   const [processing, setProcessing] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [success, setSuccess] = useState(false);
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = 'hidden';
+      document.body.classList.add('modal-open');
+    } else {
+      document.body.style.overflow = '';
+      document.body.classList.remove('modal-open');
+    }
+    
+    return () => {
+      document.body.style.overflow = '';
+      document.body.classList.remove('modal-open');
+    };
+  }, [isOpen]);
 
   if (!isOpen) return null;
 
@@ -59,7 +80,9 @@ export default function PaywallModal({ isOpen, onClose, onSuccess }: PaywallModa
     }
   };
 
-  return (
+  if (!mounted || !isOpen) return null;
+
+  return createPortal(
     <div className="paywall-backdrop" onClick={handleBackdropClick}>
       <div className="paywall-modal">
         {/* Sheet drag handle indicator (visible on mobile) */}
@@ -72,7 +95,7 @@ export default function PaywallModal({ isOpen, onClose, onSuccess }: PaywallModa
           disabled={processing}
           aria-label="Close"
         >
-          <X size={20} />
+          <Minus size={24} />
         </button>
 
         {/* Success state */}
@@ -88,13 +111,9 @@ export default function PaywallModal({ isOpen, onClose, onSuccess }: PaywallModa
           <>
             {/* Header */}
             <div className="paywall-header">
-              <div className="paywall-lock-icon">
-                <LockKeyhole size={24} />
-              </div>
               <h2 className="paywall-title">Unlock Exclusive Stories</h2>
               <p className="paywall-subtitle">
-                Get access to our best investigative reporting handpicked by our 
-                editorial algorithm from each of our six beats.
+                Get access to our best investigative reporting across all six categories.
               </p>
             </div>
 
@@ -144,15 +163,15 @@ export default function PaywallModal({ isOpen, onClose, onSuccess }: PaywallModa
             {/* Wallet status */}
             {!wallet.connected && (
               <div className="paywall-wallet-notice">
-                <Wallet size={16} />
-                <span>Your Nimiq Pay wallet will be connected to process payment</span>
+                <Wallet size={18} />
+                <span>Connect Nimiq Wallet for instant activation</span>
               </div>
             )}
 
             {wallet.connected && wallet.balance !== null && (
               <div className="paywall-balance">
-                <Wallet size={14} />
-                <span>Balance: {wallet.balance.toFixed(2)} NIM</span>
+                <Wallet size={18} />
+                <span>Wallet Balance: {wallet.balance.toFixed(2)} NIM</span>
               </div>
             )}
 
@@ -171,14 +190,10 @@ export default function PaywallModal({ isOpen, onClose, onSuccess }: PaywallModa
                 <span>{error}</span>
               </div>
             )}
-
-            {/* Footer */}
-            <p className="paywall-footer-text">
-              Payments are processed via Nimiq Pay. Your subscription activates instantly.
-            </p>
           </>
         )}
       </div>
-    </div>
+    </div>,
+    document.body
   );
 }
