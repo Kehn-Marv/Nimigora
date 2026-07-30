@@ -298,7 +298,7 @@ class XAIProvider implements LLMProvider {
           'Authorization': `Bearer ${apiKey}`,
         },
         body: JSON.stringify({
-          model: config.model || 'grok-4.1',
+          model: config.model || 'grok-4.5',
           messages: [
             { role: 'system', content: systemPrompt },
             { role: 'user', content: userPrompt },
@@ -322,7 +322,7 @@ class XAIProvider implements LLMProvider {
         text: data.choices[0].message.content,
         tokensUsed: data.usage?.total_tokens,
         provider: 'xai',
-        model: config.model || 'grok-4.1',
+        model: config.model || 'grok-4.5',
       };
     });
   }
@@ -361,7 +361,7 @@ const providers: Record<string, LLMProvider> = {
 export function getDefaultConfig(): LLMConfig {
   return {
     provider: 'xai',
-    model: 'grok-4.1',
+    model: 'grok-4.5',
     temperature: 0.7,
     maxTokens: 8192,
   };
