@@ -20,7 +20,7 @@ export interface LLMMessage {
 }
 
 export interface LLMConfig {
-  provider: 'gemini' | 'groq' | 'cerebras' | 'mistral';
+  provider: 'gemini' | 'groq' | 'cerebras' | 'mistral' | 'qwen';
   model?: string;
   apiKey?: string;
   baseUrl?: string;
@@ -351,6 +351,51 @@ class MistralProvider implements LLMProvider {
   }
 }
 
+class QwenProvider implements LLMProvider {
+  private keyManager = new KeyManager('QWEN_API_KEY');
+
+  async generate(systemPrompt: string, userPrompt: string, config: LLMConfig): Promise<LLMResponse> {
+    return withRetry(this.keyManager, 'qwen', async (apiKey: string) => {
+      const response = await fetch(`${config.baseUrl || 'https://dashscope-intl.aliyuncs.com/compatible-mode/v1'}/chat/completions`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${apiKey}`,
+        },
+        body: JSON.stringify({
+          model: config.model || 'qwen-flash',
+          messages: [
+            { role: 'system', content: systemPrompt },
+            { role: 'user', content: userPrompt },
+          ],
+          temperature: config.temperature ?? 0.7,
+          max_tokens: config.maxTokens ?? 8192,
+        }),
+      });
+
+      if (!response.ok) throw new Error(`Qwen API Error ${response.status}: ${await response.text()}`);
+
+      const data = await response.json() as {
+        choices: { message: { content: string } }[];
+        usage?: { total_tokens: number };
+      };
+
+      return {
+        text: data.choices[0].message.content,
+        tokensUsed: data.usage?.total_tokens,
+        provider: 'qwen',
+        model: config.model || 'qwen-flash',
+      };
+    });
+  }
+
+  async generateJSON<T>(systemPrompt: string, userPrompt: string, config: LLMConfig): Promise<T> {
+    const enrichedPrompt = `${userPrompt}\n\nIMPORTANT: Respond with valid JSON only. No markdown formatting, no explanation.`;
+    const response = await this.generate(systemPrompt, enrichedPrompt, config);
+    return parseJsonResponse<T>(response.text);
+  }
+}
+
 // Utility to parse JSON
 function parseJsonResponse<T>(text: string): T {
   try {
@@ -377,6 +422,7 @@ const providers: Record<string, LLMProvider> = {
   groq: new GroqProvider(),
   cerebras: new CerebrasProvider(),
   mistral: new MistralProvider(),
+  qwen: new QwenProvider(),
 };
 
 export function getDefaultConfig(): LLMConfig {
@@ -387,7 +433,7 @@ export function getDefaultConfig(): LLMConfig {
   };
 }
 
-const PROVIDER_FALLBACK_ORDER: LLMConfig['provider'][] = ['groq', 'gemini', 'cerebras', 'mistral'];
+const PROVIDER_FALLBACK_ORDER: LLMConfig['provider'][] = ['groq', 'gemini', 'cerebras', 'mistral', 'qwen'];
 
 // ============================================
 // State Management for Fallback Rotation
