@@ -24,6 +24,7 @@ interface QualityScore {
   accuracyScore: number;     // 0-10, higher is more accurate
   directnessScore: number;   // 0-10, higher is more direct
   readabilityScore: number;  // 0-10, higher is more readable
+  headlineScore: number;     // 0-10, higher is better
   readabilityGrade: number;  // Flesch-Kincaid grade level
   hallucinations: string[];  // Claims not found in fact sheet
   biasFlags: string[];       // Specific bias concerns
@@ -42,7 +43,7 @@ export interface ReviewResult {
 // System Prompt
 // ============================================
 
-const REVIEW_SYSTEM_PROMPT = `You are the quality review editor for Nimigora, an AI-native newsroom. Your job is to evaluate articles for publication readiness. Be strict on FACTS, DIRECTNESS, and READABILITY. Be lenient on editorial craft and tone.
+const REVIEW_SYSTEM_PROMPT = `You are the quality review editor for Nimigora, an AI-native newsroom. Your job is to evaluate articles for publication readiness. Be strict on FACTS, DIRECTNESS, READABILITY, and HEADLINE INTEGRITY. Be lenient on editorial craft and tone.
 
 REVIEW CRITERIA:
 
@@ -79,14 +80,26 @@ REVIEW CRITERIA:
    - Score 5-7: Mostly readable, minor density issues or 1-2 em-dashes
    - Score 0-4: Dense walls of text, em-dash overuse, eye strain
 
+5. HEADLINE INTEGRITY (score 0-10, higher = better):
+   - ACCURACY: Does the headline reflect the actual core news of the article? If the headline promises something the article doesn't deliver, that's bait-and-switch — automatic 0-3.
+   - CLARITY: Can a reader understand the main event from the headline alone? No vague abstractions.
+   - ACTIVE VOICE: Does it use strong active verbs and striking nouns? Flag passive voice, questions, or generic summaries.
+   - TONE MATCH: Does the headline's urgency match the story's weight? A humanitarian crisis should not sound like a product launch, and a celebrity story should not sound like a war report.
+   - CLICKBAIT CHECK: Does it create urgency through consequence and facts, not through withholding information? ("You won't believe what happened" = fail. "X happened, causing Y" = pass.)
+   - NO BANNED PHRASES: Check against the Stage 3 banned list.
+   - Score 8-10: Precise, compelling, perfectly matched to story
+   - Score 5-7: Acceptable but slightly vague, soft, or mildly mismatched
+   - Score 0-4: Misleading, clickbaity, passive, or fails to communicate the news
+
 OVERALL PASS CRITERIA:
 - biasScore <= 5
 - accuracyScore >= 7
 - directnessScore >= 7
 - readabilityScore >= 7
+- headlineScore >= 7
 - Article must have substantive paragraphs (no empty fluff)
 
-If an article fails directness or readability, provide 2-3 specific examples of what to cut or restructure. Do not just say "be more direct" — show exactly which sentences are throat-clearing.`;
+If an article fails directness, readability, or headline integrity, provide 2-3 specific examples of what to cut or restructure. Do not just say "be more direct" — show exactly which sentences are throat-clearing. For headlines, suggest a concrete rewrite.`;
 
 // ============================================
 // Stage 4 Implementation
@@ -151,11 +164,12 @@ export async function runReview(
         qualityScore.accuracyScore >= 7 &&
         qualityScore.directnessScore >= 7 &&
         qualityScore.readabilityScore >= 7 &&
+        qualityScore.headlineScore >= 7 &&
         article.body.length >= 4;
 
       qualityScore.overallPass = passes;
 
-      console.log(`  📊 Bias: ${qualityScore.biasScore}/10 | Accuracy: ${qualityScore.accuracyScore}/10 | Directness: ${qualityScore.directnessScore}/10 | Readability (Prompt): ${qualityScore.readabilityScore}/10 | FK Grade: ${readabilityGrade.toFixed(1)}`);
+      console.log(`  📊 Bias: ${qualityScore.biasScore}/10 | Accuracy: ${qualityScore.accuracyScore}/10 | Directness: ${qualityScore.directnessScore}/10 | Readability: ${qualityScore.readabilityScore}/10 | Headline: ${qualityScore.headlineScore}/10 | FK Grade: ${readabilityGrade.toFixed(1)}`);
 
       if (qualityScore.hallucinations.length > 0) {
         console.log(`  ⚠ Hallucinations detected: ${qualityScore.hallucinations.join('; ')}`);
@@ -246,6 +260,7 @@ Return a JSON object with this structure:
   "accuracyScore": 0-10,
   "directnessScore": 0-10,
   "readabilityScore": 0-10,
+  "headlineScore": 0-10,
   "readabilityGrade": 0,
   "hallucinations": ["any claims in the article NOT found in the fact sheet"],
   "biasFlags": ["specific bias concerns"],
