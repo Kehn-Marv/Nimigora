@@ -113,13 +113,20 @@ export function NimiqProvider({ children }: { children: React.ReactNode }) {
   const connectWallet = useCallback(async () => {
     setIsLoading(true);
     try {
-      // --- SIGN MESSAGE FLOW (PRODUCTION AUTH) ---
-      // 1. Fetch a cryptographic nonce
+      // 1. Explicitly request connection first to show the \"Connect to...\" permissions modal
+      // This matches the standard mini-app flow and ensures the user approves the connection
+      // before we ask them to sign a cryptographic message.
+      const accounts = await listAccounts();
+      if (!accounts || accounts.length === 0) {
+        throw new Error('User rejected connection or no accounts found');
+      }
+
+      // 2. Fetch a cryptographic nonce
       const nonceRes = await fetch('/api/auth/nonce');
       if (!nonceRes.ok) throw new Error('Failed to fetch nonce');
       const { message } = await nonceRes.json();
       
-      // 2. Prompt user to sign the message with their private key
+      // 3. Prompt user to sign the message with their private key
       // If the user isn't connected yet, the wallet will first prompt them to choose an account,
       // and then immediately prompt them to sign the message. This avoids browser popup blockers!
       const signatureResult = await signMessage(message);
