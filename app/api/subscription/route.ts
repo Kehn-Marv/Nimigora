@@ -58,7 +58,7 @@ export async function POST(request: Request) {
     let effectiveExpiry = new Date(now.getTime() + duration);
 
     if (existing && existing.expiryDate) {
-      const existingExpiry = new Date(existing.expiryDate).getTime();
+      const existingExpiry = new Date(existing.expiryDate as string).getTime();
       if (existingExpiry > now.getTime()) {
         effectiveExpiry = new Date(existingExpiry + duration);
       }

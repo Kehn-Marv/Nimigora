@@ -72,8 +72,8 @@ export function NimiqProvider({ children }: { children: React.ReactNode }) {
   const [subscription, setSubscription] = useState<Subscription | null>(null);
 
   // Check subscription status
-  const checkSubscription = useCallback(() => {
-    const sub = getSubscriptionInfo();
+  const checkSubscription = useCallback(async () => {
+    const sub = await getSubscriptionInfo();
     setSubscription(sub);
   }, []);
 
@@ -113,38 +113,36 @@ export function NimiqProvider({ children }: { children: React.ReactNode }) {
   const connectWallet = useCallback(async () => {
     setIsLoading(true);
     try {
-      const accounts = await listAccounts();
+      // --- SIGN MESSAGE FLOW (PRODUCTION AUTH) ---
+      // 1. Fetch a cryptographic nonce
+      const nonceRes = await fetch('/api/auth/nonce');
+      if (!nonceRes.ok) throw new Error('Failed to fetch nonce');
+      const { message } = await nonceRes.json();
       
-      if (accounts.length > 0) {
-        const address = accounts[0];
-        
-        // --- SIGN MESSAGE FLOW (PRODUCTION AUTH) ---
-        // 1. Fetch a cryptographic nonce
-        const nonceRes = await fetch('/api/auth/nonce');
-        if (!nonceRes.ok) throw new Error('Failed to fetch nonce');
-        const { message } = await nonceRes.json();
-        
-        // 2. Prompt user to sign the message with their private key
-        const signatureResult = await signMessage(message);
-        
-        // 3. Send signature to backend to verify and establish session
-        const verifyRes = await fetch('/api/auth/verify', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            message,
-            signatureHex: signatureResult.signature,
-            publicKeyHex: signatureResult.publicKey,
-            address,
-          })
-        });
+      // 2. Prompt user to sign the message with their private key
+      // If the user isn't connected yet, the wallet will first prompt them to choose an account,
+      // and then immediately prompt them to sign the message. This avoids browser popup blockers!
+      const signatureResult = await signMessage(message);
+      
+      // 3. Send signature to backend to verify and establish session
+      const verifyRes = await fetch('/api/auth/verify', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          message,
+          signatureHex: signatureResult.signature,
+          publicKeyHex: signatureResult.publicKey,
+        })
+      });
 
-        if (!verifyRes.ok) {
-          throw new Error('Signature verification failed on backend');
-        }
-        // ------------------------------------------
+      if (!verifyRes.ok) {
+        throw new Error('Signature verification failed on backend');
+      }
+      
+      const { address } = await verifyRes.json();
+      // ------------------------------------------
 
-        const balance = await fetchBalance(address);
+      const balance = await fetchBalance(address);
         
         setWallet({
           connected: true,
@@ -158,7 +156,6 @@ export function NimiqProvider({ children }: { children: React.ReactNode }) {
         
         // Re-check subscription with new address (now uses secure backend)
         checkSubscription();
-      }
     } catch (error) {
       console.error('[NimiqProvider] Connect failed:', error);
       // Ensure we clean up if auth fails mid-way
