@@ -768,10 +768,10 @@ body {
 }
 
 .article-card-body {
-  padding: var(--space-lg);
+  padding: var(--space-xl) var(--space-lg);
   display: flex;
   flex-direction: column;
-  gap: var(--space-sm);
+  gap: var(--space-md);
   flex: 1;
 }
 
@@ -1879,7 +1879,7 @@ body {
   }
 
   .article-card-body {
-    padding: var(--space-md);
+    padding: var(--space-xl) var(--space-lg);
   }
 
   .article-card-headline {
@@ -2540,7 +2540,6 @@ body {
 
   /* ── Article cards 480px ───────────────── */
   .article-card-body {
-    padding: var(--space-sm) var(--space-md);
   }
 
   .article-card-headline {
