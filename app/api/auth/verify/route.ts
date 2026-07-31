@@ -16,12 +16,13 @@ export async function POST(request: Request) {
     
     // 2. Hash it
     const dataBytes = Buffer.from(data, 'utf8');
+    const hash = Nimiq.Hash.computeSha256(dataBytes);
 
     // 3. Verify the cryptographic signature using Nimiq's core library
     const signature = Nimiq.Signature.fromHex(signatureHex);
     const publicKey = Nimiq.PublicKey.fromHex(publicKeyHex);
     
-    const isValid = publicKey.verify(signature, dataBytes);
+    const isValid = publicKey.verify(signature, hash);
 
     if (!isValid) {
       return NextResponse.json({ error: 'Invalid signature' }, { status: 401 });
