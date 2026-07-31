@@ -1,7 +1,9 @@
 import { SignJWT, jwtVerify } from 'jose';
 import { cookies } from 'next/headers';
 
-const secretKey = new TextEncoder().encode(process.env.SESSION_SECRET || 'hackathon-super-secret-key-12345');
+const secretKey = new TextEncoder().encode(
+  process.env.SESSION_SECRET || crypto.randomUUID()
+);
 
 export async function encrypt(payload: any) {
   return await new SignJWT(payload)
