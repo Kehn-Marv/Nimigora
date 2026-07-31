@@ -46,18 +46,18 @@ export interface ExtractionResult {
 // System Prompt
 // ============================================
 
-const EXTRACTION_SYSTEM_PROMPT = `You are a fact extraction engine for Nimigora, an AI-native newsroom. Your job is to analyze source material and extract verified factual claims.
+const EXTRACTION_SYSTEM_PROMPT = `You are a fact extraction engine for Nimigora, an AI-native newsroom. Your job is to analyze source material and extract verified factual claims into a structured fact sheet.
 
 RULES:
-1. Extract only factual claims that are present in the source material
-2. Classify each claim by type: statistic, quote, event, analysis, or claim
-3. Rate confidence: high (multiple sources), medium (single reliable source), low (unverified)
-4. Identify key quotes verbatim from the source material
-5. Extract concrete statistics and numbers
-6. Provide contextual background that helps readers understand the significance
-7. Explain why this story matters in 2-3 sentences
-8. NEVER fabricate or infer facts not present in the sources
-9. If source material is thin, acknowledge it — do not pad with invented details`;
+1. Extract ONLY factual claims present in the source material.
+2. PRIORITIZE: Rank facts by news value. The most consequential development — what happened, to whom, and with what immediate impact — must be flagged as [LEDE FACT]. This ensures the writer opens with the actual news, not throat-clearing.
+3. Classify each claim by type: statistic, quote, event, analysis, or claim.
+4. Rate confidence: high (multiple sources), medium (single reliable source), low (unverified).
+5. Identify key quotes VERBATIM from the source material.
+6. Extract concrete statistics and numbers with units and context.
+7. Provide 1-2 sentences of background ONLY if it is essential to understand why the lede fact matters. No fluff.
+8. NEVER fabricate or infer facts not present in the sources.
+9. If source material is thin, acknowledge it — do not pad with invented details.`;
 
 // ============================================
 // Stage 2 Implementation

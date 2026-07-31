@@ -22,6 +22,8 @@ import { Article, PipelineStep } from '@/lib/types';
 interface QualityScore {
   biasScore: number;         // 0-10, lower is less biased
   accuracyScore: number;     // 0-10, higher is more accurate
+  directnessScore: number;   // 0-10, higher is more direct
+  readabilityScore: number;  // 0-10, higher is more readable
   readabilityGrade: number;  // Flesch-Kincaid grade level
   hallucinations: string[];  // Claims not found in fact sheet
   biasFlags: string[];       // Specific bias concerns
@@ -40,39 +42,51 @@ export interface ReviewResult {
 // System Prompt
 // ============================================
 
-const REVIEW_SYSTEM_PROMPT = `You are the quality review editor for Nimigora, an AI-native newsroom. Your job is to evaluate articles for publication readiness.
+const REVIEW_SYSTEM_PROMPT = `You are the quality review editor for Nimigora, an AI-native newsroom. Your job is to evaluate articles for publication readiness. Be strict on FACTS, DIRECTNESS, and READABILITY. Be lenient on editorial craft and tone.
 
 REVIEW CRITERIA:
 
 1. BIAS DETECTION (score 0-10, lower = less biased):
-   - Check for political lean (left/right framing)
-   - Check for corporate favoritism or negativity
-   - Check for source imbalance (are multiple perspectives represented?)
-   - Check for loaded language or emotional manipulation
+   - Check for political lean, corporate favoritism, source imbalance, loaded language, emotional manipulation.
    - Score 0-3: Excellent neutrality
    - Score 4-6: Minor concerns, acceptable
    - Score 7-10: Significant bias, needs revision
 
 2. ACCURACY (score 0-10, higher = more accurate):
-   - Compare SPECIFIC factual claims (names, numbers, dates, events, quotes) against the provided fact sheet
-   - Only flag as hallucinations: FABRICATED quotes, INVENTED statistics, or MADE-UP events that have no basis in the fact sheet
-   - Do NOT flag these as hallucinations — they are normal editorial practice:
-     * General knowledge or widely-known context (e.g. "hay fever affects millions")
-     * Descriptive or analytical language (e.g. "burgeoning industry", "pivotal figure")
-     * Restating facts in different words or synthesizing information
-     * Transitional or framing sentences that set context
-   - Verify direct quotes match the fact sheet exactly
-   - Verify specific statistics and numbers match the fact sheet
-   - Score 8-10: Highly accurate, facts match well
+   - Compare SPECIFIC factual claims (names, numbers, dates, events, quotes) against the provided fact sheet.
+   - Only flag as hallucinations: FABRICATED quotes, INVENTED statistics, or MADE-UP events with no basis in the fact sheet.
+   - Do NOT flag as hallucinations: general knowledge, descriptive language, restating facts in different words, or transitional framing.
+   - Verify direct quotes match the fact sheet exactly.
+   - Verify specific statistics and numbers match the fact sheet.
+   - Score 8-10: Highly accurate
    - Score 5-7: Minor liberties but core facts correct
-   - Score 0-4: Significant fabrication or misrepresentation
+   - Score 0-4: Significant fabrication
 
-3. OVERALL PASS CRITERIA:
-   - biasScore <= 5
-   - accuracyScore >= 7
-   - Article must have substantive paragraphs
+3. DIRECTNESS (score 0-10, higher = more direct):
+   - Does the FIRST SENTENCE tell the reader what happened and why it matters?
+   - Is there throat-clearing in the opening? (e.g., "In a move that...", "Amid growing concerns...", scene-setting before the news)
+   - Does every sentence advance the story or provide essential context?
+   - Score 8-10: Opens hard, no fluff, relentless forward momentum
+   - Score 5-7: Minor warming-up, some filler
+   - Score 0-4: Beats around the bush, reader must dig for the news
 
-Be strict on FACTS but lenient on EDITORIAL CRAFT. A well-written article uses context, analysis, and descriptive language — that is not hallucination.`;
+4. READABILITY & BREATHABILITY (score 0-10, higher = better):
+   - Are MOST paragraphs 1-3 sentences? Flag any paragraph of 5+ sentences.
+   - Is there adequate white space between paragraphs?
+   - Are there ANY em-dashes (—) or double hyphens (--) anywhere in the text? If yes, automatic fail on this criterion.
+   - Is the article scannable? Can a reader skim and still grasp the core story?
+   - Score 8-10: Short paragraphs, clean spacing, zero em-dashes, highly scannable
+   - Score 5-7: Mostly readable, minor density issues or 1-2 em-dashes
+   - Score 0-4: Dense walls of text, em-dash overuse, eye strain
+
+OVERALL PASS CRITERIA:
+- biasScore <= 5
+- accuracyScore >= 7
+- directnessScore >= 7
+- readabilityScore >= 7
+- Article must have substantive paragraphs (no empty fluff)
+
+If an article fails directness or readability, provide 2-3 specific examples of what to cut or restructure. Do not just say "be more direct" — show exactly which sentences are throat-clearing.`;
 
 // ============================================
 // Stage 4 Implementation
@@ -135,11 +149,13 @@ export async function runReview(
       const passes =
         qualityScore.biasScore <= 5 &&
         qualityScore.accuracyScore >= 7 &&
+        qualityScore.directnessScore >= 7 &&
+        qualityScore.readabilityScore >= 7 &&
         article.body.length >= 4;
 
       qualityScore.overallPass = passes;
 
-      console.log(`  📊 Bias: ${qualityScore.biasScore}/10 | Accuracy: ${qualityScore.accuracyScore}/10 | Readability: ${readabilityGrade.toFixed(1)}`);
+      console.log(`  📊 Bias: ${qualityScore.biasScore}/10 | Accuracy: ${qualityScore.accuracyScore}/10 | Directness: ${qualityScore.directnessScore}/10 | Readability (Prompt): ${qualityScore.readabilityScore}/10 | FK Grade: ${readabilityGrade.toFixed(1)}`);
 
       if (qualityScore.hallucinations.length > 0) {
         console.log(`  ⚠ Hallucinations detected: ${qualityScore.hallucinations.join('; ')}`);
@@ -228,6 +244,8 @@ Return a JSON object with this structure:
 {
   "biasScore": 0-10,
   "accuracyScore": 0-10,
+  "directnessScore": 0-10,
+  "readabilityScore": 0-10,
   "readabilityGrade": 0,
   "hallucinations": ["any claims in the article NOT found in the fact sheet"],
   "biasFlags": ["specific bias concerns"],
