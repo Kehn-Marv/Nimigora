@@ -69,7 +69,7 @@ export default function PipelinePage() {
               <h3 className="category-name">Stage 2: Fact Extraction</h3>
             </div>
             <p className="category-desc" style={{ maxWidth: '800px', fontSize: '16px', lineHeight: '1.7' }}>
-              Grok AI extracts structured fact sheets from the source material. Every claim, quote, and statistic is tagged with a confidence level and source attribution. Fact sheets typically contain 5–15 verified claims.
+              Advanced AI extracts structured fact sheets from the source material. Every claim, quote, and statistic is tagged with a confidence level and source attribution. Fact sheets typically contain 5–15 verified claims.
             </p>
             <div className="category-tags" style={{ marginTop: '16px' }}>
               <span className="category-tag">Structured fact sheets</span>

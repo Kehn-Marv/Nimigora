@@ -37,16 +37,14 @@ jobs:
       - name: Run editorial pipeline
         run: npx tsx pipeline/index.ts
         env:
-          XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
-          XAI_API_KEY_2: ${{ secrets.XAI_API_KEY_2 }}
-          XAI_API_KEY_3: ${{ secrets.XAI_API_KEY_3 }}
-          XAI_API_KEY_4: ${{ secrets.XAI_API_KEY_4 }}
-          XAI_API_KEY_5: ${{ secrets.XAI_API_KEY_5 }}
-          XAI_API_KEY_6: ${{ secrets.XAI_API_KEY_6 }}
-          XAI_API_KEY_7: ${{ secrets.XAI_API_KEY_7 }}
-          XAI_API_KEY_8: ${{ secrets.XAI_API_KEY_8 }}
-          XAI_API_KEY_9: ${{ secrets.XAI_API_KEY_9 }}
-          XAI_API_KEY_10: ${{ secrets.XAI_API_KEY_10 }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GROQ_API_KEY_2: ${{ secrets.GROQ_API_KEY_2 }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
+          CEREBRAS_API_KEY: ${{ secrets.CEREBRAS_API_KEY }}
+          CEREBRAS_API_KEY_2: ${{ secrets.CEREBRAS_API_KEY_2 }}
+          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+          MISTRAL_API_KEY_2: ${{ secrets.MISTRAL_API_KEY_2 }}
 
       - name: Commit new articles
         uses: stefanzweifel/git-auto-commit-action@v5

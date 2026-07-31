@@ -1,9 +1,8 @@
 /**
  * Provider-Agnostic LLM Abstraction
  *
- * Supports multiple providers behind a unified interface.
- * Currently implements: Google Gemini (primary)
- * Designed to be extended with: Groq, Ollama, OpenRouter, etc.
+ * Supports multiple providers behind a unified interface with automatic fallback.
+ * Implements: Groq, Google Gemini, Cerebras, Mistral.
  */
 
 import { GoogleGenerativeAI, GenerateContentResult, HarmCategory, HarmBlockThreshold } from '@google/generative-ai';
@@ -19,7 +18,7 @@ export interface LLMMessage {
 }
 
 export interface LLMConfig {
-  provider: 'gemini' | 'groq' | 'ollama' | 'xai';
+  provider: 'gemini' | 'groq' | 'cerebras' | 'mistral';
   model: string;
   apiKey?: string;
   baseUrl?: string;
@@ -56,107 +55,100 @@ const journalSafetySettings = [
 // API Key Pool — rotate keys on quota exhaustion
 // ============================================
 
-function loadApiKeys(): string[] {
-  const keys: string[] = [];
-  // Primary key
-  if (process.env.XAI_API_KEY) keys.push(process.env.XAI_API_KEY);
-  // Additional keys: XAI_API_KEY_2, XAI_API_KEY_3, ...
-  for (let i = 2; i <= 10; i++) {
-    const key = process.env[`XAI_API_KEY_${i}`];
-    if (key) keys.push(key);
-  }
-  return keys;
-}
+class KeyManager {
+  private apiKeys: string[] = [];
+  private currentKeyIndex = 0;
+  private exhaustedKeys = new Set<number>();
+  public envPrefix: string;
 
-let apiKeys: string[] = [];
-let currentKeyIndex = 0;
-let exhaustedKeys = new Set<number>();
-
-function getNextApiKey(): string | null {
-  if (apiKeys.length === 0) {
-    apiKeys = loadApiKeys();
-    if (apiKeys.length === 0) return null;
-    console.log(`  [LLM] Loaded ${apiKeys.length} API key(s)`);
+  constructor(envPrefix: string) {
+    this.envPrefix = envPrefix;
+    this.loadKeys();
   }
 
-  // If current key is exhausted, find the next available one
-  if (exhaustedKeys.has(currentKeyIndex)) {
-    for (let i = 0; i < apiKeys.length; i++) {
-      if (!exhaustedKeys.has(i)) {
-        currentKeyIndex = i;
-        console.log(`  [LLM] 🔄 Rotated to API key #${i + 1}`);
-        return apiKeys[i];
-      }
+  private loadKeys() {
+    if (process.env[this.envPrefix]) this.apiKeys.push(process.env[this.envPrefix]!);
+    for (let i = 2; i <= 20; i++) {
+      const key = process.env[`${this.envPrefix}_${i}`];
+      if (key) this.apiKeys.push(key);
     }
-    return null; // All keys exhausted
+    if (this.apiKeys.length > 0) {
+      console.log(`  [LLM] Loaded ${this.apiKeys.length} ${this.envPrefix} key(s)`);
+    }
   }
 
-  return apiKeys[currentKeyIndex];
+  getNextApiKey(): string | null {
+    if (this.apiKeys.length === 0) return null;
+    
+    if (this.exhaustedKeys.has(this.currentKeyIndex)) {
+      for (let i = 0; i < this.apiKeys.length; i++) {
+        if (!this.exhaustedKeys.has(i)) {
+          this.currentKeyIndex = i;
+          console.log(`  [LLM] 🔄 Rotated to ${this.envPrefix} key #${i + 1}`);
+          return this.apiKeys[i];
+        }
+      }
+      return null;
+    }
+    return this.apiKeys[this.currentKeyIndex];
+  }
+
+  markKeyExhausted() {
+    this.exhaustedKeys.add(this.currentKeyIndex);
+    console.log(`  [LLM] ⚠ ${this.envPrefix} key #${this.currentKeyIndex + 1} exhausted (${this.exhaustedKeys.size}/${this.apiKeys.length})`);
+  }
 }
 
-function markKeyExhausted(keyIndex: number): void {
-  exhaustedKeys.add(keyIndex);
-  console.log(`  [LLM] ⚠ API key #${keyIndex + 1} quota exhausted (${exhaustedKeys.size}/${apiKeys.length} keys used up)`);
-}
-
-// ============================================
-// Gemini Provider
-// ============================================
-
-/** Helper to handle rate limits and 500s with retries + key rotation */
-async function withRetry<T>(operation: (apiKey: string) => Promise<T>, maxRetries = 3): Promise<T> {
+async function withRetry<T>(keyManager: KeyManager, operation: (apiKey: string) => Promise<T>, maxRetries = 3): Promise<T> {
   let lastError;
   for (let attempt = 0; attempt < maxRetries; attempt++) {
-    const apiKey = getNextApiKey();
+    const apiKey = keyManager.getNextApiKey();
     if (!apiKey) {
-      throw new Error('🚨 ALL API keys exhausted. No remaining quota. Pipeline cannot continue.');
+      throw new Error(`🚨 ALL ${keyManager.envPrefix} keys exhausted or not configured.`);
     }
 
     try {
-      // Base wait to respect the 15 RPM free tier API limits
-      await delay(10000);
+      await delay(2000); // Short base delay
       return await operation(apiKey);
     } catch (err: any) {
       lastError = err;
       const msg = err.message?.toLowerCase() || '';
-
-      // KEY IS DEAD (quota burned, expired, invalid, or revoked) — rotate to next key
-      const isDeadKey =
-        msg.includes('quota') || msg.includes('exceeded') ||
-        msg.includes('api_key_invalid') || msg.includes('expired') ||
-        msg.includes('api key not valid') || msg.includes('revoked');
-
+      
+      const isDeadKey = msg.includes('quota') || msg.includes('exceeded') || msg.includes('api_key_invalid') || msg.includes('expired') || msg.includes('api key not valid') || msg.includes('revoked') || msg.includes('unauthorized') || msg.includes('401') || msg.includes('403');
+      
       if (isDeadKey) {
-        markKeyExhausted(currentKeyIndex);
-        
-        // Try to rotate to a fresh key
-        const nextKey = getNextApiKey();
+        keyManager.markKeyExhausted();
+        const nextKey = keyManager.getNextApiKey();
         if (nextKey) {
-          console.log(`  [LLM] Retrying with next API key...`);
-          attempt--; // Don't count this as a retry attempt
+          console.log(`  [LLM] Retrying with next ${keyManager.envPrefix} key...`);
+          attempt--; 
           continue;
         } else {
-          console.error(`\n  🚨 FATAL: ALL ${apiKeys.length} API key(s) exhausted or invalid. No usable keys remain.`);
-          throw err;
+          throw err; // Allow to bubble up so it can trigger provider fallback
         }
       }
-
-      // Also catch 5xx errors or 429 rate limit (per-minute, not daily)
+      
       if (msg.includes('429') || msg.includes('too many requests') || msg.includes('retry') || msg.includes('50')) {
-        const backoff = Math.pow(2, attempt) * 15000; // 15s, 30s, 60s
-        console.log(`\n  ⏳ Rate limit or server error. Retrying in ${backoff / 1000}s (Attempt ${attempt + 1}/${maxRetries})...`);
+        const backoff = Math.pow(2, attempt) * 15000;
+        console.log(`\n  ⏳ Rate limit. Retrying in ${backoff / 1000}s (Attempt ${attempt + 1}/${maxRetries})...`);
         await delay(backoff);
       } else {
-        throw err; // Stop retrying for non-transient errors
+        throw err; // Bubble up other transient errors
       }
     }
   }
   throw lastError;
 }
 
+// ============================================
+// Providers
+// ============================================
+
 class GeminiProvider implements LLMProvider {
+  private keyManager = new KeyManager('GEMINI_API_KEY');
+
   async generate(systemPrompt: string, userPrompt: string, config: LLMConfig): Promise<LLMResponse> {
-    return withRetry(async (apiKey: string) => {
+    return withRetry(this.keyManager, async (apiKey: string) => {
       const genAI = new GoogleGenerativeAI(apiKey);
       const model = genAI.getGenerativeModel({
         model: config.model || 'gemini-2.5-flash',
@@ -181,7 +173,7 @@ class GeminiProvider implements LLMProvider {
   }
 
   async generateJSON<T>(systemPrompt: string, userPrompt: string, config: LLMConfig): Promise<T> {
-    return withRetry(async (apiKey: string) => {
+    return withRetry(this.keyManager, async (apiKey: string) => {
       const genAI = new GoogleGenerativeAI(apiKey);
       const model = genAI.getGenerativeModel({
         model: config.model || 'gemini-2.5-flash',
@@ -201,104 +193,34 @@ class GeminiProvider implements LLMProvider {
         return JSON.parse(text) as T;
       } catch (e: any) {
         const finishReason = result.response.candidates?.[0]?.finishReason || 'UNKNOWN';
-        
-        // Use markdown matched block if present, otherwise raw text
         let jsonStr = text;
         const jsonMatch = text.match(/```(?:json)?\s*([\s\S]*?)```/);
-        if (jsonMatch) {
-          jsonStr = jsonMatch[1].trim();
-        }
+        if (jsonMatch) jsonStr = jsonMatch[1].trim();
 
         try {
-          // Attempt robust JSON repair to salvage truncated or slightly malformed outputs
           const repaired = jsonrepair(jsonStr);
-          const parsed = JSON.parse(repaired) as T;
-          console.log(`  [LLM] Extracted and repaired broken JSON (FinishReason: ${finishReason})`);
-          return parsed;
+          return JSON.parse(repaired) as T;
         } catch (repairError) {
           throw new Error(`Failed to parse JSON. Reason: ${finishReason}. Error: ${e.message}. Prefix: ${text.substring(0, 200)}`);
         }
       }
-    }); // Close withRetry callback and function call
-  } // Close generateJSON method
-} // Close GeminiProvider class
-
-// ============================================
-// Groq Provider (Stub for future use)
-// ============================================
-
-class GroqProvider implements LLMProvider {
-  async generate(systemPrompt: string, userPrompt: string, config: LLMConfig): Promise<LLMResponse> {
-    const apiKey = config.apiKey || process.env.GROQ_API_KEY;
-    if (!apiKey) throw new Error('GROQ_API_KEY is required');
-
-    // Groq uses OpenAI-compatible API
-    const response = await fetch(`${config.baseUrl || 'https://api.groq.com/openai/v1'}/chat/completions`, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'Authorization': `Bearer ${apiKey}`,
-      },
-      body: JSON.stringify({
-        model: config.model || 'llama-3.3-70b-versatile',
-        messages: [
-          { role: 'system', content: systemPrompt },
-          { role: 'user', content: userPrompt },
-        ],
-        temperature: config.temperature ?? 0.7,
-        max_tokens: config.maxTokens ?? 8192,
-      }),
     });
-
-    const data = await response.json() as {
-      choices: { message: { content: string } }[];
-      usage?: { total_tokens: number };
-    };
-
-    return {
-      text: data.choices[0].message.content,
-      tokensUsed: data.usage?.total_tokens,
-      provider: 'groq',
-      model: config.model || 'llama-3.3-70b-versatile',
-    };
-  }
-
-  async generateJSON<T>(systemPrompt: string, userPrompt: string, config: LLMConfig): Promise<T> {
-    const enrichedPrompt = `${userPrompt}\n\nIMPORTANT: Respond with valid JSON only. No markdown, no explanation.`;
-    const response = await this.generate(systemPrompt, enrichedPrompt, config);
-    try {
-      return JSON.parse(response.text) as T;
-    } catch {
-      let jsonStr = response.text;
-      const jsonMatch = response.text.match(/```(?:json)?\s*([\s\S]*?)```/);
-      if (jsonMatch) {
-        jsonStr = jsonMatch[1].trim();
-      }
-      try {
-        const repaired = jsonrepair(jsonStr);
-        return JSON.parse(repaired) as T;
-      } catch (repairError) {
-        throw new Error(`Failed to parse Groq JSON response: ${response.text.substring(0, 200)}`);
-      }
-    }
   }
 }
 
-// ============================================
-// xAI (Grok) Provider
-// ============================================
+class GroqProvider implements LLMProvider {
+  private keyManager = new KeyManager('GROQ_API_KEY');
 
-class XAIProvider implements LLMProvider {
   async generate(systemPrompt: string, userPrompt: string, config: LLMConfig): Promise<LLMResponse> {
-    return withRetry(async (apiKey: string) => {
-      const response = await fetch(`${config.baseUrl || 'https://api.x.ai/v1'}/chat/completions`, {
+    return withRetry(this.keyManager, async (apiKey: string) => {
+      const response = await fetch(`${config.baseUrl || 'https://api.groq.com/openai/v1'}/chat/completions`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
           'Authorization': `Bearer ${apiKey}`,
         },
         body: JSON.stringify({
-          model: config.model || 'grok-4.5',
+          model: config.model || 'llama-3.3-70b-versatile',
           messages: [
             { role: 'system', content: systemPrompt },
             { role: 'user', content: userPrompt },
@@ -308,10 +230,7 @@ class XAIProvider implements LLMProvider {
         }),
       });
 
-      if (!response.ok) {
-        const errorText = await response.text();
-        throw new Error(`xAI API Error ${response.status}: ${errorText}`);
-      }
+      if (!response.ok) throw new Error(`Groq API Error ${response.status}: ${await response.text()}`);
 
       const data = await response.json() as {
         choices: { message: { content: string } }[];
@@ -321,8 +240,8 @@ class XAIProvider implements LLMProvider {
       return {
         text: data.choices[0].message.content,
         tokensUsed: data.usage?.total_tokens,
-        provider: 'xai',
-        model: config.model || 'grok-4.5',
+        provider: 'groq',
+        model: config.model || 'llama-3.3-70b-versatile',
       };
     });
   }
@@ -330,52 +249,162 @@ class XAIProvider implements LLMProvider {
   async generateJSON<T>(systemPrompt: string, userPrompt: string, config: LLMConfig): Promise<T> {
     const enrichedPrompt = `${userPrompt}\n\nIMPORTANT: Respond with valid JSON only. No markdown formatting, no explanation.`;
     const response = await this.generate(systemPrompt, enrichedPrompt, config);
+    return parseJsonResponse<T>(response.text);
+  }
+}
+
+class CerebrasProvider implements LLMProvider {
+  private keyManager = new KeyManager('CEREBRAS_API_KEY');
+
+  async generate(systemPrompt: string, userPrompt: string, config: LLMConfig): Promise<LLMResponse> {
+    return withRetry(this.keyManager, async (apiKey: string) => {
+      const response = await fetch(`${config.baseUrl || 'https://api.cerebras.ai/v1'}/chat/completions`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${apiKey}`,
+        },
+        body: JSON.stringify({
+          model: config.model || 'llama3.3-70b',
+          messages: [
+            { role: 'system', content: systemPrompt },
+            { role: 'user', content: userPrompt },
+          ],
+          temperature: config.temperature ?? 0.7,
+          max_completion_tokens: config.maxTokens ?? 8192,
+        }),
+      });
+
+      if (!response.ok) throw new Error(`Cerebras API Error ${response.status}: ${await response.text()}`);
+
+      const data = await response.json() as {
+        choices: { message: { content: string } }[];
+        usage?: { total_tokens: number };
+      };
+
+      return {
+        text: data.choices[0].message.content,
+        tokensUsed: data.usage?.total_tokens,
+        provider: 'cerebras',
+        model: config.model || 'llama3.3-70b',
+      };
+    });
+  }
+
+  async generateJSON<T>(systemPrompt: string, userPrompt: string, config: LLMConfig): Promise<T> {
+    const enrichedPrompt = `${userPrompt}\n\nIMPORTANT: Respond with valid JSON only. No markdown formatting, no explanation.`;
+    const response = await this.generate(systemPrompt, enrichedPrompt, config);
+    return parseJsonResponse<T>(response.text);
+  }
+}
+
+class MistralProvider implements LLMProvider {
+  private keyManager = new KeyManager('MISTRAL_API_KEY');
+
+  async generate(systemPrompt: string, userPrompt: string, config: LLMConfig): Promise<LLMResponse> {
+    return withRetry(this.keyManager, async (apiKey: string) => {
+      const response = await fetch(`${config.baseUrl || 'https://api.mistral.ai/v1'}/chat/completions`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${apiKey}`,
+        },
+        body: JSON.stringify({
+          model: config.model || 'mistral-small-latest',
+          messages: [
+            { role: 'system', content: systemPrompt },
+            { role: 'user', content: userPrompt },
+          ],
+          temperature: config.temperature ?? 0.7,
+          max_tokens: config.maxTokens ?? 8192,
+        }),
+      });
+
+      if (!response.ok) throw new Error(`Mistral API Error ${response.status}: ${await response.text()}`);
+
+      const data = await response.json() as {
+        choices: { message: { content: string } }[];
+        usage?: { total_tokens: number };
+      };
+
+      return {
+        text: data.choices[0].message.content,
+        tokensUsed: data.usage?.total_tokens,
+        provider: 'mistral',
+        model: config.model || 'mistral-small-latest',
+      };
+    });
+  }
+
+  async generateJSON<T>(systemPrompt: string, userPrompt: string, config: LLMConfig): Promise<T> {
+    const enrichedPrompt = `${userPrompt}\n\nIMPORTANT: Respond with valid JSON only. No markdown formatting, no explanation.`;
+    // Mistral actually supports response_format = { type: "json_object" } but we use the common parsing logic for now to be safe with open source APIs.
+    const configOverride = { ...config, baseUrl: config.baseUrl };
+    const response = await this.generate(systemPrompt, enrichedPrompt, configOverride);
+    return parseJsonResponse<T>(response.text);
+  }
+}
+
+// Utility to parse JSON
+function parseJsonResponse<T>(text: string): T {
+  try {
+    return JSON.parse(text) as T;
+  } catch {
+    let jsonStr = text;
+    const jsonMatch = text.match(/```(?:json)?\s*([\s\S]*?)```/);
+    if (jsonMatch) jsonStr = jsonMatch[1].trim();
     try {
-      return JSON.parse(response.text) as T;
-    } catch {
-      let jsonStr = response.text;
-      const jsonMatch = response.text.match(/```(?:json)?\s*([\s\S]*?)```/);
-      if (jsonMatch) {
-        jsonStr = jsonMatch[1].trim();
-      }
-      try {
-        const repaired = jsonrepair(jsonStr);
-        return JSON.parse(repaired) as T;
-      } catch (repairError) {
-        throw new Error(`Failed to parse Grok JSON response: ${response.text.substring(0, 200)}`);
-      }
+      const repaired = jsonrepair(jsonStr);
+      return JSON.parse(repaired) as T;
+    } catch (repairError) {
+      throw new Error(`Failed to parse JSON response: ${text.substring(0, 200)}`);
     }
   }
 }
 
 // ============================================
-// LLM Factory
+// LLM Factory & Export
 // ============================================
 
 const providers: Record<string, LLMProvider> = {
   gemini: new GeminiProvider(),
   groq: new GroqProvider(),
-  xai: new XAIProvider(),
+  cerebras: new CerebrasProvider(),
+  mistral: new MistralProvider(),
 };
 
 export function getDefaultConfig(): LLMConfig {
   return {
-    provider: 'xai',
-    model: 'grok-4.5',
+    provider: 'groq',
+    model: 'llama-3.3-70b-versatile',
     temperature: 0.7,
     maxTokens: 8192,
   };
 }
+
+const PROVIDER_FALLBACK_ORDER: LLMConfig['provider'][] = ['groq', 'gemini', 'cerebras', 'mistral'];
 
 export async function llmGenerate(
   systemPrompt: string,
   userPrompt: string,
   configOverrides?: Partial<LLMConfig>
 ): Promise<LLMResponse> {
-  const config = { ...getDefaultConfig(), ...configOverrides };
-  const provider = providers[config.provider];
-  if (!provider) throw new Error(`Unknown LLM provider: ${config.provider}`);
-  return provider.generate(systemPrompt, userPrompt, config);
+  let lastError;
+  const isSpecificProviderRequested = !!configOverrides?.provider;
+
+  for (const providerName of (isSpecificProviderRequested ? [configOverrides.provider!] : PROVIDER_FALLBACK_ORDER)) {
+    const config = { ...getDefaultConfig(), provider: providerName, ...configOverrides };
+    const provider = providers[providerName];
+    
+    try {
+      return await provider.generate(systemPrompt, userPrompt, config);
+    } catch (err: any) {
+      lastError = err;
+      if (isSpecificProviderRequested) throw err;
+      console.log(`  [LLM] ❌ Provider ${providerName} failed. Falling back to next... (${err.message})`);
+    }
+  }
+  throw new Error(`All fallback providers failed. Last error: ${lastError?.message}`);
 }
 
 export async function llmGenerateJSON<T>(
@@ -383,8 +412,20 @@ export async function llmGenerateJSON<T>(
   userPrompt: string,
   configOverrides?: Partial<LLMConfig>
 ): Promise<T> {
-  const config = { ...getDefaultConfig(), ...configOverrides };
-  const provider = providers[config.provider];
-  if (!provider) throw new Error(`Unknown LLM provider: ${config.provider}`);
-  return provider.generateJSON<T>(systemPrompt, userPrompt, config);
+  let lastError;
+  const isSpecificProviderRequested = !!configOverrides?.provider;
+
+  for (const providerName of (isSpecificProviderRequested ? [configOverrides.provider!] : PROVIDER_FALLBACK_ORDER)) {
+    const config = { ...getDefaultConfig(), provider: providerName, ...configOverrides };
+    const provider = providers[providerName];
+    
+    try {
+      return await provider.generateJSON<T>(systemPrompt, userPrompt, config);
+    } catch (err: any) {
+      lastError = err;
+      if (isSpecificProviderRequested) throw err;
+      console.log(`  [LLM] ❌ Provider ${providerName} failed during JSON generation. Falling back to next... (${err.message})`);
+    }
+  }
+  throw new Error(`All fallback providers failed. Last error: ${lastError?.message}`);
 }

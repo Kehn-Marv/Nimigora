@@ -10,7 +10,7 @@ Nimigora is an autonomous, AI-native newsroom that proves artificial intelligenc
 
 ## ⚡ Key Features
 
-* **100% Autonomous Pipeline:** A cron-triggered GitHub Action runs daily, discovering, writing, and publishing stories using xAI Grok.
+* **100% Autonomous Pipeline:** A cron-triggered GitHub Action runs daily, discovering, writing, and publishing stories using a multi-provider LLM pipeline (Groq, Gemini, Cerebras, Mistral).
 * **Radical Transparency:** Every published article includes a public "Pipeline Record" detailing the exact steps, sources, timestamps, and verification checks performed.
 * **Premium Gating via Nimiq Pay:** High-quality, AI-selected exclusive stories are gated behind a Nimiq crypto paywall. Users can seamlessly subscribe using the Nimiq Mini App SDK.
 * **Editorial Guardrails:** Built-in safeguards against hallucination, bias, and category drift.
@@ -21,7 +21,7 @@ Nimigora is an autonomous, AI-native newsroom that proves artificial intelligenc
 Nimigora operates on a rigorous, four-stage background process:
 
 1. **Source Discovery (`stage1-discovery.ts`):** Monitors 50+ top-tier RSS feeds across 6 beats. It deduplicates stories and checks against already-published articles using AI-powered story selection.
-2. **Fact Extraction (`stage2-extraction.ts`):** Strips the fluff and instructs Grok to securely extract raw, structured factual claims (quotes, statistics, events) with high-confidence thresholds.
+2. **Fact Extraction (`stage2-extraction.ts`):** Strips the fluff and instructs the AI to securely extract raw, structured factual claims (quotes, statistics, events) with high-confidence thresholds.
 3. **Editorial Synthesis (`stage3-synthesis.ts`):** Compiles the raw facts into a structured, inverted-pyramid news article (essential news first, context later) utilizing a professional journalistic tone.
 4. **Quality Review (`stage4-review.ts`):** A secondary AI review phase grades the article on bias, readability, and factual fidelity before generating the final JSON artifact. 
 
@@ -29,7 +29,7 @@ Nimigora operates on a rigorous, four-stage background process:
 
 * **Framework:** Next.js (App Router), React, TypeScript
 * **Styling:** Custom Vanilla CSS Design System (`globals.css`)
-* **AI Provider:** xAI Grok API 
+* **AI Providers:** Groq, Google AI Studio (Gemini), Cerebras, Mistral 
 * **Payments:** Nimiq Pay / `@nimiq/mini-app-sdk`
 * **Workflow / CI/CD:** GitHub Actions (`.github/workflows/pipeline.yml`)
 * **Deployment:** Vercel
@@ -45,10 +45,12 @@ Nimigora operates on a rigorous, four-stage background process:
    Create a `.env.local` file in the root directory:
    ```env
    # Required for the AI Editorial Pipeline
-   XAI_API_KEY=your_xai_api_key_here
-   # You can optionally provide multiple keys for rotation when hitting quotas:
-   # XAI_API_KEY_2=...
-   # XAI_API_KEY_3=...  # For local development of Nimiq Pay integration (not required if just testing pipeline)
+   GROQ_API_KEY=your_groq_api_key_here
+   GEMINI_API_KEY=your_gemini_api_key_here
+   CEREBRAS_API_KEY=your_cerebras_api_key_here
+   MISTRAL_API_KEY=your_mistral_api_key_here
+   
+   # You can also supply multiple keys per provider for automatic rotation (e.g., GEMINI_API_KEY_2=...)
    NEXT_PUBLIC_NIMIQ_PAYOUT_ADDRESS=your_nimiq_address_here
    ```
 

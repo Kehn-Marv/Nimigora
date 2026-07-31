@@ -187,3 +187,25 @@ export async function getBlockNumber(): Promise<number> {
     return 0;
   }
 }
+
+/**
+ * Sign a message to prove ownership of the wallet.
+ * Uses Nimiq's standard message signing.
+ */
+export async function signMessage(message: string): Promise<any> {
+  const provider = await initNimiq();
+  if (!provider) {
+    throw new Error('Nimiq provider not available');
+  }
+
+  try {
+    const result = await provider.sign(message);
+    if ((result as any).error) {
+      throw new Error((result as any).error.message || 'Signature failed');
+    }
+    return result;
+  } catch (error: any) {
+    console.error('[Nimiq] signMessage failed:', error);
+    throw error;
+  }
+}

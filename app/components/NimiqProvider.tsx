@@ -8,6 +8,7 @@ import {
   sendTransaction,
   PAYOUT_ADDRESS,
   SUBSCRIPTION_PRICES,
+  signMessage,
   type NimiqWalletState,
   type TransactionResult,
 } from '@/lib/nimiq';
@@ -116,6 +117,33 @@ export function NimiqProvider({ children }: { children: React.ReactNode }) {
       
       if (accounts.length > 0) {
         const address = accounts[0];
+        
+        // --- SIGN MESSAGE FLOW (PRODUCTION AUTH) ---
+        // 1. Fetch a cryptographic nonce
+        const nonceRes = await fetch('/api/auth/nonce');
+        if (!nonceRes.ok) throw new Error('Failed to fetch nonce');
+        const { message } = await nonceRes.json();
+        
+        // 2. Prompt user to sign the message with their private key
+        const signatureResult = await signMessage(message);
+        
+        // 3. Send signature to backend to verify and establish session
+        const verifyRes = await fetch('/api/auth/verify', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            message,
+            signatureHex: signatureResult.signature,
+            publicKeyHex: signatureResult.publicKey,
+            address,
+          })
+        });
+
+        if (!verifyRes.ok) {
+          throw new Error('Signature verification failed on backend');
+        }
+        // ------------------------------------------
+
         const balance = await fetchBalance(address);
         
         setWallet({
@@ -128,11 +156,13 @@ export function NimiqProvider({ children }: { children: React.ReactNode }) {
         // Persist address for session recovery
         localStorage.setItem('nimigora_wallet_address', address);
         
-        // Re-check subscription with new address
+        // Re-check subscription with new address (now uses secure backend)
         checkSubscription();
       }
     } catch (error) {
       console.error('[NimiqProvider] Connect failed:', error);
+      // Ensure we clean up if auth fails mid-way
+      disconnect();
     } finally {
       setIsLoading(false);
     }
@@ -171,9 +201,11 @@ export function NimiqProvider({ children }: { children: React.ReactNode }) {
     const result = await sendTransaction(wallet.address, PAYOUT_ADDRESS, amount);
     
     if (result.success && result.txHash) {
-      // Create subscription record
-      const sub = createSubscription(wallet.address, plan, result.txHash);
-      setSubscription(sub);
+      // Create subscription record via backend securely
+      const sub = await createSubscription(wallet.address, plan, result.txHash);
+      if (sub) {
+        setSubscription(sub);
+      }
       
       // Refresh balance after payment
       await refreshBalance();
@@ -191,8 +223,13 @@ export function NimiqProvider({ children }: { children: React.ReactNode }) {
   }, []);
 
   // Derived state
-  const isSubscribed = isSubscriptionActive(wallet.address);
-  const subscriptionTimeRemaining = getTimeRemaining(wallet.address);
+  const isSubscribed = subscription !== null && new Date(subscription.expiryDate).getTime() > Date.now();
+  const [subscriptionTimeRemaining, setSubscriptionTimeRemaining] = useState('No subscription');
+
+  // Update time remaining async since we use promises now
+  useEffect(() => {
+    getTimeRemaining(wallet.address).then(setSubscriptionTimeRemaining);
+  }, [wallet.address, subscription]);
 
   const value: NimiqContextValue = {
     wallet,

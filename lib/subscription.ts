@@ -1,11 +1,8 @@
 /**
  * Subscription Management
  * 
- * Handles premium subscription state using localStorage.
- * Tracks plan type, start/expiry dates, and payment transaction hash.
- * 
- * Note: For a hackathon demo, localStorage is appropriate.
- * A production version would use a backend + on-chain verification.
+ * Handles premium subscription state using a secure backend API.
+ * The backend verifies the Nimiq signature and on-chain transaction.
  */
 
 // ============================================
@@ -23,35 +20,21 @@ export interface Subscription {
 }
 
 // ============================================
-// Constants
-// ============================================
-
-const STORAGE_KEY = 'nimigora_subscription';
-
-/** Plan durations in milliseconds */
-const PLAN_DURATION: Record<SubscriptionPlan, number> = {
-  monthly: 30 * 24 * 60 * 60 * 1000,    // 30 days
-  yearly: 365 * 24 * 60 * 60 * 1000,     // 365 days
-};
-
-// ============================================
 // Core Functions
 // ============================================
 
 /**
  * Check if a wallet address has an active (non-expired) subscription.
+ * Since we use a backend, we can just fetch the status.
  */
-export function isSubscriptionActive(address?: string | null): boolean {
+export async function isSubscriptionActive(address?: string | null): Promise<boolean> {
   if (!address) return false;
   
   try {
-    const sub = getSubscriptionInfo();
+    const sub = await getSubscriptionInfo();
     if (!sub) return false;
     
-    // Must match the connected wallet address
-    if (sub.address.toLowerCase() !== address.toLowerCase()) return false;
-    
-    // Check expiry
+    // Check expiry securely on frontend (backend also checks it before serving premium data)
     const now = Date.now();
     const expiry = new Date(sub.expiryDate).getTime();
     
@@ -62,76 +45,56 @@ export function isSubscriptionActive(address?: string | null): boolean {
 }
 
 /**
- * Get the current subscription info from localStorage.
- * Returns null if no subscription exists.
+ * Get the current subscription info from the backend via secure session cookie.
  */
-export function getSubscriptionInfo(): Subscription | null {
+export async function getSubscriptionInfo(): Promise<Subscription | null> {
   if (typeof window === 'undefined') return null;
   
   try {
-    const raw = localStorage.getItem(STORAGE_KEY);
-    if (!raw) return null;
+    const response = await fetch('/api/subscription');
+    if (!response.ok) return null;
     
-    const sub = JSON.parse(raw) as Subscription;
-    
-    // Validate structure
-    if (!sub.address || !sub.plan || !sub.startDate || !sub.expiryDate || !sub.txHash) {
-      return null;
-    }
-    
-    return sub;
+    const data = await response.json();
+    return data.subscription || null;
   } catch {
     return null;
   }
 }
 
 /**
- * Create a new subscription after successful payment.
+ * Notify backend to create a new subscription after successful payment.
  */
-export function createSubscription(
+export async function createSubscription(
   address: string,
   plan: SubscriptionPlan,
   txHash: string
-): Subscription {
-  const now = new Date();
-  const duration = PLAN_DURATION[plan];
-  const expiryDate = new Date(now.getTime() + duration);
-  
-  // Check if there's an existing active subscription — extend it
-  const existing = getSubscriptionInfo();
-  let effectiveStart = now;
-  let effectiveExpiry = expiryDate;
-  
-  if (existing && existing.address.toLowerCase() === address.toLowerCase()) {
-    const existingExpiry = new Date(existing.expiryDate).getTime();
-    if (existingExpiry > now.getTime()) {
-      // Extend from current expiry
-      effectiveExpiry = new Date(existingExpiry + duration);
-    }
+): Promise<Subscription | null> {
+  if (typeof window === 'undefined') return null;
+
+  try {
+    const response = await fetch('/api/subscription', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ address, plan, txHash })
+    });
+    
+    if (!response.ok) throw new Error('Failed to create subscription on backend');
+    
+    const data = await response.json();
+    return data.subscription;
+  } catch (error) {
+    console.error('Error creating subscription:', error);
+    return null;
   }
-  
-  const subscription: Subscription = {
-    address,
-    plan,
-    startDate: effectiveStart.toISOString(),
-    expiryDate: effectiveExpiry.toISOString(),
-    txHash,
-  };
-  
-  if (typeof window !== 'undefined') {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(subscription));
-  }
-  
-  return subscription;
 }
 
 /**
  * Get human-readable time remaining on the subscription.
  */
-export function getTimeRemaining(address?: string | null): string {
+export async function getTimeRemaining(address?: string | null): Promise<string> {
   if (!address) return 'No subscription';
   
-  const sub = getSubscriptionInfo();
+  const sub = await getSubscriptionInfo();
   if (!sub || sub.address.toLowerCase() !== address.toLowerCase()) {
     return 'No subscription';
   }
@@ -163,11 +126,11 @@ export function getPlanLabel(plan: SubscriptionPlan): string {
 }
 
 /**
- * Clear subscription (disconnect).
+ * Clear subscription (handled by backend session logout).
  */
-export function clearSubscription(): void {
+export async function clearSubscription(): Promise<void> {
   if (typeof window !== 'undefined') {
-    localStorage.removeItem(STORAGE_KEY);
+    await fetch('/api/auth/logout', { method: 'POST' });
   }
 }
 
