@@ -61,7 +61,7 @@ Nimigora operates on a rigorous, four-stage background process:
    Open [http://localhost:3000](http://localhost:3000) to view the application.
 
 4. **Run the AI Pipeline Manually:**
-   To test the autonomous generation of new articles locally:
+   To test the autonomous generation of new articles locally.:
    ```bash
    npm run pipeline:run
    ```
