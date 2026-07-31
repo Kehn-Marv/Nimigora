@@ -19,7 +19,7 @@ export interface LLMMessage {
 
 export interface LLMConfig {
   provider: 'gemini' | 'groq' | 'cerebras' | 'mistral';
-  model: string;
+  model?: string;
   apiKey?: string;
   baseUrl?: string;
   temperature?: number;
@@ -376,7 +376,6 @@ const providers: Record<string, LLMProvider> = {
 export function getDefaultConfig(): LLMConfig {
   return {
     provider: 'groq',
-    model: 'llama-3.3-70b-versatile',
     temperature: 0.7,
     maxTokens: 8192,
   };
