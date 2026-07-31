@@ -1,0 +1,51 @@
+{
+  "slug": "climate-change-doubles-the-odds-of-extreme-wildfires-scientists-warn",
+  "headline": "Climate change doubles the odds of extreme wildfires, scientists warn",
+  "deck": "New analysis confirms that human-driven warming has made record-breaking fire seasons far more likely across the globe.",
+  "category": "CLIMATE",
+  "body": [
+    "Climate change has at least doubled the probability of extreme wildfires, scientists said Monday, linking the surge in catastrophic blazes to rising global temperatures. The finding comes as fire seasons grow longer, more intense, and harder to control from Australia to California. Researchers warn that without rapid emissions cuts, the trend will only accelerate, pushing communities and ecosystems beyond their limits.",
+    "The assessment, reported by The Jerusalem Post, is the latest in a series of studies that tie worsening wildfires directly to human-induced climate change. Scientists have long cautioned that hotter, drier conditions—fueled by greenhouse gas emissions—create ideal environments for fire ignition and spread. What was once a rare disaster is fast becoming a seasonal norm in fire-prone regions.",
+    "Extreme wildfires now leave behind scars that reshape landscapes for decades. They destroy homes, displace communities, and kill wildlife at unprecedented scales. In some areas, the fires have grown so severe that firefighting strategies are being rewritten in real time. The human and financial toll is mounting, with recovery efforts stretching thin across stretched budgets and emergency services.",
+    "The connection between climate change and wildfires is no longer theoretical. Observational data from recent years shows a clear pattern: where temperatures rise, fire activity follows. This year alone, record-breaking heat waves and prolonged droughts have primed forests and grasslands for ignition. Even regions once considered low-risk are now facing unprecedented fire danger.",
+    "Scientists stopped hedging their language years ago. The evidence has reached a threshold where they can say with high confidence that climate change is increasing the likelihood of extreme wildfires. No single fire can be blamed solely on warming, but the fingerprint of human influence is now unmistakable in the data.",
+    "\nThe trend is clear and it’s accelerating.\n",
+    "The warning carries urgent policy implications. Mitigation efforts—reducing emissions, managing forests, and preparing communities—are no longer optional. Experts say early action saves lives and dollars in the long run. Yet many regions still lack the funding, coordination, or political will to implement robust fire prevention strategies.",
+    "For now, the message from scientists is simple: the window to act is closing fast. Each fraction of a degree matters. Every ton of carbon reduced, every hectare of forest restored, chips away at the risk. But without systemic change, the age of extreme wildfires will only deepen—leaving a trail of charred earth and broken homes in its wake."
+  ],
+  "publishedAt": "2026-07-31T16:59:49.761Z",
+  "readTime": 3,
+  "sources": [
+    "Google News — Environment",
+    "The Jerusalem Post"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMidkFVX3lxTFBOa3NaWDdsOWVvVGpBSG5wZll2SkE3YWtQMnA3SjJJM3U4djA2UkY1MnA4X2JYcjNJQnktOFB0N00zZElwTEJpWU5JZUJ4eWZyVUNfUXhiTV9saHR0TzN4V2RUV2tha0ZHY0cycE1DNy02QTNkZ3c?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-07-31T16:57:19.595Z",
+      "detail": "Aggregated environmental reports and climate analysis from The Jerusalem Post and Google News Environment section were used to extract key findings."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-07-31T16:58:40.844Z",
+      "detail": "Compiled scientific claims about the increased likelihood of extreme wildfires due to climate change from two cited sources."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-07-31T16:59:49.761Z",
+      "detail": "Wove climate science claims with documented trends in wildfire intensity and policy urgency to produce a cohesive report."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "Article verified against fact sheet: all factual claims, quotes, and statistics match or are general knowledge. No hallucinations detected. Minor directness and readability improvements needed. (Bias: 2/10, Accuracy: 9/10)",
+      "timestamp": "2026-07-31T17:01:21.627Z"
+    }
+  ]
+}
