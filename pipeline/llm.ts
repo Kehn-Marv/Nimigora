@@ -7,6 +7,8 @@
 
 import { GoogleGenerativeAI, GenerateContentResult, HarmCategory, HarmBlockThreshold } from '@google/generative-ai';
 import { jsonrepair } from 'jsonrepair';
+import * as fs from 'fs';
+import * as path from 'path';
 
 // ============================================
 // Types
@@ -93,13 +95,17 @@ class KeyManager {
     return this.apiKeys[this.currentKeyIndex];
   }
 
+  isDead(): boolean {
+    return this.apiKeys.length > 0 && this.exhaustedKeys.size >= this.apiKeys.length;
+  }
+
   markKeyExhausted() {
     this.exhaustedKeys.add(this.currentKeyIndex);
     console.log(`  [LLM] ⚠ ${this.envPrefix} key #${this.currentKeyIndex + 1} exhausted (${this.exhaustedKeys.size}/${this.apiKeys.length})`);
   }
 }
 
-async function withRetry<T>(keyManager: KeyManager, operation: (apiKey: string) => Promise<T>, maxRetries = 3): Promise<T> {
+async function withRetry<T>(keyManager: KeyManager, providerName: string, operation: (apiKey: string) => Promise<T>, maxRetries = 3): Promise<T> {
   let lastError;
   for (let attempt = 0; attempt < maxRetries; attempt++) {
     const apiKey = keyManager.getNextApiKey();
@@ -130,7 +136,7 @@ async function withRetry<T>(keyManager: KeyManager, operation: (apiKey: string) 
       
       if (msg.includes('429') || msg.includes('too many requests') || msg.includes('retry') || msg.includes('50')) {
         const backoff = Math.pow(2, attempt) * 15000;
-        console.log(`\n  ⏳ Rate limit. Retrying in ${backoff / 1000}s (Attempt ${attempt + 1}/${maxRetries})...`);
+        console.log(`  [LLM] ⏳ [${providerName}] Rate limit. Retrying in ${backoff / 1000}s (Attempt ${attempt + 1}/${maxRetries})...`);
         await delay(backoff);
       } else {
         throw err; // Bubble up other transient errors
@@ -148,7 +154,7 @@ class GeminiProvider implements LLMProvider {
   private keyManager = new KeyManager('GEMINI_API_KEY');
 
   async generate(systemPrompt: string, userPrompt: string, config: LLMConfig): Promise<LLMResponse> {
-    return withRetry(this.keyManager, async (apiKey: string) => {
+    return withRetry(this.keyManager, 'gemini', async (apiKey: string) => {
       const genAI = new GoogleGenerativeAI(apiKey);
       const model = genAI.getGenerativeModel({
         model: config.model || 'gemini-2.5-flash',
@@ -173,7 +179,7 @@ class GeminiProvider implements LLMProvider {
   }
 
   async generateJSON<T>(systemPrompt: string, userPrompt: string, config: LLMConfig): Promise<T> {
-    return withRetry(this.keyManager, async (apiKey: string) => {
+    return withRetry(this.keyManager, 'gemini', async (apiKey: string) => {
       const genAI = new GoogleGenerativeAI(apiKey);
       const model = genAI.getGenerativeModel({
         model: config.model || 'gemini-2.5-flash',
@@ -212,7 +218,7 @@ class GroqProvider implements LLMProvider {
   private keyManager = new KeyManager('GROQ_API_KEY');
 
   async generate(systemPrompt: string, userPrompt: string, config: LLMConfig): Promise<LLMResponse> {
-    return withRetry(this.keyManager, async (apiKey: string) => {
+    return withRetry(this.keyManager, 'groq', async (apiKey: string) => {
       const response = await fetch(`${config.baseUrl || 'https://api.groq.com/openai/v1'}/chat/completions`, {
         method: 'POST',
         headers: {
@@ -257,7 +263,7 @@ class CerebrasProvider implements LLMProvider {
   private keyManager = new KeyManager('CEREBRAS_API_KEY');
 
   async generate(systemPrompt: string, userPrompt: string, config: LLMConfig): Promise<LLMResponse> {
-    return withRetry(this.keyManager, async (apiKey: string) => {
+    return withRetry(this.keyManager, 'cerebras', async (apiKey: string) => {
       const response = await fetch(`${config.baseUrl || 'https://api.cerebras.ai/v1'}/chat/completions`, {
         method: 'POST',
         headers: {
@@ -302,7 +308,7 @@ class MistralProvider implements LLMProvider {
   private keyManager = new KeyManager('MISTRAL_API_KEY');
 
   async generate(systemPrompt: string, userPrompt: string, config: LLMConfig): Promise<LLMResponse> {
-    return withRetry(this.keyManager, async (apiKey: string) => {
+    return withRetry(this.keyManager, 'mistral', async (apiKey: string) => {
       const response = await fetch(`${config.baseUrl || 'https://api.mistral.ai/v1'}/chat/completions`, {
         method: 'POST',
         headers: {
@@ -383,6 +389,49 @@ export function getDefaultConfig(): LLMConfig {
 
 const PROVIDER_FALLBACK_ORDER: LLMConfig['provider'][] = ['groq', 'gemini', 'cerebras', 'mistral'];
 
+// ============================================
+// State Management for Fallback Rotation
+// ============================================
+
+const STATE_FILE = path.join(process.cwd(), '.llm-state.json');
+const HEAL_TIME_MS = 12 * 60 * 60 * 1000; // 12 hours
+
+let currentProviderIndex = 0;
+
+// Load initial state on module import
+try {
+  if (fs.existsSync(STATE_FILE)) {
+    const state = JSON.parse(fs.readFileSync(STATE_FILE, 'utf-8'));
+    if (Date.now() - state.lastUpdated < HEAL_TIME_MS) {
+      currentProviderIndex = state.currentProviderIndex || 0;
+      if (currentProviderIndex >= PROVIDER_FALLBACK_ORDER.length) {
+        currentProviderIndex = 0;
+      }
+    }
+  }
+} catch (e) {
+  // Ignore state load errors
+}
+
+function advanceProviderState(failedProviderName: string) {
+  const failedIndex = PROVIDER_FALLBACK_ORDER.indexOf(failedProviderName as any);
+  if (failedIndex === -1) return;
+  
+  // Only advance if this is actually the provider we are currently on
+  // (Prevents skipping multiple steps if async requests fail simultaneously)
+  if (failedIndex === currentProviderIndex) {
+    currentProviderIndex = (currentProviderIndex + 1) % PROVIDER_FALLBACK_ORDER.length;
+    try {
+      fs.writeFileSync(STATE_FILE, JSON.stringify({
+        currentProviderIndex,
+        lastUpdated: Date.now()
+      }));
+    } catch (e) {
+      // Ignore write errors
+    }
+  }
+}
+
 export async function llmGenerate(
   systemPrompt: string,
   userPrompt: string,
@@ -391,9 +440,16 @@ export async function llmGenerate(
   let lastError;
   const isSpecificProviderRequested = !!configOverrides?.provider;
 
-  for (const providerName of (isSpecificProviderRequested ? [configOverrides.provider!] : PROVIDER_FALLBACK_ORDER)) {
+  const order = isSpecificProviderRequested
+    ? [configOverrides.provider!]
+    : [
+        ...PROVIDER_FALLBACK_ORDER.slice(currentProviderIndex),
+        ...PROVIDER_FALLBACK_ORDER.slice(0, currentProviderIndex)
+      ];
+
+  for (const providerName of order) {
     const config = { ...getDefaultConfig(), provider: providerName, ...configOverrides };
-    const provider = providers[providerName];
+    const provider = providers[providerName as string];
     
     try {
       return await provider.generate(systemPrompt, userPrompt, config);
@@ -401,6 +457,7 @@ export async function llmGenerate(
       lastError = err;
       if (isSpecificProviderRequested) throw err;
       console.log(`  [LLM] ❌ Provider ${providerName} failed. Falling back to next... (${err.message})`);
+      advanceProviderState(providerName);
     }
   }
   throw new Error(`All fallback providers failed. Last error: ${lastError?.message}`);
@@ -414,9 +471,16 @@ export async function llmGenerateJSON<T>(
   let lastError;
   const isSpecificProviderRequested = !!configOverrides?.provider;
 
-  for (const providerName of (isSpecificProviderRequested ? [configOverrides.provider!] : PROVIDER_FALLBACK_ORDER)) {
+  const order = isSpecificProviderRequested
+    ? [configOverrides.provider!]
+    : [
+        ...PROVIDER_FALLBACK_ORDER.slice(currentProviderIndex),
+        ...PROVIDER_FALLBACK_ORDER.slice(0, currentProviderIndex)
+      ];
+
+  for (const providerName of order) {
     const config = { ...getDefaultConfig(), provider: providerName, ...configOverrides };
-    const provider = providers[providerName];
+    const provider = providers[providerName as string];
     
     try {
       return await provider.generateJSON<T>(systemPrompt, userPrompt, config);
@@ -424,6 +488,7 @@ export async function llmGenerateJSON<T>(
       lastError = err;
       if (isSpecificProviderRequested) throw err;
       console.log(`  [LLM] ❌ Provider ${providerName} failed during JSON generation. Falling back to next... (${err.message})`);
+      advanceProviderState(providerName);
     }
   }
   throw new Error(`All fallback providers failed. Last error: ${lastError?.message}`);
