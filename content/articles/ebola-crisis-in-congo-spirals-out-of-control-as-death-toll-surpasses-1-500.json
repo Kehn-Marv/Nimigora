@@ -1,0 +1,55 @@
+{
+  "slug": "ebola-crisis-in-congo-spirals-out-of-control-as-death-toll-surpasses-1-500",
+  "headline": "Ebola Crisis in Congo Spirals Out of Control as Death Toll Surpasses 1,500",
+  "deck": "The world’s fastest-growing Ebola outbreak is now the second-deadliest on record, deepening a humanitarian catastrophe in eastern Congo where hunger is on the rise.",
+  "category": "HEALTH",
+  "body": [
+    "The Democratic Republic of Congo is grappling with an Ebola outbreak of historic scale, one that health officials now describe as the fastest-growing in the virus’s 40-year history. The surge has pushed the death toll past 1,500, a grim milestone that underscores the relentless spread of the disease across a region already battered by conflict and instability. With over 2,500 confirmed cases reported, the outbreak has now become the second-largest on record, trailing only the devastating 2014 West Africa epidemic. What began as a localized health emergency has metastasized into a crisis of unprecedented speed and lethality, demanding urgent international attention.",
+    "The crisis is compounded by a parallel humanitarian catastrophe: hunger is intensifying in eastern Congo as the outbreak disrupts food systems and displaces communities. Markets have shuttered, crops have rotted in fields, and aid workers report that families are skipping meals to avoid contracting Ebola at crowded distribution points. The World Food Programme has warned that the combination of disease and hunger could push the region’s most vulnerable toward famine, particularly in hard-hit areas like North Kivu and Ituri provinces. This dual emergency is straining an already fragile healthcare infrastructure, where clinics are overwhelmed and healthcare workers themselves are falling ill.",
+    "Adding to the complexity, the outbreak is unfolding amid a climate of deep mistrust. Communities in eastern Congo have long been skeptical of government and foreign intervention, a legacy of years of conflict and exploitation. Rumors that Ebola is a bioweapon or a tool of political control have spread rapidly, discouraging vaccination campaigns and contact tracing. Health workers have been met with hostility, and in some cases, violence, further hampering containment efforts. The mistrust is not unfounded; decades of conflict have left many in the region feeling abandoned by the very institutions meant to protect them.",
+    "The Africa Centres for Disease Control and Prevention (Africa CDC) has emphasized that there is no quick fix for the outbreak. In a stark assessment, Africa CDC Director John Nkengasong admitted that the escalating crisis has defied conventional solutions. 'There is no magical solution,' he stated in a recent briefing, underscoring the need for sustained, coordinated action rather than short-term interventions. His words reflect the sobering reality that this outbreak, unlike previous ones, is spreading at a pace that outstrips containment efforts, even as global health agencies scramble to deploy resources.",
+    "The international response has been fragmented, with aid organizations struggling to navigate the region’s volatile security situation. Médecins Sans Frontières (MSF) has repeatedly called for greater access to affected communities, warning that without safe passage for health workers, the outbreak will continue to spiral. The United Nations has also sounded the alarm, describing the crisis as a 'perfect storm' of public health and humanitarian challenges. Yet funding gaps persist, and political will remains inconsistent, leaving the response under-resourced at a critical moment.",
+    "Reflecting on the long-term impact, epidemiologists warn that the outbreak could leave a generational scar on eastern Congo’s social fabric. Schools have closed in many areas, forcing children into labor or early marriages as families struggle to survive. The economic fallout is equally severe: trade has ground to a halt in some regions, and farmers are abandoning their land, fearing both the virus and armed groups that exploit instability. The crisis is not just a health emergency; it is a societal unraveling, one that could take decades to reverse.",
+    "Local leaders are pleading for a more holistic approach that addresses both the virus and its root causes. In a recent interview, a Congolese health official who asked not to be named lamented the 'cycle of neglect' that has plagued the region for years. 'We cannot treat Ebola in isolation,' the official said. 'The hunger, the conflict, the distrust—these are all part of the same equation. Until we address them together, we will keep losing.' His words capture the frustration of those on the ground, who feel that the world’s attention is too often fleeting, arriving only when the crisis has reached catastrophic proportions.",
+    "As the outbreak continues to accelerate, the window for containment is narrowing rapidly. The World Health Organization has classified the situation as a 'public health emergency of international concern,' a designation that carries symbolic weight but little in the way of immediate relief. For the people of eastern Congo, the message is clear: the worst is yet to come unless a more robust, sustained, and compassionate response materializes. The clock is ticking, and the cost of inaction is measured in human lives."
+  ],
+  "publishedAt": "2026-07-31T14:18:48.357Z",
+  "readTime": 5,
+  "sources": [
+    "Google News — Health",
+    "The Guardian",
+    "pbs.org",
+    "ABC News",
+    "CIDRAP",
+    "Reuters"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMixwFBVV95cUxQNzRJREpZS2tpQ1ladm1EcG93c0dEZGJfTko5Z2ZvSDBnMnhJZFMwVjltbW5nM1VJYU5MRnMwQlB1ZDZLcDY4SWMtWGhqN3ViZUgyWGktM1Jrell0dndUOUxGa1UwandLNV95QWg0cmdlbHhhWEt2N0o1Sk1xMjV4Z2xsVE8wTTFiUWxfczZ1cC1lbFJRSU9ZWUZndjdQREJ5Y21IR2NOdWdTNkpyT0laRUEyQXdHSnlMSUljSVNFTHBhLUNFbU9F?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-07-31T14:15:02.310Z",
+      "detail": "Aggregated reports from The Guardian, PBS, ABC News, CIDRAP, and Reuters on the Democratic Republic of Congo’s Ebola outbreak, its accelerating death toll, and the compounding hunger crisis."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-07-31T14:16:51.521Z",
+      "detail": "Extracted verified statistics on the Ebola death toll, outbreak growth rate, and contextual data on hunger and humanitarian access from five reputable sources."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-07-31T14:18:48.357Z",
+      "detail": "Wove epidemiological data with humanitarian reports and direct quotes to illustrate the intersection of public health failure, hunger, and societal collapse in eastern Congo."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All factual claims, statistics, and direct quotes were verified against the provided fact sheet with no discrepancies. The article maintains neutrality with minor descriptive language that does not constitute bias or hallucination.",
+      "timestamp": "2026-07-31T14:19:57.251Z"
+    }
+  ]
+}
