@@ -3535,6 +3535,7 @@ body.modal-open > *:not(script):not(style):not(noscript):not(.paywall-backdrop) 
   color: #DC2626;
   font-size: 13px;
   font-weight: 600;
+  margin-top: var(--space-md);
   margin-bottom: var(--space-md);
   border: 1px solid #DC2626;
 }
