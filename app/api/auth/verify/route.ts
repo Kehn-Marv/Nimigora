@@ -19,10 +19,10 @@ export async function POST(request: Request) {
     const hash = Nimiq.Hash.computeSha256(dataBytes);
 
     // 3. Verify the cryptographic signature using Nimiq's core library
-    const signature = new Nimiq.Signature(Buffer.from(signatureHex, 'hex'));
-    const publicKey = new Nimiq.PublicKey(Buffer.from(publicKeyHex, 'hex'));
+    const signature = Nimiq.Signature.fromHex(signatureHex);
+    const publicKey = Nimiq.PublicKey.fromHex(publicKeyHex);
     
-    const isValid = signature.verify(publicKey, hash);
+    const isValid = publicKey.verify(signature, dataBytes);
 
     if (!isValid) {
       return NextResponse.json({ error: 'Invalid signature' }, { status: 401 });
