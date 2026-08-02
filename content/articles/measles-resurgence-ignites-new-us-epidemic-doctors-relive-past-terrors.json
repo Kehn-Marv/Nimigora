@@ -1,0 +1,52 @@
+{
+  "slug": "measles-resurgence-ignites-new-us-epidemic-doctors-relive-past-terrors",
+  "headline": "Measles Resurgence Ignites New US Epidemic, Doctors Relive Past Terrors",
+  "deck": "A once-controlled disease now poses a significant communal risk, with outbreaks intensifying across the nation and challenging public health efforts.",
+  "category": "HEALTH",
+  "body": [
+    "The United States faces a record resurgence of measles, with outbreaks intensifying across regions like Pennsylvania, prompting medical professionals to describe the situation as a new epidemic. This highly contagious disease, once largely controlled, now poses a communal risk that evokes past public health crises. Doctors are reportedly reliving the terror of previous major US measles outbreaks as cases continue to rise, The Independent reports.",
+    "The characterization of measles as a 'new epidemic' in America by sources like The Hill underscores the gravity of the current public health challenge. This surge marks a significant setback in efforts to control a disease that public health campaigns had largely brought under control. The scale of the current increase is unprecedented in recent memory, necessitating immediate and robust public health interventions.",
+    "Medical professionals across the country are grappling with a sense of déjà vu, reportedly reliving the terror associated with the last major measles outbreak in the United States. This communal risk extends beyond individual cases, threatening unvaccinated populations and vulnerable groups within communities. The highly contagious nature of the virus means that even a single case can rapidly escalate into a widespread localized outbreak, according to The Independent.",
+    "Evidence of this escalating crisis is particularly stark in Pennsylvania, where a measles outbreak is actively intensifying. The Pittsburgh Post-Gazette highlights the localized severity, indicating that certain regions are experiencing a concentrated spread of the virus. Local health authorities are working to contain the spread, but the challenge remains significant given the disease's transmission dynamics.",
+    "The Wall Street Journal emphasizes that measles poses a distinct communal risk, extending its threat beyond isolated incidents. This collective vulnerability means that communities must act cohesively to prevent further spread through vaccination and awareness. The disease's ability to transmit easily in shared spaces makes community-wide vigilance essential for containment.",
+    "The ongoing measles resurgence demands a comprehensive and urgent public health response to mitigate further spread and protect vulnerable populations. Unresolved tensions surrounding vaccination rates and public health messaging will shape the trajectory of this new epidemic. Addressing the communal risk effectively will require sustained efforts from both public health agencies and individual citizens to reverse this dangerous trend."
+  ],
+  "publishedAt": "2026-08-02T05:29:41.957Z",
+  "readTime": 3,
+  "sources": [
+    "Google News — Health",
+    "The Independent",
+    "Pittsburgh Post-Gazette",
+    "WSJ",
+    "The Hill"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTTItZ2JwQ3FuYXk5RWdHS3dqQVBYZks4TFVzcmkxZm9sRkhQQjQxRmNsSGZCZmdRV2MyeWFfalNscS1TU29sYTRoSkRPbUNIUmpubGx1dHNqa29zcGxxcUs3SUl5ZTEyMFpZazJPU2NSZ0xYbXBwWjBCMjk2TEpWanpaOGNnUjNiWXJVU2hQWGdSTlFhM21GLUpYeUszRzNW?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-02T05:25:27.107Z",
+      "detail": "Aggregated news reports and health updates from major US publications."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-02T05:27:35.239Z",
+      "detail": "Compiled facts on measles resurgence, outbreak locations, and professional reactions from 5 distinct sources."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-02T05:29:41.957Z",
+      "detail": "Wove reported outbreaks and medical concerns into a cohesive narrative highlighting the public health challenge."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "Article verified against fact sheet; all claims matched key facts. No hallucinations detected. Emotional tone and passive constructions flagged for bias. (Bias: 4/10, Accuracy: 8/10)",
+      "timestamp": "2026-08-02T05:31:02.858Z"
+    }
+  ]
+}

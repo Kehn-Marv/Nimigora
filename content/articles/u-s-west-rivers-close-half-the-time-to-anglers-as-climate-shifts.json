@@ -1,0 +1,50 @@
+{
+  "slug": "u-s-west-rivers-close-half-the-time-to-anglers-as-climate-shifts",
+  "headline": "U.S. West Rivers Close Half the Time to Anglers as Climate Shifts",
+  "deck": "Anglers across the American West face frequent disruptions to a cherished pastime as warming trends increasingly render rivers unsuitable for fishing.",
+  "category": "CLIMATE",
+  "body": [
+    "Rivers across the U.S. West are now closing for fishing half the time, a direct consequence of ongoing climate change. This significant disruption impacts recreational anglers and highlights the tangible ecological shifts affecting vital water resources. The frequent closures underscore a growing challenge for outdoor activities and local economies dependent on tourism.",
+    "This pervasive trend means that what was once a reliable seasonal activity has become increasingly unpredictable. The closures are not isolated incidents but reflect a systemic vulnerability within the region's aquatic ecosystems. These changes indicate a broader environmental stress that demands closer examination and adaptive strategies.",
+    "August, traditionally a popular month for fishing, has become particularly unreliable for anglers in the U.S. West. People are increasingly recognizing that planning a fishing trip during this summer month carries a high risk of cancellation. This shift forces a re-evaluation of long-held recreational patterns and local traditions.",
+    "The sentiment among those affected is one of growing frustration and uncertainty. \"People are realizing August is a crapshoot here,\" one angler noted, capturing the widespread disappointment and the unpredictable nature of fishing conditions. This candid assessment reflects a broader acceptance of a new, less reliable reality.",
+    "The underlying cause of these frequent closures is climate change, which alters water temperatures and flow rates critical for fish health. Warmer waters stress fish populations, making them more susceptible to disease and mortality, prompting authorities to implement closures to protect vulnerable species. These environmental pressures necessitate a deeper understanding of ecosystem resilience and conservation efforts.",
+    "As these patterns persist, stakeholders across the U.S. West must contend with the lasting implications for both recreation and conservation. The future of fishing in these iconic rivers hinges on comprehensive strategies to mitigate climate impacts and adapt to changing environmental realities. Addressing these challenges will require collaborative efforts to safeguard both the natural environment and cherished outdoor traditions."
+  ],
+  "publishedAt": "2026-08-02T05:28:41.303Z",
+  "readTime": 3,
+  "sources": [
+    "Google News — Environment",
+    "Fortune",
+    "Google News"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMidkFVX3lxTE4tX1RIM1RVajNYMzgwOUNuaFBzR1duVTFyZFFhcUhQVmMwSEh1RUVJN0tGbWdTYlNKWndrVDh4YUtweU10c1ZyT2JJeTlwbnljY0REaTdVdFliNHFqWkJjR0k2SEZ5cDZ0bWI3VnJDa29yRG51M3c?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-02T05:25:27.107Z",
+      "detail": "Aggregated environmental reports and regional news analyses revealed the increasing frequency of river closures for fishing."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-02T05:27:35.239Z",
+      "detail": "Compiled statistics on fishing river closures and direct quotes from a single source, Fortune, detailing the impact of climate change."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-02T05:28:41.303Z",
+      "detail": "Wove specific closure rates and local angler sentiment into a narrative highlighting the direct, tangible effects of climate change on recreational activities in the U.S. West."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All factual claims verified against fact sheet; no hallucinations detected. Quotes and statistics matched exactly. Minor directness and headline refinements recommended for optimal clarity and impact. (Bias: 2/10, Accuracy: 9/10)",
+      "timestamp": "2026-08-02T05:30:50.218Z"
+    }
+  ]
+}

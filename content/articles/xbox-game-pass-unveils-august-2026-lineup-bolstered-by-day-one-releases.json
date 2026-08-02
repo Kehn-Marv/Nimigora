@@ -1,0 +1,54 @@
+{
+  "slug": "xbox-game-pass-unveils-august-2026-lineup-bolstered-by-day-one-releases",
+  "headline": "Xbox Game Pass Unveils August 2026 Lineup, Bolstered by Day-One Releases",
+  "deck": "The subscription service will add five new games, featuring prominent titles like Plague Tale and Beast of Reincarnation, across Xbox 3 consoles.",
+  "category": "TECHNOLOGY",
+  "body": [
+    "Xbox Game Pass has unveiled its August 2026 lineup, introducing a new selection of games, including several day-one releases, for subscribers. This update brings fresh content to the popular gaming service, according to reports from Pure Xbox and XBOX Wire.",
+    "These new additions will roll out between August 3 and 7, 2026, as confirmed by XBOX Wire. The update delivers five brand-new, must-play titles to the service, a significant expansion noted by Polygon.com.",
+    "Among the most anticipated arrivals is Plague Tale, which is set to lead the day-one offerings for the month, Tech Times reports. Another key title confirmed for inclusion in August is Beast of Reincarnation, further diversifying the library.",
+    "The inclusion of these day-one games highlights a persistent strategy by Xbox to provide immediate access to new releases. This approach consistently enhances the value proposition for the service's extensive subscriber base.",
+    "Subscribers can access the new August 2026 lineup across Xbox 3 consoles. GameGPU confirms this widespread availability, ensuring a broad audience can engage with the fresh content.",
+    "Xbox Game Pass operates as a subscription model, offering a rotating library of games to its members. Regular updates, such as this August 2026 reveal, are central to its appeal and continued growth within the competitive gaming industry.",
+    "The August 2026 lineup provides a fresh impetus for gamers seeking new experiences and reinforces Game Pass's position in the subscription market. This continuous influx of titles remains a crucial draw for Xbox console owners looking for new content."
+  ],
+  "publishedAt": "2026-08-02T05:28:01.777Z",
+  "readTime": 3,
+  "sources": [
+    "Google News — Technology",
+    "Pure Xbox",
+    "XBOX Wire",
+    "Tech Times",
+    "GameGPU",
+    "Polygon.com"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQRXpmNXRiaFNVNzhHaG1FVmYxUVJRZVg2U3RsVXB5bWo0eUVDN3hGUFFuOWtFYnRGZkMyLW5CelRudHJoMG1tSDhIdkVpazFzSGNkOUNONnlZVTN4eVVnVVRPa0doamxZTlp6RFVSLUFubkhHM2UwbHNpTl9laTFiT2JDX3BTTF9sbjJj?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-02T05:25:27.107Z",
+      "detail": "Aggregated news reports from major gaming and technology publications."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-02T05:27:35.239Z",
+      "detail": "Compiled specific game titles, release dates, and platform availability from 5 distinct sources."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-02T05:28:01.777Z",
+      "detail": "Wove confirmed game additions and release schedules into a concise report on the service's latest update."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All factual claims cross-referenced with fact sheet; no fabrications detected. Minor editorial liberties flagged for neutrality. (Bias: 3/10, Accuracy: 9/10)",
+      "timestamp": "2026-08-02T05:30:38.434Z"
+    }
+  ]
+}

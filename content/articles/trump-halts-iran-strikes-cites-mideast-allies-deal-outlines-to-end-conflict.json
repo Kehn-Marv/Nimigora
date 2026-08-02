@@ -1,0 +1,54 @@
+{
+  "slug": "trump-halts-iran-strikes-cites-mideast-allies-deal-outlines-to-end-conflict",
+  "headline": "Trump Halts Iran Strikes, Cites Mideast Allies' Deal Outlines to End Conflict",
+  "deck": "President Trump announced a significant de-escalation in tensions with Iran, revealing that regional partners have agreed to the initial framework of an agreement aimed at ending the protracted conflict.",
+  "category": "GEOPOLITICS",
+  "body": [
+    "President Trump announced the cancellation of planned US military strikes against Iran, stating that Mideast allies have reached the outlines of a deal aimed at ending the ongoing conflict. This significant development comes amid heightened tensions between the United States and Iran, marking a potential de-escalation in a volatile region. The decision to halt the attack is reportedly conditional on the rapid finalization of this proposed agreement, signaling a push for swift diplomatic resolution.",
+    "The proposed deal, whose perimeters have reportedly been agreed upon by regional partners, intends to bring an end to the protracted Iran war. Trump cited progress in these negotiations as the direct reason for his decision to call off the military action. This move underscores a shift towards a diplomatic pathway after a period of intense confrontation.",
+    "President Trump specifically noted that the \"perimeters of a deal have been agreed,\" according to Al Jazeera and CNN reports. This statement from the White House indicates a foundational understanding has been reached among key players in the Middle East. Such an agreement, if finalized, would represent a significant diplomatic breakthrough.",
+    "The United States and Iran have been locked in a state of heightened tensions for months, raising widespread concerns about a potential broader conflict in the region. This period included a recent drone strike that resulted in the death of a top Iranian military commander, further exacerbating an already fragile situation. The current diplomatic overture seeks to pull back from the brink of direct military confrontation.",
+    "Washington has been actively pursuing a rapid resolution to the conflict, with the cancellation of the planned attack explicitly tied to \"rapidly making a deal.\" This condition emphasizes the urgency of the diplomatic efforts underway. The administration appears keen to transition from military posturing to a concrete agreement swiftly.",
+    "The outlines of this crucial deal have been agreed upon by Mideast allies, according to multiple international news outlets. This collective regional engagement suggests a broader consensus in seeking an end to the conflict. Their participation is vital for any lasting stability in the volatile Middle East.",
+    "This diplomatic breakthrough carries profound implications for global oil prices, regional stability, and the future direction of US foreign policy. A successful deal could significantly reduce tensions, averting a wider conflict that has loomed over the Middle East. The coming days will reveal the efficacy of these outlines and the commitment of all parties to securing a lasting peace."
+  ],
+  "publishedAt": "2026-08-02T05:28:16.172Z",
+  "readTime": 4,
+  "sources": [
+    "Google News — World",
+    "AP News",
+    "Al Jazeera",
+    "CNN",
+    "BBC",
+    "Axios"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWUxMdnNIZ1MzaWNwNXBYV19IbUpVbUo2LTBiR3BiS05fVE1fOUczeVM1MVk3TEJWbjA5cmVZZmlNZ2ZLdnp6NlNLRlBmanlpTnhVbFZPc0RicnVJRjFBUS1uNU1kMldjb2F3ZnN3QTRkZGVLNW8wSklmVjZIcG52dks0TE5kXzlmdkF1d01SUW9TemFEQ09DSGlZdkxON1k?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-02T05:25:27.107Z",
+      "detail": "Aggregated breaking news reports and political analyses from major international news organizations."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-02T05:27:35.239Z",
+      "detail": "Compiled presidential statements, diplomatic claims, and contextual analyses from AP News, Al Jazeera, CNN, BBC, and Axios."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-02T05:28:16.172Z",
+      "detail": "Wove presidential announcements with regional diplomatic context to examine the immediate implications of de-escalation efforts."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All factual claims verified against fact sheet. Quotes matched exactly. No hallucinations detected. Minor structural and framing adjustments required for publication. (Bias: 3/10, Accuracy: 9/10)",
+      "timestamp": "2026-08-02T05:30:42.522Z"
+    }
+  ]
+}
