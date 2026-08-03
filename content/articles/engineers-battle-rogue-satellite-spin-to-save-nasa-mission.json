@@ -1,0 +1,53 @@
+{
+  "slug": "engineers-battle-rogue-satellite-spin-to-save-nasa-mission",
+  "headline": "Engineers Battle Rogue Satellite Spin to Save NASA Mission",
+  "deck": "A commercial satellite designed to rescue NASA's Swift observatory has malfunctioned, jeopardizing a critical $30 million contract and the future of a half-billion-dollar scientific instrument.",
+  "category": "TECHNOLOGY",
+  "body": [
+    "A refrigerator-size satellite named Link, built and operated by Katalyst Space Technologies, spun out of control 200 miles above Earth, threatening a $30 million NASA contract to rescue the Swift observatory.",
+    "The malfunction occurred shortly after Link's July 3 launch, when two of its three reaction wheels stopped working and its cold gas thrusters experienced an issue, leading to the uncontrolled rotation.",
+    "Link's primary mission is to capture and boost the orbit of NASA's $500 million Swift gamma-ray observatory, which is currently at risk of succumbing to aerodynamic drag and burning up in the atmosphere.",
+    "This mission represents a significant milestone, marking NASA's first commercial contract for satellite servicing, underscoring its importance for both future space operations and the valuable scientific data collected by Swift.",
+    "\"When this happened, it was during one of the passes without comms,\" a Katalyst Space Technologies representative stated, adding, \"We were, immediately prior, in a very stable configuration.\"",
+    "Despite the failure of key attitude control systems, Link's other components, including its power supply and three xenon-fueled electric thrusters, remain healthy, offering a path for recovery.",
+    "Engineers have begun using the operational plasma engines to gradually slow the satellite's spin, a complex maneuver designed to regain control without the primary stabilization tools.",
+    "As of Friday, the spacecraft had successfully reduced its spin rate by half, decreasing from approximately 9 degrees per second to about 4 degrees per second through these innovative efforts.",
+    "\"We've been able to use the thrusters to point in the opposite direction of the rotation rate and affect the attitude control that way, which has been highly effective,\" a Katalyst Space Technologies representative confirmed.",
+    "While progress is being made to stabilize Link, the Swift observatory continues to descend, meaning Katalyst must complete the recovery swiftly to prevent Swift from dropping too low for a successful rescue.",
+    "Despite the initial setback, Katalyst Space Technologies maintains confidence in its ability to proceed with the critical mission. \"We believe that a capture of Swift, an attempted capture of Swift, is very much in the cards,\" a representative affirmed, highlighting ongoing efforts to salvage the rescue."
+  ],
+  "publishedAt": "2026-08-03T05:42:37.152Z",
+  "readTime": 3,
+  "sources": [
+    "Ars Technica"
+  ],
+  "sourceUrls": [
+    "https://arstechnica.com/space/2026/08/heres-how-engineers-plan-to-save-the-satellite-sent-to-save-nasas-swift-mission/"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-03T05:40:38.296Z",
+      "detail": "Aggregated news reports from Ars Technica detailing a satellite malfunction."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-03T05:42:10.231Z",
+      "detail": "Compiled facts on satellite status, mission details, contract value, and recovery efforts from Ars Technica."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-03T05:42:37.152Z",
+      "detail": "Wove technical facts with mission context to explain the significance of the satellite's malfunction and the ongoing rescue attempts."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "Passed — Bias: 1/10, Accuracy: 7/10, Readability: FK 17.6",
+      "timestamp": "2026-08-03T05:45:19.527Z"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "measles-resurgence-prompts-urgent-us-health-response",
+  "headline": "Measles Resurgence Prompts Urgent US Health Response",
+  "deck": "A sharp rise in cases across the nation, particularly intensifying in Pennsylvania, forces health authorities to prioritize swift identification and containment strategies.",
+  "category": "HEALTH",
+  "body": [
+    "The United States is experiencing a record resurgence of measles, compelling health officials to focus on immediate identification and rapid action. This dramatic increase in cases for a disease once largely controlled poses a significant public health threat, demanding urgent attention from authorities nationwide. The situation underscores the ongoing challenges in maintaining high vaccination rates across communities.",
+    "This intensifying outbreak is particularly evident across Pennsylvania, where local health systems are actively responding to new infections. The regional spread highlights how quickly highly contagious diseases can re-establish a foothold within vulnerable populations. Officials are working to track transmission chains and prevent further community spread.",
+    "In Lancaster County alone, 14 new measles cases have been reported since Monday, indicating a rapid acceleration of the virus within specific communities. This localized cluster contributes to the broader national trend of increasing infections. The swift accumulation of cases in a single area demonstrates the virus's high transmissibility.",
+    "The current situation evokes a sense of dread among medical professionals, with doctors describing a feeling of reliving the terror of the last major US measles outbreak. This collective memory from previous public health crises informs the current urgency in response efforts. Healthcare providers are preparing for the potential for increased patient loads and complex case management.",
+    "US officials have explicitly shifted their focus to rapid action, emphasizing the critical need for prompt case identification to curb the spread. This proactive approach aims to isolate infections quickly and protect susceptible individuals. Public health agencies are mobilizing resources to support local efforts in testing and contact tracing.",
+    "The record resurgence of this vaccine-preventable disease requires sustained vigilance and coordinated public health initiatives. Continued efforts will be necessary to manage the current outbreaks and prevent future widespread illness. The coming weeks will be critical in determining the trajectory of this renewed public health challenge."
+  ],
+  "publishedAt": "2026-08-03T05:44:30.768Z",
+  "readTime": 3,
+  "sources": [
+    "Google News — Health",
+    "The Guardian",
+    "Pittsburgh Post-Gazette",
+    "LancasterOnline",
+    "WSJ",
+    "The Independent"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMifkFVX3lxTE9jQm41ZzFQaUVnQWx5b2w1dEpjbnZoME1seGxUSGFhVVRJbjFzUXZTX2pMeHpST0tib3lua1lwUzhacFBZakE2OVIxRTJqY2xqdWUwb0lBdkJuN05qMnM1enNCTFBuTHMzZGhsSl9oZzNIQW1LUjJZX2Q5QlZhUQ?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-03T05:40:38.296Z",
+      "detail": "Aggregated headlines and news reports from leading national and regional publications."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-03T05:42:10.231Z",
+      "detail": "Compiled specific case numbers, geographical outbreak locations, and official response priorities from 5 distinct news sources."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-03T05:44:30.768Z",
+      "detail": "Wove localized outbreak data with national trends and expert sentiment to highlight the escalating public health crisis."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All factual claims verified against fact sheet; no hallucinations detected. Minor directness and readability improvements needed. (Bias: 2/10, Accuracy: 9/10)",
+      "timestamp": "2026-08-03T05:46:18.789Z"
+    }
+  ]
+}
