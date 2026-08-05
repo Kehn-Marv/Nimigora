@@ -1,0 +1,55 @@
+{
+  "slug": "congo-ebola-outbreak-kills-over-1-700-becomes-second-deadliest-in-history",
+  "headline": "Congo Ebola Outbreak Kills Over 1,700, Becomes Second-Deadliest in History",
+  "deck": "The rapidly escalating crisis in eastern Congo now marks the fastest-growing Ebola event ever recorded, further complicated by hampered response efforts.",
+  "category": "HEALTH",
+  "body": [
+    "More than 1,700 people have died from Ebola in eastern Congo, making this the fastest-growing and second-deadliest outbreak in history. This public health crisis continues to escalate, challenging global health efforts.",
+    "The scale of fatalities underscores the severity of the situation across the Democratic Republic of Congo. This current outbreak now ranks as the second-deadliest Ebola event ever recorded globally, according to CIDRAP.",
+    "Health officials confirm the disease is caused by the Bundibugyo virus, a specific strain of Ebola. Understanding the viral strain is critical for developing targeted response strategies and potential treatments.",
+    "Response efforts on the ground have faced significant disruption, hindering containment. Workers involved in the Ebola response have staged protests over late pay, as reported by Reuters.",
+    "These protests directly impact the efficacy of public health interventions in affected areas. Such disruptions complicate critical tasks like contact tracing, safe burials, and community engagement.",
+    "The ongoing challenges, from the rapid spread of the virus to operational hurdles, leave the future trajectory of this outbreak uncertain. Containing this severe public health crisis requires sustained, coordinated efforts and immediate resolution of response worker grievances."
+  ],
+  "publishedAt": "2026-08-05T05:18:01.342Z",
+  "readTime": 2,
+  "sources": [
+    "Google News — Health",
+    "STAT News",
+    "AP News",
+    "CIDRAP",
+    "The Hill",
+    "World Health Organization (WHO)",
+    "Reuters"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMigwFBVV95cUxOS2NlUWpWemNHaS1rTkN1MWh0Z2tIR01xbVFZeEk0ZUhhWVg3NTIyWktxY1FzSWR4QWFMR2JvdWJLX2wxUnVOblMwSEtPeUpOcF9xZWp6S0I2aTczOGJTcEpmWjVLVlRZWVVNTkZydi1HSU1tZDZFQndMNEF4S1VVNl9mOA?oc=5",
+    "https://www.statnews.com/2026/08/04/ebola-1700-deaths-eastern-congo-fastest-growing-outbreak/?utm_campaign=rss"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-05T05:13:47.413Z",
+      "detail": "Aggregated reports from major news outlets and health organizations to track the outbreak's progression and response challenges."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-05T05:15:40.983Z",
+      "detail": "Compiled fatality counts, outbreak speed assessments, historical comparisons, virus identification, and operational disruptions from 7 distinct sources."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-05T05:18:01.342Z",
+      "detail": "Wove together epidemiological data with ground-level operational reports to illustrate the dual crisis of disease spread and response obstruction."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All factual claims verified against fact sheet; no hallucinations detected. Quotes absent in fact sheet, so none included. Headline and deck match core news. Minor directness improvements suggested.",
+      "timestamp": "2026-08-05T05:19:23.244Z"
+    }
+  ]
+}
