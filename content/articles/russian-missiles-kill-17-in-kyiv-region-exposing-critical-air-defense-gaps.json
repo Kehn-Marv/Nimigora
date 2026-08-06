@@ -1,0 +1,56 @@
+{
+  "slug": "russian-missiles-kill-17-in-kyiv-region-exposing-critical-air-defense-gaps",
+  "headline": "Russian Missiles Kill 17 in Kyiv Region, Exposing Critical Air Defense Gaps",
+  "deck": "A deadly assault on Ukraine's capital infrastructure highlights the urgent need for robust international military support.",
+  "category": "GEOPOLITICS",
+  "body": [
+    "Russian missile strikes killed 17 people across Ukraine's capital region, revealing significant shortfalls in the nation's air defense capabilities. This deadly barrage destroyed critical infrastructure and intensified calls for more international military aid.",
+    "The attacks resulted in 17 confirmed fatalities within the capital region, marking a severe human cost. This casualty count highlights the indiscriminate nature of the recent barrages.",
+    "Beyond the tragic loss of life, the Russian missile strikes specifically targeted and destroyed warehouses and crucial logistics infrastructure. These strategic hits aim to cripple Ukraine's supply lines and economic resilience.",
+    "Ukraine's air defenses fell short during the extensive Russian assault. The inability to intercept incoming projectiles allowed widespread destruction across the targeted areas.",
+    "Crucially, Ukrainian forces reported no Russian ballistic missiles were shot down during the night of these attacks. This specific failure points to a significant gap in current interception capabilities.",
+    "This suggests Russia's deadly missile attack on Kyiv directly exploited Ukraine’s depleted air defenses. The timing and intensity of the barrages appear designed to capitalize on known weaknesses.",
+    "Ultimately, Ukraine failed to halt the destructive Russian barrage. This outcome underscores the urgent need for advanced defensive systems to protect civilian lives and vital assets.",
+    "Ukrainian President Zelensky publicly blamed international partners for the 'horrific casualties' resulting from these attacks. His direct accusation emphasizes the perceived inadequacy of current military support.",
+    "These events underscore the ongoing challenges Ukraine faces in defending its territory and population from Russian aggression, particularly regarding air defense. The high casualty count and destruction of infrastructure signal a critical moment in the conflict, prompting Ukrainian leadership to appeal for more support to prevent future such incidents."
+  ],
+  "publishedAt": "2026-08-06T05:19:25.172Z",
+  "readTime": 3,
+  "sources": [
+    "Google News — World",
+    "AP News",
+    "The New York Times",
+    "CNN",
+    "Reuters",
+    "The Washington Post"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMirgFBVV95cUxOR0p3ci13M2E4ZHdienF4dUc4Ni1rZDlJZUhrTVJMNlA1NmNaOTNqMUpXaG16cGlCekJCdlBReFgtQmR4ZlJMdThKSTZIcGZwR0pXS0QzcmV5eGE5MG0tRmFWNEt2cnpzaW82YU81akZRR3pXZHF6amg2c1RzUEZKWGNDRWNKdS1lOGRYNW9wdkpZVTltVW1IZkhtSkpqU21sY2pKMVNkMU9XY0ZVbVE?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-06T05:16:24.368Z",
+      "detail": "Aggregated news reports and analyses from major international news outlets."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-06T05:18:37.391Z",
+      "detail": "Compiled casualty figures, infrastructure damage details, and air defense performance reports from 6 sources."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-06T05:19:25.172Z",
+      "detail": "Wove immediate event details with strategic analysis of air defense vulnerabilities and political reactions."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All factual claims verified against fact sheet; quotes and statistics match exactly. No em-dashes or double hyphens detected. Headline accurately reflects core news with active voice and clear consequence.",
+      "timestamp": "2026-08-06T05:21:39.727Z"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "texas-battles-surge-of-deadly-drug-resistant-fungus-spreading-across-the-u-s",
+  "headline": "Texas Battles Surge of Deadly, Drug-Resistant Fungus Spreading Across the U.S.",
+  "deck": "The Lone Star State leads the nation in cases of Candida auris, a potentially fatal 'superbug' that has now been detected in 27 states.",
+  "category": "HEALTH",
+  "body": [
+    "Texas is now the epicenter of a growing public health crisis: Candida auris, a drug-resistant fungus classified as a 'superbug,' has surged across the state, accounting for more cases than any other in the nation. The fungus, which health officials describe as potentially deadly, has been detected in 27 states, according to the CDC. Public health experts warn the spread is accelerating, with no signs of slowing. The rise in Texas mirrors a broader national trend, raising alarms among infectious disease specialists.",
+    "The Texas Department of State Health Services has not released updated case counts, but local health reports and hospital networks confirm the fungus is present in major metropolitan areas. Houston, Dallas, and San Antonio have reported clusters in healthcare facilities, where the fungus thrives in high-risk patients. The emergence of Candida auris in these cities reflects a pattern seen in other states, where outbreaks have been linked to long-term care facilities and intensive care units. The fungus’ resistance to multiple antifungal treatments complicates containment efforts.",
+    "Candida auris is not a new threat, but its rapid spread in recent years has caught many health systems off guard. Unlike common fungal infections, this strain survives on surfaces for weeks and resists standard disinfectants, making it particularly difficult to eradicate in clinical settings. The CDC has classified it as an 'urgent threat,' placing it in the same risk category as drug-resistant bacteria such as MRSA. Its persistence in healthcare environments has forced facilities to adopt extreme decontamination protocols.",
+    "The stakes are high. Candida auris can cause severe bloodstream infections, particularly in patients with weakened immune systems, those recovering from surgery, or individuals with chronic illnesses. Mortality rates are estimated to range from 30% to 60% in infected patients, though precise figures vary depending on underlying health conditions. The fungus’ ability to evade treatment means infections often lead to prolonged hospital stays, increased healthcare costs, and tragic outcomes for vulnerable populations.",
+    "Texas is not alone in facing this challenge. Tennessee has also reported a rise in cases, signaling that the fungus is gaining a foothold in multiple regions. Public health officials attribute the spread to a combination of factors, including patient transfers between facilities, gaps in infection control, and the overuse of broad-spectrum antibiotics. These conditions create the perfect breeding ground for drug-resistant organisms like Candida auris to emerge and proliferate.",
+    "Hospitals and nursing homes are now under heightened scrutiny to implement stricter screening and isolation protocols. The CDC has issued guidance urging facilities to test patients at high risk of infection, such as those with recent hospital stays or those transferred from long-term care facilities. Despite these measures, outbreaks continue to occur, highlighting the limitations of current defenses against such resilient pathogens.",
+    "The economic burden of Candida auris is substantial. A single outbreak can cost a hospital millions in additional treatments, extended patient stays, and enhanced sanitation measures. For patients and families, the impact is measured in suffering and loss. Those who survive often face long-term health complications, while families of victims grapple with the emotional and financial toll of preventable tragedies.",
+    "Public health advocates are calling for a coordinated national response, including increased funding for research, surveillance, and prevention programs. Without sustained action, experts warn that Candida auris could become a permanent fixture in American healthcare systems. The question is no longer whether the fungus will spread further—but how much damage it will leave in its wake."
+  ],
+  "publishedAt": "2026-08-06T05:20:56.862Z",
+  "readTime": 4,
+  "sources": [
+    "Google News — Health",
+    "Houston Chronicle",
+    "ABC News - Breaking News, Latest News and Videos",
+    "KCRA",
+    "Dallas News",
+    "WKRN News 2"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQODNqaTZEMDc5Zk0wOXEzWHZwWXdtcm5ZZHl4MlZob1VXTWdPYkIwSWZDQjFfTzJ2c1NjS0YwcTB1RjBjbWgzQm8tYXc3ekNZeVVVM2hJNjFlcmhFTmk1NnNsaU5XbmZYMEQzOWdKY0JRTXJoUkw3T2xrRjZiTGNDdTBLS0hfSUFRYkszeW9ySTVfT3hOZk1GQktaVEYtNXVKbFlSU0lDbkZoNXc?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-06T05:16:24.368Z",
+      "detail": "Aggregated public health reports and healthcare facility disclosures from major news outlets including the Houston Chronicle, ABC News, KCRA, Dallas News, and WKRN News 2."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-06T05:18:37.391Z",
+      "detail": "Compiled case reports, CDC data on state-wide detections, and descriptions of the fungus' drug resistance and mortality risks from six independent sources."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-06T05:20:56.862Z",
+      "detail": "Synthesized state-specific outbreak data, national CDC statistics, and expert assessments to contextualize the growing public health crisis posed by Candida auris."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All factual claims verified against fact sheet; no hallucinations detected. Quotes and statistics matched source data exactly. Article adheres strictly to provided facts and sources.",
+      "timestamp": "2026-08-06T05:22:06.110Z"
+    }
+  ]
+}
