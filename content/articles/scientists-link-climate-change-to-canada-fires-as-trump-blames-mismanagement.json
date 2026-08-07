@@ -1,0 +1,50 @@
+{
+  "slug": "scientists-link-climate-change-to-canada-fires-as-trump-blames-mismanagement",
+  "headline": "Scientists Link Climate Change to Canada Fires as Trump Blames Mismanagement",
+  "deck": "As Canada battles widespread fires, a fundamental disagreement emerges between scientific consensus and political claims regarding their root cause.",
+  "category": "CLIMATE",
+  "body": [
+    "Canada is currently experiencing significant fires, prompting a stark divergence in explanations for their origin between scientific analysis and former President Donald Trump’s assertions.",
+    "Scientists, drawing on extensive analysis, state that climate change has created the precise conditions necessary for these Canadian fires to ignite and spread with such intensity.",
+    "This scientific perspective emphasizes how altered weather patterns, prolonged droughts, and increased temperatures contribute directly to a more volatile fire season.",
+    "Meanwhile, Donald Trump has publicly attributed the ongoing Canadian fires to mismanagement, presenting a contrasting view on the primary factor behind the crisis.",
+    "This claim suggests that human operational failures, rather than environmental shifts, are the dominant force driving the current fire emergency.",
+    "The differing perspectives on the Canada fires, with scientists pointing to climate change and Donald Trump to mismanagement, highlight a critical ongoing debate.",
+    "Understanding these contrasting viewpoints is essential for public discourse and for shaping effective policy responses related to climate action and disaster preparedness, particularly as such events become more frequent."
+  ],
+  "publishedAt": "2026-08-07T04:28:42.480Z",
+  "readTime": 2,
+  "sources": [
+    "Google News — Environment",
+    "Audacy"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMixwFBVV95cUxNVXBMc2dHYy1uWjRhVzR6TmVDU3pSS2RpTGo0eG5sMGVPSkthTnVSVVhwZUFZd0hCazZfZlB1TVlVUWhjVFNDNzZGb3BDeHpLMG5KREN6NEM0ejBMVmlNRTNnal9lMG5vNkZfT29rcWRlZC1RdXZDZW5KY1JsM1ZWV04tc2hkaW93bjZkb1VrNTVFSVlmV2U1b0RjRmgtdG5JYWJWb1d3S21BeUt3MzJiTm0tcmVVRWRhYnlyaFdEd3Nzdkt5aG1B?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-07T04:25:12.397Z",
+      "detail": "Aggregated news reports and statements regarding the Canadian fires, scientific analyses, and political claims from Audacy and Google News Environment."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-07T04:27:11.971Z",
+      "detail": "Compiled primary causes of the Canada fires and attributed claims from scientific sources and Donald Trump."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-07T04:28:42.480Z",
+      "detail": "Wove scientific attributions of climate change with political claims of mismanagement to frame the core debate surrounding the Canadian fires."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All factual claims matched fact sheet exactly; no hallucinations detected. Headline and opening sentence revised for directness and neutrality. (Bias: 4/10, Accuracy: 10/10)",
+      "timestamp": "2026-08-07T04:30:56.464Z"
+    }
+  ]
+}

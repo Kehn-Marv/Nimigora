@@ -1,0 +1,53 @@
+{
+  "slug": "flesh-eating-bacteria-kills-five-in-louisiana-amid-rising-infections",
+  "headline": "Flesh-Eating Bacteria Kills Five in Louisiana Amid Rising Infections",
+  "deck": "The dangerous warm-water bacterial infection, Vibrio vulnificus, has led to multiple fatalities and hospitalizations, prompting significant public health concerns.",
+  "category": "HEALTH",
+  "body": [
+    "Five people have died in Louisiana this year due to flesh-eating bacteria, with four others hospitalized from the same dangerous infection. The specific pathogen, identified as Vibrio vulnificus, poses a significant public health concern across coastal regions. This surge in cases highlights the immediate risks associated with warm-water bacterial infections in the state.",
+    "The bacteria responsible for these fatalities and hospitalizations is Vibrio, specifically Vibrio vulnificus. This organism thrives in coastal Louisiana waters, making residents and visitors to these areas particularly vulnerable to infection. Health experts have characterized this bacterium as a dangerous warm-water bacterial threat.",
+    "Vibrio vulnificus is found naturally in these coastal environments, where elevated water temperatures create ideal conditions for its proliferation. The infection can lead to severe tissue damage, giving it the common moniker \"flesh-eating bacteria.\" Its presence demands careful consideration for anyone interacting with the state's warm coastal waters.",
+    "Reports indicate a noticeable rise in Vibrio vulnificus infections across Louisiana this year. This increase in reported cases underscores the heightened prevalence of the bacteria in the state's aquatic environments. The trend signals a critical need for increased public vigilance and awareness regarding potential exposure.",
+    "The five deaths and four hospitalizations this year mark a severe impact on the community. These figures underscore the serious nature of the infection, which can rapidly progress and become life-threatening. Each case represents a profound personal tragedy and a stark reminder of environmental health risks.",
+    "The fatalities and hospitalizations from Vibrio vulnificus emphasize a significant public health challenge in Louisiana. This situation highlights the critical importance of public awareness regarding the dangers linked to warm-water bacterial infections. Effective preventative measures and rapid medical intervention remain crucial in mitigating further harm and protecting public health."
+  ],
+  "publishedAt": "2026-08-07T04:29:47.949Z",
+  "readTime": 3,
+  "sources": [
+    "Google News — Health",
+    "CBS News",
+    "Time Magazine",
+    "NOLA.com",
+    "wdsu.com",
+    "WWLTV.com"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVkJwNUxXM0N5SUpUdWhvZExpUFBGZFpoZ1QwSDBmQnpJUTNZN3B0OGlpSUg3cktTdDVrUGRrS3FXbXpYc1dzRGotWjU0d3I4Q3M5allCekZPMWYxSzVvZExscUY5WXlHSGxWdkM5Qkh3dmxycE8wNVdEN2NCTmhWTzIta09xcEMzWEFZbGlfN1lPZmJZQ0E?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-07T04:25:12.397Z",
+      "detail": "Aggregated news reports from CBS News, NOLA.com, wdsu.com, and WWLTV.com to identify a recent outbreak."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-07T04:27:11.971Z",
+      "detail": "Compiled specific figures on deaths and hospitalizations, identified the causative bacteria, and located its environmental source from multiple news outlets."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-07T04:29:47.949Z",
+      "detail": "Wove together reported fatalities, bacterial identification, and environmental context to detail a significant public health concern in Louisiana."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All factual claims verified against fact sheet. No hallucinations detected. Minor bias concerns addressed by removing redundant phrasing. (Bias: 2/10, Accuracy: 10/10)",
+      "timestamp": "2026-08-07T04:31:08.408Z"
+    }
+  ]
+}

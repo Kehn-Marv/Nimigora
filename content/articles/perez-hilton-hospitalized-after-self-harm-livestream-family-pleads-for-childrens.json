@@ -1,0 +1,54 @@
+{
+  "slug": "perez-hilton-hospitalized-after-self-harm-livestream-family-pleads-for-childrens",
+  "headline": "Perez Hilton Hospitalized After Self-Harm Livestream, Family Pleads for Children's Privacy",
+  "deck": "The celebrity blogger's public health crisis has ignited critical discussions on mental well-being and media ethics.",
+  "category": "CULTURE",
+  "body": [
+    "Celebrity blogger Perez Hilton was hospitalized following a disturbing livestream video where he appeared to self-harm, prompting immediate concern and a public plea from his family. Police confirmed his hospitalization, marking a serious turn in the public figure's life. This incident has quickly spurred renewed discussion about mental health and the intense pressures faced by public personalities.",
+    "Hilton's family has urgently requested that paparazzi respect the privacy of his children in the wake of the highly publicized event. They emphasized the need for space and protection for the young family members during this difficult time. This appeal highlights the often-overlooked collateral impact of celebrity crises on their dependents.",
+    "Before the reported self-harm livestream, Hilton’s family revealed that his children had \"fled\" their home. This detail adds a layer of complexity to the unfolding crisis, suggesting a pre-existing tension or situation within the household. The children's departure underscores the severe emotional environment preceding the public incident.",
+    "The disturbing online incident involving Perez Hilton has prompted a significant public discussion regarding mental health awareness and support. Experts and commentators are weighing in on the broader implications of such public struggles for individuals and their communities. This event serves as a reminder of the hidden battles many face, even those in the public eye.",
+    "New details are continuing to emerge around the crisis involving the celebrity blogger, painting a more complete picture of the circumstances. These ongoing revelations are crucial for understanding the full scope of the situation. Journalists are carefully tracking developments, ensuring accurate reporting while respecting the sensitive nature of the events.",
+    "In a separate context, Perez Hilton is known to have made amends with prominent figures like Britney Spears and Khloé Kardashian in recent years. This history reflects a public persona that has evolved, often navigating complex relationships within the entertainment industry. His past public reconciliations offer a glimpse into his journey through the celebrity landscape.",
+    "The ongoing situation with Perez Hilton underscores the critical need for both mental health support and stringent ethical considerations in media reporting. As the family navigates this challenging period, the call for privacy for his children remains a central concern for the public and press alike. This incident forces a broader reflection on compassion and responsibility in the digital age."
+  ],
+  "publishedAt": "2026-08-07T04:30:16.767Z",
+  "readTime": 3,
+  "sources": [
+    "Google News — Entertainment",
+    "latimes.com",
+    "People.com",
+    "NBC News",
+    "WTOP",
+    "Google News"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVFVfbm11UlB1UHdvUjBWaGJiOHg1TUVYbWpSdXdCNVQ4UHpubTBYbF9zdFlCUkl5LXUteGowU0NNNWF2cDExWWh1ZW5LSFZXNl9NRWprOUhBcVZzcWJwM3MzOWplbGZuaU55b3UyRDBWTEY0NkN2bEZSM05pQ3ZVME5adjRyMlQ0eEcwUThYbDYzeG0yZ2R4Q2VtQk5xZWtMS0c0b1VaMjZGbXFCa0dUeWd3TmpzNTJxTFRFVVdPUENKZw?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-07T04:25:12.397Z",
+      "detail": "Aggregated celebrity news reports, entertainment site articles, and national news coverage."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-07T04:27:11.971Z",
+      "detail": "Compiled event details, family statements, and public reactions from People.com, latimes.com, NBC News, and WTOP."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-07T04:30:16.767Z",
+      "detail": "Wove incident specifics with family appeals and broader societal implications to examine the intersection of celebrity, mental health, and media ethics."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All factual claims verified against fact sheet; no hallucinations detected. Minor bias flag on loaded language in headline and opening paragraphs. Directness and fluff issues identified in paragraphs 1, 2, and 6. (Bias: 3/10, Accuracy: 9/10)",
+      "timestamp": "2026-08-07T04:31:17.262Z"
+    }
+  ]
+}

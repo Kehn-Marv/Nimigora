@@ -1,0 +1,51 @@
+{
+  "slug": "celebrity-blogger-perez-hilton-hospitalized-following-graphic-tiktok-livestream",
+  "headline": "Celebrity Blogger Perez Hilton Hospitalized Following Graphic TikTok Livestream",
+  "deck": "The incident, witnessed by the public and prompting emergency response, highlights the challenges of mental health crises unfolding on live social media.",
+  "category": "CULTURE",
+  "body": [
+    "Celebrity blogger Perez Hilton was hospitalized Tuesday night after livestreaming himself self-harming on TikTok, prompting emergency services to respond to his Miami home. Public reports of the graphic video led to the swift suspension of Hilton’s TikTok account minutes later. This incident immediately brings attention to the dark side of live social media content.",
+    "The Miami-Dade sheriff’s office confirmed their presence, responding to public reports of a man \"livestreaming acts of self-harm on social media.\" Deputies encountered Hilton's family outside the residence and chose to \"tactically disengage\" while monitoring the situation. The man involved was alone in his home during the time of the live stream.",
+    "Later that evening, the sheriff's office reported the unnamed man had been \"safely recovered and transported by Miami-Dade Fire Rescue to a local hospital, where he is receiving medical attention.\" This update confirmed the successful intervention following the concerning broadcast.",
+    "Hilton’s managers, Dante Rusciolelli and Rebekah Kochan, issued a joint statement to TMZ, confirming they were \"aware of the concerning content circulating online involving our client, Perez Hilton.\" They noted their inability to make direct contact with him, despite ongoing efforts.",
+    "“Our primary concern is Perez’s health and well-being, as well as the well-being of his family,” his managers stated. “Until we have confirmed information, we will not speculate or comment further. We appreciate everyone’s concern and ask that his privacy be respected during this time.”",
+    "The Miami-Dade sheriff’s office elaborated on their response strategy, explaining that in incidents involving a person experiencing a mental health crisis, deputies prioritize de-escalation. Their goal is creating \"time, distance, and opportunities for communication\" to reduce harm. This approach minimizes the risk of injury to the individual, deputies, and the public.",
+    "Perez Hilton, whose real name is Mario Armando Lavandeira Jr., gained prominence in the mid-2000s for his sharp celebrity commentary blog. His career later expanded into reality television and podcasting, and he recently moved with his three young children from Las Vegas to Miami in June. This personal context underscores the broader human element behind the public incident.",
+    "This incident sharply highlights the complex challenges of mental health crises unfolding on social media platforms. It compels a closer examination of platforms' content moderation responsibilities and the critical role of public reporting in emergency interventions. The event leaves unresolved questions about support systems for individuals in distress and the evolving nature of digital public spaces."
+  ],
+  "publishedAt": "2026-08-07T04:30:30.838Z",
+  "readTime": 3,
+  "sources": [
+    "The Guardian — Culture",
+    "Perez Hilton hospitalised after livestreaming self-harm on Tiktok"
+  ],
+  "sourceUrls": [
+    "https://www.theguardian.com/media/2026/aug/05/perez-hilton-hospitalised-after-live-streaming-self-harm-on-tiktok"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-07T04:25:12.397Z",
+      "detail": "Aggregated public reports, law enforcement statements, and manager comments from The Guardian and TMZ."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-07T04:27:11.971Z",
+      "detail": "Compiled details of the livestream, emergency response, official statements, and biographical context from 2 primary sources."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-07T04:30:30.838Z",
+      "detail": "Wove together incident facts with official commentary on emergency procedures and celebrity manager statements to present a comprehensive account."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All factual claims verified against fact sheet; quotes and statistics cross-referenced with provided sources. No hallucinations detected. (Bias: 2/10, Accuracy: 9/10)",
+      "timestamp": "2026-08-07T04:31:20.989Z"
+    }
+  ]
+}

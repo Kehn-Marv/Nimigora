@@ -1,0 +1,55 @@
+{
+  "slug": "israeli-strike-kills-lebanese-journalist-rights-groups-accuse-of-war-crime",
+  "headline": "Israeli Strike Kills Lebanese Journalist, Rights Groups Accuse of War Crime",
+  "deck": "International human rights organizations are demanding an investigation into the death of Amal Khalil, raising urgent questions about journalist protection in conflict zones.",
+  "category": "GEOPOLITICS",
+  "body": [
+    "Rights groups have accused Israel of committing a war crime in Lebanon, alleging an Israeli strike killed Lebanese journalist Amal Khalil. This grave accusation immediately raises critical questions regarding the protection of journalists and adherence to international law during hostilities.",
+    "Amal Khalil, a Lebanese journalist, was killed following an Israeli attack in Lebanon. Reports from sources including The Washington Post and Al Jazeera detailed the incident.",
+    "Specifically, rights groups accuse Israel of targeting and killing Ms. Khalil, a claim highlighted by AP News. This direct allegation intensifies the severity of the alleged violation of international humanitarian law.",
+    "Amnesty International has called for the deadly Israeli attack on journalist Amal Khalil to be investigated as a war crime. The organization emphasizes the urgent need for a thorough and impartial inquiry into the circumstances surrounding her death.",
+    "These accusations against Israel come from multiple prominent human rights organizations, including Amnesty International. The widespread nature of these claims signals a significant concern within the international community.",
+    "The killing of a journalist in a conflict zone like Lebanon highlights the extreme dangers faced by those reporting from the front lines. Their work is essential for informing the world about the realities of war and holding powers accountable.",
+    "The incident brings renewed focus to the principles of international law concerning civilian protection, particularly for non-combatants like journalists. Adherence to these laws is a cornerstone of global stability and human rights.",
+    "The demand for an investigation into Amal Khalil's death underscores the urgent need for accountability for military actions in conflict zones. Her killing brings renewed focus to the international community's responsibility to ensure the safety of journalists and uphold humanitarian law."
+  ],
+  "publishedAt": "2026-08-07T04:28:33.838Z",
+  "readTime": 3,
+  "sources": [
+    "Google News — World",
+    "The Washington Post",
+    "The Guardian",
+    "AP News",
+    "Amnesty International",
+    "Al Jazeera"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQTTFhUmhibXk2aXhxX0l0ZEthVlI1WkJST1VacGNUSlZuQ0VxQmVEcXh1cHFFcnhrNUVCRTR1Ujd0RkRtRERwNU1UU3dXMHh3UXRLaUdvXzhEU0puRThPd1VEN2ZlZWVFLUZseGplMG1hcGpRcFpraGJ3eXV2alBkdFhqRElwc2JfLWpwMF9tY045bFo2SGN5cnN5MUVxcDV6RWxSZWt3eGd6UWZ5a1o0bmJjc1hrd0N2V21B?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-07T04:25:12.397Z",
+      "detail": "Aggregated news reports and human rights organization statements from multiple international sources."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-07T04:27:11.971Z",
+      "detail": "Compiled details on the journalist's killing, location, and war crime accusations from 6 distinct sources."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-07T04:28:33.838Z",
+      "detail": "Wove event details with human rights claims to contextualize the severe implications for international law and journalist safety."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "Article verified against fact sheet: all claims, events, and attributions match ground truth. No fabricated quotes or statistics. Sources cross-referenced with fact sheet. (Bias: 3/10, Accuracy: 10/10)",
+      "timestamp": "2026-08-07T04:30:52.467Z"
+    }
+  ]
+}
