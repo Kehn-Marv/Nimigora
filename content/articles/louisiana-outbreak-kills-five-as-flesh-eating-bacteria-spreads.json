@@ -1,0 +1,53 @@
+{
+  "slug": "louisiana-outbreak-kills-five-as-flesh-eating-bacteria-spreads",
+  "headline": "Louisiana Outbreak Kills Five as 'Flesh-Eating' Bacteria Spreads",
+  "deck": "Health officials warn beachgoers after Vibrio vulnificus infections lead to multiple deaths and hospitalizations across the state.",
+  "category": "HEALTH",
+  "body": [
+    "Five individuals have died in Louisiana following an outbreak of a severe 'flesh-eating' bacterium, identified as Vibrio vulnificus. This alarming development has prompted urgent warnings from health authorities across the state. The infections are concentrated within Louisiana, raising significant public health concerns.",
+    "Beyond the fatalities, at least nine people have been hospitalized due specifically to vibrio bacteria infections. Separately, reports indicate four other individuals have been hospitalized from the broader 'flesh-eating' bacteria outbreak. These hospitalization figures underscore the rapid and serious nature of the pathogen's impact on those exposed.",
+    "The bacterium responsible, Vibrio vulnificus, is commonly found in seawater, posing a particular risk during warmer months. It can enter the body through open wounds or by consuming contaminated seafood. This natural habitat makes coastal areas and activities near the water potential points of exposure for residents and visitors alike.",
+    "Consequently, health officials have issued explicit warnings to beachgoers regarding the deadly bacteria. These advisories aim to inform the public about the inherent risks associated with swimming or wading in potentially contaminated waters. Public awareness is crucial in preventing further infections and mitigating the spread of this dangerous pathogen.",
+    "State health officials have actively reported on the evolving outbreak, providing updates on the number of cases and offering guidance. Their communications emphasize precautions, urging anyone with open cuts or recent surgeries to avoid seawater exposure. This ongoing monitoring and public education campaign are vital to managing the current crisis.",
+    "The continuing threat from Vibrio vulnificus necessitates sustained vigilance and adherence to public health recommendations. As the situation develops, residents and visitors to Louisiana's coastal regions must remain aware of the potential dangers in seawater. The focus now shifts to preventing additional exposures and containing the deadly spread of the bacteria."
+  ],
+  "publishedAt": "2026-08-08T03:27:17.275Z",
+  "readTime": 3,
+  "sources": [
+    "Google News — Health",
+    "Fox News",
+    "ABC News - Breaking News, Latest News and Videos",
+    "kltv.com",
+    "WDSU",
+    "fox8live.com"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdkJIVDhCeEU4Q2pfZzQ1MWRaWGQ4Mi1vY3V1dExGd2d5LU0ySEdXMGpCUHozV1FLZE00RlJERlNKYVZLRUhTbHNBTDRoRUhlY1ZEcG1LVVFibnc4UzY1eGdEejF3aUY3VDhoa3JhLWF0ZURZblc2WHVuamdlWktvTHhDcHdRYVhLdEVtOE00M2RWeUxFTjlvSTNsX2xFVUd4NmfSAacBQVVfeXFMT1poNWk3SUs5VEEtcFhKTk1nb0ZtcjRZVFZwcEhJY1RBdHNIekh5R2k5NVFtZWlJbXBxRF83NTFXcmxuUTBlemY2VG1JV0IxR0NGX0ZkRlI2SHdmSktjM0E0a0R5aUdCWm5sbHowblVVUUhrRTdOMFFlNWlKNmVodV9MR1lIcVRoZ0Q4MllMNGIyQXc3dWxYLS01WVNXVWFWdGM3YjdHcDg?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-08T03:23:28.237Z",
+      "detail": "Aggregated breaking news reports and health alerts from multiple local and national news outlets."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-08T03:24:59.779Z",
+      "detail": "Compiled confirmed death tolls, hospitalization numbers, bacteria identification, and public health warnings from five distinct sources."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-08T03:27:17.275Z",
+      "detail": "Wove reported fatalities and hospitalizations with official warnings to highlight the immediate public health threat in Louisiana."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All factual claims verified against fact sheet; no hallucinations detected. Minor directness and redundancy issues identified in body text. (Bias: 2/10, Accuracy: 9/10)",
+      "timestamp": "2026-08-08T03:29:04.929Z"
+    }
+  ]
+}

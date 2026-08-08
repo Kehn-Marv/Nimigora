@@ -1,0 +1,54 @@
+{
+  "slug": "russia-escalates-energy-war-threatening-ukrainian-winter",
+  "headline": "Russia Escalates Energy War, Threatening Ukrainian Winter",
+  "deck": "Russia's intensified attacks on Ukraine's vital energy infrastructure are causing widespread destruction and civilian harm as winter approaches.",
+  "category": "GEOPOLITICS",
+  "body": [
+    "Russian forces have intensified attacks on critical Ukrainian energy infrastructure, destroying key facilities and opening a new front targeting civilian fuel supplies ahead of the winter months. These systematic strikes mark a significant escalation in the ongoing conflict, threatening widespread disruption and humanitarian crisis.",
+    "Ukraine's largest oil producer has reported major production losses following a recent Russian attack, crippling vital domestic energy supplies. This directly impacts the country's capacity to maintain essential services and provide fuel for its citizens.",
+    "The scale of these attacks has grown dramatically, with Naftogaz reporting 287 Russian strikes in 2026 alone. This figure surpasses the total number of attacks recorded in 2025 and across the first three years of the war combined, indicating a deliberate and intensified campaign.",
+    "This new phase of the conflict sees Russian attacks explicitly targeting Ukrainian civilians filling up at gas stations. The shift transforms everyday necessities into direct hazards, further endangering non-combatants and disrupting daily life.",
+    "Analysts suggest this focus on fuel stations represents a new tactical front in Ukraine, designed to inflict maximum civilian suffering and economic paralysis. These targeted strikes aim to undermine morale and functional capacity across the country.",
+    "The damage to Ukraine's energy sector is significant, with critical infrastructure repeatedly hit. These assaults aim to destabilize the country as temperatures drop, creating dire conditions for millions of Ukrainians.",
+    "The international community watches with growing concern over the humanitarian impact of these attacks on Ukrainian civilians. This escalation places immense pressure on Ukraine's resilience and raises urgent questions about the coming winter's human cost."
+  ],
+  "publishedAt": "2026-08-08T03:26:06.460Z",
+  "readTime": 3,
+  "sources": [
+    "Google News — World",
+    "The Kyiv Independent",
+    "Українська правда",
+    "The New York Times",
+    "CNN",
+    "Межа. Новини України"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMixgFBVV95cUxPQ0hMVUhsYmp5cVpabmplRnM5MDNRWDhUbTU4bTI0ZWhEUlNoTXJGQXFnZUYtWjE3MEZzVlF0MGtkZm9SalZBWDkxQ1hObTRrNldvRms3SkJPY2JXVnhGTHZialFUaG0td1IxMm9BelpjYm5uOGo3ZFRCVWQwWDlhcG90Vm5vbU5OVjd6UWtWMXZUaFk5V1VDLUNHN1E0b0I3WDV0eXpOcmdSVXY4MjRQd2lTQTM1ZFItWW1UcFNZZHNiWFZIcnc?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-08T03:23:28.237Z",
+      "detail": "Aggregated reports from Ukrainian news outlets, major international publications, and energy sector statements."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-08T03:24:59.779Z",
+      "detail": "Compiled details on infrastructure destruction, attack statistics, and civilian targeting from six distinct sources."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-08T03:26:06.460Z",
+      "detail": "Wove together factual reports and analytical assessments to illustrate the escalating threat to Ukraine's energy security and civilian population."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "Passed — Bias: 3/10, Accuracy: 10/10, Readability: FK 15.6",
+      "timestamp": "2026-08-08T03:28:35.506Z"
+    }
+  ]
+}
