@@ -1,0 +1,54 @@
+{
+  "slug": "ukraine-drones-strike-russian-retail-giant-wildberries-challenging-russia-inc-fa",
+  "headline": "Ukraine Drones Strike Russian Retail Giant Wildberries, Challenging 'Russia Inc' Far From Front Lines",
+  "deck": "Kyiv's long-range drones hit a warehouse over 2,000km from the border, testing Russia's economic resilience and key business figures.",
+  "category": "GEOPOLITICS",
+  "body": [
+    "Ukrainian drones have struck a major Wildberries warehouse, a significant Russian online retail giant, more than 2,000 kilometers from the border, targeting 'Russia Inc' and testing its richest businesswoman.",
+    "The Russian retail giant's warehouse now burns after Kyiv's latest long-range drone attack, according to AP News. This direct strike by Ukrainian forces demonstrates an escalating capability to target key economic infrastructure deep within Russian territory. Reports confirm the incident, marking a notable expansion of the conflict's geographical scope.",
+    "Wildberries stands as a prominent Russian online retail giant, a cornerstone of the nation's domestic consumer market. The deliberate targeting of such a significant entity aims to inflict economic pressure beyond military objectives. Reuters suggests these attacks strike directly at the core of 'Russia Inc', challenging the perceived security of civilian commercial operations.",
+    "The attacked Wildberries warehouse is located over 2,000 kilometers from the Russian border, as reported by The Guardian, showcasing the unprecedented reach of Ukraine's drone capabilities. This considerable distance underscores Kyiv's evolving strategy to project power and disruption far behind front lines. Such deep strikes reshape expectations about the conflict's geographical boundaries.",
+    "For Russia's richest businesswoman, The New York Times notes the attacks on Wildberries signify the biggest test yet of her considerable influence and operational resilience. Her enterprise, a symbol of Russian economic success, now faces direct threats previously thought distant. This development places significant personal and financial pressure on a key figure within Russia's economic elite.",
+    "These long-range drone attacks on a significant Russian domestic business like Wildberries highlight Ukraine's expanding operational reach. Kyiv's strategy increasingly focuses on impacting Russia's economy, aiming to create internal pressure and disrupt logistical chains. The precision and distance of these strikes signal a new phase in the ongoing conflict.",
+    "The attacks on Wildberries signal an intensifying economic dimension to the conflict, challenging Russia's internal stability and its perceived invulnerability. Moscow faces mounting pressure to secure its vast domestic infrastructure against such sophisticated long-range threats. The repercussions of these strikes will likely shape future defensive strategies and potentially influence the broader economic calculus of the war."
+  ],
+  "publishedAt": "2026-08-09T03:43:15.471Z",
+  "readTime": 3,
+  "sources": [
+    "Google News — World",
+    "The New York Times",
+    "WSJ",
+    "Reuters",
+    "The Guardian",
+    "AP News"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWTVXcGhDUnY5RFp6bjhTd3VLZUprV05mNzY1UDEzVDVMallkeHQ1MVlQNkUtVWZfSXdHVDdsaW5WTTdYb2l1MTBXX0ZUY1FtcUlYQko4bXYzQm9ub09WRW5zcTZ1VVVTUzJ5b1BpYllkNFpRVHBRbk1WOVF3NHhTTTlmOWFQcm84alIw?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-09T03:40:07.268Z",
+      "detail": "Aggregated reports from leading international news outlets including The New York Times, WSJ, Reuters, The Guardian, and AP News."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-09T03:42:24.715Z",
+      "detail": "Compiled details on drone strikes, warehouse location, and economic impact from multiple verified sources."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-09T03:43:15.471Z",
+      "detail": "Wove immediate event details with strategic analysis to illustrate the escalating economic dimension of the conflict."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All factual claims verified against fact sheet; no hallucinations detected. Quotes and statistics matched exactly. Minor directness and readability refinements required for publication. (Bias: 2/10, Accuracy: 10/10)",
+      "timestamp": "2026-08-09T03:45:13.860Z"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "strongest-super-el-ni-o-threatens-us-coasts-with-historic-flooding",
+  "headline": "Strongest 'Super El Niño' Threatens US Coasts with Historic Flooding",
+  "deck": "A powerful El Niño system is set to bring a wet winter and elevated flood risk to vulnerable regions across the western and southeastern United States.",
+  "category": "CLIMATE",
+  "body": [
+    "This year’s “super” El Niño, predicted to be the strongest of the century, threatens the western and south-eastern US with a wet winter and elevated flood risk.",
+    "A “super” El Niño is officially declared when sea surface temperatures climb by at least 2C. The current weather system is expected to intensify through the fall and winter, persisting until early spring 2027.",
+    "California faces a 70%-100% chance of experiencing above-average rainfall along its coast. This increased precipitation raises significant concerns for potential flooding.",
+    "UCLA climate scientist Daniel Swain cautions that El Niño never guarantees any particular outcome in a California winter. He notes it will likely increase coastal flooding, especially during strong storm events or king tides.",
+    "Past El Niños caused significant damage; the 1982-83 event destroyed 33 oceanfront homes and damaged 3,000 other residences in California. The 1997-98 system led to massive flooding and 17 storm-related deaths across the state.",
+    "Mark Merrifield of the Scripps Institution of Oceanography warns that with less beach in front of the coastline, waves will have even greater impact. This increases the likelihood of flooding and undercutting of cliffs.",
+    "The US Gulf coast and East Coast, stretching from Florida up to the mid-Atlantic region, also face similar high odds of increased precipitation. Central and south Florida have historically experienced more severe weather, including more tornadoes and flood events, during El Niño years.",
+    "Despite the anticipated rainfall, El Niño is not expected to completely erase drought conditions in the US South-West. Dr. Joel Lisonbee, a senior associate scientist, stated that it would have to be “exceptionally wet” to achieve such an outcome.",
+    "The anticipated “super” El Niño presents a formidable challenge, requiring preparedness for potential devastation across vulnerable regions. Dr. Lisonbee warns such extreme wetness would bring “flooding, and the destruction and potential loss of life that comes along with that.”"
+  ],
+  "publishedAt": "2026-08-09T03:43:46.032Z",
+  "readTime": 3,
+  "sources": [
+    "The Guardian — Environment"
+  ],
+  "sourceUrls": [
+    "https://www.theguardian.com/us-news/2026/aug/08/super-el-nino-winter-flooding"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-09T03:40:07.268Z",
+      "detail": "Aggregated climate predictions, historical weather data, and scientific analyses from US National Oceanic and Atmospheric Administration (Noaa), European center for medium-range forecasts, California coastal commission, and The Guardian."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-09T03:42:24.715Z",
+      "detail": "Compiled sea surface temperature data, rainfall probabilities, historical damage statistics, and expert quotes from 3 sources."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-09T03:43:46.032Z",
+      "detail": "Wove scientific predictions with historical impacts and expert commentary to outline potential risks for US coastal and southeastern regions."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All factual claims, quotes, and statistics verified against the fact sheet with no hallucinations. Headline and article content fully aligned. Minor readability tweak suggested for paragraph 2.",
+      "timestamp": "2026-08-09T03:45:21.781Z"
+    }
+  ]
+}

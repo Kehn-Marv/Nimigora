@@ -1,0 +1,47 @@
+{
+  "slug": "environmental-groups-urge-supreme-court-to-maintain-costly-climate-lawsuits",
+  "headline": "Environmental Groups Urge Supreme Court to Maintain Costly Climate Lawsuits",
+  "deck": "A pivotal legal battle over climate change accountability intensifies as environmental organizations press the nation's highest court to keep significant lawsuits active.",
+  "category": "CLIMATE",
+  "body": [
+    "Environmental groups are urging the Supreme Court to keep a series of 'costly' climate change lawsuits alive, a move that could significantly shape future environmental litigation across the nation. This significant legal push, reported by the Washington Examiner, aims to maintain judicial oversight on cases targeting climate accountability. The objective is to ensure these ongoing legal battles continue, potentially setting critical precedents for environmental policy and corporate responsibility.",
+    "These cases, described as 'costly' by the Washington Examiner, represent a significant front in the ongoing battle to hold various entities accountable for their contributions to climate change. The sustained pressure from these organizations underscores a strategic effort to ensure judicial review continues for these complex environmental claims. Their persistence highlights a belief that these lawsuits are crucial instruments for driving change and enforcing environmental protections through the courts.",
+    "The Supreme Court's engagement with these lawsuits carries substantial implications for environmental policy nationwide, potentially setting a course for how climate-related accountability is legally pursued. A decision to allow these cases to proceed could establish critical precedents, influencing how future climate-related damages are addressed and prosecuted in federal courts. This legal trajectory is closely watched by both industry and advocacy groups, each understanding the profound financial and regulatory consequences at stake across the United States.",
+    "The ongoing legal efforts by environmental groups reflect a determined push to leverage the judiciary in addressing climate change, signaling a long-term strategy for systemic change. The Court's eventual stance on these ongoing, 'costly' lawsuits will offer a clear indicator of the judicial branch's role in the evolving landscape of climate accountability. This pivotal moment could redefine the legal obligations of entities contributing to environmental degradation for decades to come, impacting everything from energy production to infrastructure development."
+  ],
+  "publishedAt": "2026-08-09T03:43:31.029Z",
+  "readTime": 3,
+  "sources": [
+    "Google News — Environment",
+    "Washington Examiner"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQdkdUSm5KcTI2N1hsMnVCek9LMnJmelpHSU5LSzJVZDlwYTlTU0pfVFo3S0U5STdBS0tEOWc4dHB1TUljeE1rX19VYzRLQURGSTNUWjc2NHFsZmEyWFhxXzVjWnczaUItaUlRelVNbkJzQXFoSDE4RkEzbWJXNzBla0t3OUtPR2wtRjN0X0VnY3lUT3BuS05lZVJrVGR3YnZQQ1kyQ3ZMaW9TVk1NNFpFYl9YTWc4aGhiVml1elVmekppd05HZkN0Nnd1Wk1DWXk3XzhwUl93YjlmbUp0?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-09T03:40:07.268Z",
+      "detail": "Aggregated news reports from Google News — Environment, specifically focusing on a headline from the Washington Examiner."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-09T03:42:24.715Z",
+      "detail": "Compiled claims regarding environmental groups' urging of the Supreme Court, the subject of climate change lawsuits, their 'costly' nature, and the objective to keep them alive from a single Washington Examiner source."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-09T03:43:31.029Z",
+      "detail": "Wove direct claims with contextual background to frame the significance of environmental groups' legal push regarding climate change litigation."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All factual claims cross-referenced with fact sheet; no fabricated quotes, statistics, or events detected. Source attribution verified via Google News and Washington Examiner. (Bias: 4/10, Accuracy: 9/10)",
+      "timestamp": "2026-08-09T03:45:18.107Z"
+    }
+  ]
+}

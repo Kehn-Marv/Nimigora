@@ -1,0 +1,54 @@
+{
+  "slug": "congos-ebola-outbreak-explodes-past-4-000-cases-response-falters-critically",
+  "headline": "Congo's Ebola Outbreak Explodes Past 4,000 Cases, Response Falters Critically",
+  "deck": "The Democratic Republic of Congo faces a public health emergency as the fastest-growing Ebola epidemic in history struggles with basic response failures and threats of abandonment by health workers.",
+  "category": "HEALTH",
+  "body": [
+    "Congo's Ebola outbreak has escalated dramatically, surpassing 4,000 cases and marking it as the fastest-growing in history. This surge comes as fundamental response efforts are reportedly faltering, with health workers threatening to abandon their critical posts. The situation highlights a deepening public health crisis that demands urgent, community-led action.",
+    "The sheer scale of over 4,000 confirmed cases underscores the unprecedented challenge facing the Democratic Republic of Congo. This epidemic's rapid expansion surpasses previous outbreaks, raising alarms across international health organizations. The sustained transmission rates, despite significant global attention, indicate a profound breakdown in containment strategies.",
+    "Reports indicate that even the most basic steps crucial for an effective Ebola response are consistently falling short on the ground. This systemic failure in fundamental public health measures directly contributes to the unchecked spread of the virus. Without robust foundational interventions, efforts to control such a virulent disease remain severely hampered.",
+    "Compounding these challenges, health workers on the front lines are now threatening to abandon their vital roles in the fight against Ebola. This potential withdrawal of essential personnel could catastrophically undermine already struggling containment efforts. Such a development would leave communities even more vulnerable to the disease's devastating impact.",
+    "The reasons cited for this looming exodus are stark: health workers report facing both unpaid wages and the constant, deadly risk inherent in their work. Operating under such conditions, without adequate compensation or protection, makes their continued commitment increasingly untenable. Their plight illuminates the severe strain on human resources within the emergency response framework.",
+    "Amidst these systemic failures and threats, the dedication of individuals like one man working unpaid to slow the outbreak stands in sharp contrast. His efforts, though heroic, highlight the desperate and often unsupported nature of the response at a grassroots level. Such individual sacrifice cannot, however, compensate for widespread organizational shortcomings.",
+    "In response to the escalating crisis, both the Africa CDC and the World Health Organization (WHO) are urgently calling for robust, community-led action to contain Ebola in the DRC. This unified appeal emphasizes the critical need for local engagement and trust to rebuild an effective response. The future trajectory of this unprecedented outbreak now hinges on immediate and coordinated interventions that address both the virus and the human factors undermining its control."
+  ],
+  "publishedAt": "2026-08-09T03:44:34.688Z",
+  "readTime": 3,
+  "sources": [
+    "Google News — Health",
+    "AP News",
+    "The Atlantic",
+    "CNN",
+    "Reuters",
+    "World Health Organization (WHO)"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMimgFBVV95cUxQeU5NZnNvRFR5aUlGbzMtYWJWdy0tYVRVMG5BQkFjODE0akVXbmxsNk9XcnZBaEY2NXdrbmNFZDU3anlBQm12alB0VEl1dHdLV1ZBX3UtWjRpb0p6VTFlMVhzM29mOGRxTTZ2RHRkWFpyYS0zUlRxejdzdmNrR1A4YUhKOUtHMW1YVHdsTm4yZW9aZXpIbDNZV0JR?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-09T03:40:07.268Z",
+      "detail": "Aggregated news reports from major international outlets and health organizations."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-09T03:42:24.715Z",
+      "detail": "Compiled case statistics, response challenges, worker threats, and official calls to action from 6 sources."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-09T03:44:34.688Z",
+      "detail": "Wove together epidemiological data with ground-level reporting to portray the deepening health crisis and its systemic challenges."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All factual claims, statistics, and quotes verified against the fact sheet. No hallucinations detected. Article structure aligns with ground truth.",
+      "timestamp": "2026-08-09T03:45:37.775Z"
+    }
+  ]
+}

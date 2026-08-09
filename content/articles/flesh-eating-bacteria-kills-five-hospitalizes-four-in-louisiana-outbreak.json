@@ -1,0 +1,53 @@
+{
+  "slug": "flesh-eating-bacteria-kills-five-hospitalizes-four-in-louisiana-outbreak",
+  "headline": "Flesh-Eating Bacteria Kills Five, Hospitalizes Four in Louisiana Outbreak",
+  "deck": "An aggressive Vibrio Vulnificus outbreak has prompted a statewide warning after claiming lives and sending others to intensive care.",
+  "category": "HEALTH",
+  "body": [
+    "Five people have died and four others remain hospitalized in Louisiana following an outbreak of Vibrio Vulnificus, a dangerous flesh-eating bacteria. Health officials have confirmed these cases, prompting a statewide public health warning. This severe outbreak marks a critical public health concern, given the rapid fatality rate and serious hospitalizations.",
+    "The Louisiana Department of Health identified Vibrio Vulnificus as the specific bacteria responsible for these severe infections. This strain is known for its aggressive nature, often leading to necrosis of tissues, hence its common designation as a 'flesh-eating' bacteria. The state's warning emphasizes the immediate threat this pathogen poses to public safety.",
+    "Confirmation of the deaths and hospitalizations came from health officials, underscoring the gravity of the situation. These nine confirmed cases highlight the immediate danger of exposure to the bacteria. Authorities are working to understand the full scope of the transmission and potential risk factors involved in these incidents.",
+    "Neighboring Mississippi has also reported a significant number of related incidents, with 29 Vibrio cases documented. This broader regional presence suggests a wider environmental factor contributing to the rise in infections. The interconnectedness of waterways and human activity across state lines complicates containment efforts for such pathogens.",
+    "The severity of Vibrio Vulnificus infections, leading to rapid fatalities and intensive care needs, makes this outbreak particularly alarming. Public health advisories are crucial in educating residents on preventive measures and recognizing symptoms. The high mortality rate associated with this specific bacteria demands urgent and coordinated responses from health authorities.",
+    "As Louisiana grapples with this deadly outbreak, the focus remains on mitigating further infections and protecting vulnerable populations. Health agencies across the Gulf Coast region face the ongoing challenge of monitoring and responding to these dangerous bacterial threats. The long-term implications for public health strategies in coastal areas will undoubtedly be significant."
+  ],
+  "publishedAt": "2026-08-09T03:44:18.284Z",
+  "readTime": 3,
+  "sources": [
+    "Google News — Health",
+    "NBC News",
+    "The New York Times",
+    "Cleveland 19 News",
+    "KOMO",
+    "WJTV"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMikgFBVV95cUxNQWpGajIyMGhwMjJDZGk4cFJOeU9IOHpEak5IVmYzZXFVUm9YLURUMlBqVGFPb1dPb2ducEJ4N3VQVzNBc1dpN3IweERCM1A1MnN4Z19JX0Z5QzlweVUzY3J5aHlvQ3ltT1N0dU9uTWFsejVfZ294Zlo5NHh0bU85TFV4d2JpWGFfNG1ZVjJobGthdw?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-09T03:40:07.268Z",
+      "detail": "Aggregated news reports from national and local outlets, including NBC News, The New York Times, and KOMO, alongside Google News Health."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-09T03:42:24.715Z",
+      "detail": "Compiled specific counts of deaths and hospitalizations, identified the bacterial strain, and noted official warnings from 6 distinct sources."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-09T03:44:18.284Z",
+      "detail": "Wove confirmed fatality and hospitalization data with public health warnings and regional case reports to detail the outbreak's immediate impact and broader implications."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All factual claims verified against fact sheet, no hallucinations detected. Quotes and statistics match exactly. Headline and body align precisely with ground truth. Minor editorial language flagged for removal to ensure strict neutrality.",
+      "timestamp": "2026-08-09T03:45:34.144Z"
+    }
+  ]
+}
