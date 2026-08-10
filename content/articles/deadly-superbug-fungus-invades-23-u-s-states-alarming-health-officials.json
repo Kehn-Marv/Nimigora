@@ -1,0 +1,61 @@
+{
+  "slug": "deadly-superbug-fungus-invades-23-u-s-states-alarming-health-officials",
+  "headline": "Deadly Superbug Fungus Invades 23 U.S. States, Alarming Health Officials",
+  "deck": "The drug-resistant Candida auris, a fungal infection capable of rewiring skin immunity, presents a formidable challenge to healthcare systems nationwide.",
+  "category": "HEALTH",
+  "body": [
+    "A drug-resistant fungus, identified as Candida auris, has spread to 23 U.S. states in 2026, posing a significant and immediate public health threat across the nation.",
+    "This deadly superbug, known for its resistance to conventional treatments, has health authorities grappling with its rapid proliferation.",
+    "Wisconsin is among the states now reporting cases of Candida auris, highlighting the broad geographic reach of this dangerous pathogen.",
+    "The fungus's ability to evade standard antifungal medications makes containment particularly challenging for medical professionals.",
+    "Texas currently leads the U.S. in confirmed cases of this dangerous fungal infection, indicating a concentrated outbreak in the state.",
+    "Meanwhile, Washington has reported 13 confirmed cases of the new fungus in 2026, according to data from the Centers for Disease Control and Prevention (CDC).",
+    "Candida auris is not merely a common fungus; it is classified as a deadly superbug by health experts.",
+    "Its virulence and resistance to multiple drug classes elevate its status to an urgent concern for patient safety.",
+    "A key factor in the fungus's persistence is its sophisticated method of evading the body's defenses.",
+    "Research indicates Candida auris hides in hair follicles by actively rewiring skin immunity, allowing it to establish and spread undetected.",
+    "The widespread presence of such a resilient and deadly pathogen forces a re-evaluation of infection control protocols in hospitals and long-term care facilities.",
+    "Protecting vulnerable populations from this emergent threat demands heightened surveillance and immediate action.",
+    "The continuing spread of Candida auris underscores the critical need for advanced diagnostic tools and innovative treatment strategies.",
+    "Public health agencies face an escalating challenge to contain this drug-resistant superbug and mitigate its potential for further harm."
+  ],
+  "publishedAt": "2026-08-10T03:57:00.371Z",
+  "readTime": 3,
+  "sources": [
+    "Google News — Health",
+    "Wausau Pilot & Review",
+    "thehill.com",
+    "FOX 7 Austin",
+    "Medical Xpress",
+    "FOX 13 Seattle"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNc2pBa3FrOXRVSXpBa2JtM0pYODFQSEVReHhKMTZMSlVrblNMQ2lHUXhaZ3VKRV9kemJ0OTZhNVJkVEtSaU9BdjBLc2p6WGxVd2FmTk5uNnRWOTU0RGk4MHhxbmJtQWVZX2ZQWDBjT0ZWWl8zQWtnaHBUWDhWclBSNUw0WFFaVmJtNlpOSFBDVFlhZ196NnZEWUNCazFFdGhOVTItMGtsUHhXSEU?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-10T03:52:23.058Z",
+      "detail": "Aggregated news reports from regional and national health publications revealed the geographic spread and specific case numbers of the drug-resistant fungus."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-10T03:54:30.109Z",
+      "detail": "Compiled confirmed case counts, state-level presence, and scientific classifications of Candida auris from 6 distinct news and medical sources."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-10T03:57:00.371Z",
+      "detail": "Wove verified spread data with medical analysis to explain the public health implications of Candida auris's resistance and immune evasion."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All factual claims verified against fact sheet. No hallucinations detected. Headline and article align precisely. Minor redundancy and fluff flagged for tightening.",
+      "timestamp": "2026-08-10T03:58:07.836Z"
+    }
+  ]
+}
