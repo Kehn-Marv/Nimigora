@@ -1,0 +1,52 @@
+{
+  "slug": "historic-wildfires-ravage-us-northwest-intensifying-climate-crisis-reckoning",
+  "headline": "Historic Wildfires Ravage US Northwest, Intensifying Climate Crisis Reckoning",
+  "deck": "Unprecedented blazes have consumed millions of acres across Washington and Oregon, forcing a stark confrontation with accelerating climate change and its devastating consequences.",
+  "category": "CLIMATE",
+  "body": [
+    "Historic wildfires have consumed over 2.9 million acres across Washington and Oregon this year, marking Oregon's worst season on record and signaling an accelerating climate crisis. This unprecedented destruction has reshaped landscapes and communities, forcing a harsh reckoning with the immediate impacts of a changing global climate. The sheer scale of these blazes highlights a grim reality for the region.",
+    "On the eastern side of Washington state alone, at least 846 structures have been consumed by the fires, illustrating the profound human cost of this season's intensity. Residents have faced rapid evacuations and significant losses as blazes move with alarming speed. The scale of the destruction has left communities grappling with widespread devastation and the long road to recovery.",
+    "The devastation in the Pacific Northwest mirrors a national crisis, with firefighters currently battling 95 large blazes across the United States. Since the start of the year, more than 6.3 million acres have burned nationwide, a stark testament to the escalating challenge. Firefighters have responded to over 45,800 blazes across the country in this period, with a hundred new fires erupting in a single day last week.",
+    "These extreme conditions are not isolated events but rather a direct consequence of the climate crisis, which has pushed regional temperatures higher and significantly extended the seasons when infernos are more likely to erupt. The prolonged periods of heat and dryness create an environment ripe for rapid fire spread. This systemic shift in weather patterns is fundamentally altering the natural fire cycle.",
+    "A crucial factor in the current intensity is the state of vegetation across the region, which cured extensively during an exceptionally hot and dry July. This parched landscape provides abundant fuel for even small ignitions to quickly escalate into major conflagrations. The lack of moisture transforms forests and grasslands into highly combustible zones, accelerating fire behavior.",
+    "The urgency of the situation is underscored by experts who plainly state, \"We are living through climate change and it’s accelerating.\" This blunt assessment highlights the immediate and undeniable link between global warming and the increasing frequency and severity of such natural disasters. It serves as a critical call to acknowledge the ongoing environmental transformation.",
+    "Another expert explains the practical implications of these changes, noting, \"There’s a longer window where if we get the dreaded ignitions – whether they’re accidental, or purposeful, or lightning – the forests become really receptive to burning.\" This extended susceptibility means that even minor sparks now pose a much greater threat. The window for catastrophic fires has expanded, challenging traditional firefighting strategies.",
+    "The historic wildfires in the US North-west carry significant implications for the environment, public health, and the broader economy, with the danger far from over. Experts warn that the climate crisis will likely create even more time for calamitous conditions to align in the future. Addressing these escalating threats requires immediate and sustained efforts to mitigate climate change's profound effects."
+  ],
+  "publishedAt": "2026-08-11T03:45:19.056Z",
+  "readTime": 4,
+  "sources": [
+    "The Guardian — Environment",
+    "The Guardian",
+    "US National Interagency Fire Center"
+  ],
+  "sourceUrls": [
+    "https://www.theguardian.com/us-news/2026/aug/10/us-wildfires-pacific-north-west"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-11T03:41:58.522Z",
+      "detail": "Aggregated wildfire incident reports, acreage statistics, and climate analyses from US national agencies and leading environmental publications."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-11T03:43:55.661Z",
+      "detail": "Compiled burned acreage statistics, structure loss data, and expert climate claims from The Guardian and the US National Interagency Fire Center."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-11T03:45:19.056Z",
+      "detail": "Wove regional wildfire data with national trends and expert analysis to illustrate the accelerating impact of the climate crisis on the US Northwest."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All statistics, quotes, and claims verified against the fact sheet. No hallucinations detected. Article aligns closely with ground truth data.",
+      "timestamp": "2026-08-11T03:47:37.971Z"
+    }
+  ]
+}

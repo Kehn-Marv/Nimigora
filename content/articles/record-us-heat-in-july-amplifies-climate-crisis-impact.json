@@ -1,0 +1,53 @@
+{
+  "slug": "record-us-heat-in-july-amplifies-climate-crisis-impact",
+  "headline": "Record US Heat in July Amplifies Climate Crisis Impact",
+  "deck": "The contiguous United States experienced its hottest month ever recorded, signaling severe consequences of a warming planet and prompting widespread disruption to daily life.",
+  "category": "CLIMATE",
+  "body": [
+    "July registered as the hottest month ever recorded in the United States, with average temperatures soaring 3.3F (1.8C) above the 20th-century average for the contiguous US, a stark indicator of the deepening human-caused climate crisis.",
+    "The National Oceanic and Atmospheric Administration (NOAA) reported this record, marking 132 years of reliable measurements. The month saw three distinct heat dome events blanket the country, driving sustained extreme temperatures across numerous regions.",
+    "Wyoming, for instance, endured its hottest July on record, with temperatures an alarming 5.1F above its historical average. These regional spikes contribute to the broader national trend of escalating heat.",
+    "Analysts confirm this elevated heat across the US is being amplified directly by the human-caused climate crisis. The combustion of coal, oil, and gas releases heat-trapping gases that are steadily driving up global temperatures.",
+    "The financial strain on households has been immediate and significant. Nearly half of all people in the US reported a 'major' impact on their electricity bills as air conditioning usage surged to combat the relentless heat, according to an AP-NORC poll.",
+    "Beyond finances, the extreme conditions reshaped daily life and leisure. About 40% of people altered their travel plans, while roughly two-thirds of those polled reported that the heat affected their families' outdoor activities.",
+    "This escalating climate reality stands in contrast to political actions by figures like Donald Trump, who has continued efforts to dismantle cheap clean energy initiatives. His administration sought to bolster the production of fossil fuels, which are a primary driver of these rising global temperatures.",
+    "The record-setting July underscores the urgent need for comprehensive strategies to reduce greenhouse gas emissions and accelerate the transition to sustainable energy sources. Without such shifts, the frequency and intensity of these extreme weather events are projected to continue their upward trajectory, posing increasing challenges to public health and economic stability."
+  ],
+  "publishedAt": "2026-08-11T03:45:04.112Z",
+  "readTime": 3,
+  "sources": [
+    "The Guardian — Environment",
+    "The Guardian",
+    "National Oceanic and Atmospheric Administration (Noaa)",
+    "AP-NORC"
+  ],
+  "sourceUrls": [
+    "https://www.theguardian.com/us-news/2026/aug/10/july-hottest-month-ever-recorded-heatwaves"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-11T03:41:58.522Z",
+      "detail": "Aggregated climate data from the National Oceanic and Atmospheric Administration (NOAA) and journalistic reports from The Guardian, alongside public opinion polling by AP-NORC."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-11T03:43:55.661Z",
+      "detail": "Compiled specific temperature anomalies, heat event counts, public impact statistics, and political actions related to energy policy from 4 distinct sources."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-11T03:45:04.112Z",
+      "detail": "Wove scientific climate data with social and political impacts to illustrate the immediate and long-term consequences of record heat in the US."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All factual claims, statistics, and events were verified against the fact sheet. Minor editorial liberties were taken in phrasing, but no fabrications or major deviations were found. The article adheres closely to the provided ground truth.",
+      "timestamp": "2026-08-11T03:47:33.830Z"
+    }
+  ]
+}

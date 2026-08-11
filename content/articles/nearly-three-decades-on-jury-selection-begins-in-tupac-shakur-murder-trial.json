@@ -1,0 +1,54 @@
+{
+  "slug": "nearly-three-decades-on-jury-selection-begins-in-tupac-shakur-murder-trial",
+  "headline": "Nearly Three Decades On, Jury Selection Begins in Tupac Shakur Murder Trial",
+  "deck": "A former gang leader stands accused of orchestrating the 1996 killing of the iconic rapper, bringing one of hip-hop's most enduring mysteries to court.",
+  "category": "CULTURE",
+  "body": [
+    "Jury selection has commenced for the trial of a former gang leader accused in the 1996 murder of iconic rapper Tupac Shakur, initiating a long-awaited legal process. This pivotal moment arrives nearly three decades after the artist's death, promising potential resolution to one of hip-hop's most enduring and speculated-upon mysteries. The commencement of these proceedings represents a significant step towards understanding the circumstances surrounding a killing that has captivated public attention for generations.",
+    "The defendant, identified as a former gang member, faces charges of orchestrating Shakur's killing, an event that tragically unfolded in 1996. This trial aims to meticulously examine the accusations and the evidence surrounding that fateful night, when the renowned rapper's life was abruptly cut short. After nearly 30 years, the legal proceedings will finally scrutinize the alleged involvement in the crime.",
+    "A compelling aspect of the upcoming trial is the defendant's reported dual role as the prosecution’s star witness. This unusual circumstance suggests a complex legal strategy is in play, where the accused might provide critical insights into the long-unsolved case. Such a development could potentially unlock long-awaited details about the iconic artist's death, offering new perspectives on a decades-old mystery.",
+    "Meanwhile, Suge Knight, a prominent figure from Shakur's inner circle at the time, has publicly expressed his unwillingness to participate in the trial. His refusal to testify could significantly impact the proceedings, given his historical proximity to Shakur and the events leading up to the murder. Knight's decision introduces another layer of intrigue to a case already steeped in speculation and unanswered questions, complicating the search for answers.",
+    "Knight's stance was conveyed through a blunt and unambiguous statement. He has been quoted directly saying, \"Leave me out of it.\" This concise refusal clearly underscores his desire to remain detached from the unfolding legal drama, despite his deep-seated connection to the historical context of the case.",
+    "The murder of Tupac Shakur in 1996 sent profound shockwaves throughout the music industry and far beyond, leaving an indelible void that has resonated for decades. For nearly 30 years, the case remained officially unsolved, fueling countless theories, documentaries, and public fascination. This trial, therefore, carries immense cultural and historical weight, promising to revisit a pivotal and tragic moment in hip-hop's storied past.",
+    "As jury selection progresses, the world keenly awaits to see if this legal process will finally deliver the answers and closure sought by millions of fans and observers. The potential for significant new revelations about the iconic artist's death remains high, promising to reshape the public understanding of the event. What ultimately emerges from the courtroom will undoubtedly play a crucial role in defining the enduring legacy of one of music's most enigmatic and influential figures."
+  ],
+  "publishedAt": "2026-08-11T03:46:35.224Z",
+  "readTime": 4,
+  "sources": [
+    "Google News — Entertainment",
+    "Reuters",
+    "bbc.com",
+    "ABC News - Breaking News, Latest News and Videos",
+    "NBC News",
+    "Google News"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMiugFBVV95cUxNRExTWkVOT3Z2WjAtQTFxWnd4Wk5WUVVDbGhtX28tOEx1VTBJQ1A5a2lSWkFOUVU3VDBpOEdPeGs3a2UzMFZWcXVDamhjVnBmMjh5ajJIMzBvd1dZdy1nRTFMY3FZb2JnejVKSmdOUl9kdUpGU3hSVXIzUVJPUkRfd1dUNDkteG45NzJ4bkFSQy01cFFYUGUzSEhiaWZuX2dFR1lBM3A4U1R5ZEdaMTMxZE5Ha0dId3JhVFE?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-11T03:41:58.522Z",
+      "detail": "Aggregated news reports from international and domestic media outlets covering the legal proceedings."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-11T03:43:55.661Z",
+      "detail": "Compiled details regarding jury selection, defendant's role, Suge Knight's statements, and the timeline of the 1996 murder from 6 distinct sources."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-11T03:46:35.224Z",
+      "detail": "Wove legal developments with historical context and cultural impact to frame the significance of the trial for one of hip-hop's most enduring mysteries."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All factual claims verified against fact sheet; no hallucinations detected. Minor editorial flourishes and redundant phrasing flagged for removal to improve directness and readability. (Bias: 2/10, Accuracy: 9/10)",
+      "timestamp": "2026-08-11T03:47:59.882Z"
+    }
+  ]
+}
