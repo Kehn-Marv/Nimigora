@@ -1,0 +1,57 @@
+{
+  "slug": "justice-alito-gained-up-to-2-9-million-from-fossil-fuels-amid-key-climate-case",
+  "headline": "Justice Alito Gained Up to $2.9 Million From Fossil Fuels Amid Key Climate Case",
+  "deck": "Supreme Court Justice Samuel Alito's significant fossil fuel earnings between 2005 and 2024 are under scrutiny as the Court prepares to hear a critical climate lawsuit where he has refused recusal.",
+  "category": "CLIMATE",
+  "body": [
+    "Supreme Court Justice Samuel Alito gained up to $2.9 million from his fossil fuel interests between 2005 and 2024, according to analyses by The Guardian and Court Accountability. This substantial financial interest emerges as the Supreme Court prepares to hear a crucial climate accountability case involving major oil companies.",
+    "Even at the lowest range of estimates, Justice Alito accrued almost $400,000 from his oil and gas holdings since his appointment to the high court in 2005. His reported assets, excluding home and other personal property, rose from $1.1 million in 2005 to between $3.4 million and $8.4 million by 2024.",
+    "The Supreme Court is set to hear a case where oil companies Suncor Energy and Exxon have asked justices to rule that federal law prevents subnational governments from filing lawsuits against fossil fuel producers for climate-warming effects. This ruling could significantly impact climate litigation nationwide.",
+    "Oral arguments in the Suncor Energy and Exxon case are scheduled for October 5, marking the opening day of the Court's new term. The Trump administration has also requested 10 minutes of argument time in the upcoming proceedings.",
+    "Judicial watchdog groups, including Court Accountability, have called for a Senate committee to investigate Justice Alito's holdings and for him to recuse himself from the impending fossil fuel case. These calls highlight ongoing concerns about ethics and potential conflicts of interest within the nation's highest court.",
+    "Justice Alito and the Supreme Court, however, rejected these calls for his recusal from the upcoming fossil fuel case. A Supreme Court spokesperson stated in May that Alito was not required to recuse himself because his holdings do not include the companies directly named in the lawsuit, Suncor and ExxonMobil.",
+    "Alito stands as the sole Supreme Court justice with holdings in energy companies. Most of his oil and gas gains originated from a mineral interest held by his wife, Martha-Ann, on a property in Grady County, Oklahoma.",
+    "Lisa Graves, co-founder of Court Accountability, suggested Alito may have undervalued his Grady County property in financial disclosures. She noted that a relative sold an adjacent plot for $800,000 in 2017, while Alito continued to report his property's value between $100,000 and $250,000.",
+    "“You might have real appreciation for how that industry has helped make it possible for you to perhaps buy a second home on the water, or live a [certain] lifestyle,” Lisa Graves observed.",
+    "“It’s reasonable to assume that means the value of the Alito property would have increased to around $800,000,” Graves added, pointing to the discrepancy.",
+    "The upcoming October 5 hearing will proceed with Justice Alito on the bench, intensifying scrutiny over judicial ethics and financial transparency. This situation underscores persistent questions about potential conflicts of interest at the highest level of the judiciary, particularly concerning cases with significant environmental and economic implications."
+  ],
+  "publishedAt": "2026-08-12T04:09:25.361Z",
+  "readTime": 4,
+  "sources": [
+    "The Guardian — Environment",
+    "The Guardian",
+    "Court Accountability",
+    "Lisa Graves",
+    "NBC News"
+  ],
+  "sourceUrls": [
+    "https://www.theguardian.com/us-news/2026/aug/11/samuel-alito-oil-gas-assets-supreme-court-analysis"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-12T04:05:28.718Z",
+      "detail": "Aggregated financial disclosure reports and judicial watchdog analyses from multiple sources."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-12T04:07:52.298Z",
+      "detail": "Compiled Alito's fossil fuel gains, details of the upcoming Supreme Court climate case, and recusal calls from 4 sources."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-12T04:09:25.361Z",
+      "detail": "Wove financial data with judicial proceedings and ethical concerns to examine potential conflicts of interest within the Supreme Court."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All financial figures, events, claims, and quotes verified against the fact sheet. No fabrications detected. Headline and article align precisely with core facts.",
+      "timestamp": "2026-08-12T04:12:23.371Z"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "suspected-def-con-attendees-hijack-delta-flight-wi-fi-with-phishing-trap",
+  "headline": "Suspected DEF CON Attendees Hijack Delta Flight Wi-Fi with Phishing Trap",
+  "deck": "Passengers on Delta flight 591 allegedly created a fake Wi-Fi hotspot to harvest credentials, raising cybersecurity alarms days after a major hacking conference.",
+  "category": "TECHNOLOGY",
+  "body": [
+    "Passengers aboard Delta flight 591 allegedly spoofed the onboard Wi-Fi, creating a sophisticated phishing trap one day after the DEF CON security conference concluded in Las Vegas. This incident disabled the legitimate Wi-Fi for 30 minutes, prompting immediate investigations into the security breach. Pilots indicated the passengers were from a cyber conference, able to jam the aircraft's network.",
+    "The alleged attackers established a deceptive network named 'Delta WiFi Fast'. This counterfeit hotspot directed unsuspecting users to a phishing landing page, specifically engineered to harvest personal login credentials. Such a tactic targets the trust passengers place in onboard services.",
+    "Cybersecurity experts identify this technique as an 'evil twin' attack. This method involves setting up a fake Wi-Fi network that meticulously mimics a legitimate one, enabling perpetrators to intercept login details and other sensitive data from anyone who connects. It exploits a fundamental vulnerability in how users perceive network authenticity.",
+    "A message from the flight's cockpit confirmed the disruption: \"NO INFO AS OF NOW WE HAVE A BUNCH OF PAX THAT WERE AT A CYBER CONFERENCE IN LAS THEY WERE ABLE TO JAM OUR WIFI AND BROADCAST THEIR SIGNAL.\" Delta spokesperson Morgan Durrant later corroborated these details of the incident, acknowledging the reported breach.",
+    "Delta officials quickly assured the public that the flight's safety was never compromised. Aircraft operating systems remained unaffected by the Wi-Fi interference, and no emergency was declared during the 30-minute period of disruption. This clarifies that the attack targeted passenger data, not flight controls.",
+    "The Federal Bureau of Investigation (FBI) has since initiated an inquiry into the matter. FBI Atlanta released a statement confirming: \"FBI Atlanta is aware of reports regarding a potential Wi-Fi-related incident involving Delta Flight 591.\" The investigation is ongoing, though no arrests have been made.",
+    "The incident carries significant implications for aviation cybersecurity, highlighting the persistent risks posed by Wi-Fi spoofing. It underscores the potential for individuals with advanced hacking knowledge to exploit vulnerabilities in unexpected, enclosed environments like commercial airplanes. This event demands ongoing vigilance from both airlines and passengers regarding digital security."
+  ],
+  "publishedAt": "2026-08-12T04:08:47.824Z",
+  "readTime": 3,
+  "sources": [
+    "Ars Technica",
+    "ACARS Drama",
+    "Reddit",
+    "Delta",
+    "FBI Atlanta"
+  ],
+  "sourceUrls": [
+    "https://arstechnica.com/information-technology/2026/08/def-con-crowd-suspected-in-fake-hotspot-attack-on-delta-flight/"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-12T04:05:28.718Z",
+      "detail": "News was sourced from cybersecurity publications, flight tracking forums, and official statements from Delta and the FBI."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-12T04:07:52.298Z",
+      "detail": "Key facts extracted include the alleged Wi-Fi spoofing event, the 'evil twin' attack method, specific pilot and FBI quotes, Delta's confirmation, and the incident's duration."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-12T04:08:47.824Z",
+      "detail": "The article synthesizes technical details of the attack with corporate responses and law enforcement involvement, framing the event within broader aviation cybersecurity concerns."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All factual claims verified against fact sheet; quotes, statistics, and events match exactly. No fabrication detected. Sources cited align with fact sheet.",
+      "timestamp": "2026-08-12T04:12:08.317Z"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "pyongyang-launches-ballistic-missile-amid-rising-us-south-korea-tensions",
+  "headline": "Pyongyang Launches Ballistic Missile Amid Rising US-South Korea Tensions",
+  "deck": "The launch, the second in a week, signals escalating friction between the isolated nation and Washington's key regional allies as major military exercises approach.",
+  "category": "GEOPOLITICS",
+  "body": [
+    "North Korea launched a suspected ballistic missile, the second in a week, as the United States and South Korea prepare for major joint military drills, signaling growing conflict in the region.",
+    "Japan's defense ministry confirmed the launch, identifying it as a suspected ballistic missile. This action precedes significant military exercises designed to bolster allied defense capabilities.",
+    "Pyongyang's recent missile activity is widely interpreted as a direct response to the impending US-South Korea war drills. The isolated nation often frames such exercises as rehearsals for invasion.",
+    "This latest launch intensifies an already strained relationship between North Korea and the United States. Analysts suggest the situation is becoming increasingly tense, with both sides engaging in a cycle of action and reaction.",
+    "North Korea has significantly increased its missile testing schedule in recent weeks. Each launch serves as a potent demonstration of its evolving weapons capabilities and defiance.",
+    "The upcoming US and South Korea drills are intended as a clear demonstration of strength and a warning to North Korea. These exercises aim to deter aggression and enhance interoperability between allied forces.",
+    "Critics, however, argue that these large-scale military exercises often exacerbate regional tensions. They contend such drills contribute to a cycle of escalation rather than de-escalation.",
+    "The international community closely monitors these developments, considering potential responses to North Korea's continued provocations. The escalating actions highlight the persistent instability on the Korean Peninsula."
+  ],
+  "publishedAt": "2026-08-12T04:09:11.020Z",
+  "readTime": 3,
+  "sources": [
+    "Google News — World",
+    "Reuters",
+    "Fox News",
+    "Times of India",
+    "WSJ",
+    "ABC News"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPcDVfd0tWeklYMkllazVablhzaXQxcllibnNjZDhBTXpzWWtPLXNMcWpWVUpJeXRQRUZUZ2x4LV9pQ0c5UmVlaWd4eVpYbGlQNHNXYnlYODZSSTB6QlF5Vzc1OEFpc0kwQ1l3V19aQmU0TnRxMk9NWUQxQ21leG9UUEkxNnYwOFhMWlpjdlRKc1BLcUszTzd4Q1JGSzRSNjI2LWx6Yk00SFZXYjA?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-12T04:05:28.718Z",
+      "detail": "Aggregated news reports from major international and regional outlets regarding North Korea's recent missile activities."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-12T04:07:52.298Z",
+      "detail": "Compiled details on missile launches, military drills, and geopolitical analyses from 6 distinct sources."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-12T04:09:11.020Z",
+      "detail": "Wove immediate event reporting with contextual background and expert analysis to frame escalating tensions on the Korean Peninsula."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All factual claims cross-verified against fact sheet. No hallucinations detected. Quotes and statistics matched exactly where provided. Article adheres strictly to ground truth.",
+      "timestamp": "2026-08-12T04:12:17.951Z"
+    }
+  ]
+}

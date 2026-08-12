@@ -1,0 +1,53 @@
+{
+  "slug": "congos-ebola-outbreak-claims-2-000-lives-becomes-historys-fastest-growing",
+  "headline": "Congo's Ebola Outbreak Claims 2,000 Lives, Becomes History's Fastest-Growing",
+  "deck": "The escalating severity of the disease has prompted global health organizations to demand immediate, localized intervention to curb further spread and fatalities.",
+  "category": "HEALTH",
+  "body": [
+    "Congo's ongoing Ebola outbreak has now claimed 2,000 lives, making it the fastest-growing in recorded history. This tragic milestone in the Democratic Republic of Congo signals an escalating public health crisis that demands immediate international attention. The rapid spread underscores the profound challenges faced in containing such a deadly virus.",
+    "In response to the escalating crisis, the World Health Organization (WHO) and Africa CDC have issued an urgent call for community-led action. They emphasize that localized efforts are crucial to effectively contain the virus and prevent further fatalities across affected regions. This strategy aims to empower local populations in the fight against the disease.",
+    "The outbreak was officially declared in February, but reports indicate its initial spread began months earlier, largely undetected. This delay in official recognition allowed the virus to gain significant traction before comprehensive containment measures could be fully implemented. The insidious, unacknowledged start contributed directly to its current rapid growth.",
+    "The swift accumulation of nearly 2,000 deaths highlights the severe virulence of this particular strain of Ebola. This significant death toll signals a critical public health emergency that continues to test global health responses. It presents a formidable challenge for health authorities working on the ground in difficult circumstances.",
+    "The call for urgent, community-led action by major health organizations indicates the necessity for intensified, localized efforts. These initiatives must focus on building trust and ensuring the active participation of affected communities. Such an approach is deemed essential to effectively curb the disease's reach and save lives.",
+    "The milestone of 2,000 deaths underscores the escalating severity and rapid spread of the Ebola outbreak, signaling a persistent public health crisis. Containing this disease effectively remains a paramount global health priority, requiring sustained commitment and resources. Unresolved tensions around community trust and access continue to complicate efforts to bring the epidemic under control."
+  ],
+  "publishedAt": "2026-08-12T04:10:51.851Z",
+  "readTime": 3,
+  "sources": [
+    "Google News — Health",
+    "CNN",
+    "World Health Organization (WHO)",
+    "CBS News",
+    "CIDRAP",
+    "AP News"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMic0FVX3lxTFAtSENYWThacDFlQ3NzcF81ZkItbFhtV0ZsQXVFZml3SmdXOFFOSDU0djBMemhtVERnVGlSaktZaW4zemk0enlMZk5wbVR2bnhOZlRsTDQzTEdyODVJWnhfU2pLLVd2M2lpaUl1VDNaQUxlb1k?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-12T04:05:28.718Z",
+      "detail": "Monitored real-time reports from global news agencies and international health organizations."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-12T04:07:52.298Z",
+      "detail": "Compiled death tolls, outbreak timeline, and official calls for action from CNN, CBS News, CIDRAP, AP News, and WHO."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-12T04:10:51.851Z",
+      "detail": "Wove critical statistics with organizational calls to action, framing the outbreak as a rapidly escalating public health crisis."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All factual claims verified against fact sheet. No hallucinations detected. Minor directness and readability refinements needed. (Bias: 2/10, Accuracy: 9/10)",
+      "timestamp": "2026-08-12T04:12:40.916Z"
+    }
+  ]
+}

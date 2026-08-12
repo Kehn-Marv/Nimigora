@@ -1,0 +1,54 @@
+{
+  "slug": "deadly-drug-resistant-fungus-spreads-to-27-us-states-threatening-healthcare",
+  "headline": "Deadly Drug-Resistant Fungus Spreads to 27 US States, Threatening Healthcare",
+  "deck": "The 'superbug' Candida auris, known for contaminating healthcare facilities, marks a critical public health challenge across the nation.",
+  "category": "HEALTH",
+  "body": [
+    "A dangerous drug-resistant fungus, identified as Candida auris, has now spread to 27 U.S. states, according to CDC data, raising immediate alarms for public health authorities. This 'superbug' contaminates healthcare spaces, presenting a potentially deadly risk, especially to vulnerable populations within these facilities. Its widespread presence marks a critical challenge for treatment and containment efforts nationwide.",
+    "Candida auris has earned its 'superbug' designation due to its formidable resistance to multiple antifungal drugs, making infections exceedingly difficult to treat effectively. This resistance complicates clinical management and increases the risk of severe outcomes for patients already battling other health conditions. The pathogen's ability to persist on surfaces within medical environments further exacerbates its threat profile.",
+    "The Centers for Disease Control and Prevention (CDC) data confirms the fungus's detection across 27 states, indicating a broad geographic reach that has intensified concerns among health officials. This extensive spread highlights the pathogen's capacity for rapid dissemination within and between healthcare systems. The confirmed presence in nearly half the country underscores the urgent need for enhanced surveillance and prevention strategies.",
+    "Among the affected regions, Texas currently leads the nation in reported cases of this dangerous fungal infection, according to FOX 7 Austin. This concentration of cases in one state suggests localized outbreaks or particularly challenging containment efforts in specific facilities. Understanding the factors contributing to the higher incidence in Texas could provide crucial insights for other states facing similar threats.",
+    "The identification of Candida auris as a superbug had been confirmed in 23 states previously, as reported by The Hill, before the latest CDC update. This earlier detection signaled a growing problem, prompting questions about the fungus's potential trajectory. The Hill also raised concerns about its spread extending into 2026, indicating a persistent and evolving challenge for public health.",
+    "The primary concern surrounding Candida auris stems from its tendency to contaminate healthcare spaces, including hospitals and long-term care facilities. These environments, housing immunocompromised individuals, offer ideal conditions for the fungus to thrive and spread among the most vulnerable patients. Preventing transmission within these critical settings is paramount to mitigating the wider public health impact.",
+    "The ongoing spread of Candida auris demands urgent attention from public health agencies and healthcare providers alike. Containing this drug-resistant pathogen will require heightened surveillance, stricter infection control protocols, and continued research into new treatment modalities. The stakes remain high for patient safety and the broader healthcare system as this critical challenge persists."
+  ],
+  "publishedAt": "2026-08-12T04:11:14.905Z",
+  "readTime": 4,
+  "sources": [
+    "Google News — Health",
+    "Fox News",
+    "CNN",
+    "ABC News - Breaking News, Latest News and Videos",
+    "The Hill",
+    "FOX 7 Austin"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTmNtcTllMGNnVDlyOFBybUk0dW5ueFpVWVVnYWhTVEhPb0s3czcwZWNYWjBkZ05iWHl0cFF4MWNYRS1aNVNZTjducXpxS2RrMk56ZHRINXQwQ05MZGgzQ0p0QjY3ZDJDd0ZhT1d3dnA5bmRyWlgyeUxSX01JTzR6VnFzNmRTc1FpV00tank5OFlRdUYzUlJ5YUJ6TkxPSktP0gGmAUFVX3lxTE94T2NSbFFHVkJpOUpEODlZRy0yOGFQakprM0hTMlI1aU40UjVvYl9Oekd5c19UOTh6QzRBS0NsR0ZGM3F4dHd5aGd2WExTRWhVV3paWGRUTHNmSDJTS25aUUhwOEVaMHYxVzNfOE5KV25IUDZrR3Rpcl9yLTlubGxJVGJ3MjluU2hJbHBNSG94TllhU1pRcXF1Ti1WeVlsTHJ0clV2bEE?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-12T04:05:28.718Z",
+      "detail": "Aggregated news reports and official data from leading health and news organizations."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-12T04:07:52.298Z",
+      "detail": "Compiled incidence rates, geographic spread, and pathogen characteristics from 6 distinct sources."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-12T04:11:14.905Z",
+      "detail": "Wove reported spread and clinical characteristics into a cohesive narrative highlighting public health implications."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All factual claims verified against CDC data and fact sheet; no hallucinations detected. Minor directness and headline refinements needed for publication readiness. (Bias: 2/10, Accuracy: 9/10)",
+      "timestamp": "2026-08-12T04:12:44.990Z"
+    }
+  ]
+}
