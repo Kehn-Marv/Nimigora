@@ -1,0 +1,56 @@
+{
+  "slug": "houthi-attack-kills-six-in-red-sea-as-mideast-tensions-surge",
+  "headline": "Houthi Attack Kills Six in Red Sea as Mideast Tensions Surge",
+  "deck": "A deadly Houthi strike in the Red Sea escalates regional conflict, coinciding with a deepening standoff between Iran and the United States over sanctions and vital shipping lanes.",
+  "category": "GEOPOLITICS",
+  "body": [
+    "A Houthi attack in the Red Sea killed six people, marking a significant and deadly escalation in the region's volatile landscape.",
+    "The six victims included four crewmembers aboard the targeted vessel and two rescuers who responded to the incident.",
+    "These strikes by the Houthis, a group widely recognized as Iranian-backed, intensify concerns about Iran's growing influence and proxy actions across the Middle East.",
+    "Meanwhile, Iran has publicly vowed to close the critical Hormuz Strait to international shipping unless the United States lifts its economic sanctions.",
+    "U.S. President Trump has firmly rejected Tehran's demands regarding these sanctions, publicly slamming Iran for its posture.",
+    "Hopes for any diplomatic resolution or a deal concerning the Hormuz Strait are rapidly diminishing, signaling a protracted confrontation.",
+    "Adding to the regional instability, the United States recently conducted a strike on a ship in the Gulf of Oman, demonstrating direct military engagement.",
+    "The Yemeni Government has officially confirmed the casualty count of six people killed in the Houthi strikes on the Red Sea vessel, underscoring the attack's severity.",
+    "These compounding events signal a deepening crisis in a vital global shipping and energy transit region, posing serious risks to international trade and regional stability."
+  ],
+  "publishedAt": "2026-08-13T04:13:06.449Z",
+  "readTime": 2,
+  "sources": [
+    "Google News — World",
+    "CNBC",
+    "Fox News",
+    "NBC News",
+    "AP News",
+    "The New York Times"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSGtLT21UUTZ1QlQ3UVd6akpNcnhtNzI0aFNidjRHeWExendmSDhoT3VNZmt0VHVkdFk4LS1YVGdveE9uY1VYdUJrWnV2ZGlRanVTZmxmUTB1dzNCNnRDOUg1R2hUS3ZXeHdEMkcwdWZodzNOam9qOTN2TjJlMkNCY25PbzRVNG81RVFMd1NR0gGTAUFVX3lxTE5YekViUjgwbV9GLWVWUmplY0d3Nm9ka1lxQmRFMHVrNzFTWHhiSU1JMVpDbllZRGF2MGtkNW4yakJidmF5LTJsbUk2YVRSQ214ZHQyQzRwczRzYVRTZFJUWk5pNHRMZzZpcXRvX2cwbF9PYzByQlNLNUpvOE1lSGQ3Zk9rUFJsMkdBVFo4ZkMtZnQ1TQ?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-13T04:09:52.901Z",
+      "detail": "Aggregated breaking news reports, government confirmations, and geopolitical analyses from leading international news outlets."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-13T04:12:08.220Z",
+      "detail": "Compiled casualty figures, Houthi-Iran links, U.S.-Iran diplomatic positions, and military actions from 6 distinct news sources."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-13T04:13:06.449Z",
+      "detail": "Wove immediate attack details with broader geopolitical context to illustrate escalating regional tensions and their global implications."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All specific factual claims (names, numbers, dates, events) were verified against the fact sheet with zero hallucinations. Quotes were not present, so none required verification. The article adheres strictly to the provided fact sheet with no unsupported claims or fabrications.",
+      "timestamp": "2026-08-13T04:15:23.671Z"
+    }
+  ]
+}

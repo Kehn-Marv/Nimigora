@@ -1,0 +1,53 @@
+{
+  "slug": "congo-ebola-outbreak-claims-over-2-000-lives-set-to-become-deadliest-ever",
+  "headline": "Congo Ebola Outbreak Claims Over 2,000 Lives, Set to Become Deadliest Ever",
+  "deck": "The rapidly escalating death toll and unprecedented transmission rate signal a deepening public health crisis across Central Africa.",
+  "category": "HEALTH",
+  "body": [
+    "The Ebola outbreak in the Democratic Republic of Congo has now surpassed 2,000 deaths, placing it on track to become the deadliest in history. This grim milestone underscores the severe and escalating public health emergency gripping the region. The World Health Organization (WHO) warns this rapid spread and increasing mortality rate could make it the most devastating outbreak ever recorded.",
+    "The current count of over 2,000 fatalities firmly establishes the significant human cost of this ongoing epidemic. This outbreak is rapidly approaching a scale never before witnessed, with health officials closely monitoring its trajectory. The WHO chief himself has stated the outbreak is projected to surpass all previous records for mortality.",
+    "Beyond its death toll, this particular Ebola outbreak has distinguished itself as the fastest spreading on record. The rapid rate of transmission presents formidable challenges for containment efforts. This unprecedented speed complicates the work of health organizations attempting to curb the virus's reach.",
+    "A recent study suggests that new transmission from animals likely initiated the current Congo-Uganda Ebola outbreak. This finding provides crucial insight into the origins of the disease's re-emergence in the region. Understanding the initial vectors is vital for developing long-term prevention strategies against future outbreaks.",
+    "The combined factors of a surging death toll and rapid transmission have solidified this outbreak as a severe and ongoing public health crisis in Central Africa. The potential for broader regional spread, particularly into neighboring Uganda, remains a critical concern for global health security. This situation demands sustained international attention and resources to mitigate its devastating effects on communities.",
+    "Authorities continue to grapple with the complex challenges of containing a rapidly evolving and deadly pathogen. The sustained efforts required to bring this record-breaking outbreak under control are immense. The human cost continues to mount, highlighting the urgent need for effective intervention and community engagement."
+  ],
+  "publishedAt": "2026-08-13T04:14:32.227Z",
+  "readTime": 3,
+  "sources": [
+    "Google News — Health",
+    "BBC",
+    "Fox News",
+    "CBS News",
+    "Reuters",
+    "Al Jazeera"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB5Ml84WmN0dzlBUlBWbEdjZlYwby12SkljazdLcnlSNnNjSjNFaS1wZXhib0NCSTNnWDViODV1NmhPMW9RMXBXNkNGZ2FwVEdvT012bTQwcHZBdw?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-13T04:09:52.901Z",
+      "detail": "Aggregated reports from international news outlets and health organizations detailing the Ebola outbreak's progression."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-13T04:12:08.220Z",
+      "detail": "Compiled death toll figures, transmission rates, and expert warnings from Fox News, CBS News, BBC, Al Jazeera, and Reuters."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-13T04:14:32.227Z",
+      "detail": "Wove mortality statistics with expert analysis to frame the Ebola outbreak as a rapidly escalating and record-breaking public health crisis."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All factual claims verified against fact sheet; no hallucinations detected. Minor directness and redundancy issues flagged for tightening. (Bias: 2/10, Accuracy: 10/10)",
+      "timestamp": "2026-08-13T04:15:40.184Z"
+    }
+  ]
+}
