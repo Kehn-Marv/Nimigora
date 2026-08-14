@@ -1,0 +1,54 @@
+{
+  "slug": "russian-assassination-plot-on-us-citizen-foiled-in-poland",
+  "headline": "Russian Assassination Plot on US Citizen Foiled in Poland",
+  "deck": "Polish authorities arrested a Russian national accused of planning to murder a Ukrainian-American deemed \"inconvenient to the Putin regime\" on European soil.",
+  "category": "GEOPOLITICS",
+  "body": [
+    "Polish authorities have thwarted a Russian plot to assassinate an American citizen on Polish soil, arresting a Russian national in connection with the elaborate scheme. The target, a Ukrainian-American residing in Warsaw, was identified as an individual \"inconvenient to the Putin regime.\" This incident represents a significant escalation, marking a new phase in Russia's aggressive tactics against the United States and its allies.",
+    "The Russian man was apprehended by Polish authorities, who acted swiftly to prevent the planned murder. Investigations revealed the Kremlin allegedly hired an assassin to carry out the targeted killing. The operation was designed to be executed within Poland's borders, demonstrating a brazen disregard for international law and sovereignty.",
+    "Poland's Prime Minister underscored the unprecedented nature of this direct threat. He stated unequivocally that the thwarted plot was the \"first situation of its kind\" encountered by Polish security services. This declaration highlights the gravity and unique character of Russia's alleged attempt to eliminate a perceived opponent on allied territory.",
+    "The specific target was a Ukrainian-American individual who had settled in Warsaw. This person was explicitly identified as \"inconvenient to the Putin regime,\" suggesting a clear political motive behind the assassination attempt. Such targeting of individuals highlights the far-reaching extent of perceived threats from Moscow.",
+    "This foiled plot serves as a stark example of Russia's ongoing aggression towards the US and its allies. It underscores the continued risks faced by individuals globally who are deemed adversarial to the Kremlin's interests. The incident extends the pattern of Russian hostile activities beyond traditional intelligence gathering into direct assassination attempts on foreign soil.",
+    "The successful intervention by Polish authorities demonstrated their robust counter-intelligence capabilities and commitment to national security. Poland's swift action in uncovering and neutralizing the threat protected both its own sovereignty and the life of an American citizen. This operation reaffirms Poland's critical role in safeguarding its citizens and allied nationals from external aggression.",
+    "The thwarted assassination plot intensifies the already strained relationship between Russia and Western nations, demanding a firm, coordinated response. It underscores the urgent need for continued vigilance and enhanced intelligence cooperation among allies to counter evolving threats. This event will undoubtedly prompt further discussions on protecting individuals and deterring state-sponsored violence across international borders."
+  ],
+  "publishedAt": "2026-08-14T04:09:34.675Z",
+  "readTime": 3,
+  "sources": [
+    "Google News — World",
+    "CBS News",
+    "Fox News",
+    "NBC News",
+    "Al Jazeera",
+    "telegraph.co.uk"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMifEFVX3lxTE5sZUROb285LWxVMHBlLU1LcVJ4cHhJY29FdWFreFhQOEowcDR5YTVIb0tPenNRTXRPLWc0RVhic09TbFhPU0RTT1RNeG15RGRUS200eWI0TFJndlV2Y0dfRVpNWE80V042aW1EQmdfZE0wX0dMT0pISzlqenE?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-14T04:06:50.405Z",
+      "detail": "Aggregated news reports from CBS News, Fox News, NBC News, Al Jazeera, and telegraph.co.uk."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-14T04:08:36.589Z",
+      "detail": "Compiled details on the plot, target's identity, arrest, and official statements from six distinct media sources."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-14T04:09:34.675Z",
+      "detail": "Wove together factual accounts and official commentary to detail the geopolitical implications of the thwarted assassination attempt."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All specific factual claims (names, numbers, dates, events, quotes) matched the fact sheet exactly. Quotes were verbatim. No fabricated statistics or events detected. Article verified against CBS News, Fox News, NBC News, Al Jazeera, and telegraph.co.uk.",
+      "timestamp": "2026-08-14T04:12:14.304Z"
+    }
+  ]
+}

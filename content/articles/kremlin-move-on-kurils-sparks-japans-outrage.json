@@ -1,0 +1,53 @@
+{
+  "slug": "kremlin-move-on-kurils-sparks-japans-outrage",
+  "headline": "Kremlin Move on Kurils Sparks Japan's Outrage",
+  "deck": "The Russian leader's first visit to the contested Pacific islands escalates a decades-old territorial dispute, threatening regional stability.",
+  "category": "GEOPOLITICS",
+  "body": [
+    "Vladimir Putin's inaugural visit to the disputed Kuril Islands drew immediate condemnation from Japan, reigniting long-standing tensions over the Pacific archipelago.",
+    "Tokyo swiftly launched a protest following the Russian president's arrival on Etorofu island, which lies off Hokkaido. This marks his first visit to the contested territory.",
+    "Japan's Prime Minister Takaichi labeled Putin's visit 'absolutely unacceptable,' underscoring the depth of Tokyo's diplomatic anger.",
+    "The Kuril Islands have been a source of contention between Japan and Russia since the close of World War II, when Soviet forces seized them from Japan.",
+    "Despite decades passing, the ownership of the Kuril Islands remains unresolved, serving as a persistent point of friction in bilateral relations.",
+    "This latest incident highlights the enduring geopolitical complexities of the region, signaling continued diplomatic challenges for both nations in resolving their territorial claims."
+  ],
+  "publishedAt": "2026-08-14T04:09:18.370Z",
+  "readTime": 2,
+  "sources": [
+    "Google News — World",
+    "The Guardian",
+    "BBC",
+    "NPR",
+    "The Japan Times",
+    "The New York Times"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVWc4dXFQUi1yckdwVWFsR2ZoaGgxUXp3OWJQQXlxLWttZ3ZyUEtaRER4T0xpNW0wbURXTzdKVzJQX001SmRxVGJST2RvRXRoellaUjRYZ2lUZUtkYnhZSlpXZkpYc3RMOW9MbmZ3UEw5TEE0STA1Q0s4dUQ1MXJzYnFoOWVjZWljTlVRMFFSb2g4c3pLWTdyMFZmYw?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-14T04:06:50.405Z",
+      "detail": "Aggregated news reports and analyses from major international and Japanese media outlets."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-14T04:08:36.589Z",
+      "detail": "Compiled details on Putin's visit, Japan's condemnation, and historical context from five distinct news organizations."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-14T04:09:18.370Z",
+      "detail": "Wove factual accounts with historical background to frame the diplomatic fallout and regional implications of the visit."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All factual claims verified against fact sheet. No unsupported assertions, loaded language, or emotional manipulation detected. Directness maintained with no throat-clearing. Headline accurately reflects core news with active voice and proper tone.",
+      "timestamp": "2026-08-14T04:12:09.825Z"
+    }
+  ]
+}

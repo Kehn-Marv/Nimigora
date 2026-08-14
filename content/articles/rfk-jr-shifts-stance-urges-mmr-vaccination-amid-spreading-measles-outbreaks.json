@@ -1,0 +1,55 @@
+{
+  "slug": "rfk-jr-shifts-stance-urges-mmr-vaccination-amid-spreading-measles-outbreaks",
+  "headline": "RFK Jr. Shifts Stance, Urges MMR Vaccination Amid Spreading Measles Outbreaks",
+  "deck": "A notable change in Robert F. Kennedy Jr.'s public health advocacy comes as measles cases rise in multiple U.S. regions, intensifying the ongoing national vaccine debate.",
+  "category": "HEALTH",
+  "body": [
+    "Robert F. Kennedy Jr.'s position on vaccines has demonstrably evolved, with recent reports indicating he now actively urges MMR vaccination. This significant shift in his public health advocacy emerges as measles outbreaks spread across the United States. His current stance presents a stark contrast to his historical engagement with vaccine discourse.",
+    "This evolving advocacy stands in sharp relief against his past activities concerning public health. Years before recent outbreaks, Kennedy Jr. reportedly stirred vaccine fears in Pennsylvania, according to accounts from The New York Times. His earlier rhetoric contributed to a climate of hesitancy that public health officials have consistently worked to address.",
+    "Such historical context becomes particularly relevant amidst current public health challenges across the nation. Kern County, California, has recently reported new measles cases, adding to a growing national concern. Meanwhile, New Hampshire is also experiencing a rise in measles instances, as reported by The Laconia Daily Sun, signaling broader infection patterns.",
+    "Kennedy Jr. was present in Bakersfield during this period, drawing attention to the ongoing discussions around vaccine policy. While in Bakersfield, he publicly defended current vaccine policies, a notable departure from his earlier public engagements. His presence brought heightened scrutiny to local health dialogues in California, as reported by KBAK and Bakersfield.com.",
+    "During his Bakersfield visit, Kennedy Jr. made a specific commitment regarding the quality of public health information. He stated that states would receive 'best science,' a promise reported by KBAK. This assertion aimed to reassure audiences about the scientific rigor behind vaccine recommendations.",
+    "The consistent medical consensus on vaccine efficacy provides a crucial counterpoint to past skepticism. Doctors in New Hampshire, for instance, have remained steadfast in their messaging regarding the safety and critical importance of the MMR vaccine. Their unified front emphasizes the established public health benefits of widespread immunization, according to The Laconia Daily Sun.",
+    "A more recent report from Telehealth.org indicates a significant pivot in Kennedy Jr.'s public health advocacy. This report states that he urged MMR vaccination amid a projected 2026 measles outbreak. This direct call for immunization marks a considerable shift from his previously documented positions, aligning more closely with mainstream public health recommendations.",
+    "This evolving narrative underscores the complex and often contentious public discourse surrounding vaccines and public health in America. As measles outbreaks continue to challenge communities, the clarity and consistency of public figures' messages become increasingly vital. The ongoing situation highlights the critical need for unified public health strategies to protect vulnerable populations."
+  ],
+  "publishedAt": "2026-08-14T04:11:15.406Z",
+  "readTime": 4,
+  "sources": [
+    "Google News — Health",
+    "The New York Times",
+    "KBAK",
+    "Bakersfield.com",
+    "The Laconia Daily Sun",
+    "Telehealth.org"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMiigFBVV95cUxQcG5rVmt4VDVQM0gxSUYxVkI0QU1oZFhJSHZyU3d4SVVjREtRYUNMTmNRM194S2tCRUhfQXRDUlBrS1R5SFhMeGRDZjNIMjc5bDV2ZHE5NkZlYjhDU2JIeXpYbWNlVk9GczZKZ0RSVFBwRzgzTi1YTkhIX2otWVcyRFYwZ0lTeVJYdlE?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-14T04:06:50.405Z",
+      "detail": "Aggregated news reports, public statements, and medical consensus from various regional and national news outlets."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-14T04:08:36.589Z",
+      "detail": "Compiled historical claims, event occurrences, recent statements, and medical positions from The New York Times, KBAK, Bakersfield.com, The Laconia Daily Sun, and Telehealth.org."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-14T04:11:15.406Z",
+      "detail": "Wove past actions with current events and evolving statements to analyze the significance of a public figure's shifting vaccine stance amid ongoing health crises."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All specific factual claims verified against fact sheet; no hallucinations detected. Minor editorial language adjusted for neutrality. (Bias: 3/10, Accuracy: 9/10)",
+      "timestamp": "2026-08-14T04:12:40.155Z"
+    }
+  ]
+}

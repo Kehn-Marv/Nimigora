@@ -1,0 +1,54 @@
+{
+  "slug": "investors-accuse-selena-gomez-mother-of-fraud-over-collapsed-mental-health-start",
+  "headline": "Investors Accuse Selena Gomez, Mother of Fraud Over Collapsed Mental Health Startup",
+  "deck": "The high-profile celebrity and her mother face allegations of defrauding investors in their mental wellness company, Wondermind.",
+  "category": "CULTURE",
+  "body": [
+    "Selena Gomez and her mother stand accused of fraud by investors in their mental health startup, Wondermind, a venture now described as having collapsed. These high-profile allegations could significantly impact the celebrity's public image and raise questions about the viability of celebrity-backed wellness initiatives.",
+    "The accusations stem from multiple reports indicating that investors claim Gomez and her mother defrauded them. Wondermind, co-founded by Gomez, aimed to provide resources within the mental wellness space.",
+    "Sources widely describe the mental health startup as having 'collapsed,' signaling a significant failure in its operations and financial stability. This perceived failure forms the basis of the fraud allegations now leveled against its founders.",
+    "The severity of the situation is underscored by the fact that Selena Gomez herself has been sued for fraud. This direct legal action places the multi-hyphenate star directly in the center of the dispute.",
+    "Such accusations against a public figure of Gomez's stature carry considerable weight, potentially eroding trust among her fanbase and the broader public. The case could set a precedent for how celebrity involvement in startups is perceived by both consumers and financial backers.",
+    "Beyond personal reputations, the incident highlights inherent risks for investors in startup ventures, even those fronted by famous names. The allure of celebrity endorsement does not always guarantee a successful or ethical business outcome.",
+    "The legal proceedings will determine the veracity of these fraud claims and could redefine expectations for celebrity-led enterprises in the wellness sector. This ongoing situation leaves both Gomez's future business endeavors and the broader landscape of celebrity-backed startups under close scrutiny."
+  ],
+  "publishedAt": "2026-08-14T04:11:46.195Z",
+  "readTime": 3,
+  "sources": [
+    "Google News — Entertainment",
+    "NBC News",
+    "CNN",
+    "Rolling Stone",
+    "USA Today",
+    "Bloomberg.com"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbGRfNTNZN2ZBRzExWDRQMjgzWmp5Y3pPUFBvS0pEZDQ1X3ZRaWlVVVdocTJkdHBNdzJBSF9qZ29NSHoxOXhtQXVYbUNTYm1EZ1Y1c1JmVXJXT3hjNzFlanlmOGxoYlhMRTFxVjdDdTMtZXlWQ0tEVE9OOEtmZWFBa2NVSXNTY2lUSkZvT0R5ZmhyY3p4a2dVWkptZlhodkdwREE?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-14T04:06:50.405Z",
+      "detail": "Aggregated news reports from major media outlets and financial publications."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-14T04:08:36.589Z",
+      "detail": "Compiled fraud accusations, company details, and legal actions against Selena Gomez and her mother from 6 distinct sources."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-14T04:11:46.195Z",
+      "detail": "Wove legal claims with public figure context to analyze the potential impact on celebrity-backed wellness ventures."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "Article verified against fact sheet: all claims matched, no fabricated quotes or statistics, sources cross-referenced. (Bias: 6/10, Accuracy: 9/10)",
+      "timestamp": "2026-08-14T04:12:48.662Z"
+    }
+  ]
+}

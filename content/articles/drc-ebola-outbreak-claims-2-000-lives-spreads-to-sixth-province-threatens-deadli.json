@@ -1,0 +1,54 @@
+{
+  "slug": "drc-ebola-outbreak-claims-2-000-lives-spreads-to-sixth-province-threatens-deadli",
+  "headline": "DRC Ebola Outbreak Claims 2,000 Lives, Spreads to Sixth Province, Threatens Deadliest Ever Record",
+  "deck": "The rapidly escalating Ebola outbreak in the Democratic Republic of Congo has reached a critical stage, expanding its geographical footprint and posing an immense public health challenge.",
+  "category": "HEALTH",
+  "body": [
+    "The Ebola outbreak in the Democratic Republic of Congo (DRC) has now spread to a sixth province, claiming 2,000 lives and rapidly escalating into what the World Health Organization warns could become the deadliest outbreak ever recorded. This significant expansion marks a critical worsening of the situation, making containment efforts increasingly difficult across the vast central African nation. The new confirmed death in a previously unaffected province underscores the disease's persistent and dangerous spread.",
+    "Health authorities confirmed the latest fatality in a new province, signaling a concerning geographical expansion of the virus beyond its established zones. This development highlights the challenges faced by local and international health organizations in controlling a fast-moving epidemic. The virus continues to find new pathways, deepening the public health crisis for communities already struggling with instability.",
+    "The toll of 2,000 deaths across the affected regions paints a stark picture of the outbreak's devastating impact on human lives. These figures, reported by Fox News, illustrate the severe lethality of the disease and the urgent need for enhanced medical intervention. The sheer number of fatalities places immense strain on healthcare infrastructure and public morale.",
+    "\"The Ebola outbreak is on track to be the deadliest ever,\" stated the World Health Organization chief, emphasizing the unprecedented scale of the current crisis. This grave assessment from the global health body leader underscores the profound concern held by experts regarding the trajectory of the disease. Such a declaration signifies the extraordinary challenges confronting those working to curb its spread.",
+    "Initial analyses suggest the outbreak began through new 'animal transmission,' a common pathway for zoonotic diseases like Ebola to cross into human populations. Understanding the origin point of the current spread is crucial for implementing preventative measures and breaking the chain of infection. This ongoing investigation helps inform strategies designed to mitigate future outbreaks originating from similar sources.",
+    "The rapid escalation of this Ebola outbreak represents a severe public health challenge for the Democratic Republic of Congo. Its spread to a sixth province indicates a worsening situation, complicating the already strenuous containment efforts. This expanding health crisis demands sustained global attention and resources to protect vulnerable communities.",
+    "As the outbreak continues its relentless progression, the focus remains on bolstering surveillance, rapid response teams, and community engagement to interrupt transmission chains. The international community faces a pressing imperative to support the DRC in mitigating this expanding humanitarian and health crisis. Without intensified efforts, the specter of the deadliest Ebola outbreak in history looms large over the region."
+  ],
+  "publishedAt": "2026-08-14T04:10:57.970Z",
+  "readTime": 4,
+  "sources": [
+    "Google News — Health",
+    "The Guardian",
+    "Al Jazeera",
+    "Fox News",
+    "Reuters",
+    "BBC"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWWx5dzhtUklpMTBzSnBHWGFXUm4xRlpYTE5jTFhGcmthaXdaeGh2UDYyYm0yUWc5NnBsRDg0ck84Zmt4RVJlM01uOGtFelpqWWhtQXRQZ1c3eTBxZmtYUzk2Zkw0M2stcnp2bERmT3gyelJwX19XN2ZTbHRBSzFrN0FkY2g4dFpKOHE4Nl8tcEd3ZjFHN1RBU3M5c3k?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-14T04:06:50.405Z",
+      "detail": "Aggregated reports from leading news outlets on the Ebola outbreak's progression and impact."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-14T04:08:36.589Z",
+      "detail": "Compiled outbreak statistics, geographical spread details, and expert statements from The Guardian, Reuters, Al Jazeera, Fox News, and BBC."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-14T04:10:57.970Z",
+      "detail": "Wove outbreak statistics and expert warnings into a comprehensive narrative highlighting the escalating health crisis."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All factual claims verified against fact sheet; quotes and statistics cross-referenced with provided sources; no hallucinations detected; minor editorial language removed for neutrality.",
+      "timestamp": "2026-08-14T04:12:35.696Z"
+    }
+  ]
+}
