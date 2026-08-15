@@ -1,0 +1,51 @@
+{
+  "slug": "largest-electric-aircraft-completes-maiden-flight-fuels-regional-aviation-shift",
+  "headline": "Largest Electric Aircraft Completes Maiden Flight, Fuels Regional Aviation Shift",
+  "deck": "The successful test of a battery-powered demonstrator signals a future of lower emissions and operating costs for air travel.",
+  "category": "TECHNOLOGY",
+  "body": [
+    "The largest battery-electric aircraft completed its first test flight lasting nearly half an hour on August 12 at Plattsburgh International Airport in upstate New York. This landmark event, using just $5 of electricity, marks a significant step towards more sustainable regional aviation.",
+    "Comparable in size to a small regional airliner, the X1 aircraft achieved a maximum takeoff weight exceeding 25,000 pounds. Its battery-electric propulsion system delivered more than one megawatt of power during the maiden flight.",
+    "Current battery-electric systems typically sustain short flights, limited to about 100 to 200 miles. Heart Aerospace plans to address this range challenge with its 30-seat hybrid-electric regional airliner, the ES-30.",
+    "The ES-30 will integrate two inboard electric motors with commercial turboprop engines that run on jet fuel. This hybrid design enables 125 miles of all-electric flight and a 500-mile range when operating in hybrid mode.",
+    "United Airlines has already committed to eventually purchasing 100 aircraft from Heart Aerospace.",
+    "\"Electric commercial aircraft have real potential to deliver a better travel experience for passengers while strengthening our business, and we look forward to Heart’s continued development of the ES-30 and its potential future role in United’s network,\" stated Michael Leskinen, chief financial officer of United Airlines.",
+    "Heart Aerospace anticipates beginning flight testing for the ES-30 in 2028. The company aims for commercial service certification by 2031.",
+    "The aviation industry faces high jet fuel prices, exacerbated by the US war with Iran. This economic pressure makes electric and hybrid aircraft an increasingly attractive alternative.",
+    "The successful X1 flight and the ES-30's development underscore a pivot in regional aviation's future. These advancements offer a viable path to significantly reduce greenhouse gas emissions and operating costs, shaping more efficient and sustainable air travel."
+  ],
+  "publishedAt": "2026-08-15T02:52:27.939Z",
+  "readTime": 3,
+  "sources": [
+    "Ars Technica"
+  ],
+  "sourceUrls": [
+    "https://arstechnica.com/gadgets/2026/08/first-test-flight-of-largest-all-electric-aircraft-used-just-5-of-electricity/"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-15T02:50:26.519Z",
+      "detail": "News of the test flight was reported by Ars Technica, providing the primary source."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-15T02:52:02.577Z",
+      "detail": "Key facts, statistics, and a direct quote were compiled from the Ars Technica report."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-15T02:52:27.939Z",
+      "detail": "The article frames the test flight within the broader context of the aviation industry's shift towards sustainable and cost-effective regional travel."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All factual claims verified against fact sheet, quotes matched exactly, no unsupported assertions, and no bias detected. Article adheres strictly to provided sources.",
+      "timestamp": "2026-08-15T02:54:49.488Z"
+    }
+  ]
+}
