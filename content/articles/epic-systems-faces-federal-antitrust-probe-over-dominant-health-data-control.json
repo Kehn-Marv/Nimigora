@@ -1,0 +1,51 @@
+{
+  "slug": "epic-systems-faces-federal-antitrust-probe-over-dominant-health-data-control",
+  "headline": "Epic Systems Faces Federal Antitrust Probe Over Dominant Health Data Control",
+  "deck": "The nation's largest electronic health records vendor is under federal and state investigation, raising questions about market power and access to patient information.",
+  "category": "HEALTH",
+  "body": [
+    "The Federal Trade Commission (FTC) is examining Epic Systems Corp., the nation’s largest vendor of electronic health records, for potential antitrust law violations, sparking concerns over market dominance and control of patient data. This broad inquiry highlights intensifying scrutiny of the company’s business practices. The probe could reshape how health information is shared and impact competition among technology providers.",
+    "The investigation, currently in its early stages, draws on information from four individuals recently contacted by investigators. These sources work in or advise health care businesses that interact with Epic. Such early probes do not always lead to formal charges.",
+    "Epic's commanding position as the largest electronic health records vendor in the U.S. has rapidly expanded in recent years. This growth has amplified its control over Americans’ health data. The company's market leverage has become a central point of concern for regulators.",
+    "Investigators have reportedly asked about a wide array of company policies and practices. These inquiries stem from continuous complaints and lawsuits filed by both former employees and rival companies. The scope suggests a deep dive into Epic's operational conduct.",
+    "One particular line of inquiry focuses on Epic’s agreements that reportedly restrict its employees from working for a broad range of health care businesses. These restrictions apply to companies that either directly or indirectly compete with Epic. Such agreements raise questions about employee mobility and fair competition within the health tech sector.",
+    "Another key area of investigation centers on Epic’s alleged use of its dominant market position to block rival technology companies. This leverage over its hospital customers purportedly prevents competitors from accessing crucial patient data and information. The practice could hinder innovation and limit choices for health care providers.",
+    "This federal and state inquiry underscores growing concerns over potential anticompetitive practices by a major player in the health technology industry. The outcome could significantly influence how health data is managed and shared across the sector. It also stands to impact employee mobility and the competitive landscape for technology providers serving hospitals nationwide.",
+    "The ongoing investigation places Epic Systems at a critical juncture, with potential implications for its business model and the broader health care ecosystem. The scrutiny highlights the complex balance between market leadership and maintaining a competitive, open environment for health data innovation. Future developments will reveal the extent of regulatory intervention and its impact on patient data access and health tech competition."
+  ],
+  "publishedAt": "2026-08-16T03:01:49.257Z",
+  "readTime": 3,
+  "sources": [
+    "STAT News",
+    "Epic’s alleged anticompetitive practices under scrutiny from federal, state investigators"
+  ],
+  "sourceUrls": [
+    "https://www.statnews.com/2026/08/14/epic-systems-ftc-review-nda-use-possible-anticompetitive-practices/?utm_campaign=rss"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-16T02:57:44.918Z",
+      "detail": "Based on information from four people recently contacted by investigators, who work in or advise health care businesses interfacing with Epic."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-16T02:59:36.208Z",
+      "detail": "Compiled details on the FTC investigation, Epic's market position, specific lines of inquiry, and potential impact from STAT News reports."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-16T03:01:49.257Z",
+      "detail": "Wove investigative details with market context and potential implications to outline the significance of the federal and state probe into Epic Systems."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All factual claims verified against fact sheet; no unsourced assertions, loaded language, or editorializing detected. Quotes and statistics absent per fact sheet, but no fabrications introduced.",
+      "timestamp": "2026-08-16T03:03:13.946Z"
+    }
+  ]
+}

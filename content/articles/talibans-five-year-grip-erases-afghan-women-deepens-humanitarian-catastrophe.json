@@ -1,0 +1,55 @@
+{
+  "slug": "talibans-five-year-grip-erases-afghan-women-deepens-humanitarian-catastrophe",
+  "headline": "Taliban's Five-Year Grip Erases Afghan Women, Deepens Humanitarian Catastrophe",
+  "deck": "Afghanistan marks a grim anniversary under Taliban rule as international concerns mount over deepening crisis and human rights abuses.",
+  "category": "GEOPOLITICS",
+  "body": [
+    "Five years after seizing power, the Taliban's rule in Afghanistan has deepened a humanitarian crisis, erased women from public life, and prompted growing global concern. This grim anniversary highlights the severe challenges faced by a nation still reeling from conflict and restrictive governance. Aid groups have consistently warned of the escalating crisis, while international bodies express growing concern over the country's trajectory.",
+    "The country's humanitarian situation remains dire, with aid organizations issuing repeated warnings about widespread suffering. International observers, including Reuters and The Guardian, continue to monitor the deteriorating conditions across Afghanistan. The persistent challenges underscore a nation still losing ground five years after the Taliban's takeover, a reality noted by CNN.",
+    "Afghan women have borne the brunt of the Taliban's restrictive governance, systematically erased from public life. The New York Times and AP News have extensively documented how their rights and freedoms have been severely curtailed. This profound impact on half the population represents a significant regression in human development and social progress.",
+    "The human cost of these policies is evident in the daily struggles of individuals, with AP News highlighting one woman's fight for survival. Such personal narratives underscore the profound impact of the Taliban's return to power on ordinary Afghan citizens. These stories serve as a stark reminder of the challenges faced by many across the nation.",
+    "Despite the passage of half a decade, the overall situation in Afghanistan has shown no signs of improvement since the Taliban assumed control. Both CNN and The New York Times report that the country's conditions remain fraught with difficulties. This stagnation points to deep-seated systemic issues exacerbated by the current administration.",
+    "Meanwhile, concerns are growing over increased global ties with the Taliban regime. The Guardian has reported on the evolving diplomatic landscape, where some nations explore engagement despite the ongoing humanitarian and human rights issues. This delicate balance between isolation and interaction poses complex questions for international policy.",
+    "The international community remains deeply concerned about the state of affairs in Afghanistan. Reuters, The Guardian, and AP News all reflect this persistent apprehension regarding the country's future. The collective worry centers on the welfare of the Afghan people and the broader implications for regional stability.",
+    "As Afghanistan enters its sixth year under Taliban rule, the path forward remains uncertain for its people and the global community. Unresolved tensions persist between the urgent need for humanitarian assistance and the demands for improved human rights. The world watches for any shifts in governance that might alleviate the profound suffering documented across the nation."
+  ],
+  "publishedAt": "2026-08-16T03:00:34.765Z",
+  "readTime": 4,
+  "sources": [
+    "Google News — World",
+    "Reuters",
+    "CNN",
+    "The New York Times",
+    "The Guardian",
+    "AP News"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMiogFBVV95cUxORTh4U3hRdlRhY1RmYWJDa0o1RWZEcFUxMkJ1RkhMVE9NUnZUc2ZudjBhM0pKZEhfdVpzeWdTZ1BLaGVLUXd4Z0haUmZOTHktT0Q4dzlUQmFwRmZ4RzE2REZDN2JrWXI5Nm9jWlJRQXhXd3k5ekhTdEtyYWpjSDloSDV1cFZqTEVCT2w4QS1jX3gybktmQzFRekZYcTJVX3BkNVE?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-16T02:57:44.918Z",
+      "detail": "Aggregated reports from major international news outlets covering the five-year anniversary of the Taliban's return to power."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-16T02:59:36.208Z",
+      "detail": "Compiled facts detailing the humanitarian crisis, impact on women, and international concerns from Reuters, CNN, The New York Times, The Guardian, and AP News."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-16T03:00:34.765Z",
+      "detail": "Wove narratives of humanitarian crises and human rights abuses, particularly affecting women, with analysis of international concerns and the lack of improvement in Afghanistan under Taliban rule."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All factual claims cross-referenced with fact sheet; no hallucinations detected. Quotes and statistics absent in fact sheet, so none verified. Article adheres to provided sources and events. (Bias: 2/10, Accuracy: 9/10)",
+      "timestamp": "2026-08-16T03:03:02.656Z"
+    }
+  ]
+}

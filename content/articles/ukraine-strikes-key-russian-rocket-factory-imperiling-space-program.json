@@ -1,0 +1,50 @@
+{
+  "slug": "ukraine-strikes-key-russian-rocket-factory-imperiling-space-program",
+  "headline": "Ukraine Strikes Key Russian Rocket Factory, Imperiling Space Program",
+  "deck": "Ukraine's use of long-range cruise missiles to hit a critical space center in Samara threatens Russia's satellite and human spaceflight capabilities.",
+  "category": "TECHNOLOGY",
+  "body": [
+    "Ukraine struck Russia's Progress Rocket Space Center in Samara, using ground-launched cruise missiles to target a facility critical for military satellites and human spaceflight.",
+    "The Progress Rocket Space Center serves as a vital hub for Russia's aerospace industry. It handles electronics production, assembles the Soyuz-2 and Soyuz-5 rockets, and builds military satellites.",
+    "The attack utilized FP-5 'Flamingo' missiles, weapons known for their range of several thousand kilometers. This strike demonstrates Ukraine's expanding capability to reach deep into Russian territory.",
+    "The Soyuz-2 family of rockets forms the backbone of Russia's space launches, accounting for over 85 percent of all Russian rocket deployments since 2020. These workhorse vehicles can lift about 8 metric tons to low-Earth orbit.",
+    "Notably, the Soyuz-2 rocket also carries Russia's human spacecraft for missions to the International Space Station. Damage to its production facility could disrupt critical crew transport operations.",
+    "The strike exacerbates existing strains on Russia's space ambitions. Demand for Soyuz rockets already exceeds production capacity by 30 to 50 percent for the period between 2027 and 2030.",
+    "Volodymyr Zelenskyy confirmed the attack, stating, \"Flamingo missiles were used. A good achievement.\"",
+    "The attack, hitting a facility approximately 900 km from the Ukrainian border, signals a new phase in the conflict's reach. Russia now faces significant challenges to its strategic space infrastructure and future launch capabilities."
+  ],
+  "publishedAt": "2026-08-16T02:59:47.463Z",
+  "readTime": 3,
+  "sources": [
+    "Ars Technica"
+  ],
+  "sourceUrls": [
+    "https://arstechnica.com/space/2026/08/ukraine-strikes-major-russian-rocket-factory-with-cruise-missiles/"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-16T02:57:44.918Z",
+      "detail": "Information regarding the strike was reported by Ars Technica."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-16T02:59:36.208Z",
+      "detail": "Key details including the target, missile type, and the Progress Rocket Space Center's role were compiled from Ars Technica."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-16T02:59:47.463Z",
+      "detail": "The article frames the strike's immediate impact on Russia's space program, linking it to broader strategic implications for both military and civilian space operations."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All factual claims, quotes, and statistics verified against the provided fact sheet with zero deviations. Sources cross-referenced with Ars Technica.",
+      "timestamp": "2026-08-16T03:02:46.669Z"
+    }
+  ]
+}

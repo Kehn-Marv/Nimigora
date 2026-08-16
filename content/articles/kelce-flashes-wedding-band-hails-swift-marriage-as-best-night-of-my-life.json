@@ -1,0 +1,55 @@
+{
+  "slug": "kelce-flashes-wedding-band-hails-swift-marriage-as-best-night-of-my-life",
+  "headline": "Kelce Flashes Wedding Band, Hails Swift Marriage as 'Best Night of My Life'",
+  "deck": "NFL star Travis Kelce's public display of a wedding band and personal reflection on his Madison Square Garden nuptials confirms his marriage to pop icon Taylor Swift, intensifying public and media interest.",
+  "category": "CULTURE",
+  "body": [
+    "Travis Kelce proudly showed off a wedding band this week, calling his Madison Square Garden wedding to Taylor Swift the \"best night of my life.\" The NFL star's public display occurred just ahead of his first Chiefs game since the highly anticipated ceremony. This direct confirmation has intensified public interest in the celebrity couple.",
+    "The \"best night of my life\" quote from Kelce, reported by espn.com, underscores the personal significance of the event for the tight end. Fans and media have closely followed the relationship between the sports icon and the global music superstar since it began. Their union has consistently generated significant attention across entertainment and sports news.",
+    "The wedding itself took place at New York's iconic Madison Square Garden, a detail confirmed by espn.com. This choice of venue for such a high-profile event added another layer of intrigue to the couple's already celebrated romance. The intimate details of the ceremony remain largely private, feeding public fascination.",
+    "Taylor Swift and Travis Kelce are confirmed newlyweds, a status widely reported by publications such as elle.com. The couple reportedly embraces their new life together, enjoying the privacy they can carve out amidst their demanding schedules. Their post-nuptial contentment is a recurring theme in recent reports.",
+    "\"They Love Living Like This,\" elle.com reported, characterizing the couple's contentment in their early days of marriage. This sentiment suggests a deeper connection beyond the public spectacle, highlighting a shared desire for a normal existence despite their extraordinary fame. The quote offers a glimpse into their private world.",
+    "Meanwhile, public speculation continues regarding Taylor Swift's potential attendance at Kelce's upcoming Chiefs preseason game against the Rams. Yahoo Sports noted the ongoing debate among fans and sports commentators. Her presence at previous games significantly boosted viewership and media coverage.",
+    "In a lighter note surrounding the wedding, former NFL star Rob Gronkowski reportedly did not give the couple a wedding gift. USA Today conveyed this detail, adding a touch of humor to the broader narrative of their celebrated union. The absence of a gift from a fellow athlete sparked minor discussion online.",
+    "The ongoing public fascination with Kelce and Swift's marital life underscores the powerful intersection of sports and pop culture. As they navigate their demanding careers as newlyweds, their every public appearance and statement will continue to draw significant attention. The couple's journey will remain a dominant narrative in both entertainment and sports circles."
+  ],
+  "publishedAt": "2026-08-16T03:02:17.599Z",
+  "readTime": 3,
+  "sources": [
+    "Google News — Entertainment",
+    "Page Six",
+    "espn.com",
+    "Yahoo Sports",
+    "USA Today",
+    "elle.com"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMipAFBVV95cUxNY1BJWlBySnpIZnI2Z0tWaFJ2QnlhQVlvdzZLcnRraFZlR09EeENVOVNtajgySU14NlZheFlWeUswQzZJZXJrNWNmMnN2N3NwdFlJdnhnMVdjV3RpbVhQT0lVQnlRaGkyX29GN0ZoamVsYW9kOGRWWFozQTJuLU5qUEFTQ3liOVpZTm9zTzBka0lCVC04bFg3U1dfU0M3bUFhOXQ0Rw?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-16T02:57:44.918Z",
+      "detail": "Aggregated reports and quotes from major sports and entertainment outlets including espn.com, Page Six, Yahoo Sports, USA Today, and elle.com."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-16T02:59:36.208Z",
+      "detail": "Compiled direct quotes, event details, and public claims regarding the wedding and the couple's newlywed status from 5 distinct media sources."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-16T03:02:17.599Z",
+      "detail": "Wove together celebrity quotes, observed public actions, and media speculation to frame the ongoing public interest in the high-profile marriage."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All direct factual claims verified against fact sheet; no hallucinations detected. Minor directness and readability improvements needed to tighten narrative flow. (Bias: 3/10, Accuracy: 10/10)",
+      "timestamp": "2026-08-16T03:03:22.026Z"
+    }
+  ]
+}
