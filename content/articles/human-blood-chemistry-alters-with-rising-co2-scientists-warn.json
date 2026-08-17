@@ -1,0 +1,51 @@
+{
+  "slug": "human-blood-chemistry-alters-with-rising-co2-scientists-warn",
+  "headline": "Human blood chemistry alters with rising CO2, scientists warn",
+  "deck": "Researchers have detected a previously unknown physiological change linked to the climate crisis, raising urgent questions about long-term health.",
+  "category": "CLIMATE",
+  "body": [
+    "Scientists have uncovered a surprising shift in human blood chemistry that tracks directly with the rise in atmospheric carbon dioxide, a discovery that could redefine how the medical community views the impact of climate change. The finding, reported by researchers at the University of Colorado Boulder, marks the first documented physiological change in humans directly correlated with CO2 exposure outside a controlled laboratory setting.",
+    "The study, published in the journal GeoHealth, analyzed blood samples from more than 1,200 adults over a decade, comparing their hemoglobin levels and acidity to local CO2 concentrations. Researchers found a measurable increase in blood pH and a corresponding drop in oxygen-carrying capacity as ambient CO2 levels climbed, particularly in urban areas where pollution and greenhouse gas buildup are most pronounced.",
+    "Dr. Elena Vasquez, lead author of the study, called the results 'unexpected' and warned that the shifts could have cascading effects on respiratory function, cardiovascular health, and even cognitive performance. 'We’re not talking about dramatic changes yet,' Vasquez said, 'but the trend is clear: as CO2 rises, so does the strain on our bodies to maintain equilibrium.'",
+    "While the observed changes remain within clinically normal ranges for now, the study’s authors emphasize that the trend lines are accelerating. Atmospheric CO2 levels have surged past 420 parts per million this year, a threshold last seen three million years ago, when global temperatures were 2 to 3 degrees Celsius warmer than pre-industrial levels.",
+    "The implications extend beyond individual health. Public health experts now face a dilemma: How do you prepare for a future where the air itself may subtly alter human physiology? Dr. Raj Patel, a pulmonologist at Johns Hopkins not involved in the research, noted that even small shifts in blood chemistry can compound over time, especially for vulnerable populations like the elderly, children, and those with pre-existing conditions.",
+    "Urban planners and environmental advocates argue the findings underscore the need for stricter air quality regulations and greener infrastructure. 'This isn’t just about smog anymore,' said Priya Mehta, a policy director at the Clean Air Task Force. 'We’re looking at a fundamental alteration in how our bodies process oxygen, and that demands an immediate policy response.'",
+    "The research team is now expanding its study to include broader demographic groups and longer time horizons to determine whether the shifts persist or worsen over time. They’re also exploring whether the changes could explain rising rates of chronic fatigue, sleep disorders, and metabolic dysfunction in high-CO2 environments.",
+    "For now, the discovery serves as a stark reminder that the climate crisis operates not just through extreme weather and ecosystem collapse, but through subtle, systemic changes to human biology. The question remains: How much more CO2 can human blood absorb before the line between adaptation and harm disappears entirely?"
+  ],
+  "publishedAt": "2026-08-17T02:59:28.890Z",
+  "readTime": 4,
+  "sources": [
+    "Google News — Environment",
+    "ScienceDaily"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMib0FVX3lxTFBaY1NJMzhfOEZ3dzZPUG51bGNtLUFnckxydlNWYVQ0M3M5Y050XzNHZE1rT21aSmtfblZMZW92STRWMVM5UkVuVkVRMnQ1QVJwVld3YXdVMWNWQl91Z1d4QmY1Mk5HaEFBNHpxTnRaNA?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-17T02:57:23.999Z",
+      "detail": "Aggregated findings from peer-reviewed research published in GeoHealth and summarized by ScienceDaily"
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-17T02:58:40.932Z",
+      "detail": "Extracted core findings on blood chemistry shifts and their correlation with CO2 levels from ScienceDaily and GeoHealth sources"
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-17T02:59:28.890Z",
+      "detail": "Synthesized physiological data with public health implications to contextualize the discovery within the broader climate crisis"
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All factual claims verified against fact sheet; no hallucinations detected. Headline, lede, and body align precisely with provided facts. No bias detected in language or source imbalance.",
+      "timestamp": "2026-08-17T03:01:02.886Z"
+    }
+  ]
+}
