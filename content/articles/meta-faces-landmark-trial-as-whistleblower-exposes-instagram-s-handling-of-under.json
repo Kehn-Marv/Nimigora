@@ -1,0 +1,55 @@
+{
+  "slug": "meta-faces-landmark-trial-as-whistleblower-exposes-instagram-s-handling-of-under",
+  "headline": "Meta Faces Landmark Trial as Whistleblower Exposes Instagram’s Handling of Underage Users",
+  "deck": "Former Meta engineer Arturo Béjar testifies that Instagram ignored children under 13, as a social media addiction lawsuit and profit-over-safety allegations threaten the company’s future.",
+  "category": "FINANCE",
+  "body": [
+    "A landmark trial against Meta is underway, with whistleblower Arturo Béjar—former Meta engineer—leading testimony that alleges the company turned a blind eye to underage users on Instagram. Béjar’s claims center on what he describes as a 'don’t ask, don’t tell' policy for children under 13, a revelation that could redefine corporate accountability for social media platforms. The trial arrives amid mounting legal pressure, with shareholders, regulators, and parents scrutinizing Meta’s practices like never before. For Meta, the stakes are existential—not just in court, but in the court of public opinion and investor confidence.",
+    "Béjar’s testimony directly implicates Instagram’s approach to young users, describing a system where the platform neither verified ages nor enforced safeguards for children. His account aligns with broader allegations from a former executive, who testified that Meta prioritized profit over child safety—a claim that strikes at the heart of Silicon Valley’s ethical debates. The trial’s focus on underage engagement is particularly damning given years of criticism over algorithmic amplification of harmful content. If proven, these failures could expose Meta to billions in damages and regulatory overhauls.",
+    "The case is the latest in a wave of legal challenges against Meta, including a high-profile social media addiction lawsuit that accuses the company of designing addictive features while knowing the risks to young users. Analysts suggest the outcome could set a precedent for how courts weigh corporate responsibility in the digital age, with ripple effects across the tech industry. Already, Meta’s stock has shown volatility, and options traders are positioning for further declines using strategies like the 'jade lizard'—a bet that combines bearish outlooks with income generation. The trial, in other words, is as much about legal liability as it is about financial stability.",
+    "Béjar’s revelations are not isolated. They echo internal documents revealed in prior lawsuits, where Meta employees debated the ethics of targeting children as young as 13 for advertising and engagement. The company has long argued that it enforces age restrictions and provides tools for parents, but Béjar’s testimony contradicts that narrative. His experience as a Meta engineer lends weight to his claims, making this testimony a potential turning point in the broader reckoning over social media’s impact on youth.",
+    "Beyond the courtroom, the trial has stoked a broader conversation about corporate governance in Big Tech. The former executive’s accusation that Meta put profit ahead of child safety underscores a systemic issue: the misalignment of financial incentives with ethical obligations. For years, tech companies have operated with near impunity, shielded by Section 230 and a culture of rapid growth over responsibility. This trial could challenge that status quo, forcing a reckoning over who bears the cost when platforms fail to protect their most vulnerable users.",
+    "The legal troubles extend beyond child safety. Meta is also entangled in multiple antitrust lawsuits, privacy violations, and disinformation scandals, each eroding public trust incrementally. The addiction lawsuit, however, strikes closest to home for millions of families, with parents increasingly filing reports of behavioral changes in their children linked to social media use. If Béjar’s testimony holds up under scrutiny, it could galvanize legislative action, with lawmakers pushing for stricter regulations on data collection, algorithmic transparency, and age verification.",
+    "\n    'Instagram took a \"don’t ask, don’t tell\" approach on kids under 13.'\n    ",
+    "Meta has not publicly disputed Béjar’s claims, instead emphasizing investments in safety features and moderation teams. Yet the timing of the trial—amid a broader backlash against social media—suggests the company is fighting for its reputation as much as its legal standing. Investors are watching closely; a ruling against Meta could trigger a cascade of lawsuits against other platforms, while an acquittal might temporarily ease pressure but fail to address the underlying ethical questions. The trial’s outcome remains uncertain, but its implications are already redefining the boundaries of corporate accountability in the digital era."
+  ],
+  "publishedAt": "2026-08-20T03:03:39.007Z",
+  "readTime": 5,
+  "sources": [
+    "Google News — Business",
+    "NPR",
+    "ABC7 Los Angeles",
+    "CNBC",
+    "Al Jazeera",
+    "The Detroit News"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVW9EU1E2eEZnY1BvMS1zUWtXaWhBdllnTmZiVmRvWWt5NTBuZnpva0JhdnRBMF9qZmU0Qk12Q0g5ajVQdFpXM0k0TVJMeFhidV9Nc2tEaXJlcGUwaXVsOFMtR3RZUEVHSktneENlWElyRHNTdEFaWTMyNm5MU2JsWTZZclhPcGtMMkE4MkpWbUZ0QXBtV1lV?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-20T02:56:57.499Z",
+      "detail": "Aggregated reporting from NPR, ABC7 Los Angeles, CNBC, Al Jazeera, The Detroit News, and Google News Business to compile trial developments and whistleblower testimony."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-20T03:02:10.440Z",
+      "detail": "Extracted Arturo Béjar’s testimony, former executive allegations, lawsuit details, and options trader strategies from the specified news sources."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-20T03:03:39.007Z",
+      "detail": "Synthesized whistleblower testimony, legal allegations, and market reactions to frame Meta’s existential trial and its broader implications for tech accountability."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All factual claims verified against fact sheet; quotes match exactly; no hallucinations detected. Minor directness and readability refinements needed. (Bias: 3/10, Accuracy: 9/10)",
+      "timestamp": "2026-08-20T03:04:48.931Z"
+    }
+  ]
+}

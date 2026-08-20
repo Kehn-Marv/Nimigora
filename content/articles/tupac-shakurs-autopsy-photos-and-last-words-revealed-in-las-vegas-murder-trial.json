@@ -1,0 +1,55 @@
+{
+  "slug": "tupac-shakurs-autopsy-photos-and-last-words-revealed-in-las-vegas-murder-trial",
+  "headline": "Tupac Shakur's autopsy photos and last words revealed in Las Vegas murder trial",
+  "deck": "New courtroom disclosures during the decades-old case offer unsettling details of the rapper’s death and spark fresh tensions outside the courthouse.",
+  "category": "CULTURE",
+  "body": [
+    "Autopsy photographs and Tupac Shakur’s final words were presented in a Las Vegas courtroom this week during the ongoing murder trial tied to his 1996 killing. The graphic evidence, shown to jurors and witnesses, marks some of the most visceral disclosures yet in a case that has lingered unresolved for nearly three decades. The proceedings have drawn intense scrutiny as they force long-suppressed truths into the open, decades after the hip-hop icon was gunned down in a Las Vegas drive-by shooting.",
+    "The trial took a combative turn when a key associate of Suge Knight—once the CEO of Death Row Records—testified with thinly veiled hostility, warning the prosecution, “You better treat me as a hostile witness.” The statement underscored the friction in the courtroom, where decades-old alliances and rivalries are colliding under oath. Knight himself, who was present during the 1996 altercation, has long been a controversial figure in the case, adding layers of complexity to proceedings already tangled in conflicting narratives.",
+    "Tupac’s autopsy photos were displayed publicly in court, prompting emotional reactions from family members who walked out in protest. The images, while necessary for legal proceedings, brought the brutality of his death into stark relief for those who had spent years grieving in silence. Their departure underscored the deep personal toll of a trial that forces survivors to confront trauma once again.",
+    "Outside the courthouse, chaos erupted as family members exited the building. A shooting broke out in the immediate vicinity, though no injuries were reported in connection with the courtroom proceedings. The incident heightened security concerns and highlighted how the trial’s raw emotional charge can spill beyond legal boundaries.",
+    "The trial has centered on conflicting accounts of the night Tupac was killed. Keffe D, a central witness and admitted participant in the events, has provided shifting testimonies over the years, complicating efforts to establish a clear narrative. His evolving statements have alternately implicated and exonerated others, leaving jurors to sift through contradictions in search of justice.",
+    "Tupac’s murder has long been shrouded in speculation, conspiracy theories, and unresolved questions. His death, like his life, became a cultural flashpoint—one that continues to haunt the music world and fuel debates about accountability. Now, nearly 30 years later, the trial offers a rare opportunity to examine the evidence that could finally close the case.",
+    "The proceedings have also exposed tensions between law enforcement and witnesses long associated with the case. Former allies who once stood together under the Death Row banner now find themselves in adversarial roles, their loyalties tested under cross-examination. The trial, in many ways, is less about solving a crime than exposing the fractures in a community that once thrived on loyalty and silence.",
+    "For jurors, the task is daunting. They must weigh decades-old memories against physical evidence, navigate conflicting testimonies, and determine whether justice delayed can still be justice served. The trial’s outcome could redefine how a generation remembers Tupac—not just as a martyr of hip-hop, but as a man whose life and death demand resolution."
+  ],
+  "publishedAt": "2026-08-20T03:04:16.235Z",
+  "readTime": 4,
+  "sources": [
+    "Google News — Entertainment",
+    "USA Today",
+    "CNN",
+    "CBS News",
+    "People.com",
+    "Las Vegas Review-Journal"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMFdWc3IwV2lTUHp0a0RfZzdYaHY3TFhWVHFLMkZwa0dpeVZPY2RUSVBBRjZjNDVzZHB0Y0tlVVNCOU16dnQxaFQzdkZyOFNmY1hKbWdIRW04c211dWZ3d3c1cFBpWTFLa2VSNXM1a3ZwbFlaZ0FlVHZBSjN2em01MDJuVUlzRnN5dWEzRlBQREdRZ0hFWWRjT21NcmRfdnJWc2wyVXVzOWlGSFBOOFZBZHdn?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-20T02:56:57.499Z",
+      "detail": "Aggregated breaking news reports on courtroom proceedings from USA Today, CNN, CBS News, People.com, and the Las Vegas Review-Journal."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-20T03:02:10.440Z",
+      "detail": "Extracted courtroom disclosures, witness testimonies, family reactions, and security incidents from six verified news sources."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-20T03:04:16.235Z",
+      "detail": "Synthesized graphic courtroom evidence, conflicting witness accounts, and external security incidents into a coherent narrative of the trial's emotional and legal weight."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All factual claims verified against fact sheet; quotes matched exactly; no hallucinations detected. Minor bias in tone and filler sentences reduced directness and readability. (Bias: 3/10, Accuracy: 9/10)",
+      "timestamp": "2026-08-20T03:04:59.984Z"
+    }
+  ]
+}
