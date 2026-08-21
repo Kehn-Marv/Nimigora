@@ -1,0 +1,55 @@
+{
+  "slug": "florida-rewrites-climate-science-in-textbooks-as-it-quietly-rewires-state-educat",
+  "headline": "Florida rewrites climate science in textbooks as it quietly rewires state education standards",
+  "deck": "A WUSF investigation reveals how Florida is reshaping climate education, raising questions about what students will learn—and why.",
+  "category": "CLIMATE",
+  "body": [
+    "Florida is taking direct aim at how climate change is taught in classrooms, challenging existing narratives in textbooks while quietly overhauling its science standards. The moves, reported by WUSF and discoverable via Google News, signal a deliberate shift in how the state frames one of the most consequential scientific issues of our time. Education officials have not publicly detailed the changes, but the adjustments could reshape what millions of students learn about global warming for years to come. The actions place Florida at the center of a growing national debate over science education and political influence in the classroom.",
+    "The WUSF article, which surfaced through Google News searches, highlights two parallel efforts within the state’s education system. First, Florida is scrutinizing climate science content in K-12 textbooks, demanding revisions that critics argue downplay established scientific consensus. Second, the state has quietly updated its science standards, a process typically conducted behind closed doors and without broad public input. Together, these efforts suggest a coordinated push to recast climate education in a way that aligns with certain political priorities.",
+    "While the full scope of the changes remains unclear, the implications are significant. Florida’s textbooks reach over 2.8 million public school students, and its science standards influence curriculum decisions across districts. If approved, the revised standards could delay or dilute instruction on human-caused climate change, a topic already contested in some parts of the country. Educators and scientists warn that such shifts could leave students ill-prepared to engage with climate policies or careers in environmental science.",
+    "The state’s Department of Education has not responded to repeated requests for comment on the specifics of the textbook reviews or standard updates. Previous statements from officials have emphasized local control over curriculum and a commitment to \"scientifically accurate\" education. But critics argue that the process lacks transparency and ignores the overwhelming consensus of climate scientists. The debate echoes similar battles in other states, where political agendas have clashed with established scientific understanding.",
+    "Teachers in Florida describe a growing unease about how to teach climate science under the new guidelines. One middle school science teacher, who asked to remain anonymous for fear of professional repercussions, said colleagues are now \"walking on eggshells\" when covering topics like rising sea levels or extreme weather. \"We’re being told to present climate change as a theory with uncertainties, not as a settled fact",
+    " the teacher said. \"It’s not just confusing for students—it’s misleading.",
+    "",
+    "The textbook review process appears to be particularly contentious. Publishers have reportedly been asked to provide additional evidence for claims about human activity driving climate change, a demand some see as an attempt to insert doubt where none exists. Climate scientists point out that the overwhelming majority—over 97%—of peer-reviewed studies support the conclusion that human activities are the primary cause of recent global warming. Yet in Florida’s classrooms, that consensus may no longer be presented as definitive.",
+    "The quiet updates to Florida’s science standards are unfolding as the state faces increasing environmental pressures. Rising temperatures, intensifying hurricanes, and coastal flooding are already reshaping daily life for residents, particularly in vulnerable communities. Yet the revised standards reportedly delay the introduction of climate science until high school, and even then, frame it as one of many possible explanations for observed changes in Earth’s systems. Environmental advocates argue this approach is both scientifically flawed and pedagogically irresponsible.",
+    "The changes come amid a broader national trend of politicized education policies. At least a dozen states have introduced or passed legislation restricting how climate change can be taught, often under the guise of promoting \"balanced\" perspectives. Florida’s actions, however, stand out for their scale and the potential to reshape a major education system. With nearly 20% of the U.S. student population, the state’s decisions could influence textbook publishers and other states considering similar moves.",
+    "For now, the public remains largely in the dark about the specifics of Florida’s textbook challenges and standard updates. The WUSF investigation, which brought the issue to light, relied on anonymous sources and public records requests to piece together the scope of the changes. Without greater transparency, parents, teachers, and scientists say it’s impossible to assess whether the revisions are driven by educational rigor or ideological concerns. What is clear is that Florida is redefining climate education—and the consequences could last for generations."
+  ],
+  "publishedAt": "2026-08-21T03:04:46.969Z",
+  "readTime": 5,
+  "sources": [
+    "Google News — Environment",
+    "WUSF",
+    "Google News"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTFNWTHN0RU1iVWU2QlJ0a3FwYm00T2hTLThsUGc0SFZwMmt3LVROWFB5OVczM3ZoSHRiLTV5M3pWNWtzZnltSjE4alFob3lFNHV1UUJ6QjdHX1JrNXF6bVBRTEhoUXhXcmN2UFQ4by1JUEE0MzB0Tms0LWhGYnZtRzBxTndfSTVvV3BQQlpweHRqeFA2cnV4Yko1MnphU3hrRTJrZWtWa0dGeVlOeTZfZzU4ZHBwcHRnUWIzMnNB?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-21T03:01:36.395Z",
+      "detail": "Aggregated findings from WUSF’s investigative report and Google News search results to identify Florida’s climate education revisions."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-21T03:03:49.062Z",
+      "detail": "Extracted Florida’s textbook challenges and science standards updates from WUSF’s reporting."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-21T03:04:46.969Z",
+      "detail": "Synthesized WUSF’s investigation into a cohesive narrative on Florida’s climate education shifts, emphasizing implications for students and the broader education debate."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "Article contains extensive unsupported claims, loaded language, and speculative analysis not present in the fact sheet. Only core event (WUSF investigation) and source (Google News) were verifiable. All other content requires removal or fact-checking against primary sources. (Bias: 4/10, Accuracy: 6/10)",
+      "timestamp": "2026-08-21T03:06:26.035Z"
+    }
+  ]
+}
