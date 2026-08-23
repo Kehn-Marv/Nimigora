@@ -1,0 +1,57 @@
+{
+  "slug": "global-bond-yields-surge-as-u-s-treasury-loses-its-safe-haven-edge",
+  "headline": "Global Bond Yields Surge as U.S. Treasury Loses Its Safe-Haven Edge",
+  "deck": "Higher-yielding overseas bonds lure investors away from U.S. debt, threatening to raise borrowing costs and unsettle markets.",
+  "category": "FINANCE",
+  "body": [
+    "For decades, U.S. Treasury bonds have been the bedrock of global investment portfolios, prized for their safety and reliable returns. Now, that dominance is eroding as overseas bonds offer higher yields, making them increasingly attractive alternatives. The shift comes as global bond yields surge, creating new competition for American debt that could reshape financial markets and fiscal policy. Analysts warn the trend signals deeper trouble ahead for the U.S. economy unless borrowing costs stabilize quickly.",
+    "The immediate pressure is visible in the 30-year Treasury yield, which now exceeds dividend stock yields by 2.2 percentage points. Historically, the last time this gap widened so dramatically, financial markets faced significant turbulence, with stocks and bonds both struggling to regain footing. The divergence underscores a fundamental reappraisal of risk by investors, who are no longer treating U.S. government debt as the automatic default option.",
+    "Overseas bonds, particularly in Europe and emerging markets, are now offering returns that are drawing capital away from American securities. This is not just a shift in preference but a structural challenge to the U.S. government’s ability to finance its debt cheaply. As foreign investors diversify into higher-yielding assets, the cost of servicing America’s $34 trillion national debt could climb, squeezing fiscal flexibility at a time of already strained budgets.",
+    "The surge in global bond yields reflects tightening financial conditions worldwide, driven by central banks’ efforts to curb inflation. While rate hikes have cooled price pressures, they have also pushed up borrowing costs across economies, making debt securities more lucrative outside the U.S. This environment is forcing investors to reassess the trade-off between safety and returns—a calculation that has long favored U.S. Treasuries.",
+    "The bond market is signaling potential trouble ahead. This is why you should pay attention",
+    "The U.S. is not the only game in town anymore — Treasury debt faces more competition from higher-yielding bonds overseas than in recent decades.",
+    "Global bond yields are surging. Here’s why it matters",
+    "The rise in overseas yields comes as America’s borrowing needs grow. The U.S. deficit remains stubbornly high, and the Treasury must issue trillions in new debt annually to cover spending and service existing obligations. If foreign demand for Treasuries wanes, the government may have to offer higher interest rates to attract buyers, further inflating the national debt burden.",
+    "Analysts suggest that the current shift in bond markets could foreshadow broader economic strain. Higher borrowing costs for the U.S. government mean less room for domestic spending on infrastructure, defense, or social programs—crowding out investment in critical areas. For American households, this could translate into higher mortgage rates, pricier consumer loans, and slower job growth if businesses cut back on expansion amid tighter financial conditions.",
+    "The divergence between U.S. and global yields is a stark departure from the post-2008 era, when Treasuries were the undisputed haven during crises. Today, investors are increasingly willing to accept risk in exchange for better returns, a sign that confidence in U.S. economic stability may be waning. Whether this is a temporary correction or the start of a longer-term trend remains uncertain, but the stakes are undeniable."
+  ],
+  "publishedAt": "2026-08-23T03:03:19.423Z",
+  "readTime": 4,
+  "sources": [
+    "Google News — Business",
+    "Fortune",
+    "The New York Times",
+    "Yahoo Finance",
+    "NPR",
+    "CNN"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMingFBVV95cUxQWFlMaEp3UHluWU1XTmcwV196dDd3SnR0ckE5M3FQRERfbTNXUmZPb19IT3ZHZzdLenJ6T3p3d3FKTXRrRTNVeklRWlJqU3NrdC1ub3RSQ3l6NmtSbFBpRWpVNjZZaFZBaXROdVRETUFFY1lwaGpTVUprY01IMFQtOVc2TWV5OHBHSWtpeW8tTlJETmwzMVhKb3Y3LU5Ydw?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-23T03:00:33.868Z",
+      "detail": "Aggregated financial analyses, bond yield data, and market trend reports from Fortune, Yahoo Finance, CNN, NPR, and The New York Times"
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-23T03:01:50.524Z",
+      "detail": "Compiled 30-year Treasury yield comparisons, global bond yield trends, and economic impact analyses from 6 sources"
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-23T03:03:19.423Z",
+      "detail": "Wove bond market data with historical context and fiscal policy implications to explain the erosion of U.S. Treasury dominance"
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "Article verified against fact sheet: All specific claims, statistics, and quotes matched the provided ground truth. No fabricated information detected. Sources cross-referenced with listed outlets. (Bias: 2/10, Accuracy: 8/10)",
+      "timestamp": "2026-08-23T03:04:34.648Z"
+    }
+  ]
+}

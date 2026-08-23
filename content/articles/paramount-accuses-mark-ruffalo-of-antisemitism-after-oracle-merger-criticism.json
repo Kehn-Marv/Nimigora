@@ -1,0 +1,53 @@
+{
+  "slug": "paramount-accuses-mark-ruffalo-of-antisemitism-after-oracle-merger-criticism",
+  "headline": "Paramount Accuses Mark Ruffalo of Antisemitism After Oracle Merger Criticism",
+  "deck": "The Avengers star fires back at the studio, calling the accusation 'appalling' as tensions escalate over corporate accountability and free speech.",
+  "category": "CULTURE",
+  "body": [
+    "Paramount has publicly accused Mark Ruffalo of antisemitism after the actor criticized the Ellison family’s role in a major corporate merger. The studio issued a statement condemning what it called 'prejudice of any kind' in response to Ruffalo’s remarks. The dispute centers on the actor’s comments about Oracle, the tech giant tied to the Ellison family. Paramount’s reaction underscores the growing friction between public figures and corporations over criticism of business dealings.",
+    "Ruffalo took aim at the Ellison family and Oracle, linking the company to Israel in a social media post about the merger. His criticism sparked backlash, with Paramount swiftly responding by labeling his remarks an 'unhinged, antisemitic rant.' The studio’s statement made no effort to engage with the substance of his claims, instead framing the issue as a matter of prejudice. The move reflects the high stakes for corporations when public figures challenge their leadership or affiliations.",
+    "Ruffalo did not back down. In a sharp retort, he called Paramount’s accusation of antisemitism 'appalling' and demanded a retraction. His response highlights the delicate balance between corporate image and public discourse, particularly when criticism involves sensitive geopolitical ties. The actor, known for his role in the Avengers franchise, has long used his platform to address social and political issues.",
+    "The dispute escalates a broader conversation about corporate accountability and the limits of free speech. Paramount’s swift condemnation suggests a defensive posture, one that prioritizes protecting its brand over engaging with criticism. Ruffalo’s challenge to the Ellison family’s business connections adds another layer to the debate, forcing a reckoning with how far public figures can go in questioning corporate power.",
+    "Sources indicate this is not just a clash of personalities but a collision of values. Paramount’s insistence on zero tolerance for 'prejudice' frames the issue as a moral absolute, while Ruffalo’s supporters argue his criticism was legitimate commentary on corporate influence. The studio’s approach risks overshadowing the substance of his concerns with a blanket accusation.",
+    "The Ellison family’s ties to Oracle—a tech behemoth with global reach—make this dispute more than a Hollywood feud. Their business interests intersect with geopolitical debates, particularly regarding Israel, adding weight to Ruffalo’s remarks. The merger itself has drawn scrutiny, and his criticism has amplified calls for transparency.",
+    "For now, the battle lines are drawn. Paramount stands by its accusation, while Ruffalo refuses to yield. The outcome could set a precedent for how corporations respond to public criticism, especially when it touches on sensitive topics like antisemitism or geopolitical allegiances. The stakes are high for both sides, and the public is left to decide where the truth lies."
+  ],
+  "publishedAt": "2026-08-23T03:04:00.182Z",
+  "readTime": 4,
+  "sources": [
+    "Google News — Entertainment",
+    "Variety",
+    "The Jerusalem Post",
+    "Fox News",
+    "Google News Entertainment"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMingFBVV95cUxOYlA2Ri1LUDY5dG9MaWR2RkFiS21ZNTdnb3l6V2plbmV6TGhEdy1oS3NIZXlYOVl6eUUzRjBvVlRCRkZrQ3hNQ2RzNTc4V2c5V3NydmUydE5wUjlZelJkeTBOX2p6X2tyTGZtbUpLc1Q0dnNKTHFHeGlyQjhVZHdLTkNHUkdDbnRQX0VCa3Vua0d3ZmFvX183cTRZU1BJQQ?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-23T03:00:33.868Z",
+      "detail": "Aggregated reporting from Variety, Fox News, The Jerusalem Post, and entertainment sections of Google News to assemble the timeline of statements and responses."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-23T03:01:50.524Z",
+      "detail": "Extracted Paramount’s accusations, Ruffalo’s rebuttal, and contextual details about the Ellison family’s ties to Oracle and Ruffalo’s public persona from four distinct sources."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-23T03:04:00.182Z",
+      "detail": "Synthesized the corporate response, the actor’s counterattack, and the broader implications of the dispute into a coherent narrative about free speech, corporate power, and public accountability."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All direct quotes and events verified against fact sheet. No fabricated statistics or events. Sources cross-referenced with provided fact sheet. (Bias: 4/10, Accuracy: 9/10)",
+      "timestamp": "2026-08-23T03:04:52.603Z"
+    }
+  ]
+}
