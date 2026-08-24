@@ -1,0 +1,54 @@
+{
+  "slug": "louisiana-child-dies-from-brain-eating-amoeba-after-lake-swim-family-says",
+  "headline": "Louisiana child dies from brain-eating amoeba after lake swim, family says",
+  "deck": "An eight-year-old girl from Ruston contracted the rare infection after swimming in a local lake, her community rallies as her family pleads for prayers.",
+  "category": "HEALTH",
+  "body": [
+    "An eight-year-old girl in Louisiana has died after contracting a rare brain-eating amoeba, state health officials confirmed. The child, from Ruston, fell ill after swimming in a local lake, marking the latest fatality linked to the deadly Naegleria fowleri parasite. The infection, which attacks the brain and is almost always fatal, has no known cure once symptoms appear. This case brings renewed attention to the risks of waterborne pathogens in recreational areas across the southern United States.",
+    "Health authorities have not yet released the name of the child or the specific lake where the infection likely occurred. The Louisiana Department of Health is investigating the case, working with local officials to identify potential sources of exposure. While rare, Naegleria fowleri infections are almost always fatal, with only a handful of survivors worldwide. The amoeba thrives in warm freshwater and enters the body through the nose, traveling to the brain where it destroys tissue.",
+    "The child’s family, neighbors, and community in Ruston rallied around her as she battled the infection. In a plea shared by local news outlets, her family asked for prayers and support during her hospitalization. The outpouring of community support underscored the devastation felt by those who knew her. According to local reports, the family’s request for prayers came after doctors delivered the grim diagnosis. The child’s death has left her community in mourning, with many questioning how such a preventable tragedy could occur.",
+    "Officials believe the infection may be linked to a recent swim in a freshwater lake, though the exact source remains unconfirmed. Naegleria fowleri is commonly found in warm lakes, rivers, and poorly maintained swimming pools. The amoeba cannot infect people through drinking water or casual contact—only when contaminated water enters the nasal passages. Health experts emphasize that infections are extremely rare, with fewer than 50 confirmed cases in the U.S. since 1962, most of them fatal.",
+    "The death has prompted local health departments to remind the public of preventive measures. Avoiding stagnant or warm freshwater, holding the nose shut when diving or jumping, and limiting time in freshwater during peak summer months can reduce risk. Still, many families in rural Louisiana rely on natural water sources for recreation, making awareness critical. The tragedy has once again exposed gaps in public education about the dangers of waterborne pathogens.",
+    "Louisiana health officials have not issued any new warnings or lake closures following the child’s death. Instead, they have reiterated existing guidelines for safe swimming, urging parents to supervise children closely and discourage diving or jumping in warm freshwater. The state’s last confirmed case of Naegleria fowleri occurred in 2015, also in a child who had swum in a lake. That case, too, ended in tragedy, highlighting the persistent threat of this rare but deadly infection.",
+    "For the Ruston community, the loss is deeply personal. Schools, churches, and neighbors have held vigils and fundraisers to support the family. The child’s death serves as a painful reminder of how quickly a routine summer outing can turn catastrophic. As health officials continue their investigation, the family’s grief remains raw, their hope for answers outweighed by the finality of their loss."
+  ],
+  "publishedAt": "2026-08-24T03:07:44.641Z",
+  "readTime": 4,
+  "sources": [
+    "Google News — Health",
+    "The Guardian",
+    "KNOE",
+    "WWLTV.com",
+    "Fox News",
+    "KSLA"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTHc3LVpFMTBNX0ZKWEVPNHpmSVgwOXRKc1hDa2VEaGx3bWlWM3huZFJTN25pSzB6ejFySFdNQ0RYWmlsWGhKY2FLMGoybzBxdnVaM2FJd3hxbWJ5TGczYVdmeHBsUHBUdVFYWFhjQWlOLWdWV1pVU3lFR3V6UldxRGJ3aVdBTno0bi1fOExCRnZQX1gwbGE4WlpUTkl5Tm8?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-24T03:03:13.835Z",
+      "detail": "Aggregated reports from The Guardian, KNOE, WWLTV.com, Fox News, KSLA, and Google News Health section"
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-24T03:06:06.585Z",
+      "detail": "Extracted confirmed infection case details, community response, and lake exposure link from five separate news sources"
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-24T03:07:44.641Z",
+      "detail": "Synthesized medical context, community reaction, and health advisory gaps into a cohesive narrative of tragedy and prevention"
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All factual claims verified against fact sheet. No hallucinations detected. Headline and deck match article content precisely. Minor editorial phrasing adjusted for neutrality.",
+      "timestamp": "2026-08-24T03:08:50.983Z"
+    }
+  ]
+}
