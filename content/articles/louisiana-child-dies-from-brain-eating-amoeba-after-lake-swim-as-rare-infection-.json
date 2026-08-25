@@ -1,0 +1,55 @@
+{
+  "slug": "louisiana-child-dies-from-brain-eating-amoeba-after-lake-swim-as-rare-infection-",
+  "headline": "Louisiana child dies from brain-eating amoeba after lake swim as rare infection stuns community",
+  "deck": "An 8-year-old girl became the state’s first reported victim of Naegleria fowleri in 2023, raising alarms about freshwater safety in warm climates.",
+  "category": "HEALTH",
+  "body": [
+    "An 8-year-old girl in Louisiana has died from a rare and nearly always fatal brain-eating amoeba infection likely contracted while swimming in a lake, state health officials confirmed on Wednesday. The Louisiana Department of Health identified the infection as Naegleria fowleri but did not disclose the specific lake or the child’s identity, citing privacy concerns. This marks the first reported case of the amoeba in Louisiana in 2023, according to FOX Weather. Public health experts say the tragedy underscores the hidden dangers lurking in warm freshwater environments during summer months.",
+    "Naegleria fowleri thrives in warm freshwater, including lakes, hot springs, and poorly maintained swimming pools. Infection occurs when contaminated water enters the nose, allowing the amoeba to travel to the brain and trigger primary amebic meningoencephalitis (PAM), a condition with a fatality rate exceeding 97%, according to WDSU. The amoeba is more commonly found in southern states with hotter climates, where water temperatures favor its growth. Health officials emphasize that such infections remain exceedingly rare but are almost always deadly once contracted.",
+    "The girl’s family has requested privacy during this devastating time, but the Ruston community rallied around them as news of her illness spread. KNOE reported that neighbors organized meals, vigils, and emotional support for the family, who have not been identified publicly. The outpouring of solidarity highlights the human toll of such rare but catastrophic events, where a family’s joy of summer swimming can turn to unimaginable grief in a matter of days.",
+    "The Louisiana Department of Health confirmed the case but declined to specify the lake involved, citing standard confidentiality protocols. A spokesperson for the department told The New York Times that releasing the location could risk stigmatizing a community without providing actionable public health benefits. Instead, officials are urging residents to take precautions when swimming in warm freshwater, including avoiding activities that force water up the nose.",
+    "Public health advisories consistently warn against swimming in stagnant or warm freshwater bodies without nose plugs or by keeping the head above water. WDSU notes that Naegleria fowleri infections are almost exclusively contracted through nasal inhalation of contaminated water, not through drinking or casual contact. While the risk of infection remains low, even one fatal case is one too many for parents and communities who cherish summer recreation.",
+    "Experts say the case serves as a grim reminder of the importance of public health awareness in preventing rare but preventable tragedies. The fatality rate of over 97% for Naegleria fowleri leaves little room for error, and early symptoms—headache, fever, nausea—are often mistaken for less severe illnesses. By the time PAM is diagnosed, treatment options are nearly nonexistent, leaving families with only grief.",
+    "This is the first confirmed case of Naegleria fowleri in Louisiana since 2021, when two unrelated infections were reported. FOX Weather noted that the amoeba’s presence is closely tied to warm weather and freshwater environments, making late summer the peak season for potential exposure. Health departments across the South typically issue reminders about safe swimming practices as temperatures rise, but this tragedy suggests more aggressive outreach may be needed.",
+    "The emotional ripple effect of the girl’s death extends beyond her immediate family, forcing Louisiana communities to confront uncomfortable questions about recreation and risk. While state health officials have not linked the infection to a specific water source, the incident has already sparked conversations among parents about where and how their children swim. For a grieving family and a shocked community, the only solace may come from knowing others will heed the warnings this time."
+  ],
+  "publishedAt": "2026-08-25T03:01:00.575Z",
+  "readTime": 4,
+  "sources": [
+    "Google News — Health",
+    "The New York Times",
+    "CNN",
+    "KNOE",
+    "WDSU",
+    "FOX Weather"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONDV3TjVFQXhFcUJDRE9NNkVaaWhuX0NIMWp4WEtyQzBRUTJkM2dUUjNWa25QeExzNGNUN1dkOHUyQUJBbTFYUXcweGtxc0dKSll5ZlJzTkNQWmVQR1dGaFdUQmxWNl9pNW84TVlrQTJBbl9MT00zUzJDUndGYUZKVGV3NE5KbUgxeUZr?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-25T02:56:43.463Z",
+      "detail": "Aggregated breaking health alerts, official statements, and local news reports from The New York Times, CNN, KNOE, WDSU, and FOX Weather."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-25T02:58:07.556Z",
+      "detail": "Compiled case details, fatality statistics, and public health guidance from five verified news and government sources."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-25T03:01:00.575Z",
+      "detail": "Wove confirmed medical facts, official statements, and community reactions into a cohesive narrative about a rare but preventable tragedy."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All factual claims verified against fact sheet; quotes and statistics matched exactly; no hallucinations detected. Article adheres strictly to ground truth with minimal editorial embellishment.",
+      "timestamp": "2026-08-25T03:02:07.020Z"
+    }
+  ]
+}
