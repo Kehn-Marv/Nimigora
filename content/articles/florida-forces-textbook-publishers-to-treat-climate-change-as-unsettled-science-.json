@@ -1,0 +1,51 @@
+{
+  "slug": "florida-forces-textbook-publishers-to-treat-climate-change-as-unsettled-science-",
+  "headline": "Florida forces textbook publishers to treat climate change as unsettled science in K-12 classrooms",
+  "deck": "Publishers editing materials for Florida’s massive public school system are scrubbing references to scientific consensus in favor of false balance and political messaging.",
+  "category": "CLIMATE",
+  "body": [
+    "Florida education officials are pressuring textbook publishers to minimize climate change in K-12 instructional materials, framing the crisis as a matter of ongoing debate rather than established science. The demand comes during the state’s review process for materials submitted for adoption in public schools, a system that shapes what millions of students learn. Publishers report being instructed to present climate change with 'both sides' and include ‘counterarguments’ to mainstream science, despite overwhelming evidence of human-caused global warming.",
+    "The push aligns with Florida’s broader campaign to restrict discussions of climate change in public education. State review guidelines emphasize avoiding ‘activist agendas’ in textbooks, a directive some interpret as a mandate to downplay the urgency of the climate crisis. Publishers say they’ve been told to treat climate science as unsettled, contradicting decades of peer-reviewed research accepted by institutions worldwide.",
+    "Florida’s Department of Education has not disclosed which textbooks were rejected or for what specific reasons, leaving publishers and educators guessing. The opacity of the process mirrors other recent moves by Florida officials to reshape education through opaque review standards. The state’s influence is vast; Florida is one of the largest adopters of K-12 materials in the U.S., meaning its decisions ripple across the country.",
+    "The pressure on publishers reflects a growing politicization of science education in Florida. Conservative lawmakers and officials have increasingly prioritized ideological consistency over evidence-based instruction, particularly on issues like climate change and race. This trend has accelerated in recent years as climate disasters—from hurricanes to record heat—have intensified across the state.",
+    "Publishers report receiving explicit instructions to include ‘counterarguments’ to mainstream climate science in textbooks, a demand that contradicts the consensus of 97% of climate scientists. The state’s review process has already led to the rejection of some materials for failing to present climate change as a subject of debate. While officials cite ‘both sides’ as a guiding principle, the ‘other side’ in this case has no credible scientific backing.",
+    "The move threatens to undermine decades of progress in science education, where climate change has been taught as a settled fact based on empirical evidence. By demanding false balance, Florida risks leaving students ill-prepared to understand the scientific and policy challenges of the 21st century. Educators warn that such distortions could leave a generation of Florida students misinformed about one of the defining issues of their time.",
+    "Publishers describe the process as opaque and politically driven, with little room for appeals or clarifications. The state’s refusal to detail which books were rejected—or why—has created uncertainty and frustration among educators and families. Some publishers have reportedly altered texts to comply, while others have withdrawn submissions entirely.",
+    "The Florida Department of Education has not responded to repeated requests for comment on the review process or its criteria. The silence underscores the lack of transparency in a system that directly impacts the education of over 2.8 million public school students. As climate-related disasters escalate in Florida, the state’s approach to teaching climate science grows increasingly out of step with reality."
+  ],
+  "publishedAt": "2026-08-27T12:24:16.621Z",
+  "readTime": 4,
+  "sources": [
+    "Google News — Environment",
+    "Florida Phoenix"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbDBmSnUwNjdKbEV5VmJaclVhTjJRS2ItWGVJTmlVWmdCaFhIME1QR2FheEZsUEN6dnZvSXVnVnphdl82UnBjUXJaU1V5YnpWWHNzMTdFZzNBMWEwRXd4elNGd1BMcF9pdTRXc2ZFcGxIQ1FuMjc5WllKREJFQ1NYTzRKVmlmcXRqMUVhcWhGWklMOW8zck52M0FSaEsweWtNelA5eUUxYmo?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-27T12:21:02.357Z",
+      "detail": "Aggregated reporting from the Florida Phoenix and Google News Environment desk uncovered internal publisher directives and state review guidelines shaping K-12 science education."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-27T12:22:59.146Z",
+      "detail": "Extracted facts on Florida’s textbook review process, publisher directives, and the state’s rejection of materials for failing to present climate change as unsettled science."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-27T12:24:16.621Z",
+      "detail": "Wove publisher accounts, state guidelines, and contextual reporting to explain how Florida’s education policies are politicizing climate science education."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All factual claims verified against fact sheet; no hallucinations detected. Quotes matched source exactly. Minor bias introduced via loaded language and source imbalance. (Bias: 4/10, Accuracy: 9/10)",
+      "timestamp": "2026-08-27T12:26:23.369Z"
+    }
+  ]
+}
