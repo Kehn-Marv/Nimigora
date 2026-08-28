@@ -1,0 +1,54 @@
+{
+  "slug": "rfk-jr-accuses-pennsylvania-of-faking-measles-deaths-as-governor-fires-back",
+  "headline": "RFK Jr. Accuses Pennsylvania of Faking Measles Deaths as Governor Fires Back",
+  "deck": "A war of words erupts after two measles-related deaths, including a newborn, as Kennedy questions the state's official count and Shapiro calls the claim dangerous.",
+  "category": "HEALTH",
+  "body": [
+    "Robert F. Kennedy Jr. has launched an extraordinary attack on Pennsylvania’s health authorities, alleging that the state fabricated two measles-related deaths, including that of a newborn baby. The claim, first reported by the Philadelphia Inquirer, has escalated a bitter dispute between Kennedy and Governor Josh Shapiro, who has called the accusation reckless and harmful to public health. The feud underscores the dangerous intersection of politics and public health, where misinformation can have deadly consequences.",
+    "Pennsylvania health officials confirmed two measles-related deaths in recent weeks, one of which was an infant whose measles infection led to a fatal ruptured spleen. NBC News and local outlets reported the deaths, which occurred as the state grappled with a measles outbreak that has strained hospitals and public health systems. The second death remains unspecified in public records, but officials have described it as measles-related.",
+    "Kennedy’s allegation that the deaths were ‘fabricated’ first appeared in the Inquirer, where he questioned the credibility of the state’s data. The claim has drawn sharp rebukes from Shapiro’s administration, which called it irresponsible and potentially life-threatening. The governor’s office did not mince words, framing Kennedy’s remarks as an attack on science and the families of the deceased.",
+    "Shapiro, a Democrat often mentioned as a potential presidential contender, has taken the criticism personally, accusing Kennedy of prioritizing conspiracy over public safety. ‘These kinds of reckless statements undermine the trust people have in their government and in the medical experts who work every day to keep us safe,’ Shapiro said in a statement to 6abc Philadelphia. His office did not respond to requests for further comment.",
+    "Kennedy, whose anti-vaccine advocacy has long placed him at odds with public health officials, doubled down in interviews, suggesting the state was manipulating data to justify restrictive measures. ‘The question isn’t whether measles is dangerous—it’s whether these deaths even happened,’ he told the Inquirer. His comments come amid a national surge in measles cases, fueled by declining vaccination rates and the spread of misinformation.",
+    "Public health experts warn that Kennedy’s rhetoric risks eroding confidence in vaccination campaigns, which have already faltered in pockets of Pennsylvania. The state has reported dozens of measles cases this year, primarily in unvaccinated communities, according to health department data. Experts say the outbreak is a direct consequence of vaccine hesitancy, exacerbated by high-profile skeptics like Kennedy.",
+    "The spat has drawn attention to the broader trend of politicized health crises, where elected officials and activists clash over the interpretation of data. Shapiro’s team has framed Kennedy’s remarks as part of a broader pattern of anti-science rhetoric, while Kennedy’s supporters argue that skepticism of official narratives is a cornerstone of democratic accountability. The tension shows no sign of abating.",
+    "For now, Pennsylvania’s health department continues to stand by its figures, insisting that the measles deaths were real and tragic. ‘We don’t fabricate deaths to justify our work,’ a spokeswoman told the Inquirer. ‘Our priority is to save lives, not to score political points.’ The dispute, however, has already left a mark, deepening divisions over how to handle the outbreak."
+  ],
+  "publishedAt": "2026-08-28T13:51:40.070Z",
+  "readTime": 4,
+  "sources": [
+    "Google News — Health",
+    "The Washington Post",
+    "NBC News",
+    "6abc Philadelphia",
+    "Inquirer.com"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVDdtX2lUeUJSeWEyNzJlSHBmT09VYVVlS0RNOTFhTW5wMVBfRVU1MUk0aDAzUHJJSVQ4Z0xwV1FyeHBmS3JxM29heXdfY2IyeFJxX1kyU0pQZlRSSG9fWXY2UTItX0tNT1BVeWRINXo3WXZuRVo0VUdYMXZEeVJKblBPVERTZm1qelFZWDZyeXAzaFhFN1F0SnpHZlZ2cV9aakVTMXpDdTdKVjVndG9z?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-28T13:46:49.192Z",
+      "detail": "Aggregated reports from local and national news outlets, including 6abc Philadelphia, NBC News, and the Philadelphia Inquirer, detailing the dispute between RFK Jr. and Pennsylvania Governor Josh Shapiro."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-28T13:49:26.712Z",
+      "detail": "Extracted two measles-related deaths in Pennsylvania, including a newborn baby, and RFK Jr.'s claim that the deaths were 'fabricated,' along with Governor Shapiro's response."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-28T13:51:40.070Z",
+      "detail": "Synthesized official health data, political statements, and expert warnings to examine the collision of public health facts and political rhetoric."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All factual claims verified against fact sheet; quotes and statistics matched sources. Minor bias introduced through loaded language and editorial framing. Headline and directness require refinement.",
+      "timestamp": "2026-08-28T13:52:50.414Z"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "trumps-iran-war-stalls-six-months-in-limiting-u-s-options-amid-regional-crisis",
+  "headline": "Trump's Iran War Stalls Six Months In, Limiting U.S. Options Amid Regional Crisis",
+  "deck": "President Trump confronts a prolonged and complex 'Iran war' six months after its escalation, a situation far from his promised short engagement, now reshaping the Middle East and eroding hope among Iranians.",
+  "category": "GEOPOLITICS",
+  "body": [
+    "Six months into the escalating conflict with Iran, President Trump reportedly faces a dwindling array of viable options, transforming what was promised as a short engagement into a protracted 'Iran war'. This prolonged situation has fundamentally reshaped the Middle East in ways unintended by its architects, risking broader crises well beyond the region's borders. Many Iranians are reportedly losing hope as the conflict grinds on, highlighting the profound human impact of the ongoing instability.",
+    "The conflict's trajectory has already altered the Middle East significantly, diverging sharply from the outcomes its proponents had envisioned, according to AP News. Instead of a swift resolution, the region now grapples with an entrenched standoff that has only intensified uncertainties. This unexpected evolution underscores the complexities inherent in military engagements and the difficulty of predicting their long-term consequences.",
+    "Trump’s 'excursion' into Iran indeed risks igniting crises that could reverberate far beyond the immediate Middle East, as reported by CNN. The interconnected nature of global politics means that instability in one critical region can swiftly cascade, affecting international relations and economic systems worldwide. Such a scenario could draw in other global powers, further complicating the path to any peaceful resolution.",
+    "Over the past six months, the 'Iran war' has been characterized by various attacks and noticeable fluctuations in global oil prices, according to The Guardian. These events highlight the conflict's tangible economic and security impacts, extending beyond direct military confrontations. The volatility in energy markets alone poses significant challenges for economies reliant on stable oil supplies.",
+    "Amidst this protracted conflict, reports from The New York Times indicate that many Iranians are losing hope. The initial expectations of a quick resolution or a beneficial outcome have faded, replaced by weariness and uncertainty about the future. This erosion of public morale reflects the deep human cost exacted by prolonged geopolitical tensions and military engagements.",
+    "President Trump had initially promised a short war with Iran, a pledge now starkly contrasted by the conflict's six-month duration and its increasingly complex nature, The Washington Post reports. The current reality of limited options for the administration underscores the vast difference between initial projections and the unfolding complexities on the ground. This discrepancy raises questions about the strategic foresight applied to the engagement.",
+    "The lack of clear and effective options for the U.S. signals a period of continued instability, with no immediate resolution in sight for the prolonged conflict. The profound shifts already underway in the Middle East suggest that the region's geopolitical landscape will remain volatile, demanding sustained international attention. Navigating this intricate environment will require careful diplomatic efforts to mitigate further escalation and address the humanitarian consequences."
+  ],
+  "publishedAt": "2026-08-28T13:50:29.195Z",
+  "readTime": 4,
+  "sources": [
+    "Google News — World",
+    "The Washington Post",
+    "The New York Times",
+    "AP News",
+    "The Guardian",
+    "CNN"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMiugFBVV95cUxNaTdKOVAyMFQ3WXhRdm4wTkllTUtJSm9TTUpoS0VJR3pUT3ZFWU1WWDNFQXgxYzJxbDhOdTFFVWxNTVptSkFGci1ubkFNNnFMbHotQ2MyU1phUzRuS05uOEpkcFF2ektZN08wNWlaOGpkcl9DU1RHNldEOEktc3plR2dTR0d4ZjROb1ZER2Q1ZFdjNnktNUNHa2RCNXJBcFVaWjVCcC1Xc2FqWTVad29pVmt2OWxHNXd1eVE?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-28T13:46:49.192Z",
+      "detail": "Aggregated analyses of the Iran conflict's duration, President Trump's options, and regional impacts from major news outlets."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-28T13:49:26.712Z",
+      "detail": "Compiled details on the conflict's six-month duration, U.S. strategic limitations, regional changes, Iranian public sentiment, and specific conflict events from 6 distinct sources."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-28T13:50:29.195Z",
+      "detail": "Wove geopolitical analyses with reports on human impact and economic consequences to illustrate the complex realities of the prolonged Iran conflict."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All factual claims verified against fact sheet. Quotes and statistics absent in fact sheet; article relies on sourced analysis only. No fabrication detected. Minor bias in framing and passive voice detected. (Bias: 4/10, Accuracy: 9/10)",
+      "timestamp": "2026-08-28T13:52:28.743Z"
+    }
+  ]
+}
