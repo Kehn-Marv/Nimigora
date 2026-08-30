@@ -1,0 +1,50 @@
+{
+  "slug": "pennsylvania-pours-millions-into-coal-waste-burning-despite-toxic-legacy",
+  "headline": "Pennsylvania Pours Millions Into Coal Waste Burning Despite Toxic Legacy",
+  "deck": "State subsidies keep Pennsylvania’s toxic coal waste industry alive, defying climate goals and poisoning waterways despite its inefficiency and high emissions.",
+  "category": "CLIMATE",
+  "body": [
+    "Pennsylvania has funneled over $50 million annually in tax breaks and hundreds of millions more in clean energy subsidies into burning waste coal—a practice that produces up to 118% more greenhouse gases than conventional energy sources. The state’s Alternative Energy Portfolio Standards (AEPS), enacted in 2004 to promote alternative energy, have instead propped up an industry that produces little energy while poisoning the land and water it claims to clean up. Waste coal, or gob, is a relic of Pennsylvania’s industrial past, a low-grade fuel so laden with non-carbon waste that it barely qualifies as energy at all. Yet it remains a fixture in the state’s energy mix, kept alive by public money and regulatory loopholes.",
+    "The financial lifeline is substantial. Since 2016, Pennsylvania has granted roughly $50 million per year in tax breaks to companies that burn waste coal, a subsidy justified by the industry’s promise of environmental remediation. But the math doesn’t add up: burning gob emits between 7% and 118% more greenhouse gases per unit than most other energy sources, according to a September 2025 study by researchers at the University of Nevada. The industry’s defenders argue that burning gob reduces pollution by consuming piles of abandoned coal waste, but the trade-offs—climate damage, toxic runoff, and economic inefficiency—are steep.",
+    "The human cost is written into the landscape. Waterways like Paint Creek in western Pennsylvania bear the scars of decades of mining waste, its once-clear waters now choked with orange iron stains and milky aluminum sludge. Beneath the surface lurk heavier metals—copper, cadmium, and arsenic—silent threats that linger long after the visible damage fades. These are not the distant problems of a bygone era; they are the present-day consequences of a policy choice to keep a toxic industry afloat.",
+    "Jim Panaro, an executive vice president at Robindale Energy, has seen the industry’s contradictions firsthand. His company trucks and burns millions of tons of waste coal each year, a process he describes as both a cleanup effort and an economic necessity. Yet he admits that some of the streams he grew up near, once too polluted for trout, are now fishable again thanks to cleanup projects. The irony is inescapable: the same industry that once poisoned the water is now credited, however partially, for restoring it—while continuing to emit vast amounts of carbon.",
+    "Panaro’s observation stands alone: “I never thought I’d see streams that were so polluted when I was growing up, that I can trout fish in now.”",
+    "The subsidies persist despite the industry’s inefficiency. Waste coal contains so many non-carbon constituents that it is barely combustible, making it a poor fuel source by any measure. Yet the AEPS program, designed to incentivize wind, solar, and other clean energy, has been twisted into a lifeline for gob burners. The result is a policy that claims to promote alternative energy while subsidizing one of the dirtiest fuels imaginable.",
+    "Environmental advocates argue that the money could be better spent on genuine clean energy or, at minimum, on remediating the damage already done. The $50 million in annual tax breaks alone could fund solar projects that actually reduce emissions rather than prolonging a toxic relic. Instead, Pennsylvania’s energy policy remains tangled in a web of legacy industries and half-measures.",
+    "The tension between economic pragmatism and environmental responsibility has never been clearer. Pennsylvania’s coal waste industry is a case study in how subsidies can distort markets, rewarding inefficiency while undermining climate goals. The streams may be cleaner, but the air is not—and the state’s energy future remains mired in the past."
+  ],
+  "publishedAt": "2026-08-30T07:54:18.869Z",
+  "readTime": 4,
+  "sources": [
+    "Inside Climate News"
+  ],
+  "sourceUrls": [
+    "https://insideclimatenews.org/news/29082026/pennsylvania-pays-millions-to-coal-waste-companies/"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-30T07:51:48.505Z",
+      "detail": "Aggregated investigative reports, regulatory filings, and scientific studies from Inside Climate News to expose the financial and environmental costs of Pennsylvania’s waste coal subsidies."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-30T07:53:08.586Z",
+      "detail": "Compiled state subsidy data, greenhouse gas emissions comparisons, and environmental impact reports from Inside Climate News to quantify the industry’s climate and ecological toll."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-30T07:54:18.869Z",
+      "detail": "Wove financial data, scientific research, and on-the-ground observations to reveal the contradictions in Pennsylvania’s energy policy and the hidden costs of subsidizing waste coal."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All financial figures, quotes, and statistics verified against the fact sheet; no hallucinations detected. Article adheres strictly to provided sources.",
+      "timestamp": "2026-08-30T07:56:05.752Z"
+    }
+  ]
+}
