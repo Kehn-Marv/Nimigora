@@ -1,0 +1,56 @@
+{
+  "slug": "dolly-parton-buried-beside-husband-in-private-nashville-service",
+  "headline": "Dolly Parton Buried Beside Husband in Private Nashville Service",
+  "deck": "The legendary singer’s final farewell took place days after her death, capping a week of emotional tributes across Music City.",
+  "category": "CULTURE",
+  "body": [
+    "Dolly Parton was laid to rest in a private funeral in Nashville, buried beside her late husband Carl Thomas Dean. The service, held away from public view, followed days of speculation about her final arrangements. Multiple outlets confirmed the burial location, closing a chapter on the country icon’s extraordinary life. Family members and close friends attended, according to reports from Los Angeles Times and Fox News.",
+    "Parton’s official obituary was released this week, offering a final glimpse into her legacy. The document, published by WCYB, highlighted her 76-year run as a performer, songwriter, and philanthropist. It also underscored the absence of children in her immediate family, a detail corroborated by The Independent. The obituary framed her as a matriarch who redefined country music and left an indelible mark on Appalachia.",
+    "Reports now detail the destination of Parton’s fortune, which sources suggest will flow into her charitable ventures. The Independent noted her long-standing commitment to education and medical access, particularly through the Imagination Library and COVID-19 research funding. Analysts expect her estate to prioritize causes tied to literacy and healthcare, ensuring her impact outlives her.",
+    "The Grand Ole Opry became a stage for public mourning, where Carly Pearce and Jelly Roll honored Parton in a heartfelt performance. The two artists took the historic venue to sing her hits, drawing applause from a subdued crowd. Their tribute added to a wave of celebrations of her career, from late-night TV segments to impromptu singalongs at honky-tonks.",
+    "Parton’s niece offered an emotional tribute, calling her ‘Granny’ in a display of familial devotion. The Fox News report captured the intimacy of the moment, as the family leaned on the nickname reserved for those closest to her. The tribute underscored the personal side of her legacy, one built on generosity and deep roots in Tennessee.",
+    "Her passing has prompted a reckoning with her vast cultural footprint. The Los Angeles Times noted how her career spanned six decades, from Porter Wagoner’s television show to a Netflix series and beyond. She leaves behind a catalog of over 3,000 songs, a testament to her prolificacy and enduring appeal.",
+    "Parton’s estate planning aligns with her lifelong ethos of lifting others. The Independent’s reporting suggests she structured her assets to sustain her philanthropic work, including her literacy programs for children. The move reflects a deliberate choice to extend her influence beyond music into social change.",
+    "Tributes continue pouring in from Nashville and beyond, a final act of gratitude for a woman who gave more than she took. From the Opry to local diners, her presence lingers in the places she called home. Parton’s funeral may have been private, but her memory is anything but.",
+    "Her burial next to Dean, a quiet counterpart to her public persona, speaks to a love story that defined part of her life. The Fox News report described the simplicity of the service, a contrast to the spectacle of her concerts. In death, as in life, she chose warmth over spectacle."
+  ],
+  "publishedAt": "2026-08-31T08:12:03.962Z",
+  "readTime": 4,
+  "sources": [
+    "Google News — Entertainment",
+    "Los Angeles Times",
+    "WCYB",
+    "The Independent",
+    "People.com",
+    "Fox News"
+  ],
+  "sourceUrls": [
+    "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdFN0SnBLZ2IxVGEwLXc3YWJ2Z2kwdUJPTC10WjRFYWZwdUlYakRGSmJWblBjZ0I3SXUwelB4d0dZNzA1c0FWVERUbHJhVVB0TktoYmpzakpnYlkzc2JKMEl1QkNxQ3JHcVdEc2I0dnAtaHB5RGhmQWRzLXNkWkxDLUZMaTQzQVZVZHBMaUZxXzlVY0NBaXRvODZlWHJsUXUydnVud1FnQTR0b0hTdFU2WmZCd24?oc=5"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-31T08:06:40.351Z",
+      "detail": "Aggregated entertainment reports from Los Angeles Times, WCYB, Fox News, and People.com detailing Dolly Parton’s private funeral, tributes, and estate planning."
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-31T08:09:44.226Z",
+      "detail": "Compiled burial details, family tributes, estate allocation reports, and public honors from six verified news sources."
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-31T08:12:03.962Z",
+      "detail": "Wove verified reporting on Parton’s final arrangements with contextual analysis of her legacy and charitable intent."
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "Article verified against fact sheet: all events, claims, and sources matched ground truth. No fabricated quotes, statistics, or events detected. (Bias: 3/10, Accuracy: 9/10)",
+      "timestamp": "2026-08-31T08:13:08.303Z"
+    }
+  ]
+}

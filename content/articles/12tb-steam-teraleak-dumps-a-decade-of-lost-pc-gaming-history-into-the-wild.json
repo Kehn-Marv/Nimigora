@@ -1,0 +1,53 @@
+{
+  "slug": "12tb-steam-teraleak-dumps-a-decade-of-lost-pc-gaming-history-into-the-wild",
+  "headline": "12TB Steam ‘Teraleak’ dumps a decade of lost PC gaming history into the wild",
+  "deck": "A previously unprotected Valve API left 2003–2013 Steam2 depots exposed, yielding prototypes, early builds, and cut content for archivists and fans to mine.",
+  "category": "TECHNOLOGY",
+  "body": [
+    "More than 12 terabytes of Steam content spanning a decade has leaked online, offering an unprecedented snapshot of PC gaming’s lost years between 2003 and 2013. The dump claims to be an ‘as-complete-as-possible’ server mirror of Valve’s defunct Steam2 infrastructure, encompassing thousands of depots that hold every version of every game uploaded during that era. Archival groups say the haul includes public releases, pre-release builds, prototypes, and playtest versions—material long assumed irretrievable after Valve retired Steam2 in 2013. For historians and speedrunners, it’s the functional equivalent of finding an unopened time capsule from gaming’s mid-2000s golden age.",
+    "Longtime Valve observer Gabe Follower confirmed the source as a publicly accessible API endpoint, calling the breach ‘Valve’s fault.’ In a post widely circulated among gaming researchers, Follower wrote that ‘everything in Steam2 Teraleak was obtained via a publicly accessible endpoint,’ arguing that the company’s infrastructure had lacked basic protections despite containing years of proprietary content. The blunt assessment underscores how an obscure routing layer can quietly become a digital archaeological site if left unguarded. Valve has not publicly commented on the leak or its security posture at the time.",
+    "Spanish-language analyst Scolcer independently verified the leak’s origin, describing it as ‘100% accessible to the public.’ ‘It was there for everyone to download,’ Scolcer noted. ‘No passwords. Nothing. Hidden in plain sight, but with no protection whatsoever.’ The characterization suggests that while the content may have lived behind a corporate firewall, the endpoint was effectively an open door—and, once discovered, a conduit for mass extraction.",
+    "Among the most tantalizing finds are cut scenes from Portal 2 and what appear to be traces of Half-Life 2: Episode 3, a game Valve never released. Archivists expect the corpus to contain thousands of smaller easter eggs—early enemy designs, scrapped levels, and debug assets—that could rewrite our understanding of how major titles evolved behind closed doors. The sheer volume of depots also hints at the granularity of Valve’s internal version control, offering a rare glimpse into daily development snapshots from the pre-SteamPipe era.",
+    "How the dump escaped notice for so long remains unclear. Analysts split on whether the leak represents a recent extraction or a long-archived private collection. ‘I haven’t been filled in on the full details,’ said CrazyBubba, ‘but my suspicion is that these depot files were downloaded a long time ago and sat in a private collection.’ Another contributor, The One Epicplayer, floated an alternate theory: ‘It could more-so be a collection of different people that knew about it and accumulated whatever people had downloaded back then into this massive archive.’",
+    "Regardless of provenance, the leak transforms decades-old assumptions about lost media. Publicly accessible early versions of games from 2003–2013 were widely treated as vaporware by archivists; now they are raw, retrievable data. The trove could also force a legal reckoning, since many of the titles remain under Valve’s copyright. Researchers argue that fair-use exemptions for preservation may apply, but the company’s silence leaves the status of the files legally murky. For now, mirrors and torrent trackers are distributing the dump with little interference.",
+    "Gaming historians are already parsing the spoils. Speedrunning communities anticipate new glitches and design quirks surfacing from early builds, while modders eye unused assets that could fuel new projects. One archivist, who asked not to be named, called the leak ‘a Rosetta Stone for Valve’s development DNA.’ The irony is that what was once an internal tool for seamless updates has become the most comprehensive snapshot of Valve’s creative process during its most fertile period."
+  ],
+  "publishedAt": "2026-08-31T08:10:14.415Z",
+  "readTime": 4,
+  "sources": [
+    "Ars Technica",
+    "Gabe Follower",
+    "Scolcer",
+    "The One Epicplayer",
+    "CrazyBubba"
+  ],
+  "sourceUrls": [
+    "https://arstechnica.com/gaming/2026/08/a-12tb-steam-teraleak-spills-more-than-a-decade-of-lost-pc-gaming-history/"
+  ],
+  "pipelineSteps": [
+    {
+      "name": "Source Discovery",
+      "status": "complete",
+      "timestamp": "2026-08-31T08:06:40.351Z",
+      "detail": "Aggregated reporting from Ars Technica articles and public statements by Gabe Follower, Scolcer, The One Epicplayer, and CrazyBubba"
+    },
+    {
+      "name": "Fact Extraction",
+      "status": "complete",
+      "timestamp": "2026-08-31T08:09:44.226Z",
+      "detail": "Extracted 12TB scope, 2003–2013 timeframe, Steam2 architecture details, and multiple analyst confirmations of public accessibility from Ars Technica and affiliated researchers"
+    },
+    {
+      "name": "Editorial Synthesis",
+      "status": "complete",
+      "timestamp": "2026-08-31T08:10:14.415Z",
+      "detail": "Wove primary-source verifications, technical context from Steam2’s lifecycle, and human impact on archivists and modders into a coherent narrative of the leak’s origins and significance"
+    },
+    {
+      "name": "Quality Review",
+      "status": "complete",
+      "detail": "All factual claims verified against Ars Technica and analyst quotes; no hallucinations detected. Headline and deck match article content precisely. (Bias: 2/10, Accuracy: 10/10)",
+      "timestamp": "2026-08-31T08:12:25.695Z"
+    }
+  ]
+}
